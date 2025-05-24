@@ -1,0 +1,12 @@
+#.
+#Units used
+[units]
+	#.
+	#.
+	#unit used for temperature
+	#Allowed Values: KELVIN, CELSIUS, FAHRENHEIT
+	temperature = "CELSIUS"
+	#.
+	#unit used for pressure
+	#Allowed Values: PASCALS, BAR, ATMOSPHERES, PSI
+	pressure = "ATMOSPHERES"

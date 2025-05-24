@@ -1,0 +1,6 @@
+# Default: 1.0
+# Range: 0.0 ~ 1.7976931348623157E308
+generator_generates_energy_multiplier = 1.0
+# Default: 1.0
+# Range: 0.0 ~ 1.7976931348623157E308
+generator_consumption_stress_multiplier = 1.0

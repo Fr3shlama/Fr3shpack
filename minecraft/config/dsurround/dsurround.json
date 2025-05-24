@@ -1,0 +1,75 @@
+{
+  "logging": {
+    "enableDebugLogging": false,
+    "traceMask": 0,
+    "enableModUpdateChatMessage": true,
+    "filteredTagView": true,
+    "registerCommands": true
+  },
+  "soundSystem": {
+    "streamingChannels": 12,
+    "cullInterval": 20,
+    "enableSoundPruning": true
+  },
+  "enhancedSounds": {
+    "enableEnhancedSounds": true,
+    "backgroundThreadWorkers": 0,
+    "enableMonoConversion": true,
+    "enableOcclusionProcessing": false,
+    "reverbRays": 32,
+    "reverbBounces": 4,
+    "reverbRayTraceDistance": 256
+  },
+  "soundOptions": {
+    "ambientVolumeScaling": 100,
+    "replaceThunderSounds": true,
+    "allowScarySounds": true,
+    "playBiomeMusicWhileCreative": false,
+    "displayToastMessagesForMusic": true,
+    "remapSounds": true
+  },
+  "blockEffects": {
+    "blockEffectRange": 32,
+    "steamColumnEnabled": true,
+    "flameJetEnabled": true,
+    "bubbleColumnEnabled": true,
+    "firefliesEnabled": true,
+    "waterfallsEnabled": true,
+    "enableWaterfallSounds": true,
+    "enableWaterfallParticles": true,
+    "waterRippleStyle": "PIXELATED_CIRCLE"
+  },
+  "entityEffects": {
+    "entityEffectRange": 24,
+    "enableBowPull": true,
+    "enableBreathEffect": true,
+    "enablePlayerToolbarEffect": true,
+    "enableToolbarBlockSounds": false,
+    "enableSwingEffect": true,
+    "enableBrushStepEffect": true
+  },
+  "footstepAccents": {
+    "enableAccents": true,
+    "enableArmorAccents": true,
+    "enableWetSurfaceAccents": true,
+    "enableFloorSqueaks": true
+  },
+  "particleTweaks": {
+    "suppressProjectileParticleTrails": false
+  },
+  "compassAndClockOptions": {
+    "enableClock": true,
+    "enableCompass": true,
+    "compassStyle": "TRANSPARENT_WITH_INDICATOR",
+    "scale": 1.0
+  },
+  "fogOptions": {
+    "enableFogEffects": true,
+    "enableMorningFog": true,
+    "enableBiomeFog": true,
+    "enableWeatherFog": true
+  },
+  "otherOptions": {
+    "playRandomSoundOnStartup": true
+  }
+}

@@ -1,0 +1,77 @@
+# Minecraft modpack .gitignore
+
+# Ignore general system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Minecraft runtime files
+logs/
+crash-reports/
+debug.log
+hs_err_pid*.log
+
+# JVM crash dumps
+*.hprof
+
+# Minecraft cache and generated data
+.gradle/
+build/
+out/
+run/
+.loom/
+.idea/
+*.iml
+
+# World data (optional)
+saves/
+world/
+world_nether/
+world_the_end/
+journeymap/
+local/
+command_history.txt
+# Server properties (optional - edit if you want to include)
+server.properties
+eula.txt
+usercache.json
+whitelist.json
+ops.json
+banned-ips.json
+banned-players.json
+
+# Modpack-specific tools and caches
+mods/
+resourcepacks/
+shaderpacks/
+libraries/
+versions/
+options.txt
+optionsof.txt
+optionsshaders.txt
+screenshots/
+
+# CurseForge/FTB-specific
+manifest.json
+modlist.html
+overrides/
+packwiz-lock.yaml
+pack.toml
+
+# Launcher-specific
+instance/
+instances/
+.minecraft/
+MultiMC/
+PrismLauncher/
+
+# Backup files
+*.bak
+*.tmp
+*.swp
+
+# Include useful files
+!README.md
+!*.sh
+!*.bat
+!*.ps1

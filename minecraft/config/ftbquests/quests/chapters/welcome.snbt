@@ -1,0 +1,174 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: "23481154CE303037"
+	icon: {
+		id: "bhc:red_heart_canister"
+	}
+	id: "5B00676D79306EA2"
+	images: [{
+		height: 5.0d
+		image: "packmenu:textures/gui/logo.png"
+		rotation: 0.0d
+		width: 5.0d
+		x: 0.0d
+		y: -4.0d
+	}]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "avaritia:infinity_singularity"
+			}
+			icon_scale: 0.9d
+			id: "3BC0A50886A3222B"
+			rewards: [
+				{
+					id: "4956CB79E44FB523"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "17EE06E78B1FD855"
+					item: {
+						count: 1
+						id: "pneumaticcraft:compressed_iron_boots"
+					}
+					type: "item"
+				}
+				{
+					id: "74407F89D6B7130F"
+					item: {
+						count: 1
+						id: "pneumaticcraft:compressed_iron_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "79D7C7B0022AB0E0"
+					item: {
+						count: 1
+						id: "pneumaticcraft:compressed_iron_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "1825EFCDCEFB4A33"
+					item: {
+						count: 1
+						id: "pneumaticcraft:compressed_iron_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "331A0A49B74F3182"
+					item: {
+						count: 1
+						id: "mekanismtools:osmium_pickaxe"
+					}
+					type: "item"
+				}
+				{
+					id: "072647E1BA6CFDB9"
+					item: {
+						count: 1
+						id: "mekanismtools:osmium_axe"
+					}
+					type: "item"
+				}
+				{
+					id: "7624D9B080C0DE63"
+					item: {
+						count: 1
+						id: "mekanismtools:osmium_shovel"
+					}
+					type: "item"
+				}
+				{
+					id: "507DB4ECC4A375CE"
+					item: {
+						count: 1
+						id: "mekanismtools:osmium_sword"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 3.0d
+			tasks: [{
+				id: "05DB9DBB510A97DD"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			icon: {
+				id: "ftbquests:book"
+			}
+			id: "3708A4780ACEB34E"
+			min_width: 250
+			rewards: [{
+				id: "4A56DF6E0204666C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "52BB142F044075B4"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbteams:textures/settings.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7658C1C663394E85"
+			min_width: 350
+			rewards: [{
+				id: "5007C73E170C4FF6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "10A16F89D4AD238D"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbteams:textures/teams.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5AC1BE754210429E"
+			rewards: [{
+				id: "101D2FD24AB845AC"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "heart"
+			size: 1.5d
+			tasks: [{
+				id: "4F13A02FB0055A62"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+	]
+}

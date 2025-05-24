@@ -1,0 +1,61 @@
+[Spawning]
+	#This controls whether all boss versions will require specific weather conditions to spawn. Without this, they will appear much more frequently. 
+	"Bosses require weather?" = true
+	#Do you want the boss and clone versions to spawn naturally, or only from summoning structures?
+	"Boss natural spawning" = true
+	#Bosses and variant spawns are rare by default. 1=twice as common. 2=default rarity. 3=twice as rare. 4=three times rarer. Avoid decimal and negative numbers.
+	"Boss rarity" = 2.0
+	#This controls whether the stalker bosses (spider moth, scorpioid bloodluster, draconic voidlasher, tormentor) are included in general. Set to false if you only want the other mobs, and the bosses will become unable to be spawned in any way.
+	"Boss inclusion" = true
+	#Controls the spawnrate of ALL non-boss mobs in this mod, including minibosses and all regular arthropods. Default multiplier value is 5. You could more than double the ArPhEx spawnrates by setting it to 2 or 1. Lower values = more spawns (minimum value is 1). No maximum rarity. Avoid decimal and negative numbers.
+	"Non-boss global spawnrates" = 5.0
+	#ArPhEx has an additional spawning system that gives a 1 in (10) chance to spawn a random ArPhEx mob each time the natural spawn triggers. This system allows ArPhEx mobs to spawn in non-vanilla overworld biomes, while still accounting for mob rarity. Default number is 10, meaning it has a 1 in 10 chance to spawn each time. Setting it to 0 disables the additional spawning system entirely. Avoid decimal and negative numbers.
+	"Random-system spawn rates" = 10.0
+	#This value controls whether ArPhEx entities are included in general. Setting to false makes it impossible to spawn ArPhEx mobs, while keeping the items as usual. 
+	"All entities enabled/disabled" = true
+	#Maximum colony tamed ants per player (furthest ants despawn, 20 default)
+	"Max tamed ants per player" = 20.0
+	#Option to limit all natural ArPhEx spawning to the Crawling dimension. Note that you won't be able to craft a crawling compass, so a mod like traveller's compass is recommended
+	"Crawling-restrict all mobs" = false
+	#Specifically disables the Tormentor boss entirely. It will be unable to be spawned in any form if this is enabled.
+	"Disable Tormentor" = false
+	#Disabled by default. If enabled, most mobs will become able to spawn in any dimension, including dimensions from other mods - may cause issues with some mod dimensions.
+	"Spawn in other dimensions" = false
+	#By default, the Tormentor can spawn naturally once you defeat the first three bosses. At this point, you probably won't be ready yet to fight it, and so will be forced to seal it and locate a crawling portal (all intentional). Set to false to prevent this, and ensure the Tormentor can only spawn from being summoned. The earlier - Boss natural spawning - config option has the same effect, but also controls other bosses.
+	"Tormentor initial natural spawning" = true
+	#Do you want to massively amplify all ArPhEx spawns futher on top of the existing spawns? Enabling this will drastically amplfy random-system overworld spawns from the mod, and even add crawling dimension mobs like the spider ambusher into the overworld. Even the non-overworld bosses will spawn rarely in the overworld, except for the Tormentor (this must be summoned manually). Minibosses will spawn commonly. Perfect for fast-paced, intense gameplay!
+	"Insanity Mode" = false
+
+[Difficulty]
+	#By default, the stalker bosses have hundreds of health points. Choose true to decrease their maximum to just 60 health. Avoid decimal and negative numbers.
+	"Boss easy-mode" = false
+	#Can increase damage for most ArPhEx mob, miniboss, and boss attacks. Affects their ranged projectiles too. Default value is 0. Positive values will give that level of strength to all arphex mobs. Avoid decimal and negative numbers, upper limit is 256. Does not affect Tormentor fight significantly.
+	"Extra Difficulty Control" = 0.0
+	#Can lower damage for most ArPhEx mob, miniboss, and boss attacks. Affects their ranged projectiles too. Default value is 0. Positive values will give that level of weakness to all arphex mobs. Avoid decimal and negative numbers, upper limit is 256. Does not affect Tormentor fight significantly.
+	"Lower Difficulty Control" = 0.0
+	#Option to make the TORMENTOR weaker by lowering its max heath to any specific value. Default and maximum value is 1024.
+	"Tormentor Max Health" = 1024.0
+	#Value is in ticks. Since 20 ticks equate to a second, the default 25 ticks gives the Tormentor 1.25 seconds of immunity after each time it takes damage.
+	"Tormentor Damage Speed Limit" = 20.0
+	#With this mode enabled, all mobs from the mod become unable to target players for attack! For more peaceful gameplay, this is valuable. Full bosses such as the Tormentor and Voidlasher may not work fully, so you may want to disable them if using this setting
+	"Friendly Mode" = false
+
+[Other]
+	#When you join a world for the first time with ArPhEx installed, it shows a welcome message, informing you about the wiki and showing that the mod is active. Set to false to disable.
+	"Welcome message" = false
+	#Allow structure generations? Without them you will need to cheat to access the lower Crawling dimension layers or get ant colonies and termite-related items. Some tiny elements may still generate.
+	"Structure generation toggle" = true
+	#Keep enabled if you want to use the bonus rendering system for the Tormentor, featuring infinite render distance for the entity along with modifying fog distance accordingly, plus fog colour when nearby
+	"Special Tormentor rendering" = true
+	#The Tormentor can occasionally have a chance to respond to chat messages that mention its name, with a threatening message of its own. There are thirty possible messages. You can add one of your own with this setting.
+	"Bonus Tormentor Chat Message" = "I am here"
+	#The Tormented Wrath is an explosive post-Tormentor weapon that can shoot more and more powerful explosives the more times its user has killed the final Tormentor boss. You can limit the charge level here (default is 200, matching with the maximum amount of Tormentor kills that can be registered)
+	"Limit Tormented Wrath Power" = 200.0
+	#Disable to limit the staff's ability to walk through walls if it breaks something in your map or modpack
+	"Allow Ethereal Staff wall bypassing" = true
+	#To encourage players to build a den for their ant queens, the queens are required to be under a roof, or take damage otherwise. Set to false to disable the damage
+	"Ant Queen outside damage" = true
+	#Set to false to disable the Tormentor's cloud of particles. These can have a significant performance hit for some users.
+	"Tormentor Particles" = true
+	#Enable Tormentor's ability to add blurring and desaturation shaders when Tormenting
+	"Tormentor Shaders" = true

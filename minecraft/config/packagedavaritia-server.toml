@@ -1,0 +1,15 @@
+[extreme_crafter]
+	#How much FE the Extreme Package Crafter should hold.
+	# Default: 5000
+	# Range: > 0
+	energy_capacity = 5000
+	#How much total FE the Extreme Package Crafter should use per operation.
+	# Default: 5000
+	# Range: > 0
+	energy_req = 5000
+	#How much FE/t maximum the Extreme Package Crafter can use.
+	# Default: 500
+	# Range: > 0
+	energy_usage = 500
+	#Should the Extreme Package Crafter draw energy from ME systems.
+	draw_me_energy = true

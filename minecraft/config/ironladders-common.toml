@@ -1,0 +1,80 @@
+[ladders-behavior]
+	#Entities in the list will not be affected by the auto-climb effect from Powered Ladders.
+	#Example: ["entity.minecraft.trader_llama"]
+	entitiesPoweredLadderBlackList = []
+	#The acceleration effect from Iron Ladders will only affect players.
+	enableIronLaddersSpeedMultiplierForPlayersOnly = false
+	#Whether the acceleration effect will work at all.
+	enableIronLaddersSpeedMultiplier = true
+	#Will Power Upgrades work?
+	enablePowerLaddersUpgrade = true
+	#Will Glowing Upgrades work?
+	enableGlowingLaddersUpgrade = true
+	#Will Morphing Upgrades work?
+	enableMorphLaddersUpgrade = true
+	#Will Tier Upgrades work?
+	enableTierLaddersUpgrade = true
+	#The Powered Ladders affect players only?
+	enablePoweredLaddersSpeedMultiplierForPlayersOnly = false
+
+[ladders-settings]
+	#Copper Ladder speed multiplier.
+	# Default: 5
+	# Range: > 0
+	copperLadderSpeedMultiplier = 5
+	#Iron Ladder speed multiplier.
+	# Default: 10
+	# Range: > 0
+	ironLadderSpeedMultiplier = 10
+	#Golden Ladder speed multiplier.
+	# Default: 20
+	# Range: > 0
+	goldLadderSpeedMultiplier = 20
+	#Diamond Ladder speed multiplier.
+	# Default: 28
+	# Range: > 0
+	diamondLadderSpeedMultiplier = 28
+	#Obsidian Ladder speed multiplier.
+	# Default: 31
+	# Range: > 0
+	obsidianLadderSpeedMultiplier = 31
+	#Netherite Ladder speed multiplier.
+	# Default: 37
+	# Range: > 0
+	netheriteLadderSpeedMultiplier = 37
+	#Aluminum Ladder speed multiplier.
+	# Default: 7
+	# Range: > 0
+	aluminumLadderSpeedMultiplier = 7
+	#Tin Ladder speed multiplier.
+	# Default: 8
+	# Range: > 0
+	tinLadderSpeedMultiplier = 8
+	#Lead Ladder speed multiplier.
+	# Default: 8
+	# Range: > 0
+	leadLadderSpeedMultiplier = 8
+	#Bronze Ladder speed multiplier.
+	# Default: 13
+	# Range: > 0
+	bronzeLadderSpeedMultiplier = 13
+	#Steel Ladder speed multiplier.
+	# Default: 15
+	# Range: > 0
+	steelLadderSpeedMultiplier = 15
+	#Silver Ladder speed multiplier.
+	# Default: 22
+	# Range: > 0
+	silverLadderSpeedMultiplier = 22
+
+[other-settings]
+	#Will be hidden from the ladders if the material from which they are crafted is not in the game?
+	hideUncraftableLadders = true
+
+[compatibility-settings]
+	#Will information about the condition of the ladders be shown in the tooltip from Jade?
+	jadeIntegration = true
+	#Will information about the condition of the ladders be shown in the tooltip from Jade?
+	topIntegration = true
+	#Will there be an acceleration effect and also displayed in the tab ladders made of non-vanilla materials (lead, silver, etc.)
+	nonVanillaLadders = true
