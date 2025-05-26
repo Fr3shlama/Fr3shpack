@@ -103,10 +103,6 @@
     "modId": "alltheleaks",
     "version": "0.1.17-beta+1.21.1-neoforge"
   },
-  "allthemodium-2.9.2_mc_1.21.1.jar": {
-    "modId": "allthemodium",
-    "version": "2.9.2"
-  },
   "alltheores-3.1.6_neoforge_1.21.1.jar": {
     "modId": "alltheores",
     "version": "3.1.6"
@@ -511,6 +507,10 @@
     "modId": "createstockbridge",
     "version": "0.1.3"
   },
+  "CreativeCore_NEOFORGE_v2.13.5_mc1.21.1.jar": {
+    "modId": "creativecore",
+    "version": "2.13.5"
+  },
   "CreeperOverhaul-neoforge-1.21.1-4.0.6.jar": {
     "modId": "creeperoverhaul",
     "version": "4.0.6"
@@ -638,10 +638,6 @@
   "endermanoverhaul-neoforge-1.21.1-2.0.2.jar": {
     "modId": "endermanoverhaul",
     "version": "2.0.2"
-  },
-  "EnderStorage-1.21.1-2.13.0.191.jar": {
-    "modId": "enderstorage",
-    "version": "2.13.0.191"
   },
   "endless_backrooms-1.0.1.002-neoforge-1.21.1.jar": {
     "modId": "endless_backrooms",
@@ -935,9 +931,9 @@
     "modId": "jearchaeology",
     "version": "1.21.1-1.1.6"
   },
-  "jei-1.21.1-neoforge-19.21.1.304.jar": {
+  "jei-1.21.1-neoforge-19.21.1.305.jar": {
     "modId": "jei",
-    "version": "19.21.1.304"
+    "version": "19.21.1.305"
   },
   "jeimultiblocks-1.21.1-1.0.4.jar": {
     "modId": "jeimultiblocks",
@@ -1160,10 +1156,6 @@
     "modId": "merequester",
     "version": "1.21.1-1.2.0"
   },
-  "mffs-5.4.17.jar": {
-    "modId": "mffs",
-    "version": "5.4.17"
-  },
   "mifa-neoforge-1.21.x-2.1.0.jar": {
     "modId": "mifa",
     "version": "2.1.0"
@@ -1352,10 +1344,6 @@
     "modId": "pipeorgans",
     "version": "0.6.2+1.21.1"
   },
-  "pipez-neoforge-1.21.1-1.2.19.jar": {
-    "modId": "pipez",
-    "version": "1.21.1-1.2.19"
-  },
   "Placebo-1.21.1-9.8.1.jar": {
     "modId": "placebo",
     "version": "9.8.1"
@@ -1513,10 +1501,6 @@
     "modId": "silentlib",
     "version": "10.5.1"
   },
-  "simplemagnets-1.1.12c-neoforge-mc1.21.jar": {
-    "modId": "simplemagnets",
-    "version": "1.1.12+c"
-  },
   "SimpleRPC-Universal-4.0.2.jar": {
     "modId": "simplerpc",
     "version": "4.0.2"
@@ -1565,10 +1549,6 @@
     "modId": "sodiumoptionsapi",
     "version": "1.0.10"
   },
-  "solcarrot-1.21.1-1.16.5.jar": {
-    "modId": "solcarrot",
-    "version": "1.16.5"
-  },
   "sophisticatedbackpacks-1.21.1-3.24.14.1249.jar": {
     "modId": "sophisticatedbackpacks",
     "version": "3.24.14"
@@ -1596,6 +1576,10 @@
   "spark-1.10.124-neoforge.jar": {
     "modId": "spark",
     "version": "1.10.124"
+  },
+  "Spice of Life Onion_NEOFORGE_v1.5.0_mc1.21.1.jar": {
+    "modId": "solonion",
+    "version": "1.5.0"
   },
   "stevescarts-1.21-1.2.13-neoforge.jar": {
     "modId": "stevescarts",
