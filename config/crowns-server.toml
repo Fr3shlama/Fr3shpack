@@ -1,0 +1,53 @@
+#.
+#Parameters and abilities of CROWNS's kinetic mechanisms
+[kinetics]
+
+	#.
+	#.
+	#Fine tune the speed and capacity of turbine stages
+	[kinetics.turbineValues]
+		#.
+		#turbine capacity factor
+		# Default: 1.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		turbineCoefficient = 1.0
+		#.
+		#turbine capacity factor
+		# Default: 256
+		# Range: 1 ~ 256
+		turbineSpeed = 256
+
+#.
+#Parameter and constants for nuclear reactors
+[nuclear]
+	#.
+	#.
+	#make reactor be faster
+	# Default: 5000000.0
+	# Range: 0.0 ~ 3.4028234663852886E38
+	realismCoef = 5000000.0
+	#.
+	#the maximum distance for radiation influence on fission, the bigger the range,the better big reactor will perform. Huge performance impact don't make it higher than 10
+	# Default: 4.0
+	# Range: 0.0 ~ 3.4028234663852886E38
+	radiationRange = 4.0
+
+#.
+#How heat is transferred. Changes can create instability and world corruption, HERE BE DRAGONS 
+[conduction]
+	#.
+	#.
+	#conduction coefficient between the heat exchanger and the exterior
+	# Default: 50000.0
+	# Range: 0.0 ~ 3.4028234663852886E38
+	heatExchangerExternal = 50000.0
+	#.
+	#conduction coefficient between the heat exchanger and the water flowing through it
+	# Default: 50000.0
+	# Range: 0.0 ~ 3.4028234663852886E38
+	heatExchangerInternal = 50000.0
+	#.
+	#conduction coefficient between the assembly block and the exterior
+	# Default: 50000.0
+	# Range: 0.0 ~ 3.4028234663852886E38
+	assemblyBlock = 50000.0

@@ -1,0 +1,12 @@
+{
+  "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config",
+  "c:silicon": "enderio:silicon",
+  "c:gems/apatite": "moremekanismprocessing:gem_apatite",
+  "c:dusts/saltpeter": "electrodynamics:dustniter",
+  "c:gems/ruby": "alltheores:ruby",
+  "c:dusts/niter": "moremekanismprocessing:dust_niter",
+  "c:gems/peridot": "alltheores:peridot",
+  "c:gems/sapphire": "alltheores:sapphire",
+  "c:ingots/graphite": "bigreactors:graphite_ingot",
+  "c:rubbers": "null"
+}

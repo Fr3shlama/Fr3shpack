@@ -1,0 +1,23 @@
+#.
+#Units used
+[units]
+	#.
+	#.
+	#unit used for temperature
+	#Allowed Values: KELVIN, CELSIUS, FAHRENHEIT
+	temperature = "CELSIUS"
+	#.
+	#unit used for pressure
+	#Allowed Values: PASCALS, BAR, ATMOSPHERES, PSI
+	pressure = "ATMOSPHERES"
+	#.
+	#unit used for radiation activity
+	#Allowed Values: MEGA_BECQUERELS, CURIES, GRAY_PER_SECOND, RAD_PER_SECOND, SIEVERT_PER_SECOND
+	radiation_flux = "MEGA_BECQUERELS"
+
+#.
+#Graphic config for nuclear
+[nuclear]
+	#.
+	#Radiation Particles
+	nuclear_particle = true

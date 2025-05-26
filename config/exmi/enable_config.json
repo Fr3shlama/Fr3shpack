@@ -1,0 +1,9 @@
+{
+  "enabledIntegrations": {
+    "farmersdelight": true,
+    "pneumaticcraft": true,
+    "actuallyadditions": true,
+    "rechiseled": true,
+    "chipped": true
+  }
+}

@@ -22,7 +22,13 @@ run/
 .loom/
 .idea/
 *.iml
-
+blueprints/
+.curseclient
+log.json
+emi.json
+ESM/
+minecraftinstance.json
+observable_annyounce
 # World data (optional)
 saves/
 world/
@@ -75,3 +81,11 @@ PrismLauncher/
 !*.sh
 !*.bat
 !*.ps1
+observable_announce
+patchouli_data.json
+servers.dat
+servers.dat_old
+user-prefs.json
+usernamecache.json
+/waypoints
+data/fabricDefaultResourcePacks.dat
