@@ -1,0 +1,58 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gettings_started"
+	group: "08F7F853CF316EE0"
+	icon: {
+		id: "minecraft:wooden_pickaxe"
+	}
+	id: "422ECD10AD37A198"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "lootr:trophy"
+			}
+			id: "4ADFB8BCCE64AD62"
+			rewards: [{
+				id: "469E4059EE858CE3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "50B1EC9250D88B61"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			icon: {
+				id: "simpletomb:grave_key"
+			}
+			id: "20EEA059FE0FC0AC"
+			tasks: [{
+				id: "74034F13BE600296"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			id: "4C4CEAE63C52279F"
+			rewards: [{
+				id: "16A311EFDF790987"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "750290B9BE048D86"
+				item: { count: 1, id: "measurements:tape_measure" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+	]
+}

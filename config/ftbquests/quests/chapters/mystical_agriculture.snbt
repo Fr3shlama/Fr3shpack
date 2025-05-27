@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mystical_agriculture"
+	group: "12B57B42F69C108E"
+	icon: {
+		id: "mysticalagriculture:inferium_essence"
+	}
+	id: "4854B70DD3026C40"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "7BBF5AA0C9D4B3FF"
+		rewards: [{
+			id: "7B111263C0AC278D"
+			type: "xp"
+			xp: 100
+		}]
+		tasks: [{
+			id: "7698575C0B5DBA67"
+			item: { count: 1, id: "mysticalagriculture:inferium_essence" }
+			type: "item"
+		}]
+		x: -1.0d
+		y: 0.0d
+	}]
+}

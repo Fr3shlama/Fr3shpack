@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "4510113E7552E62D"
+	icon: {
+		id: "mekanism:basic_smelting_factory"
+	}
+	id: "2459980B66295D32"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		id: "6CF664525EC7D51C"
+		rewards: [{
+			id: "1D4ED8C10B326F54"
+			type: "xp"
+			xp: 100
+		}]
+		tasks: [{
+			id: "2266D2CB9FF9F64E"
+			item: { count: 1, id: "mekanism:basic_smelting_factory" }
+			type: "item"
+		}]
+		x: -3.5d
+		y: -1.5d
+	}]
+}

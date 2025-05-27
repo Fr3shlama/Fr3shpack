@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "modular_routers"
+	group: "12D65577495DA5F9"
+	icon: {
+		id: "modularrouters:breaker_module"
+	}
+	id: "32F41375F686954E"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		id: "36540E42850A594E"
+		rewards: [{
+			id: "3361CC8AB60F8542"
+			type: "xp"
+			xp: 100
+		}]
+		tasks: [{
+			id: "68ABE49E3F42FC49"
+			item: { count: 1, id: "modularrouters:modular_router" }
+			type: "item"
+		}]
+		x: -1.5d
+		y: -1.5d
+	}]
+}

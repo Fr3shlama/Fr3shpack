@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_otherside"
+	group: "710DFFC9A30C2E3B"
+	icon: {
+		id: "deeperdarker:sculk_stone"
+	}
+	id: "201D1901E5EC24DB"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		id: "4B9627B5C52982DF"
+		tasks: [{
+			dimension: "deeperdarker:otherside"
+			id: "017F40961C5069D3"
+			ignore_dimension: false
+			position: [I;
+				0
+				0
+				0
+			]
+			size: [I;
+				1
+				1
+				1
+			]
+			type: "location"
+		}]
+		x: -2.0d
+		y: 0.0d
+	}]
+}

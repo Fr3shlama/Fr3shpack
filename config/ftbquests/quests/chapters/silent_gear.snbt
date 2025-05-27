@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "silent_gear"
+	group: "2D819CDD7E4DB235"
+	icon: {
+		id: "silentgear:blueprint_package"
+	}
+	id: "2BB90A0ED5A68BFF"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "15BE362409A47B4A"
+		rewards: [{
+			id: "147D938EC5BAE70A"
+			type: "xp"
+			xp: 100
+		}]
+		tasks: [{
+			id: "470AC36140AE9586"
+			item: { count: 1, id: "silentgear:blueprint_package" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: -1.0d
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pollution_of_the_realms"
+	group: "08F7F853CF316EE0"
+	icon: {
+		id: "adpother:carbon"
+	}
+	id: "5B4880E314975124"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "661CC92675862ACD"
+		rewards: [{
+			id: "3B5484BDDE08FEA8"
+			type: "xp"
+			xp: 100
+		}]
+		tasks: [{
+			id: "3F4AB7EDB4563FEE"
+			item: { count: 1, id: "adpother:iron_filter_frame" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

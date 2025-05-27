@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apothic_anchanting"
+	group: "2D819CDD7E4DB235"
+	icon: {
+		id: "apothic_enchanting:ender_library"
+	}
+	id: "75521F298D2BF367"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "337C4A68A41A2445"
+		rewards: [{
+			id: "01164F828E3D5A0F"
+			type: "xp"
+			xp: 100
+		}]
+		tasks: [{
+			id: "58353B85A09BCFD4"
+			item: { count: 1, id: "apothic_enchanting:hellshelf" }
+			type: "item"
+		}]
+		x: -1.5d
+		y: 0.0d
+	}]
+}

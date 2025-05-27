@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "item_transportation"
+	group: "12D65577495DA5F9"
+	icon: {
+		id: "create:fluid_pipe"
+	}
+	id: "0EF8B51B0DF817E7"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "6D60E3085F05B69C"
+		rewards: [{
+			id: "20C51D60571E2C93"
+			type: "xp"
+			xp: 100
+		}]
+		tasks: [{
+			id: "3BADFF1254063731"
+			item: { count: 1, id: "create:fluid_pipe" }
+			type: "item"
+		}]
+		x: -4.5d
+		y: 0.5d
+	}]
+}

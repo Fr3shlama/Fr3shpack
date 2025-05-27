@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farmworld"
+	group: "710DFFC9A30C2E3B"
+	icon: {
+		id: "minecraft:diamond_pickaxe"
+	}
+	id: "031BF92EC074CA6C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+}

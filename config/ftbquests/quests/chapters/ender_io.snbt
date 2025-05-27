@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ender_io"
+	group: "12D65577495DA5F9"
+	icon: {
+		id: "enderio:broken_spawner"
+	}
+	id: "380FC0BD4BCF7B77"
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		id: "28D4C54C9EB4368D"
+		rewards: [{
+			id: "0E976A698881F0F5"
+			type: "xp"
+			xp: 100
+		}]
+		tasks: [{
+			id: "6D4A513F967AD20F"
+			item: { count: 1, id: "enderio:copper_alloy_ingot" }
+			type: "item"
+		}]
+		x: -1.0d
+		y: 0.0d
+	}]
+}

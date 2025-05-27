@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "applied_energistics"
+	group: "4510113E7552E62D"
+	icon: {
+		id: "ae2:certus_quartz_crystal"
+	}
+	id: "2A3B042EB67AC8CC"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "1DE89E3E17973C10"
+		rewards: [{
+			id: "4FB27F34B3C2E05C"
+			type: "xp"
+			xp: 100
+		}]
+		tasks: [{
+			id: "2753E1424A779D0A"
+			item: { count: 1, id: "ae2:certus_quartz_crystal" }
+			type: "item"
+		}]
+		x: -3.0d
+		y: -0.5d
+	}]
+}

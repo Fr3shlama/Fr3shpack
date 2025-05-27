@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hostile_neural_networks"
+	group: "12B57B42F69C108E"
+	icon: {
+		id: "hostilenetworks:sim_chamber"
+	}
+	id: "7B3ADC879750566D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "18194F53000697CD"
+		rewards: [{
+			id: "5E017A6D72C87CCD"
+			type: "xp"
+			xp: 100
+		}]
+		tasks: [{
+			id: "0B257D0F5F73D8E1"
+			item: { count: 1, id: "hostilenetworks:deep_learner" }
+			type: "item"
+		}]
+		x: -3.0d
+		y: -0.5d
+	}]
+}

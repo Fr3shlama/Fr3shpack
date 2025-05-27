@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether"
+	group: "710DFFC9A30C2E3B"
+	icon: {
+		id: "minecraft:netherrack"
+	}
+	id: "658EFECA8519CF16"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "241816553F6C9F81"
+		rewards: [{
+			id: "7EFAF350856318B1"
+			type: "xp"
+			xp: 100
+		}]
+		tasks: [{
+			dimension: "minecraft:the_nether"
+			id: "3D94C6F2BE7F87C5"
+			ignore_dimension: false
+			position: [I;
+				0
+				0
+				0
+			]
+			size: [I;
+				1
+				1
+				1
+			]
+			type: "location"
+		}]
+		x: -2.0d
+		y: 1.5d
+	}]
+}

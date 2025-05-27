@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "just_dire_things"
+	group: "4510113E7552E62D"
+	icon: {
+		id: "justdirethings:raw_ferricore_ore"
+	}
+	id: "29E95C4E50CE2648"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "0D8D9752E30E3EC0"
+		rewards: [{
+			id: "31BFF958A3B2931C"
+			type: "xp"
+			xp: 100
+		}]
+		tasks: [{
+			id: "02C508C5D492B389"
+			item: { count: 1, id: "justdirethings:gooblock_tier1" }
+			type: "item"
+		}]
+		x: 0.5d
+		y: 1.0d
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pneumaticcraft"
+	group: "4510113E7552E62D"
+	icon: {
+		id: "pneumaticcraft:air_compressor"
+	}
+	id: "32633589F53727E8"
+	order_index: 8
+	quest_links: [ ]
+	quests: [{
+		id: "65FAF768846EA685"
+		tasks: [{
+			id: "1E5F306D447DB6C4"
+			item: { count: 1, id: "pneumaticcraft:air_compressor" }
+			type: "item"
+		}]
+		x: -2.5d
+		y: 0.0d
+	}]
+}

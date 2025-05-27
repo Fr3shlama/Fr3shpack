@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pylons"
+	group: "12D65577495DA5F9"
+	icon: {
+		id: "pylons:harvester_pylon"
+	}
+	id: "1A36540B71B84A6A"
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		id: "6EBF081F459EC268"
+		rewards: [{
+			id: "5B78627CFF4F3633"
+			type: "xp"
+			xp: 100
+		}]
+		tasks: [{
+			id: "36F43FBFA27ABF71"
+			item: { count: 1, id: "pylons:harvester_pylon" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: -0.5d
+	}]
+}

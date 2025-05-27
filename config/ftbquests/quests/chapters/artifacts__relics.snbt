@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "artifacts__relics"
+	group: "2D819CDD7E4DB235"
+	icon: {
+		id: "artifacts:mimic_spawn_egg"
+	}
+	id: "22B57CC519DA4BB1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "1D2B4291A69DEEBF"
+		rewards: [{
+			id: "5C55842663360A4D"
+			type: "xp"
+			xp: 100
+		}]
+		tasks: [{
+			id: "48B3F63EC73766BE"
+			item: { components: { "relics:data": { abilities: { abilities: { invulnerability: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { modifier: { initialValue: 0.48027d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:cross_necklace" }
+			type: "item"
+		}]
+		x: -6.0d
+		y: -3.0d
+	}]
+}

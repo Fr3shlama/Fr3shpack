@@ -170,5 +170,37 @@
 			x: -1.5d
 			y: -4.5d
 		}
+		{
+			dependencies: ["78BD73C774EDB81B"]
+			id: "6854371DB18FE2B2"
+			rewards: [{
+				count: 13
+				id: "41523061BB73D680"
+				item: {
+					count: 1
+					id: "modern_industrialization:steel_machine_casing"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "75436C0620123CE9"
+				item: { count: 1, id: "modern_industrialization:steel_machine_casing" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -7.0d
+		}
+		{
+			id: "78BD73C774EDB81B"
+			tasks: [{
+				icon: {
+					id: "modern_industrialization:fusion_reactor"
+				}
+				id: "228E3FAF4E5BD267"
+				type: "custom"
+			}]
+			x: 6.5d
+			y: -6.5d
+		}
 	]
 }

@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apotheosis"
+	group: "2D819CDD7E4DB235"
+	icon: {
+		id: "apotheosis:salvaging_table"
+	}
+	id: "29BCB2B264F3D226"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "0952EF57E02C7ABF"
+		rewards: [{
+			id: "63E0990C2474A745"
+			type: "xp"
+			xp: 100
+		}]
+		tasks: [{
+			id: "3464F6297A583C38"
+			item: { count: 1, id: "apotheosis:gem_dust" }
+			type: "item"
+		}]
+		x: -6.0d
+		y: -2.5d
+	}]
+}

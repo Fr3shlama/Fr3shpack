@@ -1,0 +1,59 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "organized_storage"
+	group: "12D65577495DA5F9"
+	icon: {
+		id: "storagedrawers:oak_full_drawers_4"
+	}
+	id: "719EAB770F6D06FC"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "54CB96F76716DF8B"
+			rewards: [{
+				id: "5876811AB467EB48"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3C17A3DACEDB8DEF"
+				item: { count: 1, id: "minecraft:chest" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			id: "23CCEC985F640AE8"
+			rewards: [{
+				id: "295D4E92DE49077D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "16F931B5DC24071E"
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:chest" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			id: "7B9C5D8700A2BA69"
+			rewards: [{
+				id: "4C7EEC2A2F9AC48F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0966055E76F84DCE"
+				item: { count: 1, id: "storagedrawers:oak_full_drawers_1" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+	]
+}

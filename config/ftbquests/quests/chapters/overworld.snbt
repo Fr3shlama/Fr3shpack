@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overworld"
+	group: "710DFFC9A30C2E3B"
+	icon: {
+		id: "minecraft:grass_block"
+	}
+	id: "5D102CC1E61F2E31"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "143D205D89A372F5"
+		rewards: [{
+			id: "59ED225CF46B2B5B"
+			type: "xp"
+			xp: 100
+		}]
+		tasks: [{
+			dimension: "minecraft:overworld"
+			id: "5EEE5BCAB6391A47"
+			ignore_dimension: false
+			position: [I;
+				0
+				0
+				0
+			]
+			size: [I;
+				1
+				1
+				1
+			]
+			type: "location"
+		}]
+		x: -2.0d
+		y: -1.0d
+	}]
+}

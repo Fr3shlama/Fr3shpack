@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "personal"
+	group: "12D65577495DA5F9"
+	icon: {
+		id: "sophisticatedbackpacks:backpack"
+	}
+	id: "58A68A93859B48F3"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "090003E3CF96B9B9"
+		rewards: [{
+			id: "3F5482B6BA746446"
+			type: "xp"
+			xp: 100
+		}]
+		tasks: [{
+			id: "2A18445D6C007021"
+			item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+			type: "item"
+		}]
+		x: -4.0d
+		y: -1.5d
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "oritech"
+	group: "4510113E7552E62D"
+	icon: {
+		id: "oritech:assembler_block"
+	}
+	id: "059AF20FCDAA2760"
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		id: "459DDB576DD560E4"
+		rewards: [{
+			id: "3F27B48A8BC8EDE2"
+			type: "xp"
+			xp: 100
+		}]
+		tasks: [{
+			id: "0B08833696AB1154"
+			item: { count: 1, id: "oritech:assembler_block" }
+			type: "item"
+		}]
+		x: -3.0d
+		y: 0.5d
+	}]
+}

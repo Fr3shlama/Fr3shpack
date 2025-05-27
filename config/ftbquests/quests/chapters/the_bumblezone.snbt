@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_bumblezone"
+	group: "710DFFC9A30C2E3B"
+	icon: {
+		id: "the_bumblezone:stingless_bee_helmet_1"
+	}
+	id: "5AAEA16BEFA2AEFF"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "40790735D48AB25D"
+		rewards: [{
+			id: "6814A3702CBBDA55"
+			type: "xp"
+			xp: 100
+		}]
+		tasks: [{
+			dimension: "the_bumblezone:the_bumblezone"
+			id: "31A778ACD1BE810A"
+			ignore_dimension: false
+			position: [I;
+				0
+				0
+				0
+			]
+			size: [I;
+				1
+				1
+				1
+			]
+			type: "location"
+		}]
+		x: -0.5d
+		y: 1.5d
+	}]
+}

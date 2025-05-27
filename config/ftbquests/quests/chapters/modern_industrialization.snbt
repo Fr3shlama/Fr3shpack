@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "modern_industrialization"
+	group: "4510113E7552E62D"
+	icon: {
+		id: "modern_industrialization:singularity"
+	}
+	id: "3861755B3E3533EF"
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		id: "5A7758A0024F0FF3"
+		rewards: [{
+			id: "381C50072415F6A5"
+			type: "xp"
+			xp: 100
+		}]
+		tasks: [{
+			id: "7CB83E57A662CFE5"
+			item: { count: 1, id: "modern_industrialization:forge_hammer" }
+			type: "item"
+		}]
+		x: -3.0d
+		y: 0.0d
+	}]
+}
