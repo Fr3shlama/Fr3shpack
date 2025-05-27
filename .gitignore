@@ -97,3 +97,8 @@ config/iris.properties
 config/fabric/indigo-renderer.properties
 /.vscode
 /config/worldedit
+installer.jar.log
+run.bat
+run.sh
+unix_args.txt
+user_jvm_args.txt
