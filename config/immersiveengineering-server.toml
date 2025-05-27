@@ -446,7 +446,7 @@
 		#The maximum size of a vein. Set to 0 to disable generation
 		# Default: 6
 		# Range: > 0
-		vein_size = 6
+		vein_size = 0
 		#The minimum Y coordinate this ore can spawn at
 		# Default: 32
 		# Range: > -2147483648
@@ -474,7 +474,7 @@
 		#The maximum size of a vein. Set to 0 to disable generation
 		# Default: 8
 		# Range: > 0
-		vein_size = 8
+		vein_size = 0
 		#The minimum Y coordinate this ore can spawn at
 		# Default: -32
 		# Range: > -2147483648
@@ -502,7 +502,7 @@
 		#The maximum size of a vein. Set to 0 to disable generation
 		# Default: 9
 		# Range: > 0
-		vein_size = 9
+		vein_size = 0
 		#The minimum Y coordinate this ore can spawn at
 		# Default: -48
 		# Range: > -2147483648
@@ -530,7 +530,7 @@
 		#The maximum size of a vein. Set to 0 to disable generation
 		# Default: 5
 		# Range: > 0
-		vein_size = 5
+		vein_size = 0
 		#The minimum Y coordinate this ore can spawn at
 		# Default: -64
 		# Range: > -2147483648
@@ -558,7 +558,7 @@
 		#The maximum size of a vein. Set to 0 to disable generation
 		# Default: 6
 		# Range: > 0
-		vein_size = 6
+		vein_size = 0
 		#The minimum Y coordinate this ore can spawn at
 		# Default: -120
 		# Range: > -2147483648
@@ -586,7 +586,7 @@
 		#The maximum size of a vein. Set to 0 to disable generation
 		# Default: 4
 		# Range: > 0
-		vein_size = 4
+		vein_size = 0
 		#The minimum Y coordinate this ore can spawn at
 		# Default: -64
 		# Range: > -2147483648

@@ -1,12 +1,22 @@
 {
   "mod_priorities": [
     "minecraft",
+    "alltheores",
     "kubejs",
-    "crafttweaker",
     "create",
-    "immersiveengineering",
     "mekanism",
-    "modern_industrialization"
+    "modern_industrialization",
+    "industrialforegoing",
+    "pneumaticcraft",
+    "biggerreactors", 
+    "ae2",
+    "enderio",
+    "utilitarian",
+    "actuallyadditions",
+    "superbwarfare",
+    "oritech",
+    "immersiveengineering",
+    "electrodynamics"
   ],
   "priority_overrides": {},
   "stone_variants": [
@@ -15,8 +25,9 @@
     "deepslate",
     "diorite",
     "granite",
-    "netherrack",
-    "end_stone"
+    "nether",
+    "end",
+    "ancient"
   ],
   "tags": [
     "c:dusts/{material}",
@@ -30,10 +41,19 @@
     "c:rods/{material}",
     "c:storage_blocks/raw_{material}",
     "c:storage_blocks/{material}",
-    "c:wires/{material}"
+    "c:wires/{material}",
+    "c:clumps/{material}",
+    "c:crystals/{material}",
+    "c:dirty_dusts/{material}",
+    "c:shards/{material}",
+    "c:silicon",
+    "productivebees:flowers/plastic"
   ],
   "ignored_tags": [],
-  "ignored_items": [],
+  "ignored_items": [
+    "pneumaticcraft:plastic",
+    "regions_unexplored:raw_redstone_block"
+  ],
   "ignored_recipe_types": [
     "cucumber:shaped_tag"
   ],
