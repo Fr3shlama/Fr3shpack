@@ -95,3 +95,5 @@ config/iris.properties
 config/packetfixer.properties
 config/iris.properties
 config/fabric/indigo-renderer.properties
+/.vscode
+/config/worldedit
