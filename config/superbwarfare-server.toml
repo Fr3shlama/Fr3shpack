@@ -151,7 +151,7 @@
 		repair_amount = 0.05
 
 	[vehicle.MK-42]
-		#The health of MK-42
+		#Deprecated, use datapack to change this value instead
 		# Default: 350
 		# Range: 1 ~ 10000000
 		mk_42_hp = 350
@@ -181,7 +181,7 @@
 		mk_42_he_explosion_radius = 10
 
 	[vehicle.MLE-1934]
-		#The health of MLE-1934
+		#Deprecated, use datapack to change this value instead
 		# Default: 350
 		# Range: 1 ~ 10000000
 		mle_1934_hp = 350
@@ -217,7 +217,7 @@
 		heavy_machine_gun_damage = 25
 
 	[vehicle.Annihilator]
-		#The health of Annihilator
+		#Deprecated, use datapack to change this value instead
 		# Default: 1200
 		# Range: 1 ~ 10000000
 		annihilator_hp = 1200
@@ -225,13 +225,13 @@
 		# Default: 2000000
 		# Range: > 0
 		annihilator_shoot_cost = 2000000
-		#The max energy storage of Annihilator
+		#Deprecated, use datapack to change this value instead
 		# Default: 20000000
 		# Range: > 0
 		annihilator_max_energy = 20000000
 
 	[vehicle."Laser Tower"]
-		#The health of Laser Tower
+		#Deprecated, use datapack to change this value instead
 		# Default: 100
 		# Range: 1 ~ 10000000
 		laser_tower_hp = 100
@@ -247,13 +247,13 @@
 		# Default: 5000
 		# Range: > 0
 		laser_tower_shoot_cost = 5000
-		#The max energy storage of Laser Tower
+		#Deprecated, use datapack to change this value instead
 		# Default: 500000
 		# Range: > 0
 		laser_tower_max_energy = 500000
 
 	[vehicle.Speedboat]
-		#The health of Speedboat
+		#Deprecated, use datapack to change this value instead
 		# Default: 200
 		# Range: 1 ~ 10000000
 		speedboat_hp = 200
@@ -261,13 +261,13 @@
 		# Default: 16
 		# Range: > 0
 		speedboat_energy_cost = 16
-		#The max energy storage of Speedboat
+		#Deprecated, use datapack to change this value instead
 		# Default: 500000
 		# Range: > 0
 		speedboat_max_energy = 500000
 
 	[vehicle.Wheelchair]
-		#The health of the wheelchair
+		#Deprecated, use datapack to change this value instead
 		# Default: 30
 		# Range: 1 ~ 10000000
 		wheelchair_hp = 30
@@ -279,13 +279,13 @@
 		# Default: 1
 		# Range: > 0
 		wheelchair_move_energy_cost = 1
-		#The max energy storage of the wheelchair
+		#Deprecated, use datapack to change this value instead
 		# Default: 24000
 		# Range: > 0
 		wheelchair_max_energy = 24000
 
 	[vehicle.AH_6]
-		#The health of AH-6
+		#Deprecated, use datapack to change this value instead
 		# Default: 250
 		# Range: 1 ~ 10000000
 		ah_6_hp = 250
@@ -297,7 +297,7 @@
 		# Default: 128
 		# Range: > 0
 		ah_6_max_energy_cost = 128
-		#The max energy storage of AH-6
+		#Deprecated, use datapack to change this value instead
 		# Default: 5000000
 		# Range: > 0
 		ah_6_max_energy = 5000000
@@ -325,7 +325,7 @@
 		ah_6_cannon_destroy = true
 
 	[vehicle.LAV-150]
-		#The health of LAV-150
+		#Deprecated, use datapack to change this value instead
 		# Default: 250
 		# Range: 1 ~ 10000000
 		lav_150_hp = 250
@@ -333,7 +333,7 @@
 		# Default: 64
 		# Range: > 0
 		lav_150_energy_cost = 64
-		#The max energy storage of LAV-150
+		#Deprecated, use datapack to change this value instead
 		# Default: 5000000
 		# Range: > 0
 		lav_150_max_energy = 5000000
@@ -355,7 +355,7 @@
 		lav_150_machine_gun_damage = 9.5
 
 	[vehicle.Tom-6]
-		#The health of Tom-6
+		#Deprecated, use datapack to change this value instead
 		# Default: 40
 		# Range: 1 ~ 10000000
 		tom_6_hp = 40
@@ -363,7 +363,7 @@
 		# Default: 16
 		# Range: > 0
 		tom_6_energy_cost = 16
-		#The max energy storage of Tom-6
+		#Deprecated, use datapack to change this value instead
 		# Default: 100000
 		# Range: > 0
 		tom_6_max_energy = 100000
@@ -377,7 +377,7 @@
 		tom_6_bomb_explosion_radius = 10.0
 
 	[vehicle.BMP-2]
-		#The health of BMP-2
+		#Deprecated, use datapack to change this value instead
 		# Default: 300
 		# Range: 1 ~ 10000000
 		bmp_2_hp = 300
@@ -385,7 +385,7 @@
 		# Default: 64
 		# Range: > 0
 		bmp_2_energy_cost = 64
-		#The max energy storage of BMP-2
+		#Deprecated, use datapack to change this value instead
 		# Default: 5000000
 		# Range: > 0
 		bmp_2_max_energy = 5000000
@@ -403,7 +403,7 @@
 		bmp_2_cannon_explosion_radius = 4.0
 
 	[vehicle.YX-100]
-		#The health of YX-100
+		#Deprecated, use datapack to change this value instead
 		# Default: 500
 		# Range: 1 ~ 10000000
 		yx_100_hp = 500
@@ -415,7 +415,7 @@
 		# Default: 24000
 		# Range: > 0
 		yx_100_shoot_cost = 24000
-		#The max energy storage of YX-100
+		#Deprecated, use datapack to change this value instead
 		# Default: 20000000
 		# Range: > 0
 		yx_100_max_energy = 20000000
@@ -453,11 +453,11 @@
 		yx_100_swarm_drone_explosion_radius = 5.0
 
 	[vehicle."Prism Tank"]
-		#The health of Prism Tank
+		#Deprecated, use datapack to change this value instead
 		# Default: 400
 		# Range: 1 ~ 10000000
 		prism_tank_hp = 400
-		#The max energy storage of Prism Tank
+		#Deprecated, use datapack to change this value instead
 		# Default: 20000000
 		# Range: > 0
 		prism_tank_energy = 20000000
@@ -491,11 +491,11 @@
 		prism_tank_shoot_cost_mode_2 = 5000
 
 	[vehicle.HPJ-11]
-		#The health of HPJ-11
+		#Deprecated, use datapack to change this value instead
 		# Default: 350
 		# Range: 1 ~ 10000000
 		hpj_11_hp = 350
-		#The max energy storage of HPJ-11
+		#Deprecated, use datapack to change this value instead
 		# Default: 5000000
 		# Range: > 0
 		hpj_11_max_energy = 5000000
@@ -521,7 +521,7 @@
 		hpj_11_seek_cost = 1024
 
 	[vehicle.A-10]
-		#The health of A-10
+		#Deprecated, use datapack to change this value instead
 		# Default: 350
 		# Range: 1 ~ 10000000
 		A_10_hp = 350
@@ -529,7 +529,7 @@
 		# Default: 256
 		# Range: > 0
 		A_10_max_energy_cost = 256
-		#The max energy storage of A-10
+		#Deprecated, use datapack to change this value instead
 		# Default: 10000000
 		# Range: > 0
 		A_10_max_energy = 10000000
@@ -579,3 +579,7 @@
 	# Default: 15
 	# Range: 0 ~ 10000000
 	armor_point_per_level = 15
+
+[seek]
+	#List of entities that can NOT be sought
+	seek_blacklist = ["minecraft:item", "minecraft:experience_orb", "minecraft:armor_stand", "minecraft:area_effect_cloud", "superbwarfare:claymore", "superbwarfare:c4", "touhou_little_maid:power_point", "evilcraft:vengeance_spirit", "mts:builder_rendering"]

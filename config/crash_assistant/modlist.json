@@ -183,9 +183,9 @@
     "modId": "attributefix",
     "version": "21.1.2"
   },
-  "AvaritiaNeo-1.21-1.1.7.jar": {
+  "AvaritiaNeo-1.21-1.1.8.jar": {
     "modId": "avaritia",
-    "version": "1.1.7"
+    "version": "1.1.8"
   },
   "BadOptimizations-2.2.2-1.21.1.jar": {
     "modId": "badoptimizations",
@@ -219,9 +219,9 @@
     "modId": "betterf3",
     "version": "11.0.3"
   },
-  "bigger_ae2-1.21.1-1.4.7.jar": {
+  "bigger_ae2-1.21.1-1.4.8.jar": {
     "modId": "bigger_ae2",
-    "version": "1.4.7"
+    "version": "1.4.8"
   },
   "BiomesOPlenty-neoforge-1.21.1-21.1.0.10.jar": {
     "modId": "biomesoplenty",
@@ -243,9 +243,9 @@
     "modId": "blockui",
     "version": "1.0.200-1.21.1-snapshot"
   },
-  "bookshelf-neoforge-1.21.1-21.1.62.jar": {
+  "bookshelf-neoforge-1.21.1-21.1.63.jar": {
     "modId": "bookshelf",
-    "version": "21.1.62"
+    "version": "21.1.63"
   },
   "buildinggadgets2-1.3.8.jar": {
     "modId": "buildinggadgets2",
@@ -315,9 +315,9 @@
     "modId": "clumps",
     "version": "19.0.0.1"
   },
-  "CodeChickenLib-1.21.1-4.6.0.521.jar": {
+  "CodeChickenLib-1.21.1-4.6.1.524.jar": {
     "modId": "codechickenlib",
-    "version": "4.6.0.521"
+    "version": "4.6.1.524"
   },
   "collective-1.21.1-8.3.jar": {
     "modId": "collective",
@@ -428,9 +428,9 @@
     "modId": "create_cheese",
     "version": "1.2.0"
   },
-  "create_connected-1.0.3-mc1.21.1.jar": {
+  "create_connected-1.1.0-mc1.21.1.jar": {
     "modId": "create_connected",
-    "version": "1.0.3-mc1.21.1"
+    "version": "1.1.0-mc1.21.1"
   },
   "create_easy_structures-0.2a-neoforge-1.21.1.jar": {
     "modId": "create_easy_structures",
@@ -452,9 +452,9 @@
     "modId": "create_mechanical_spawner",
     "version": "1.2.2-6.0.4"
   },
-  "create_pattern_schematics-2.0.7.jar": {
+  "create_pattern_schematics-2.0.8.jar": {
     "modId": "create_pattern_schematics",
-    "version": "2.0.7"
+    "version": "2.0.8"
   },
   "create_pillagers_arise-118.28.GL-neoforge-1.21.1.jar": {
     "modId": "create_pillagers_arise",
@@ -639,10 +639,6 @@
     "modId": "endermanoverhaul",
     "version": "2.0.2"
   },
-  "endless_backrooms-1.0.1.002-neoforge-1.21.1.jar": {
-    "modId": "endless_backrooms",
-    "version": "1.0.1.002"
-  },
   "entangled-1.3.20a-neoforge-mc1.21.jar": {
     "modId": "entangled",
     "version": "1.3.20+a"
@@ -815,9 +811,9 @@
     "modId": "fusion",
     "version": "1.2.7+b"
   },
-  "fzzy_config-0.6.9+1.21+neoforge.jar": {
+  "fzzy_config-0.7.0+1.21+neoforge.jar": {
     "modId": "fzzy_config",
-    "version": "0.6.9+1.21+neoforge"
+    "version": "0.7.0+1.21+neoforge"
   },
   "geckolib-neoforge-1.21.1-4.7.5.1.jar": {
     "modId": "geckolib",
@@ -922,6 +918,10 @@
   "Jade-1.21.1-NeoForge-15.10.0.jar": {
     "modId": "jade",
     "version": "15.10.0+neoforge"
+  },
+  "jamd-neo-21.1.1+mc1.21.1.jar": {
+    "modId": "jamd",
+    "version": "21.1.1"
   },
   "jamlib-neoforge-1.3.5+1.21.1.jar": {
     "modId": "jamlib",
@@ -1128,9 +1128,9 @@
     "modId": "mekanismcovers",
     "version": "1.3-BETA+1.21"
   },
-  "mekanismcurios-1.21.1-1.1.0.jar": {
+  "mekanismcurios-1.21.1-1.2.0.jar": {
     "modId": "mekanismcurios",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   "MekanismGenerators-1.21.1-10.7.14.79.jar": {
     "modId": "mekanismgenerators",
@@ -1220,9 +1220,9 @@
     "modId": "mysticalagradditions",
     "version": "8.0.7"
   },
-  "MysticalAgriculture-1.21.1-8.0.16.jar": {
+  "MysticalAgriculture-1.21.1-8.0.17.jar": {
     "modId": "mysticalagriculture",
-    "version": "8.0.16"
+    "version": "8.0.17"
   },
   "MysticalCustomization-1.21.1-6.0.0.jar": {
     "modId": "mysticalcustomization",
@@ -1279,10 +1279,6 @@
   "oritech-neoforge-0.15.7.jar": {
     "modId": "oritech",
     "version": "0.15.7"
-  },
-  "overworld_mirror-neoforge-1.21.1-1.8.0.25.jar": {
-    "modId": "overworldmirror",
-    "version": "1.8.0.25"
   },
   "owo-lib-neoforge-0.12.15.1-beta.3+1.21.jar": {
     "modId": "owo",
@@ -1549,21 +1545,21 @@
     "modId": "sodiumoptionsapi",
     "version": "1.0.10"
   },
-  "sophisticatedbackpacks-1.21.1-3.24.14.1249.jar": {
+  "sophisticatedbackpacks-1.21.1-3.24.15.1250.jar": {
     "modId": "sophisticatedbackpacks",
-    "version": "3.24.14"
+    "version": "3.24.15"
   },
   "sophisticatedbackpackscreateintegration-1.21.1-0.1.3.13.jar": {
     "modId": "sophisticatedbackpackscreateintegration",
     "version": "0.1.3"
   },
-  "sophisticatedcore-1.21.1-1.3.47.999.jar": {
+  "sophisticatedcore-1.21.1-1.3.48.1000.jar": {
     "modId": "sophisticatedcore",
-    "version": "1.3.47"
+    "version": "1.3.48"
   },
-  "sophisticatedstorage-1.21.1-1.4.36.1161.jar": {
+  "sophisticatedstorage-1.21.1-1.4.37.1162.jar": {
     "modId": "sophisticatedstorage",
-    "version": "1.4.36"
+    "version": "1.4.37"
   },
   "sophisticatedstoragecreateintegration-1.21.1-0.1.11.37.jar": {
     "modId": "sophisticatedstoragecreateintegration",
@@ -1601,17 +1597,17 @@
     "modId": "structurify",
     "version": "1.0.11"
   },
-  "structurize-1.0.775-1.21.1-snapshot.jar": {
+  "structurize-1.0.776-1.21.1-snapshot.jar": {
     "modId": "structurize",
-    "version": "1.0.775-1.21.1-snapshot"
+    "version": "1.0.776-1.21.1-snapshot"
   },
   "Super Factory Manager (SFM)-MC1.21.1-4.21.0.jar": {
     "modId": "sfm",
     "version": "4.21.0"
   },
-  "superbwarfare-1.21.1-0.8.0-SNAPSHOT-87ca42f0.jar": {
+  "superbwarfare-1.21.1-0.8.1-1b51d87e.jar": {
     "modId": "superbwarfare",
-    "version": "0.8.0"
+    "version": "0.8.1"
   },
   "supermartijn642configlib-1.1.8-neoforge-mc1.21.jar": {
     "modId": "supermartijn642configlib",
@@ -1637,9 +1633,9 @@
     "modId": "tesseract_api",
     "version": "1.8.10-1.21.1"
   },
-  "the_bumblezone-7.9.3+1.21.1-neoforge.jar": {
+  "the_bumblezone-7.9.4+1.21.1-neoforge.jar": {
     "modId": "the_bumblezone",
-    "version": "7.9.3+1.21.1-neoforge"
+    "version": "7.9.4+1.21.1-neoforge"
   },
   "The_Undergarden-1.21.1-0.8.22.jar": {
     "modId": "undergarden",
@@ -1692,6 +1688,10 @@
   "treasuredistance-1.0.jar": {
     "modId": "treasuredistance",
     "version": "1.0"
+  },
+  "trenzalore-neo-6.1.1+mc1.21.1.jar": {
+    "modId": "trenzalore",
+    "version": "6.1.1"
   },
   "u_team_core-neoforge-1.21.1-5.6.2.384.jar": {
     "modId": "uteamcore",
