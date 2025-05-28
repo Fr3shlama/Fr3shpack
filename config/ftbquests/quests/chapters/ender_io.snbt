@@ -7,7 +7,7 @@
 		id: "enderio:broken_spawner"
 	}
 	id: "380FC0BD4BCF7B77"
-	order_index: 6
+	order_index: 4
 	quest_links: [ ]
 	quests: [{
 		id: "28D4C54C9EB4368D"

@@ -18,19 +18,8 @@
 		}]
 		tasks: [{
 			dimension: "minecraft:overworld"
-			id: "5EEE5BCAB6391A47"
-			ignore_dimension: false
-			position: [I;
-				0
-				0
-				0
-			]
-			size: [I;
-				1
-				1
-				1
-			]
-			type: "location"
+			id: "46D011AA9CDA8884"
+			type: "dimension"
 		}]
 		x: -2.0d
 		y: -1.0d

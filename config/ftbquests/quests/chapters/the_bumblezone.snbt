@@ -18,19 +18,8 @@
 		}]
 		tasks: [{
 			dimension: "the_bumblezone:the_bumblezone"
-			id: "31A778ACD1BE810A"
-			ignore_dimension: false
-			position: [I;
-				0
-				0
-				0
-			]
-			size: [I;
-				1
-				1
-				1
-			]
-			type: "location"
+			id: "272747E865505BAA"
+			type: "dimension"
 		}]
 		x: -0.5d
 		y: 1.5d

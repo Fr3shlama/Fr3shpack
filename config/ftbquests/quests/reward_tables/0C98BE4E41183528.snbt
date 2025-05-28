@@ -1,0 +1,32 @@
+{
+	id: "0C98BE4E41183528"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 2
+			id: "203045A0390746CD"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:upgrade_base"
+			}
+		}
+		{
+			count: 4
+			id: "4DC677188F9ECE7B"
+			item: {
+				count: 1
+				id: "minecraft:leather"
+			}
+		}
+		{
+			count: 4
+			id: "74CF027DDFFCBE83"
+			item: {
+				count: 1
+				id: "minecraft:string"
+			}
+		}
+		{ id: "7461735B5C03CAE4", item: { count: 1, id: "minecraft:chest" } }
+	]
+}

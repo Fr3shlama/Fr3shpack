@@ -18,19 +18,8 @@
 		}]
 		tasks: [{
 			dimension: "minecraft:the_nether"
-			id: "3D94C6F2BE7F87C5"
-			ignore_dimension: false
-			position: [I;
-				0
-				0
-				0
-			]
-			size: [I;
-				1
-				1
-				1
-			]
-			type: "location"
+			id: "26453C2E61B3B5F5"
+			type: "dimension"
 		}]
 		x: -2.0d
 		y: 1.5d

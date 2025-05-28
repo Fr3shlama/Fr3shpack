@@ -174,7 +174,7 @@
 			dependencies: ["78BD73C774EDB81B"]
 			id: "6854371DB18FE2B2"
 			rewards: [{
-				count: 13
+				count: 3
 				id: "41523061BB73D680"
 				item: {
 					count: 1
@@ -185,6 +185,7 @@
 			tasks: [{
 				id: "75436C0620123CE9"
 				item: { count: 1, id: "modern_industrialization:steel_machine_casing" }
+				only_from_crafting: true
 				type: "item"
 			}]
 			x: 10.5d
@@ -192,13 +193,29 @@
 		}
 		{
 			id: "78BD73C774EDB81B"
-			tasks: [{
-				icon: {
-					id: "modern_industrialization:fusion_reactor"
+			rewards: [{
+				id: "11FFC74B81FD8075"
+				item: {
+					count: 1
+					id: "modern_industrialization:bronze_boiler"
 				}
-				id: "228E3FAF4E5BD267"
-				type: "custom"
+				type: "item"
 			}]
+			tasks: [
+				{
+					icon: {
+						id: "modern_industrialization:fusion_reactor"
+					}
+					id: "228E3FAF4E5BD267"
+					type: "custom"
+				}
+				{
+					id: "3C49E2F7B71D4FD8"
+					item: { count: 1, id: "modern_industrialization:bronze_boiler" }
+					only_from_crafting: true
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: -6.5d
 		}

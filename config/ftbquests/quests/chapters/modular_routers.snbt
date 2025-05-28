@@ -7,7 +7,7 @@
 		id: "modularrouters:breaker_module"
 	}
 	id: "32F41375F686954E"
-	order_index: 5
+	order_index: 3
 	quest_links: [ ]
 	quests: [{
 		id: "36540E42850A594E"

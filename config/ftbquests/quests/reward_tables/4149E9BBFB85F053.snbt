@@ -1,0 +1,26 @@
+{
+	id: "4149E9BBFB85F053"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ id: "18CE7741D87BADCF", item: { count: 1, id: "sophisticatedbackpacks:advanced_pickup_upgrade" } }
+		{ id: "35BC5BBAC4928DBE", item: { count: 1, id: "sophisticatedbackpacks:advanced_filter_upgrade" } }
+		{ id: "206C0C72DE9EF13B", item: { count: 1, id: "sophisticatedbackpacks:advanced_magnet_upgrade" } }
+		{ id: "4F9FF7F5793E044E", item: { count: 1, id: "sophisticatedbackpacks:advanced_feeding_upgrade" } }
+		{ id: "7763F0F167757F4C", item: { count: 1, id: "sophisticatedbackpacks:advanced_compacting_upgrade" } }
+		{ id: "3F84CD8B4EAD0456", item: { count: 1, id: "sophisticatedbackpacks:advanced_void_upgrade" } }
+		{ id: "52A2E1CCE0543DF3", item: { count: 1, id: "sophisticatedbackpacks:advanced_restock_upgrade" } }
+		{ id: "569CE01DF01E0E3F", item: { count: 1, id: "sophisticatedbackpacks:advanced_deposit_upgrade" } }
+		{ id: "578E968C914AEAE3", item: { count: 1, id: "sophisticatedbackpacks:advanced_refill_upgrade" } }
+		{ id: "52E761F04A84C2E3", item: { count: 1, id: "sophisticatedbackpacks:auto_smelting_upgrade" } }
+		{ id: "000217C5F9D70B00", item: { count: 1, id: "sophisticatedbackpacks:auto_smoking_upgrade" } }
+		{ id: "2C16F8723CA20E98", item: { count: 1, id: "sophisticatedbackpacks:auto_blasting_upgrade" } }
+		{ id: "5FE492C38E0226FC", item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_2" } }
+		{ id: "4840C9E57EBA7F93", item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_3" } }
+		{ id: "7146320BB59EDABE", item: { count: 1, id: "sophisticatedbackpacks:advanced_jukebox_upgrade" } }
+		{ id: "1300A285E749AE4D", item: { count: 1, id: "sophisticatedbackpacks:advanced_tool_swapper_upgrade" } }
+		{ id: "2460A7CF037616E7", item: { count: 1, id: "sophisticatedbackpacks:advanced_pump_upgrade" } }
+		{ id: "6B523E7216D91E42", item: { count: 1, id: "sophisticatedbackpacks:xp_pump_upgrade" } }
+		{ id: "21BA960626C7689F", item: { count: 1, id: "sophisticatedbackpacks:advanced_alchemy_upgrade" } }
+	]
+}

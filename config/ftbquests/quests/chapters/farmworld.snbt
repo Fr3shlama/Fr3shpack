@@ -9,5 +9,19 @@
 	id: "031BF92EC074CA6C"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "32B5DBF98D69B22D"
+		rewards: [{
+			id: "0306E8880701203E"
+			type: "xp"
+			xp: 100
+		}]
+		tasks: [{
+			dimension: "overworldmirror:overworld"
+			id: "5DCF21A82671A6EC"
+			type: "dimension"
+		}]
+		x: -7.5d
+		y: 2.0d
+	}]
 }

@@ -11,21 +11,15 @@
 	quest_links: [ ]
 	quests: [{
 		id: "4B9627B5C52982DF"
+		rewards: [{
+			id: "7218ED5DB8EB2D8B"
+			type: "xp"
+			xp: 100
+		}]
 		tasks: [{
 			dimension: "deeperdarker:otherside"
-			id: "017F40961C5069D3"
-			ignore_dimension: false
-			position: [I;
-				0
-				0
-				0
-			]
-			size: [I;
-				1
-				1
-				1
-			]
-			type: "location"
+			id: "4C96EC2FD5E74D81"
+			type: "dimension"
 		}]
 		x: -2.0d
 		y: 0.0d

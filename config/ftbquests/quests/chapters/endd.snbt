@@ -9,25 +9,53 @@
 	id: "6727770139D1B0D8"
 	order_index: 3
 	quest_links: [ ]
-	quests: [{
-		id: "4C863ACCC279E621"
-		tasks: [{
-			dimension: "minecraft:the_end"
-			id: "7E2614A19E13740F"
-			ignore_dimension: false
-			position: [I;
-				0
-				0
-				0
-			]
-			size: [I;
-				1
-				1
-				1
-			]
-			type: "location"
-		}]
-		x: -2.0d
-		y: 1.5d
-	}]
+	quests: [
+		{
+			id: "4C863ACCC279E621"
+			rewards: [{
+				id: "05017EEB14036E7D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "26C4106C221C759B"
+				type: "dimension"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4C863ACCC279E621"]
+			id: "09A03F5A13CCCBCD"
+			rewards: [{
+				id: "7F526DA87BF4BE3B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "4B92C1D26E64F976"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			id: "06F5C2302BA8A3EC"
+			rewards: [{
+				id: "762F5F8B81A42A56"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "18B442E0C79C4321"
+				item: { count: 1, id: "minecraft:elytra" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+	]
 }

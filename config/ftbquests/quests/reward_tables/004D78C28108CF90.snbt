@@ -1,0 +1,42 @@
+{
+	id: "004D78C28108CF90"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			count: 16
+			id: "323DAA5D22D71053"
+			item: {
+				count: 1
+				id: "mysticalagradditions:insanium_essence"
+			}
+		}
+		{ id: "7BAE15A7FE7A8030", item: { count: 1, id: "mysticalagradditions:insanium_block" } }
+		{ id: "018DB433441DF65F", item: { count: 1, id: "mysticalagradditions:insanium_ingot_block" } }
+		{ id: "4C562B7CA46F3D41", item: { count: 1, id: "mysticalagradditions:insanium_gemstone_block" } }
+		{ id: "13665F725C115D9B", item: { count: 1, id: "mysticalagradditions:insanium_farmland" } }
+		{ id: "7D97D12C5FA7944B", item: { count: 1, id: "mysticalagradditions:insanium_coal_block" } }
+		{
+			count: 4
+			id: "410C9D3031ADD633"
+			item: {
+				count: 1
+				id: "mysticalagradditions:insanium_ingot"
+			}
+		}
+		{
+			count: 4
+			id: "1AB017D8744A09CB"
+			item: {
+				count: 1
+				id: "mysticalagradditions:insanium_gemstone"
+			}
+		}
+		{ id: "0E40E63795A81B24", item: { count: 1, id: "mysticalagriculture:nether_star_seeds" } }
+		{ id: "253493D9E585D8CA", item: { count: 1, id: "mysticalagradditions:nether_star_crux" } }
+		{ id: "40C2311A22D8AA4C", item: { count: 1, id: "mysticalagriculture:dragon_egg_seeds" } }
+		{ id: "509B952F17FD4ED6", item: { count: 1, id: "mysticalagradditions:dragon_egg_crux" } }
+		{ id: "1C165F0E140041CA", item: { count: 1, id: "mysticalagriculture:neutronium_seeds" } }
+		{ id: "3FF5A16E84D40964", item: { count: 1, id: "mysticalagradditions:neutronium_crux" } }
+	]
+}

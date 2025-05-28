@@ -1,0 +1,63 @@
+{
+	id: "071912866F451B98"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			count: 16
+			id: "5D7F8090761D93FB"
+			item: {
+				count: 1
+				id: "mysticalagriculture:inferium_essence"
+			}
+		}
+		{
+			count: 16
+			id: "399739247BFE43E4"
+			item: {
+				count: 1
+				id: "mysticalagradditions:inferium_coal"
+			}
+		}
+		{
+			count: 4
+			id: "4C228BEE50B04D49"
+			item: {
+				count: 1
+				id: "mysticalagriculture:inferium_block"
+			}
+		}
+		{ id: "637DCDC860025BD1", item: { count: 1, id: "mysticalagriculture:inferium_ingot_block" } }
+		{ id: "5935F7D51A71463F", item: { count: 1, id: "mysticalagriculture:inferium_gemstone_block" } }
+		{ id: "1CDA3302BD6DC3CA", item: { count: 1, id: "mysticalagriculture:inferium_farmland" } }
+		{ id: "682CFE43B7C5060D", item: { count: 1, id: "mysticalagriculture:inferium_growth_accelerator" } }
+		{ id: "49E579C4D18AAAEB", item: { count: 1, id: "mysticalagriculture:inferium_seeds" } }
+		{
+			count: 4
+			id: "1A22A95B86A89189"
+			item: {
+				count: 1
+				id: "mysticalagriculture:inferium_ingot"
+			}
+		}
+		{
+			count: 4
+			id: "117F3EBB04AB75B9"
+			item: {
+				count: 1
+				id: "mysticalagriculture:inferium_gemstone"
+			}
+		}
+		{ id: "16F5D3CCE27A4A89", item: { count: 1, id: "matc:inferium_crystal" } }
+		{ id: "56F5F1B8285DF70A", item: { count: 1, id: "mysticalagradditions:inferium_apple" } }
+		{ id: "48B48B17E174CEF7", item: { count: 1, id: "mysticalagradditions:inferium_coal_block" } }
+		{ id: "14EA6CA51D6CE07C", item: { count: 1, id: "mysticalagriculture:stone_seeds" } }
+		{ id: "2531B4085D017B58", item: { count: 1, id: "mysticalagriculture:wood_seeds" } }
+		{ id: "740C37AC743F812B", item: { count: 1, id: "mysticalagriculture:ice_seeds" } }
+		{ id: "67C794CE5D1568F4", item: { count: 1, id: "mysticalagriculture:deepslate_seeds" } }
+		{ id: "1432EB821C96B421", item: { count: 1, id: "mysticalagriculture:fire_seeds" } }
+		{ id: "38C1839FDB41320A", item: { count: 1, id: "mysticalagriculture:water_seeds" } }
+		{ id: "0D4F3642E89561D9", item: { count: 1, id: "mysticalagriculture:earth_seeds" } }
+		{ id: "4F90DC77A5B6A304", item: { count: 1, id: "mysticalagriculture:air_seeds" } }
+	]
+}
