@@ -46,10 +46,6 @@
 	# Default: 100
 	# Range: 0 ~ 100
 	shock_screen_shake = 100
-	#Set true to show the name of dog tag in kill messages
-	dog_tag_name_visible = true
-	#Set true to show the icon of dog tag in kill messages
-	dog_tag_icon_visible = false
 
 [invert_aircraft_control]
 	#Set true to invert aircraft control
@@ -57,4 +53,4 @@
 
 [checksum]
 	#System environment checksum, do not edit
-	environment_checksum = "a189e48c17abe1c00b0442d74310868de655052765c1a95326cf40d5e4bbd262"
+	environment_checksum = ""
