@@ -10,7 +10,7 @@
 	id: "2B83C5F089E46502"
 	images: [{
 		height: 1.0d
-		image: "minecraft:textures/addons/damaged/item/wooden_hoe_01.png"
+		image: "silentgear:item/blueprint_hoe"
 		rotation: 0.0d
 		width: 1.0d
 		x: 0.5d

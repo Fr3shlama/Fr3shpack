@@ -7,21 +7,179 @@
 		id: "avaritia:infinity_sword"
 	}
 	id: "49516E4183DFF745"
+	images: [
+		{
+			height: 6.0d
+			image: "ftbquests:textures/shapes/hexagon/background.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			height: 5.0d
+			image: "avaritia:item/halo_noise"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			height: 3.5d
+			image: "avaritia:item/tools/infinity_sword_layer_0"
+			rotation: 0.0d
+			width: 3.5d
+			x: 0.5d
+			y: 0.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "79FD1C5564F543F7"
-		rewards: [{
-			id: "24F56E16A527D375"
-			type: "xp_levels"
-			xp_levels: 5
-		}]
-		tasks: [{
-			id: "44F72F6FDC7345D3"
-			item: { count: 1, id: "minecraft:spruce_log" }
-			type: "item"
-		}]
-		x: -1.5d
-		y: -0.5d
-	}]
+	quests: [
+		{
+			id: "2C795F68BA610FE2"
+			tasks: [{
+				id: "4AC4B67D814CAA67"
+				item: { count: 1, id: "avaritia:infinity_sword" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			id: "42BD5B73661B881A"
+			tasks: [{
+				id: "521382FDB6926419"
+				item: { count: 1, id: "avaritia:infinity_axe" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			id: "4538C763AD85414B"
+			tasks: [{
+				id: "747016EFAE724045"
+				item: { components: { "minecraft:enchantments": { levels: { "minecraft:fortune": 10 } } }, count: 1, id: "avaritia:infinity_pickaxe" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			id: "08CEF5C7B02D82BB"
+			tasks: [{
+				id: "0A7B211380381BE1"
+				item: { count: 1, id: "avaritia:infinity_shovel" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			id: "7C7D33DADDE384F2"
+			tasks: [{
+				id: "019F2322583DFDD1"
+				item: { count: 1, id: "avaritia:infinity_hoe" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "1943B3BFA06C1410"
+			tasks: [{
+				id: "10DDA3D7D0B86168"
+				item: { count: 1, id: "avaritia:infinity_bow" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			id: "5E873A51334DD7AD"
+			tasks: [{
+				id: "4774EE50D19E252D"
+				item: { count: 1, id: "avaritia:infinity_helmet" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "071C5DA764DCBC70"
+			tasks: [{
+				id: "09AE0D6359A5DE1F"
+				item: { count: 1, id: "avaritia:infinity_chestplate" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "70B35F97B103248F"
+			tasks: [{
+				id: "2798E472D9AF5240"
+				item: { count: 1, id: "avaritia:infinity_leggings" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0AC2C688341E9A44"]
+			hide_dependency_lines: true
+			id: "055E75D377BEFB50"
+			tasks: [{
+				id: "463A2DCE1D239007"
+				item: { count: 1, id: "avaritia:infinity_boots" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["07B885978C241994"]
+			id: "0AC2C688341E9A44"
+			tasks: [{
+				id: "64EDD17533A54A82"
+				item: { count: 1, id: "avaritia:infinity_catalyst" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			id: "16E20D95C91F52E8"
+			tasks: [{
+				id: "73B1AF7C11D5B6D1"
+				item: { count: 1, id: "avaritia:neutron_pile" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["16E20D95C91F52E8"]
+			id: "4547984EBCC7B987"
+			tasks: [{
+				id: "25A49410B496064A"
+				item: { count: 1, id: "avaritia:neutron_nugget" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4547984EBCC7B987"]
+			id: "07B885978C241994"
+			tasks: [{
+				id: "666AE6B2534D90FB"
+				item: { count: 1, id: "avaritia:neutronium_ingot" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+	]
 }

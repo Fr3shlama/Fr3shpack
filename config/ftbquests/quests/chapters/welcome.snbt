@@ -95,6 +95,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 64
+					id: "0B2FC32C0C3E5311"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
 			]
 			shape: "diamond"
 			size: 3.0d
@@ -169,55 +178,6 @@
 			}]
 			x: -1.5d
 			y: -4.5d
-		}
-		{
-			dependencies: ["78BD73C774EDB81B"]
-			id: "6854371DB18FE2B2"
-			rewards: [{
-				count: 3
-				id: "41523061BB73D680"
-				item: {
-					count: 1
-					id: "modern_industrialization:steel_machine_casing"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "75436C0620123CE9"
-				item: { count: 1, id: "modern_industrialization:steel_machine_casing" }
-				only_from_crafting: true
-				type: "item"
-			}]
-			x: 10.5d
-			y: -7.0d
-		}
-		{
-			id: "78BD73C774EDB81B"
-			rewards: [{
-				id: "11FFC74B81FD8075"
-				item: {
-					count: 1
-					id: "modern_industrialization:bronze_boiler"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					icon: {
-						id: "modern_industrialization:fusion_reactor"
-					}
-					id: "228E3FAF4E5BD267"
-					type: "custom"
-				}
-				{
-					id: "3C49E2F7B71D4FD8"
-					item: { count: 1, id: "modern_industrialization:bronze_boiler" }
-					only_from_crafting: true
-					type: "item"
-				}
-			]
-			x: 6.5d
-			y: -6.5d
 		}
 	]
 }

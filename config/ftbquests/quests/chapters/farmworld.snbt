@@ -9,19 +9,161 @@
 	id: "031BF92EC074CA6C"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		id: "32B5DBF98D69B22D"
-		rewards: [{
-			id: "0306E8880701203E"
-			type: "xp"
-			xp: 100
-		}]
-		tasks: [{
-			dimension: "overworldmirror:overworld"
-			id: "5DCF21A82671A6EC"
-			type: "dimension"
-		}]
-		x: -7.5d
-		y: 2.0d
-	}]
+	quests: [
+		{
+			id: "554A0C5CB2465DC7"
+			rewards: [
+				{
+					id: "0F553C0401970F47"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "76E024B3925057B2"
+					item: {
+						count: 1
+						id: "jamd:portal_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "63258E9CD928933E"
+				item: { count: 1, id: "minecraft:iron_pickaxe" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["554A0C5CB2465DC7"]
+			id: "2A0E863337342DC7"
+			rewards: [
+				{
+					id: "71EA5AA1E2C2D925"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "28ABB29673519E2D"
+					item: {
+						count: 1
+						id: "minecraft:iron_pickaxe"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "jamd:mining"
+				id: "54C662B742AF8545"
+				type: "dimension"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["554A0C5CB2465DC7"]
+			id: "4AD656EB8EB62E18"
+			rewards: [
+				{
+					id: "4213B41F1923A735"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "182A2E6C4FD2389D"
+					item: {
+						count: 1
+						id: "jamd:nether_portal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3190FA0C8E040542"
+				item: { count: 1, id: "minecraft:diamond_pickaxe" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4AD656EB8EB62E18"]
+			id: "0992122EA5415A34"
+			rewards: [
+				{
+					id: "321844A37DA50F55"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0C534241933AABE5"
+					item: {
+						count: 1
+						id: "minecraft:diamond_pickaxe"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "jamd:nether"
+				id: "0A4944C7109B28CC"
+				type: "dimension"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4AD656EB8EB62E18"]
+			id: "73CE86618525A98A"
+			rewards: [
+				{
+					id: "07F4A13CD0B2F5AC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "645BA49AF9974434"
+					item: {
+						count: 1
+						id: "jamd:end_portal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "40EA7EFB4D762300"
+				item: { count: 1, id: "minecraft:netherite_pickaxe" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["73CE86618525A98A"]
+			id: "394F948A3684434C"
+			rewards: [
+				{
+					id: "7B71D4B0A66D850E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "176BF0741DA3F3AE"
+					item: {
+						count: 1
+						id: "minecraft:netherite_pickaxe"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "jamd:end"
+				id: "00BC80F40D8B9DEC"
+				type: "dimension"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+	]
 }

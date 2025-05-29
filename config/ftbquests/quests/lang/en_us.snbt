@@ -1,5 +1,5 @@
 {
-	chapter.031BF92EC074CA6C.title: "Farmworld?"
+	chapter.031BF92EC074CA6C.title: "Farmworld"
 	chapter.059AF20FCDAA2760.title: "Oritech"
 	chapter.1288D96EAEE0F0CB.title: "Transportation"
 	chapter.1A36540B71B84A6A.title: "Pylons"
@@ -760,6 +760,12 @@
 		""
 		"You might want to use this to create your machine hulls once we get some polyethylene in MV"
 	]
+	quest.072E085BBF20F875.quest_desc: [
+		"The Metallic Infuser is used to craft core crafting components throughout Mekanism."
+		""
+		"With it you will make your first Steel Ingot, which is needed for the next machines."
+	]
+	quest.072E085BBF20F875.quest_subtitle: "Your first Machine"
 	quest.072FA02152FBC5B1.title: "Overworld Layer Ores"
 	quest.072FBEB0F6F1BC48.quest_desc: ["Used to link Drawers to a Controller and to link up Ender Drawers.\\n\\nTo link Drawers to the Controller, right click the Controller block to start configuration. Right clicking Drawers will add them to the network.\\n\\nHolding the tool will show you what Drawers are connected to the Controller."]
 	quest.0737D64B0CCAE334.quest_desc: ["Having an optimized method to craft these, that takes minimal time will benefit you as you move forward."]
@@ -1409,6 +1415,15 @@
 	quest.0DB1A5763EDD6A7F.quest_subtitle: "The Boss of the Poison Dungeon"
 	quest.0DB4226BA23A5C09.quest_desc: ["Move that &bAdvanced Circuit Assembler&r into your &eCleanroom&r and welcome yourself to the &5EV&r Age!"]
 	quest.0DB4226BA23A5C09.quest_subtitle: "Can this supercomputer win at chess?"
+	quest.0DB6E3A24FF57E50.quest_desc: [
+		"The Heat Generator has 2 modes to generate Power:"
+		""
+		"&1Passive:&r You can surround the generator with lava source or flowing blocks to create passive power. The simplest way is to place a block of lava on top of the generator and let it flow over the sides."
+		""
+		"&1Active:&r Placing combustible materials (like coal or wood) or fluids (like lava) will burn it and create power."
+	]
+	quest.0DB6E3A24FF57E50.quest_subtitle: "Basic Power Generation"
+	quest.0DB6E3A24FF57E50.title: "Heat Generator"
 	quest.0DB92C70D04725BE.quest_subtitle: "Duracell Eat your heart out"
 	quest.0DC0E236C8213050.quest_desc: ["By combining 500mB of Unrefined Liquid Souls with a singular Soul, we can create 500mB of Liquid Souls! \\n\\nThis will need twice the amount of &dSource&r that the &bLiquid Aureal&r needs, at 2000 &dSource&r."]
 	quest.0DC0E236C8213050.title: "Liquid Souls"
@@ -3213,6 +3228,7 @@
 	quest.2002AB7D061007FA.title: "&6Artisan Relic"
 	quest.2007EF64F0406090.quest_subtitle: "&f24 &cAttack Damage"
 	quest.200ECDC70E97D254.quest_desc: ["Fuel Canister is a tank that can fill containers with the fluid it contains.\\n\\nThe Fuel Canister has three fill modes:\\n\\n - None\\n - Any\\n - Just Dire Things"]
+	quest.201365537E8627E6.quest_subtitle: "here you go!"
 	quest.201EE3566D4D3123.quest_desc: [
 		"To mine &6Allthemodium&r you'll need a Pickaxe that is &5Netherite&r Tier or higher! \\n\\nOnce you finally get the Ore (first I recommend processing it either with Fortune, Occultism, or Mekanism to get more) then you can get a few choices of what to do with it. \\n\\nI recommend making 2 Teleport Pads with the &6Nuggets&r! You can use those to get to the &7&lMining Dimension&r to find more &6Allthemodium&r or &b&lThe Other&r to find other adventures. \\n\\nAfter that I recommend upgrading your Pickaxe so you can Mine &3Vibranium&r. The rest is all up to you!"
 		"{image:atm:textures/questpics/allthemodium/all_1.png width:100 height:100 align:center}"
@@ -3306,6 +3322,9 @@
 		""
 		"Are you prepared for the poison and fire?"
 	]
+	quest.20EEA059FE0FC0AC.quest_desc: ["Your items wont get lost :)"]
+	quest.20EEA059FE0FC0AC.quest_subtitle: "Just, die"
+	quest.20EEA059FE0FC0AC.title: "Grave Key"
 	quest.20F9EF925DB1CE05.quest_desc: ["The &2Natural Altar&r is a multiblock structure made from 1 &2Natural Altar&r, 20 Planks, 16 Stone Bricks, 8 &eGolden Stone Bricks&r and 4 Chiseled Stone Bricks.\\n\\nThe Natural Altar will use up aura for each recipe and is needed to continue progressing in the mod.\\n\\nThe image to the right of this quest shows the multiblock setup."]
 	quest.20F9EF925DB1CE05.title: "&2Natural Alter"
 	quest.210A0DC6D5CAC236.quest_desc: ["The &dTier 4 Rocket&r is the highest tier Rocket that we can make. This will allow us to travel outside of our Solar System!"]
@@ -3836,6 +3855,8 @@
 		"This is one of the best ways to generate the &a98,415 Nether Stars&r you need to make the &6Star&r."
 	]
 	quest.258B387107AEB2EB.title: "&eMob Farming&r"
+	quest.258B8CBC68D34D74.quest_subtitle: "The Basic Crafting Ingot"
+	quest.258B8CBC68D34D74.title: "Osmium"
 	quest.25906B43A198B72F.quest_desc: ["Knightmetal Armor&r can be crafted with Knightmetal Ingots and has a chance of being found in &2Knight Phantom&r chests."]
 	quest.25906B43A198B72F.title: "Knightmetal Armor"
 	quest.25911D0B7C403A4F.quest_desc: [
@@ -5722,6 +5743,7 @@
 	quest.38C98FCB6A2D4226.quest_desc: ["The Miniture Telsa Coil will act like the Thorns Enchantment. \\n\\nAnyone who hits you, while you are wearing the &c&lBackpack&r, will be Shocked. Dealing Damage and giving an Effect!"]
 	quest.38CB5044AB3F859B.quest_desc: ["&aSuper Glue&r is used to attach Blocks together! In order to move them with &aContraptions&r. \\n\\nTo &aGlue&r Blocks together, Right Click two different Blocks and all between them will be &aGlued&r. If you want to &aUnglue&r them, just Left Click them with the &aSuper-Glue&r. \\n\\nThere is some requirements though, each Block must be connected to the other ones and not diagonally. \\n\\nYou can also combine other &aGlued&r Blocks to different &aGlued&r Blocks. Everyone gets &aGlue&r! \\n\\nPlus this will effect other Blocks near the originally &aGlued&r one. Blocks adjacent to &aGlued&r Blocks will be moved with them. Same with Blocks that are attached to &aGlued&r Blocks, like Torches or Signs."]
 	quest.38CB5044AB3F859B.title: "&aSuper-Glue"
+	quest.38D483E0CEDB7EB5.title: "Tier 1 Prossesing"
 	quest.38F01BAEC74D5D68.quest_desc: ["It's the same as the other Preheater I just wanted it to be symmetrical :D."]
 	quest.38F9E9A830D3EA0C.quest_desc: ["If you thought this mod was only for storing items, you would be wrong, there are also Fluid Drawers!\\n\\nThey work the same way as regular Drawers, but store fluids instead."]
 	quest.3907E68572324333.quest_desc: ["In order to get &4&lMorgan&r you need &e&lCaliburn&r. \\n\\nIn order to get &e&lCaliburn&r you need the &3Mahou Lake&r. \\n\\nIn order to get the &3Mahou Lake&r you'll need the Power Consolidation Ritual. \\n\\nWhich can be done like any other ritual just with 2 powdered diamonds and 1 powdered emerald. \\n\\nFYI don't do it near your base, the Ritual will be the middle of the &3Lake&r!"]
@@ -6283,6 +6305,9 @@
 	quest.3E4B27759C973006.title: "&l&6Framed Blocks&r"
 	quest.3E555B364FD88B43.quest_subtitle: "Range: &c45&r Blocks"
 	quest.3E555B364FD88B43.title: "&4Supremium Growth Accelerator"
+	quest.3E5990C96C03CF17.quest_desc: ["Mekanism isn’t simply another mod. Mekanism is an experience that will forever change the way you play Minecraft"]
+	quest.3E5990C96C03CF17.quest_subtitle: "Who doesn't love a Factory?"
+	quest.3E5990C96C03CF17.title: "&dMekanism"
 	quest.3E6706BC4C318A40.quest_desc: ["The Sewer is used to make Sewage, which is used to make Fertilizer."]
 	quest.3E6706BC4C318A40.title: "Sewer"
 	quest.3E75AFE3482834C5.quest_desc: ["&lRailCraft&r is an entire mod based off &5Trains&r! \\n\\nFrom &7Minecarts&r to &eElectric Locomotives&r to &9Tunnel Bores&r! It has everything &5Train&r accessory wise as well! Traffic Lights, Steam Boilers to power &5Trains&r, and automation for it all. \\n\\nThe model Mod for Model &5Train&r Lovers!"]
@@ -11163,6 +11188,18 @@
 	quest.6ADDFD55AD0DF7D4.quest_desc: ["Combining &9Ridiculite Ingots&r with &cRossinite&r in a &aReprocessor&r will create &dInanite Ingots&r.\\n\\nWe can now use these to make a block of &dInanite&r."]
 	quest.6ADDFD55AD0DF7D4.title: "Inanite"
 	quest.6AE0A69DB3CDBCAA.quest_subtitle: "Sweet Crabapple + Flowering Azalea"
+	quest.6AF3287BD097136F.quest_desc: [
+		"In Mekanism there are five different types you will work with:"
+		""
+		"- Power (FE)"
+		"- Fluids"
+		"- Gases"
+		"- Items"
+		"- Heat"
+		""
+		"There is a corresponding pipe for every type! "
+	]
+	quest.6AF3287BD097136F.quest_subtitle: "From A to B"
 	quest.6AF6A1985C103D9C.quest_desc: [
 		"&9Refined Storage&r is a mass storage mod that offers a simple network-based storage system."
 		""
@@ -12366,6 +12403,13 @@
 	quest.75DD345164EE5CD9.title: "&6High Speed Tracks"
 	quest.75EE965CBA598FEA.quest_desc: ["The recipe may look confusing but trust me it is pretty easy. Craft any &dWireless Terminals&r then craft them together to make the &dUniversal Wireless Terminal&r. \\n\\nIt will also keep whatever you had on the &dTerminal&r like Extended Patterns, that is very helpful for using &b&lAE2&r but doesn't matter for the &6&lATM Star&r!"]
 	quest.75EE965CBA598FEA.title: "&dUniversal Wireless Terminal"
+	quest.75F698318F30E65E.quest_desc: [
+		"In Mekanism you have 5 Tiers of Ore Prossesing. With each tier you need more machines and ressourses but will gain more ingots from one ore!"
+		""
+		"We begin with Tier 0 whitch is you standard ore -> ingot in a furnace."
+	]
+	quest.75F698318F30E65E.quest_subtitle: "More than you think"
+	quest.75F698318F30E65E.title: "Ore Prosessing"
 	quest.75FE0B514448865B.quest_desc: ["Upgrades go directly into the Router and the Router can hold 5 of them. Upgrades directly affect all Modules that they can and usually can stack!"]
 	quest.75FE0B514448865B.title: "&lUpgrades"
 	quest.7604D8B3C9FCCFD9.quest_desc: [
@@ -13415,6 +13459,7 @@
 	reward_table.6267C499342020D4.title: "SophBackT1"
 	reward_table.67C6E85C7080DB07.title: "MysAgrT6"
 	reward_table.76B8B153F8E4F2CA.title: "MysAgrT3"
+	reward_table.77F65AA8A7E5B8D1.title: "Mekanism: Rewards"
 	task.00648047034C9531.title: "Rock Crusher"
 	task.00A904FBEDE80712.title: "Macaw's Roofs"
 	task.00C6A5CB44392D7E.title: "AllRightsReserved"
@@ -13737,6 +13782,7 @@
 	task.3D62C020980A2DEC.title: "Bookshelves"
 	task.3D6A9C7EE22C2ADF.title: "Multi-Cycle Injectors"
 	task.3D721B55E8D33FE8.title: "The Flux Networks UI"
+	task.3D96C65FCCA4411A.title: "Transportation"
 	task.3DA6D564BBFB1F50.title: "Observe Completed Cleanroom"
 	task.3DC008A578A93CCF.title: "Tips and Tricks!"
 	task.3DE460F842195173.title: "Ashy Mining Bee"
@@ -13887,6 +13933,7 @@
 	task.5A1784C5676CDC62.title: "Welcome!"
 	task.5A901578529C152E.title: "Infusion Enchanting"
 	task.5AB4103FF540ABB4.title: "Fluids"
+	task.5B2141B9C384C03B.title: "Mekanism Machines"
 	task.5B5DBA0A7644A551.title: "Signalum Comb"
 	task.5B7926B511000F1F.title: "Mechanical Pipes"
 	task.5BC88AE46F95774D.title: "Gravel or Sand"
@@ -14012,7 +14059,6 @@
 	task.72E89066290E3040.title: "AllRightsReserved"
 	task.735F8BA70FBE24BF.title: "Exploration Mod Iron Pickaxes"
 	task.73B56F2139A98F77.title: "AllRightsReserved"
-	task.74034F13BE600296.title: "Grave"
 	task.740E35A5781E43A7.title: "Steel Ingot"
 	task.74CA4DE423248784.title: "Wall Lamps"
 	task.7536DA5A948671F2.title: "Observe completed Vacuum Freezer"

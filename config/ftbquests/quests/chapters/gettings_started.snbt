@@ -32,9 +32,18 @@
 				id: "simpletomb:grave_key"
 			}
 			id: "20EEA059FE0FC0AC"
+			rewards: [{
+				id: "1F4883D9BEE74573"
+				item: {
+					count: 1
+					id: "bhc:red_heart"
+				}
+				type: "item"
+			}]
 			tasks: [{
-				id: "74034F13BE600296"
-				type: "checkmark"
+				id: "3246F43D739C4B8B"
+				item: { count: 1, id: "simpletomb:grave_key" }
+				type: "item"
 			}]
 			x: -6.5d
 			y: -3.5d

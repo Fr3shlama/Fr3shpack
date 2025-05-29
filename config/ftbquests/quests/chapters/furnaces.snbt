@@ -14,11 +14,22 @@
 	quest_links: [ ]
 	quests: [{
 		id: "5232D2E8099AEE35"
-		rewards: [{
-			id: "066365591E670CD5"
-			type: "xp"
-			xp: 100
-		}]
+		rewards: [
+			{
+				id: "066365591E670CD5"
+				type: "xp"
+				xp: 100
+			}
+			{
+				count: 16
+				id: "768F0CCBE6C79196"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}
+		]
 		tasks: [{
 			id: "14D6AC8657189788"
 			item: { count: 1, id: "minecraft:furnace" }
