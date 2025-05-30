@@ -17,7 +17,7 @@ recipes.removeByName("avaritia:infinity_catalyst_from_infinity_singularity");
         { "item": "avaritia:endest_pearl" },
         { "item": "extendedcrafting:ultimate_singularity" },
         { "item": "mekanism:pellet_antimatter" },
-        { "item": "modern_industrialization:singularity" },
+        { "item": "modern_industrialization:quantum_upgrade" },
         { "item": "mekanism_extras:infinite_control_circuit" },
         { "item": "megacells:cell_component_256m" }
     ],
