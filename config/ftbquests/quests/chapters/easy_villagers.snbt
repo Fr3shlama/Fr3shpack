@@ -1,0 +1,236 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "easy_villagers"
+	group: "12B57B42F69C108E"
+	icon: {
+		components: {
+			"easy_villagers:villager": { }
+		}
+		id: "easy_villagers:villager"
+	}
+	id: "6DC59922229E526D"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "20F29851E8E95670"
+			rewards: [{
+				id: "29F8EB17BB9FD70C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3C685F7E967CD555"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["20F29851E8E95670"]
+			id: "4971FAE83D1698B2"
+			rewards: [
+				{
+					id: "638FD0703C4736A5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "12899F38E2B064A4"
+					item: {
+						components: {
+							"easy_villagers:villager": { }
+						}
+						count: 1
+						id: "easy_villagers:villager"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "538177E29A24D798"
+				item: { count: 1, id: "easy_villagers:trader" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["20F29851E8E95670"]
+			id: "3D5E5F4163944B6C"
+			rewards: [
+				{
+					id: "5F36E255E1A2350B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0A00A2D73EFAB6EB"
+					item: {
+						components: {
+							"easy_villagers:villager": {
+								Age: -24000
+							}
+						}
+						count: 1
+						id: "easy_villagers:villager"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "009768CCCA270253"
+					item: { count: 1, id: "easy_villagers:breeder" }
+					type: "item"
+				}
+				{
+					id: "100C517917F54609"
+					item: { count: 1, id: "easy_villagers:incubator" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20F29851E8E95670"]
+			id: "0E11CDB2ADAB3E96"
+			rewards: [
+				{
+					id: "39B470D4C0032A1D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "7D55CC9EA69689B7"
+					item: {
+						count: 1
+						id: "minecraft:iron_block"
+					}
+					type: "item"
+				}
+				{
+					id: "27340B83B12343EF"
+					item: {
+						count: 1
+						id: "minecraft:carved_pumpkin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "47989A3DD5289EFC"
+				item: { count: 1, id: "easy_villagers:iron_farm" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["20F29851E8E95670"]
+			id: "71696DA9F513C14A"
+			rewards: [
+				{
+					id: "3D99340D9361EFB5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "5BA7EDD693BD220B"
+					item: {
+						count: 1
+						id: "minecraft:wheat"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "429B4DAFDAAFFA0D"
+					item: {
+						count: 1
+						id: "minecraft:carrot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "042D7B95FC0857DF"
+					item: {
+						count: 1
+						id: "minecraft:potato"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2B2BD15DBB0EAADD"
+				item: { count: 1, id: "easy_villagers:farmer" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["20F29851E8E95670"]
+			id: "1106AB77C6DF9D47"
+			rewards: [
+				{
+					id: "1BFB6EC0BE41D7F0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "749C668ABC078BA4"
+					item: {
+						components: {
+							"easy_piglins:piglin": { }
+						}
+						count: 1
+						id: "easy_piglins:piglin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "77BEF6FC766ADAE8"
+				item: { count: 1, id: "easy_piglins:barterer" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4971FAE83D1698B2"]
+			id: "6B2E324C9A305525"
+			rewards: [
+				{
+					id: "64AC91AA6DA86770"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1C42A1CB3A9EEAAD"
+					item: {
+						components: {
+							"easy_villagers:villager": { }
+						}
+						count: 1
+						id: "easy_villagers:villager"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7CD2998D5EE5E30E"
+				item: { count: 1, id: "easy_villagers:auto_trader" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+	]
+}

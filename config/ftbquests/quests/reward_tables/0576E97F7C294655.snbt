@@ -1,0 +1,335 @@
+{
+	id: "0576E97F7C294655"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{
+			count: 16
+			id: "705A56B8E70A0E2E"
+			item: {
+				count: 1
+				id: "enderio:grains_of_infinity"
+			}
+		}
+		{
+			count: 32
+			id: "5275F9D6487E855E"
+			item: {
+				count: 1
+				id: "enderio:grains_of_infinity"
+			}
+		}
+		{
+			count: 64
+			id: "25811B75FB9083A5"
+			item: {
+				count: 1
+				id: "enderio:grains_of_infinity"
+			}
+		}
+		{
+			count: 16
+			id: "25F7E07E86F66318"
+			item: {
+				count: 1
+				id: "enderio:copper_alloy_ingot"
+			}
+		}
+		{
+			count: 32
+			id: "5210F8A5F66F3B14"
+			item: {
+				count: 1
+				id: "enderio:copper_alloy_ingot"
+			}
+		}
+		{
+			count: 16
+			id: "2EA3805FC3F2FAF3"
+			item: {
+				count: 1
+				id: "enderio:energetic_alloy_ingot"
+			}
+		}
+		{
+			count: 32
+			id: "0DFE869DC601FE3C"
+			item: {
+				count: 1
+				id: "enderio:energetic_alloy_ingot"
+			}
+		}
+		{
+			count: 16
+			id: "1EF41598E9C239CA"
+			item: {
+				count: 1
+				id: "enderio:vibrant_alloy_ingot"
+			}
+		}
+		{
+			count: 32
+			id: "0B0E4630F74D75F7"
+			item: {
+				count: 1
+				id: "enderio:vibrant_alloy_ingot"
+			}
+		}
+		{
+			count: 16
+			id: "5560D283125637E4"
+			item: {
+				count: 1
+				id: "enderio:redstone_alloy_ingot"
+			}
+		}
+		{
+			count: 32
+			id: "25F8511BDA526181"
+			item: {
+				count: 1
+				id: "enderio:redstone_alloy_ingot"
+			}
+		}
+		{
+			count: 16
+			id: "4173585BAA53A239"
+			item: {
+				count: 1
+				id: "enderio:conductive_alloy_ingot"
+			}
+		}
+		{
+			count: 32
+			id: "44C063616D9E5E9D"
+			item: {
+				count: 1
+				id: "enderio:conductive_alloy_ingot"
+			}
+		}
+		{
+			count: 16
+			id: "234B12ACD516A23E"
+			item: {
+				count: 1
+				id: "enderio:pulsating_alloy_ingot"
+			}
+		}
+		{
+			count: 32
+			id: "2F47877157D53FA9"
+			item: {
+				count: 1
+				id: "enderio:pulsating_alloy_ingot"
+			}
+		}
+		{
+			count: 16
+			id: "222D1F474153FE3F"
+			item: {
+				count: 1
+				id: "enderio:dark_steel_ingot"
+			}
+		}
+		{
+			count: 32
+			id: "098B12DB05DF39A0"
+			item: {
+				count: 1
+				id: "enderio:dark_steel_ingot"
+			}
+		}
+		{
+			count: 16
+			id: "15805AFA425B0B7E"
+			item: {
+				count: 1
+				id: "enderio:soularium_ingot"
+			}
+		}
+		{
+			count: 32
+			id: "7EB08C871A2F45DF"
+			item: {
+				count: 1
+				id: "enderio:soularium_ingot"
+			}
+		}
+		{
+			count: 16
+			id: "63F5A08F61A246CA"
+			item: {
+				count: 1
+				id: "enderio:end_steel_ingot"
+			}
+		}
+		{
+			count: 32
+			id: "1B29F2DB27554912"
+			item: {
+				count: 1
+				id: "enderio:end_steel_ingot"
+			}
+		}
+		{
+			count: 16
+			id: "259B714D44B0FF5D"
+			item: {
+				count: 1
+				id: "enderio:infinity_rod"
+			}
+		}
+		{
+			count: 32
+			id: "10A24B06789E4FB5"
+			item: {
+				count: 1
+				id: "enderio:infinity_rod"
+			}
+		}
+		{
+			count: 16
+			id: "5EA755A1EEB5BA12"
+			item: {
+				count: 1
+				id: "enderio:soularium_grinding_ball"
+			}
+		}
+		{
+			count: 32
+			id: "785A7A7B597172A6"
+			item: {
+				count: 1
+				id: "enderio:soularium_grinding_ball"
+			}
+		}
+		{
+			count: 16
+			id: "11C6C0957D4FDFA2"
+			item: {
+				count: 1
+				id: "enderio:conductive_alloy_grinding_ball"
+			}
+		}
+		{
+			count: 32
+			id: "0597A8156F626857"
+			item: {
+				count: 1
+				id: "enderio:conductive_alloy_grinding_ball"
+			}
+		}
+		{
+			count: 16
+			id: "6A7C4C7235D66A81"
+			item: {
+				count: 1
+				id: "enderio:pulsating_alloy_grinding_ball"
+			}
+		}
+		{
+			count: 32
+			id: "752EC848DB904B36"
+			item: {
+				count: 1
+				id: "enderio:pulsating_alloy_grinding_ball"
+			}
+		}
+		{
+			count: 16
+			id: "4E4D52C788554708"
+			item: {
+				count: 1
+				id: "enderio:redstone_alloy_grinding_ball"
+			}
+		}
+		{
+			count: 32
+			id: "1B2F483255B7FA5C"
+			item: {
+				count: 1
+				id: "enderio:redstone_alloy_grinding_ball"
+			}
+		}
+		{
+			count: 16
+			id: "43AD4C0D2C77EECB"
+			item: {
+				count: 1
+				id: "enderio:energetic_alloy_grinding_ball"
+			}
+		}
+		{
+			count: 32
+			id: "372890F21198A274"
+			item: {
+				count: 1
+				id: "enderio:energetic_alloy_grinding_ball"
+			}
+		}
+		{
+			count: 16
+			id: "35C8B026A84A0E6F"
+			item: {
+				count: 1
+				id: "enderio:vibrant_alloy_grinding_ball"
+			}
+		}
+		{
+			count: 32
+			id: "7AA8499F22600F82"
+			item: {
+				count: 1
+				id: "enderio:vibrant_alloy_grinding_ball"
+			}
+		}
+		{
+			count: 16
+			id: "2C46789E8B8CB081"
+			item: {
+				count: 1
+				id: "enderio:copper_alloy_grinding_ball"
+			}
+		}
+		{
+			count: 32
+			id: "602F986C1ECDC137"
+			item: {
+				count: 1
+				id: "enderio:copper_alloy_grinding_ball"
+			}
+		}
+		{
+			count: 16
+			id: "41144E3BD0241B07"
+			item: {
+				count: 1
+				id: "enderio:dark_steel_grinding_ball"
+			}
+		}
+		{
+			count: 32
+			id: "1D272DF6697D8F79"
+			item: {
+				count: 1
+				id: "enderio:dark_steel_grinding_ball"
+			}
+		}
+		{
+			count: 16
+			id: "5631F0F1C0A9066C"
+			item: {
+				count: 1
+				id: "enderio:end_steel_grinding_ball"
+			}
+		}
+		{
+			count: 32
+			id: "3261C4B4DFB62588"
+			item: {
+				count: 1
+				id: "enderio:end_steel_grinding_ball"
+			}
+		}
+	]
+}

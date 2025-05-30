@@ -1,0 +1,39 @@
+{
+	id: "5BACEFD381CD4D76"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{
+			count: 16
+			id: "434E45D38C19A8A1"
+			item: {
+				count: 1
+				id: "minecraft:glass"
+			}
+		}
+		{
+			count: 16
+			id: "021BD59FEE3F315F"
+			item: {
+				count: 1
+				id: "minecraft:iron_bars"
+			}
+		}
+		{
+			count: 6
+			id: "5EA5F656F01F3609"
+			item: {
+				count: 1
+				id: "minecraft:quartz_slab"
+			}
+		}
+		{
+			count: 6
+			id: "58BAB61B1C3BD0D9"
+			item: {
+				count: 1
+				id: "minecraft:polished_blackstone"
+			}
+		}
+	]
+}

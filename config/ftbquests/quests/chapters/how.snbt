@@ -37,6 +37,8 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["0AC2C688341E9A44"]
+			hide_dependency_lines: true
 			id: "2C795F68BA610FE2"
 			tasks: [{
 				id: "4AC4B67D814CAA67"
@@ -47,6 +49,8 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["0AC2C688341E9A44"]
+			hide_dependency_lines: true
 			id: "42BD5B73661B881A"
 			tasks: [{
 				id: "521382FDB6926419"
@@ -57,6 +61,8 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["0AC2C688341E9A44"]
+			hide_dependency_lines: true
 			id: "4538C763AD85414B"
 			tasks: [{
 				id: "747016EFAE724045"
@@ -67,6 +73,8 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["0AC2C688341E9A44"]
+			hide_dependency_lines: true
 			id: "08CEF5C7B02D82BB"
 			tasks: [{
 				id: "0A7B211380381BE1"
@@ -77,6 +85,8 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["0AC2C688341E9A44"]
+			hide_dependency_lines: true
 			id: "7C7D33DADDE384F2"
 			tasks: [{
 				id: "019F2322583DFDD1"
@@ -87,6 +97,8 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["0AC2C688341E9A44"]
+			hide_dependency_lines: true
 			id: "1943B3BFA06C1410"
 			tasks: [{
 				id: "10DDA3D7D0B86168"
@@ -97,6 +109,8 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["0AC2C688341E9A44"]
+			hide_dependency_lines: true
 			id: "5E873A51334DD7AD"
 			tasks: [{
 				id: "4774EE50D19E252D"
@@ -107,6 +121,8 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["0AC2C688341E9A44"]
+			hide_dependency_lines: true
 			id: "071C5DA764DCBC70"
 			tasks: [{
 				id: "09AE0D6359A5DE1F"
@@ -117,6 +133,8 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["0AC2C688341E9A44"]
+			hide_dependency_lines: true
 			id: "70B35F97B103248F"
 			tasks: [{
 				id: "2798E472D9AF5240"

@@ -227,6 +227,9 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["75F698318F30E65E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "38D483E0CEDB7EB5"
 			tasks: [{
 				id: "1490FB626E7BEB97"
@@ -234,7 +237,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -4.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["42D20A7857E8E48D"]
@@ -587,6 +590,181 @@
 			}]
 			x: 4.0d
 			y: 5.5d
+		}
+		{
+			id: "4642639F7F292FF7"
+			tasks: [{
+				id: "32866EF96706EBF7"
+				item: { count: 1, id: "mekanism:electrolytic_separator" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			id: "6605EF8A42CDD25A"
+			tasks: [{
+				id: "280433895073875F"
+				item: { count: 1, id: "mekanism:purification_chamber" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"75F698318F30E65E"
+				"38D483E0CEDB7EB5"
+			]
+			id: "4792149A8752C1FC"
+			tasks: [{
+				id: "0433BA57FF64CD54"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			id: "030326271C910B1D"
+			tasks: [{
+				id: "5139F32FE2799776"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			id: "0F4F28894285D650"
+			tasks: [{
+				id: "73F75D57AB476870"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			id: "5A4CE81576CEEF92"
+			tasks: [{
+				id: "0DD71754C3897508"
+				item: { count: 1, id: "mekanism:crusher" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			id: "296D7C9DFFE40F83"
+			tasks: [{
+				id: "4A4A3BAB2C357E9E"
+				item: { count: 1, id: "mekanism:chemical_injection_chamber" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			id: "6FD7717517A13D4E"
+			tasks: [
+				{
+					id: "33878869E9CEC381"
+					item: { count: 1, id: "mekanism:thermal_evaporation_controller" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "79F9F53613AE418B"
+					item: { count: 2, id: "mekanism:thermal_evaporation_valve" }
+					type: "item"
+				}
+				{
+					count: 37L
+					id: "05825B377542E094"
+					item: { count: 37, id: "mekanism:thermal_evaporation_block" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			id: "05AA191F05B9167F"
+			optional: true
+			tasks: [{
+				id: "0A57A318A79C80DB"
+				item: { count: 1, id: "mekanism:resistive_heater" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -9.0d
+		}
+		{
+			id: "5C5AD10A8A2E85C9"
+			tasks: [{
+				id: "7F22C6F9AA85A75D"
+				item: { count: 1, id: "mekanism:chemical_infuser" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			id: "1B87C240CA74986C"
+			tasks: [{
+				id: "0AA31DF80A314038"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			id: "2BD02C0B584F503D"
+			tasks: [{
+				id: "4C49A1C19982AA87"
+				item: { count: 1, id: "mekanism:chemical_dissolution_chamber" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			id: "5835D7BA36DB0FBB"
+			tasks: [{
+				id: "5A5F83E3C893629F"
+				item: { count: 1, id: "mekanism:chemical_washer" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			id: "35564A5546C6C7EF"
+			tasks: [{
+				id: "2295032B187943C3"
+				item: { count: 1, id: "mekanism:chemical_crystallizer" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			id: "0EDE87423C639D2E"
+			tasks: [{
+				id: "4346B8BD79F5698E"
+				item: { count: 1, id: "mekanism:chemical_oxidizer" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			id: "66BD51D454954CB9"
+			tasks: [{
+				id: "4CD2CBCFFB78B3BE"
+				item: { count: 1, id: "mekanism:rotary_condensentrator" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -10.0d
 		}
 	]
 }

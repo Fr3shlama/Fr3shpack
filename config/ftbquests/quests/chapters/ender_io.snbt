@@ -2,26 +2,203 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ender_io"
-	group: "12D65577495DA5F9"
+	group: "4510113E7552E62D"
 	icon: {
 		id: "enderio:broken_spawner"
 	}
 	id: "380FC0BD4BCF7B77"
-	order_index: 4
+	order_index: 9
 	quest_links: [ ]
-	quests: [{
-		id: "28D4C54C9EB4368D"
-		rewards: [{
-			id: "0E976A698881F0F5"
-			type: "xp"
-			xp: 100
-		}]
-		tasks: [{
-			id: "6D4A513F967AD20F"
-			item: { count: 1, id: "enderio:copper_alloy_ingot" }
-			type: "item"
-		}]
-		x: -1.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "49B237684A74CE5A"
+			rewards: [
+				{
+					id: "40C2EA5BC26D0237"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16E8FC0CEBE425B5"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1FE6293266DC6E45"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49B237684A74CE5A"]
+			id: "67B5C1603356022E"
+			rewards: [
+				{
+					id: "4FD7B42770CEAA2E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "581EE97A060ACD9A"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "09997AE30B1F068C"
+				item: { count: 1, id: "enderio:grains_of_infinity" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67B5C1603356022E"]
+			id: "21635D72FE456012"
+			rewards: [
+				{
+					id: "5E24C6C7F449E3DD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "490DB76DB4A71664"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "14001FB49DC768BC"
+				item: { count: 1, id: "enderio:primitive_alloy_smelter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["425BB3F3902DA383"]
+			id: "6476A25D84DD2F03"
+			rewards: [
+				{
+					id: "6D18E9AF7354BE0F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E1FEE886822098E"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7A2D81E976114CEB"
+				item: { count: 1, id: "enderio:sag_mill" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["67B5C1603356022E"]
+			id: "5F5758C18D9357F5"
+			rewards: [
+				{
+					id: "4B972DCC2D6690C8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54F23DD2FB6BB5F4"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0CA5BC5843173264"
+				item: { count: 1, id: "enderio:crafter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["425BB3F3902DA383"]
+			id: "430A87F4B50B0744"
+			rewards: [
+				{
+					id: "1942053A1ABA5468"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FC8D36E1387248C"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "53DED9708E72A75E"
+				item: { count: 1, id: "enderio:alloy_smelter" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21635D72FE456012"]
+			id: "425BB3F3902DA383"
+			rewards: [
+				{
+					id: "2677434F70225734"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "177F6D93CB7DA66A"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6210E09908B85272"
+				item: { count: 1, id: "enderio:dark_steel_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["425BB3F3902DA383"]
+			id: "17F63A0144670E56"
+			rewards: [
+				{
+					id: "442302ED78D752D6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46792D8DD6E60BA7"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "706E0FA3F483D92D"
+				item: { count: 1, id: "enderio:dark_steel_sword" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+	]
 }

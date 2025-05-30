@@ -1,0 +1,55 @@
+{
+	id: "1CF0808D6049700B"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{
+			count: 16
+			id: "75A09919F9A93FB7"
+			item: {
+				count: 1
+				id: "minecraft:coal"
+			}
+		}
+		{
+			count: 32
+			id: "7D0CAFF6281E3F06"
+			item: {
+				count: 1
+				id: "minecraft:coal"
+			}
+		}
+		{
+			count: 64
+			id: "52C8A1538681F880"
+			item: {
+				count: 1
+				id: "minecraft:coal"
+			}
+		}
+		{
+			count: 8
+			id: "5F3A477E2FB98A8F"
+			item: {
+				count: 1
+				id: "minecraft:coal_block"
+			}
+		}
+		{
+			count: 16
+			id: "466632E63BC23FFC"
+			item: {
+				count: 1
+				id: "minecraft:coal_block"
+			}
+		}
+		{
+			count: 32
+			id: "34C1C1BDD501B0F8"
+			item: {
+				count: 1
+				id: "minecraft:coal_block"
+			}
+		}
+	]
+}
