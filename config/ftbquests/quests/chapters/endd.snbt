@@ -39,10 +39,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.5d
-			y: 2.0d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
+			dependencies: ["4C863ACCC279E621"]
 			id: "06F5C2302BA8A3EC"
 			rewards: [{
 				id: "762F5F8B81A42A56"
@@ -54,8 +55,8 @@
 				item: { count: 1, id: "minecraft:elytra" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.5d
+			x: -0.5d
+			y: 3.0d
 		}
 	]
 }

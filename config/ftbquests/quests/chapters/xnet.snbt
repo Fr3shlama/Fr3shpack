@@ -1,0 +1,489 @@
+{
+	autofocus_id: "18EDC4EF486ABE51"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "xnet"
+	group: "12D65577495DA5F9"
+	icon: {
+		id: "xnet:controller"
+	}
+	id: "60BD2DB834C24AEA"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["18EDC4EF486ABE51"]
+			id: "73AB13F4522D06F7"
+			rewards: [{
+				id: "2E8E51A460E86F4A"
+				type: "xp"
+				xp: 500
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "058C95EFD26A609F"
+				item: { count: 1, id: "xnet:controller" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			id: "18EDC4EF486ABE51"
+			rewards: [
+				{
+					id: "0E98209DA494D9B7"
+					item: {
+						count: 1
+						id: "rftoolsbase:machine_frame"
+					}
+					type: "item"
+				}
+				{
+					id: "72DFFC49993FAF7D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "0606152214CB5ADB"
+				item: { count: 1, id: "rftoolsbase:machine_frame" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "422A993404AB117A"
+			rewards: [
+				{
+					count: 16
+					id: "72F095BAFFAB1B34"
+					item: {
+						count: 1
+						id: "xnet:netcable_red"
+					}
+					type: "item"
+				}
+				{
+					id: "382B0DC34CD52FCD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "1DFCE436CA18C319"
+				item: { count: 1, id: "xnet:netcable_red" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "423D62D495A7C490"
+			rewards: [
+				{
+					count: 16
+					id: "1EB6BEBF29AF0921"
+					item: {
+						count: 1
+						id: "xnet:netcable_green"
+					}
+					type: "item"
+				}
+				{
+					id: "3F4F0C23F7D22188"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "68DD0E948506C104"
+				item: { count: 1, id: "xnet:netcable_green" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "48B687C81FE58925"
+			rewards: [
+				{
+					count: 16
+					id: "116671143A51CE31"
+					item: {
+						count: 1
+						id: "xnet:netcable_blue"
+					}
+					type: "item"
+				}
+				{
+					id: "781891C57A3799AD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "660BEE6B8291ADAD"
+				item: { count: 1, id: "xnet:netcable_blue" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			id: "59EF8B654D5C6C9A"
+			rewards: [
+				{
+					count: 16
+					id: "542614D0B572D56C"
+					item: {
+						count: 1
+						id: "xnet:netcable_yellow"
+					}
+					type: "item"
+				}
+				{
+					id: "2C9AF4AE0ACDDC1C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "37E06B64DEBC8C0A"
+				item: { count: 1, id: "xnet:netcable_yellow" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "2117D87D222A9661"
+			rewards: [
+				{
+					count: 4
+					id: "5081B5DC1E057FAE"
+					item: {
+						count: 1
+						id: "xnet:connector_green"
+					}
+					type: "item"
+				}
+				{
+					id: "0413B30A239290D9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "21874308ED73DA55"
+				item: { count: 1, id: "xnet:connector_green" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			id: "1DA3F5239FDF60C8"
+			rewards: [
+				{
+					count: 4
+					id: "2E1657E72ACB97DB"
+					item: {
+						count: 1
+						id: "xnet:connector_red"
+					}
+					type: "item"
+				}
+				{
+					id: "330077E04E877388"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "484E0F5194552736"
+				item: { count: 1, id: "xnet:connector_red" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "62A51F08FCC95A87"
+			rewards: [
+				{
+					count: 4
+					id: "2DEDB5B336E9AFE2"
+					item: {
+						count: 1
+						id: "xnet:connector_yellow"
+					}
+					type: "item"
+				}
+				{
+					id: "083D548E748F521B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "6468125EA04AE13C"
+				item: { count: 1, id: "xnet:connector_yellow" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			id: "194D31832D6C730A"
+			rewards: [
+				{
+					count: 4
+					id: "61DCD6D631F8B7EB"
+					item: {
+						count: 1
+						id: "xnet:connector_blue"
+					}
+					type: "item"
+				}
+				{
+					id: "5C315EE7BD1F7A2F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "51AB081C20A80A84"
+				item: { count: 1, id: "xnet:connector_blue" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1DA3F5239FDF60C8"]
+			id: "3162B72C08CF258E"
+			rewards: [
+				{
+					id: "4674CD8F1F91FDB7"
+					item: {
+						count: 1
+						id: "xnet:advanced_connector_red"
+					}
+					type: "item"
+				}
+				{
+					id: "28A9ED20A2CB209A"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "20C10CBCC756DAFB"
+				item: { count: 1, id: "xnet:advanced_connector_red" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2117D87D222A9661"]
+			id: "28B11B15B5C6EB93"
+			rewards: [
+				{
+					id: "291B7505ED4FF5DC"
+					item: {
+						count: 1
+						id: "xnet:advanced_connector_green"
+					}
+					type: "item"
+				}
+				{
+					id: "3E84FC6E0CB05537"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "2A08C7D5AA1DFA2C"
+				item: { count: 1, id: "xnet:connector_green" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["194D31832D6C730A"]
+			id: "60C1BB019ECCCAA0"
+			rewards: [
+				{
+					id: "36FA740EE1BF20E5"
+					item: {
+						count: 1
+						id: "xnet:advanced_connector_blue"
+					}
+					type: "item"
+				}
+				{
+					id: "09D45EA4EB81278C"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "719F20F80D5FE4C0"
+				item: { count: 1, id: "xnet:advanced_connector_blue" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["62A51F08FCC95A87"]
+			id: "72B45745E2E93C9E"
+			rewards: [
+				{
+					id: "22B1BE770CDFA8AE"
+					item: {
+						count: 1
+						id: "xnet:advanced_connector_yellow"
+					}
+					type: "item"
+				}
+				{
+					id: "5ED70343A663D258"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "65A71602D30C42D1"
+				item: { count: 1, id: "xnet:advanced_connector_yellow" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["18EDC4EF486ABE51"]
+			id: "69ECB11375B4C01F"
+			rewards: [{
+				id: "381026F3CB8E57D2"
+				type: "xp"
+				xp: 500
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "09925CC507F55298"
+				item: { count: 1, id: "xnet:router" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["18EDC4EF486ABE51"]
+			id: "1530C3E2BBFF1294"
+			rewards: [
+				{
+					id: "05D8D7B04B1F2E71"
+					item: {
+						count: 1
+						id: "xnet:wireless_router"
+					}
+					type: "item"
+				}
+				{
+					id: "344A83287C4F44E7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "1330CB64FEAE51F9"
+				item: { count: 1, id: "xnet:wireless_router" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1530C3E2BBFF1294"]
+			id: "7E2F811D4F15ED8B"
+			rewards: [{
+				id: "0EA7D534632BD21C"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "5DCA47B639BCD978"
+				item: { count: 1, id: "xnet:antenna_base" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1530C3E2BBFF1294"]
+			id: "09F383A0BBEDA6C2"
+			rewards: [{
+				id: "3DC4C8F723432D8D"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "0FE104E9BCFEBA27"
+				item: { count: 1, id: "xnet:antenna" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1530C3E2BBFF1294"]
+			id: "14B2C3E964A85C7D"
+			rewards: [{
+				id: "5EDC9610355E85DA"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "4F4A9CA896CD261A"
+				item: { count: 1, id: "xnet:antenna_dish" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			id: "7A76DA82DD4BAC84"
+			rewards: [
+				{
+					count: 16
+					id: "31043F9A16C03922"
+					item: {
+						count: 1
+						id: "xnet:netcable_routing"
+					}
+					type: "item"
+				}
+				{
+					id: "6F19DFF59668A86E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "36FC2A27702AC1A9"
+				item: { count: 1, id: "xnet:netcable_routing" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.25d
+		}
+	]
+}

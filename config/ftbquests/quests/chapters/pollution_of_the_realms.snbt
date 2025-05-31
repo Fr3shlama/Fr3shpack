@@ -1,4 +1,5 @@
 {
+	autofocus_id: "0C7545C622A4F734"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "pollution_of_the_realms"
@@ -9,19 +10,127 @@
 	id: "5B4880E314975124"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		id: "661CC92675862ACD"
-		rewards: [{
-			id: "3B5484BDDE08FEA8"
-			type: "xp"
-			xp: 100
-		}]
-		tasks: [{
-			id: "3F4AB7EDB4563FEE"
-			item: { count: 1, id: "adpother:iron_filter_frame" }
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "661CC92675862ACD"
+			rewards: [{
+				id: "3B5484BDDE08FEA8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3F4AB7EDB4563FEE"
+				item: { count: 1, id: "adpother:iron_filter_frame" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			id: "0C7545C622A4F734"
+			rewards: [
+				{
+					id: "7793730FE51404E4"
+					item: {
+						count: 1
+						id: "adpother:iron_respirator"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "28D258652420E0F2"
+					item: {
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "14AAC3893EA9F83D"
+					item: {
+						count: 1
+						id: "minecraft:oak_leaves"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "667A59944E3FC560"
+					item: {
+						count: 1
+						id: "minecraft:white_wool"
+					}
+					type: "item"
+				}
+				{
+					id: "075BE56B0D1E561B"
+					item: {
+						count: 1
+						id: "minecraft:chipped_anvil"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6DAC4AF2D7B41708"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6DAC4AF2D7B41708"]
+			id: "518B088A6D64598D"
+			tasks: [{
+				id: "416BDB470B26602E"
+				item: { count: 1, id: "adpother:iron_respirator" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "32FD8110503C983B"
+			rewards: [
+				{
+					id: "29E54F83FD9713E9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "614EAD56AB9367FC"
+					item: {
+						count: 1
+						id: "minecraft:bamboo"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "1C16A53B1C13ACA9"
+					item: {
+						count: 1
+						id: "minecraft:string"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "550DF84CA0ACD4E9"
+					item: { count: 1, id: "adpother:iron_vacuum_bag" }
+					type: "item"
+				}
+				{
+					id: "2012A6683B3FEFD1"
+					item: { count: 1, id: "adpother:iron_vacuum_tube" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 1.5d
+		}
+	]
 }
