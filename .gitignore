@@ -125,3 +125,9 @@ defaultconfigs/electrodynamics_ore_config.txt
 !config/ftbultimine-server.snbt
 !config/relics.yaml
 !config/fluxnetworks-server.toml
+!config/relics
+!config/megacells-common.toml
+!config/securitycraft-client.toml
+!config/crash_assistant/config.toml
+!config/crash_assistant/modlist.json
+!config/lmft.json

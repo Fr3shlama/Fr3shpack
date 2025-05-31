@@ -21,7 +21,7 @@
 		#The percentage of received power lost every 16 blocks of distance in copper wire. This means exponential loss!
 		# Default: 0.0125
 		# Range: 0.0 ~ 1.0
-		distanceLoss = 0.0125
+		distanceLoss = 0.125
 		#In- and output rates of copper wire connectors. This is independent of the transfer rate of the wires.
 		# Default: 256
 		# Range: > 0
@@ -39,7 +39,7 @@
 		#The percentage of received power lost every 16 blocks of distance in electrum wire. This means exponential loss!
 		# Default: 0.003
 		# Range: 0.0 ~ 1.0
-		distanceLoss = 0.003
+		distanceLoss = 0.03
 		#In- and output rates of electrum wire connectors. This is independent of the transfer rate of the wires.
 		# Default: 1024
 		# Range: > 0
