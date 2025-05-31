@@ -118,3 +118,10 @@ defaultconfigs/*
 !config/oritech-config.json5
 !config/modern_industrialization-client.toml
 defaultconfigs/electrodynamics_ore_config.txt
+!config/structurify.json
+!config/ironfurnaces-common.toml
+!config/utilitarian-common.toml
+!config/quarryplus.toml
+!config/ftbultimine-server.snbt
+!config/relics.yaml
+!config/fluxnetworks-server.toml
