@@ -116,4 +116,5 @@ defaultconfigs/*
 !config/immersiveengineering-server.toml
 !config/immersiveengineering-startup.toml
 !config/oritech-config.json5
-!defaultconfigs/electrodynamics_ore_config.txt
+!config/modern_industrialization-client.toml
+defaultconfigs/electrodynamics_ore_config.txt
