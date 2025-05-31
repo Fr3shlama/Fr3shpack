@@ -102,3 +102,18 @@ run.bat
 run.sh
 unix_args.txt
 user_jvm_args.txt
+.cache
+.local
+
+# Disabled configs - change when modyfing the config
+
+config/*
+defaultconfigs/*
+
+!config/almostunified/
+!config/underground_village/
+!config/ftbquests
+!config/immersiveengineering-server.toml
+!config/immersiveengineering-startup.toml
+!config/oritech-config.json5
+!defaultconfigs/electrodynamics_ore_config.txt
