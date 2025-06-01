@@ -7,7 +7,7 @@
 		id: "pylons:harvester_pylon"
 	}
 	id: "1A36540B71B84A6A"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{

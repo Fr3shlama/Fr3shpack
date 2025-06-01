@@ -7,24 +7,6 @@
 		id: "artifacts:mimic_spawn_egg"
 	}
 	id: "22B57CC519DA4BB1"
-	images: [
-		{
-			height: 5.0d
-			image: "minecraft:item/armor_stand"
-			rotation: 0.0d
-			width: 5.0d
-			x: 9.5d
-			y: -1.0d
-		}
-		{
-			height: 3.0d
-			image: "relics:item/infinity_ham_6"
-			rotation: 0.0d
-			width: 3.0d
-			x: 0.5d
-			y: 8.5d
-		}
-	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

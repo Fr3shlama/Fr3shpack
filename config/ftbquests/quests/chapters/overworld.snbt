@@ -7,6 +7,24 @@
 		id: "minecraft:grass_block"
 	}
 	id: "5D102CC1E61F2E31"
+	images: [
+		{
+			height: 5.0d
+			image: "biomeswevegone:item/bwg_logo"
+			rotation: 0.0d
+			width: 5.0d
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "undergarden:textures/mob_effect/gooey.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 2.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

@@ -4,10 +4,10 @@
 	filename: "gadgets"
 	group: "2D819CDD7E4DB235"
 	icon: {
-		id: "buildinggadgets2:gadget_building"
+		id: "cataclysm:mechanical_fusion_anvil"
 	}
 	id: "5A8A82518F04109F"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [{
 		id: "5A6DE83FD8947317"
@@ -17,9 +17,8 @@
 			xp: 100
 		}]
 		tasks: [{
-			id: "0CC6487D7C0535A0"
-			item: { count: 1, id: "buildinggadgets2:gadget_building" }
-			type: "item"
+			id: "4D54BFBC095F2235"
+			type: "checkmark"
 		}]
 		x: -3.5d
 		y: -1.5d

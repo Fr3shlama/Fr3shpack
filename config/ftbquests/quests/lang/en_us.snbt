@@ -1,6 +1,7 @@
 {
 	chapter.031BF92EC074CA6C.title: "Farmworld"
 	chapter.059AF20FCDAA2760.title: "Oritech"
+	chapter.0EF8B51B0DF817E7.title: "The Undergarden"
 	chapter.1288D96EAEE0F0CB.title: "Transportation"
 	chapter.1A36540B71B84A6A.title: "Pylons"
 	chapter.1B7DCAA5D433A9CE.title: "RFTools"
@@ -20,6 +21,7 @@
 	chapter.380FC0BD4BCF7B77.title: "Ender IO"
 	chapter.3861755B3E3533EF.title: "Modern Industrialization"
 	chapter.3C5F71656683B00A.title: "Create"
+	chapter.3F2A9084EE6ACD9A.title: "EvilCraft"
 	chapter.415BA265E2C00859.title: "Getting Started"
 	chapter.422ECD10AD37A198.title: "Gettings started"
 	chapter.4854B70DD3026C40.title: "Mystical Agriculture"
@@ -27,6 +29,7 @@
 	chapter.53570F153440FDF5.title: "Food"
 	chapter.5470B8D104A1C0B2.title: "Immersive Engineering"
 	chapter.58A68A93859B48F3.title: "Personal Storage"
+	chapter.5A8A82518F04109F.title: "Cataclysm"
 	chapter.5AAEA16BEFA2AEFF.title: "The Bumblezone"
 	chapter.5B00676D79306EA2.title: "Thank you for the download!"
 	chapter.5B4880E314975124.title: "Pollution of the Realms"
@@ -8792,6 +8795,7 @@
 		"- Tree Feller"
 		"- Leaf Breaker"
 	]
+	quest.5057B63A2E5AF4BE.quest_desc: ["The Undergarden is a dark, subterranean world located deep below the bedrock of the Overworld. The flora here has adapted to their conditions and can grow anywhere, independent of light. Strange creatures call these dark lands home, and are plagued by the invasive Rotspawn, monsters originating from a chaotic, mysterious realm."]
 	quest.506360EEA2268E82.quest_desc: ["Does anyone remember those old CRT televisions anymore? Those things used vacuum tubes"]
 	quest.5064D5F99E2C69C8.quest_desc: ["Upgraded version of &9Imperium&r."]
 	quest.5064D5F99E2C69C8.quest_subtitle: "29"
@@ -9164,6 +9168,7 @@
 	quest.53829B3E51936ACD.title: "Strong Sword"
 	quest.538821E23E39BE97.quest_desc: ["&2Augment&r: Fuel Efficiency is for all you Earth-Loving, Tree-Hugging, Captain Planet Embracing, Hippies. The Furnace consumes half of the amount of Fuel at the cost of half the time. Coal will not Smelt 8 items but rather 16!"]
 	quest.538821E23E39BE97.title: "&2Augment&r: Fuel Efficiency"
+	quest.538CA53689955A6B.quest_desc: ["EvilCraft is a mod that is based on somewhat evil things. Throughout the game you will discover an ancient source of evil. These powers can be used in various technological advancements to initiate a second age of evilness. "]
 	quest.538E7F7557483708.quest_desc: ["Slowly restores hunger when the player walks on grass blocks while worn"]
 	quest.5391385A75535EC8.quest_desc: ["&e&lIron's Spells&r &2Nature Armor&r!"]
 	quest.5391385A75535EC8.quest_subtitle: "20"
@@ -14511,6 +14516,7 @@
 	task.4025792887CB9BE2.title: "Wire Coils"
 	task.4063C1B5F935A026.title: "Induction Cells"
 	task.408C5263C4664195.title: "Chests"
+	task.40A127FF66432537.title: "The Undergarden"
 	task.40A7CC56DACC2623.title: "ME Glass Cables"
 	task.40B245AFD0DAB3A0.title: "Railcraft Glass"
 	task.40B39896B6CD41C6.title: "Armor"
@@ -14583,6 +14589,7 @@
 	task.4CAF79C3D1E35958.title: "Powering the Forge"
 	task.4CC5C3088A4F5C7D.title: "Voltage Loss"
 	task.4CCB830CFDD43B5E.title: "AllRightsReserved"
+	task.4D54BFBC095F2235.title: "Cataclysm"
 	task.4DA6445DB5F3B85E.title: "Lumium Comb"
 	task.4DFDEAD81868CEF4.title: "Chocolate Mining Bee"
 	task.4E04F8F091D18EA4.title: "Observe Fissile Fuel in a Machine"
@@ -14758,6 +14765,7 @@
 	task.6DE94C2C7F4B9AC7.title: "Observe completed Distillation Tower"
 	task.6E0961A56194F0A8.title: "Digger Bee"
 	task.6E44925E265DC7E2.title: "Job Sites"
+	task.6E5AC23FA0349470.title: "EvilCraft"
 	task.6E75525A5D88EF23.title: "Heaters"
 	task.6F07606E3F7BE160.title: "Jump Start"
 	task.6F475689ED4EDF59.title: "Macaw's mods items"

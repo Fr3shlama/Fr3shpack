@@ -4,24 +4,23 @@
 	filename: "energy_transportation"
 	group: "12D65577495DA5F9"
 	icon: {
-		id: "mekanism:basic_universal_cable"
+		id: "evilcraft:blood_stain"
 	}
 	id: "3F2A9084EE6ACD9A"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [{
-		id: "404EADC23E1E80F2"
+		id: "538CA53689955A6B"
 		rewards: [{
-			id: "695FDE1D2E07EFBA"
+			id: "41063AF8D8289476"
 			type: "xp"
 			xp: 100
 		}]
 		tasks: [{
-			id: "6B39B8A9162BB061"
-			item: { count: 1, id: "mekanism:basic_universal_cable" }
-			type: "item"
+			id: "6E5AC23FA0349470"
+			type: "checkmark"
 		}]
-		x: -5.0d
-		y: 0.0d
+		x: -2.0d
+		y: 0.5d
 	}]
 }

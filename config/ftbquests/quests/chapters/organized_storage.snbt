@@ -55,5 +55,15 @@
 			x: -1.5d
 			y: -0.5d
 		}
+		{
+			id: "34C0EE5B69E18C08"
+			tasks: [{
+				id: "7B3A7A8253684176"
+				item: { count: 1, id: "functionalstorage:oak_1" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
 	]
 }
