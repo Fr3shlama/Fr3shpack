@@ -19,7 +19,11 @@ recipes.removeByName("avaritia:infinity_catalyst_from_infinity_singularity");
         { "item": "mekanism:pellet_antimatter" },
         { "item": "modern_industrialization:quantum_upgrade" },
         { "item": "mekanism_extras:infinite_control_circuit" },
-        { "item": "megacells:cell_component_256m" }
+        { "item": "megacells:cell_component_256m" },
+        { "item": "mysticalagradditions:insanium_essence" },
+        { "item": "justdirethings:time_crystal" },
+        { "item": "oritech:machine_core_7" },
+        { "item": "create:precision_mechanism" }
     ],
     result: {
         "id": "avaritia:infinity_catalyst",
