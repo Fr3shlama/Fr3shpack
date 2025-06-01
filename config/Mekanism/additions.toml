@@ -12,7 +12,7 @@
 #Settings for configuring the Voice Server
 [voice_server]
 	#Enables the voice server for Walkie Talkies.
-	enabled = false
+	enabled = true
 	#TCP port for the Voice server to listen on.
 	# Default: 36123
 	# Range: 1 ~ 65535
