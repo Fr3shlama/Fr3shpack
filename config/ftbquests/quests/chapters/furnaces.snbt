@@ -10,6 +10,14 @@
 		id: "ironfurnaces:million_furnace"
 	}
 	id: "73F6839442A5C78F"
+	images: [{
+		height: 5.0d
+		image: "ironfurnaces:block/million_furnace_front_on"
+		rotation: 0.0d
+		width: 5.0d
+		x: 3.5d
+		y: 7.0d
+	}]
 	order_index: 3
 	quest_links: [ ]
 	quests: [

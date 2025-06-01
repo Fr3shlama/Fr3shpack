@@ -7,6 +7,14 @@
 		id: "oritech:assembler_block"
 	}
 	id: "059AF20FCDAA2760"
+	images: [{
+		height: 5.0d
+		image: "oritech:item/super_ai_chip"
+		rotation: 0.0d
+		width: 5.0d
+		x: 5.5d
+		y: -2.5d
+	}]
 	order_index: 7
 	quest_links: [ ]
 	quests: [

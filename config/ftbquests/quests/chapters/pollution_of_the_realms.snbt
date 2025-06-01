@@ -13,11 +13,48 @@
 	quests: [
 		{
 			id: "661CC92675862ACD"
-			rewards: [{
-				id: "3B5484BDDE08FEA8"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "3856083D15569ADC"
+					item: {
+						count: 1
+						id: "minecraft:oak_leaves"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "61ACE35B1D65B6F8"
+					item: {
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2D83A3B93E405474"
+					item: {
+						count: 1
+						id: "minecraft:white_wool"
+					}
+					type: "item"
+				}
+				{
+					id: "25B6D4CEF8748A6D"
+					item: {
+						count: 1
+						id: "adpother:iron_filter_frame"
+					}
+					type: "item"
+				}
+				{
+					id: "7B7A1873ECC3D33F"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "3F4AB7EDB4563FEE"
 				item: { count: 1, id: "adpother:iron_filter_frame" }
@@ -131,6 +168,112 @@
 			]
 			x: -7.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["661CC92675862ACD"]
+			id: "2386E0BB94AAF68D"
+			rewards: [
+				{
+					count: 32
+					id: "229367B09392F803"
+					item: {
+						count: 1
+						id: "minecraft:oak_leaves"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "3E1BF78047E929EE"
+					item: {
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "586D8021A7F27ACC"
+					item: {
+						count: 1
+						id: "minecraft:white_wool"
+					}
+					type: "item"
+				}
+				{
+					id: "6DB715CED653A770"
+					item: {
+						count: 1
+						id: "adpother:gold_filter_frame"
+					}
+					type: "item"
+				}
+				{
+					id: "2B14E153745E4099"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "1CF59899426AD6BB"
+				item: { count: 1, id: "adpother:gold_filter_frame" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2386E0BB94AAF68D"]
+			id: "75580B7DFAFC1781"
+			rewards: [
+				{
+					count: 64
+					id: "431A2D8DF039C5D2"
+					item: {
+						count: 1
+						id: "minecraft:oak_leaves"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0F76E0998682381B"
+					item: {
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5A031DB78948B878"
+					item: {
+						count: 1
+						id: "minecraft:white_wool"
+					}
+					type: "item"
+				}
+				{
+					id: "21D1A05A448F7613"
+					item: {
+						count: 1
+						id: "adpother:diamond_filter_frame"
+					}
+					type: "item"
+				}
+				{
+					id: "59D40A7333F1EE9D"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				id: "14C7CFDE4A119DC2"
+				item: { count: 1, id: "adpother:diamond_filter_frame" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
 		}
 	]
 }

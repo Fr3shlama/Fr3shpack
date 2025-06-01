@@ -7,6 +7,14 @@
 		id: "justdirethings:raw_ferricore_ore"
 	}
 	id: "29E95C4E50CE2648"
+	images: [{
+		height: 1.0d
+		image: "justdirethings:block/time_crystal_cluster"
+		rotation: 0.0d
+		width: 1.0d
+		x: 7.0d
+		y: -1.0d
+	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [

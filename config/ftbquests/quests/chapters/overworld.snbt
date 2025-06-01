@@ -45,8 +45,8 @@
 				}
 			]
 			tasks: [{
-				id: "3A7AD54B81DA17FD"
-				item: { count: 1, id: "minecraft:oak_log" }
+				id: "3915F5C2D64E6B59"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(minecraft:logs))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -339,6 +339,660 @@
 			}]
 			x: 6.0d
 			y: -3.0d
+		}
+		{
+			id: "2731C97414D314DF"
+			rewards: [{
+				id: "00AE8DB14540AC34"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "47B2C41A563E32ED"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "366866979AFCD476"
+			rewards: [{
+				id: "66644798265A8A19"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "67C9B0CF0FA59123"
+				structure: "dungeons_arise:abandoned_temple"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "28EF86DAA10A74D7"
+			rewards: [{
+				id: "18E4339A0B3D0D3A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2103BBB805499F37"
+				structure: "dungeons_arise:aviary"
+				type: "structure"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "6E994C9C4842C7C4"
+			rewards: [{
+				id: "526A9473826F8005"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4A520B2D2D234428"
+				structure: "dungeons_arise:bandit_towers"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "2E046BE8E005200B"
+			rewards: [{
+				id: "4F3F6EFEF3425CB0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "77F5F5F5C78C27F1"
+				structure: "dungeons_arise:bandit_village"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "38DA8558DC871208"
+			rewards: [{
+				id: "22715C92DDAF6113"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "708292497A9A832A"
+				structure: "dungeons_arise:bathhouse"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "42804C0057708E2B"
+			rewards: [{
+				id: "74E9AD208D1B7FAD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5F64FCCA5A5ADCC6"
+				structure: "dungeons_arise:ceryneian_hind"
+				type: "structure"
+			}]
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "41836BE5690A4A5D"
+			rewards: [{
+				id: "3262B9F836B3682E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "017FAC4D40D2F4B7"
+				structure: "dungeons_arise:coliseum"
+				type: "structure"
+			}]
+			x: 9.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "57E7BFAF4EFA3E1E"
+			rewards: [{
+				id: "525891B34D8634FE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2B3EB450594A7D07"
+				structure: "dungeons_arise:fishing_hut"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "3CC7CD94AB3FD547"
+			rewards: [{
+				id: "63C6A331A5A5B449"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "39D483FF0342FF89"
+				structure: "dungeons_arise:foundry"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "2C35C5D8AA18B890"
+			rewards: [{
+				id: "50992417FEC313A2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "43E266589D248819"
+				structure: "dungeons_arise:giant_mushroom"
+				type: "structure"
+			}]
+			x: 9.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "0B82E8BB65BA7ACF"
+			rewards: [{
+				id: "7DFEA1B3F1D63603"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5931E598E742506A"
+				structure: "dungeons_arise:greenwood_pub"
+				type: "structure"
+			}]
+			x: 5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "585ABA386391846F"
+			rewards: [{
+				id: "44CC869A4D406469"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4C4F17558C1D9B7B"
+				structure: "dungeons_arise:heavenly_challenger"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "3E8B2CBB1130F821"
+			rewards: [{
+				id: "769CD12E420A17AE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "42ED88117F994106"
+				structure: "dungeons_arise:heavenly_conqueror"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "2A339BD483192B6F"
+			rewards: [{
+				id: "3CDB6B430C60E729"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "507E6EAB3FBA36D5"
+				structure: "dungeons_arise:heavenly_rider"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "66A3CE1DE0C24BDD"
+			rewards: [{
+				id: "0672D0D23B40BF12"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0363AB16AA23BB64"
+				structure: "dungeons_arise:illager_campsite"
+				type: "structure"
+			}]
+			x: 7.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "02B3A391503F4E87"
+			rewards: [{
+				id: "3E956F60294C2771"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "24C77C50CD5906C5"
+				structure: "dungeons_arise:illager_corsair"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "4727C159FF679A52"
+			rewards: [{
+				id: "30BD7196D5892087"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3465218D91EEA5C3"
+				structure: "dungeons_arise:illager_fort"
+				type: "structure"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "71C5D56005E7358E"
+			rewards: [{
+				id: "6E82031BD09793FF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0A62254C522C1CB6"
+				structure: "dungeons_arise:illager_galley"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "3DD713229B08DEE1"
+			rewards: [{
+				id: "604D4827E9DD3FDA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "670703F55C811BFA"
+				structure: "dungeons_arise:illager_windmill"
+				type: "structure"
+			}]
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "324EE108A759EC2F"
+			rewards: [{
+				id: "5AE522151A1B967E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "13E509350E4C5849"
+				structure: "dungeons_arise:infested_temple"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "455AAF8AA1A6FEB9"
+			rewards: [{
+				id: "6B68F5FB2D15F213"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5484F4A538F217CF"
+				structure: "dungeons_arise:jungle_tree_house"
+				type: "structure"
+			}]
+			x: 9.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "793E5426E6D2B582"
+			rewards: [{
+				id: "49B68CEB4C3D28BF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5A9B6956822F41F7"
+				structure: "dungeons_arise:keep_kayra"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "761325EEA7962C4B"
+			rewards: [{
+				id: "4034A6149654143B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3F1832FAE297D2EF"
+				structure: "dungeons_arise:kisegi_sanctuary"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "1950C52AC47F3171"
+			rewards: [{
+				id: "0E4958070731136F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2EA71BD7E45BE1B7"
+				structure: "dungeons_arise:lighthouse"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "31C5CF7C8DD6C97B"
+			rewards: [{
+				id: "1613AAA46488A8C9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0B6D746269A2DBF1"
+				structure: "dungeons_arise:mechanical_nest"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "72954F975B9DD8C7"
+			rewards: [{
+				id: "2F795183FFDC5A69"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7531FA01020EC21D"
+				structure: "dungeons_arise:merchant_campsite"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "4DC37FE6385A1013"
+			rewards: [{
+				id: "04ADF176002C582E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6A88AA54E74604FE"
+				structure: "dungeons_arise:mining_system"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "037B5FC39A7E0694"
+			rewards: [{
+				id: "518135F76A555C62"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2D24314E6AD7C301"
+				structure: "dungeons_arise:monastery"
+				type: "structure"
+			}]
+			x: 7.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "0192FE6DFF858942"
+			rewards: [{
+				id: "068F73EB3C44E68E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1BCF4442EF8B18A1"
+				structure: "dungeons_arise:mushroom_house"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "61B4795D10F87CAA"
+			rewards: [{
+				id: "4418C015A114D75E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7779536AC4352FEA"
+				structure: "dungeons_arise:mushroom_mines"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "032E9ADD992759F5"
+			rewards: [{
+				id: "3D1F96781DA82F40"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "129D65214EE74960"
+				structure: "dungeons_arise:mushroom_village"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "45E7B21DF13C07DE"
+			rewards: [{
+				id: "524ECC51F5D9C6BF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "786FCA11F57405A8"
+				structure: "dungeons_arise:plague_asylum"
+				type: "structure"
+			}]
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "0D16FB11C0672595"
+			rewards: [{
+				id: "4949EEEA0A12D520"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "23E827A4AA5EBD9E"
+				structure: "dungeons_arise:scorched_mines"
+				type: "structure"
+			}]
+			x: 5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "487ADCD9F4E82A2A"
+			rewards: [{
+				id: "014884DF056648E7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1D29C0E331DDC76D"
+				structure: "dungeons_arise:shiraz_palace"
+				type: "structure"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "33B7CA771CF0E791"
+			rewards: [{
+				id: "4ED9D0AE74E90E63"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3317ADA0A56B3569"
+				structure: "dungeons_arise:small_blimp"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "0A09762DB4B1391C"
+			rewards: [{
+				id: "381536D22934376E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2176D54A8574742D"
+				structure: "dungeons_arise:small_prairie_house"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "2A5CA771C5419026"
+			rewards: [{
+				id: "094D78E9DF726A9B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "72296EA211392867"
+				structure: "dungeons_arise:thornborn_towers"
+				type: "structure"
+			}]
+			x: 9.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "2BB39C1FFD846ACF"
+			rewards: [{
+				id: "08D91849A77A881A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "18050865E46C5201"
+				structure: "dungeons_arise:typhon"
+				type: "structure"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "0333876D1DE3EF63"
+			rewards: [{
+				id: "36D60C431543C7DE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "20A316B15E51D0BE"
+				structure: "dungeons_arise:undead_pirate_ship"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2731C97414D314DF"]
+			id: "7383C4E04FDE081D"
+			rewards: [{
+				id: "54B1B6224FD04230"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7829CA3997951B30"
+				structure: "dungeons_arise:wishing_well"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: 5.5d
 		}
 	]
 }

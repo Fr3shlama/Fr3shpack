@@ -75,8 +75,8 @@
 				item: { count: 1, id: "minecraft:stick" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -4.0d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["76F8F46051A1AB7E"]
@@ -91,8 +91,8 @@
 				item: { count: 1, id: "crafting_on_a_stick:loom" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -6.0d
+			x: 0.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["76F8F46051A1AB7E"]
@@ -107,8 +107,8 @@
 				item: { count: 1, id: "crafting_on_a_stick:grindstone" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -4.0d
+			x: 2.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["76F8F46051A1AB7E"]
@@ -123,8 +123,8 @@
 				item: { count: 1, id: "crafting_on_a_stick:cartography_table" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -2.0d
+			x: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["76F8F46051A1AB7E"]
@@ -139,8 +139,8 @@
 				item: { count: 1, id: "crafting_on_a_stick:stonecutter" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -5.5d
+			x: -1.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["76F8F46051A1AB7E"]
@@ -155,8 +155,8 @@
 				item: { count: 1, id: "crafting_on_a_stick:smithing_table" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.5d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["76F8F46051A1AB7E"]
@@ -171,8 +171,8 @@
 				item: { count: 1, id: "crafting_on_a_stick:anvil" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -5.5d
+			x: 1.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["76F8F46051A1AB7E"]
@@ -187,8 +187,8 @@
 				item: { count: 1, id: "crafting_on_a_stick:crafting_table" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -4.0d
+			x: -2.0d
+			y: -4.5d
 		}
 		{
 			id: "53C5654EC62E30F3"
@@ -398,6 +398,126 @@
 				type: "item"
 			}]
 			x: -4.0d
+			y: 5.5d
+		}
+		{
+			id: "46BF50AE3FD69B23"
+			rewards: [{
+				id: "6586A8BAEDD06337"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4CC3234128800DCA"
+				item: { count: 1, id: "dummmmmmy:target_dummy" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			id: "0065A4B0091AEE99"
+			rewards: [{
+				id: "37BCB00F1A929E58"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2213076B21ED5CBA"
+				item: { count: 1, id: "packingtape:tape" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.5d
+		}
+		{
+			id: "4AE9ACFA7066F44D"
+			rewards: [{
+				id: "5882A2DC776F8B65"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7993C98E2DB2904E"
+				item: { count: 1, id: "toolbelt:belt" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.5d
+		}
+		{
+			id: "3CCBA0896691290B"
+			rewards: [{
+				id: "7AFA5CDF1A207818"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "30FA118A6BD9259A"
+				item: { count: 1, id: "rechiseled:chisel" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "359A37F3312E6DC2"
+			rewards: [{
+				id: "1F760937B4530FF3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0452635EC24F90FF"
+				item: { count: 1, id: "tempad:tempad" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "4F6FDCB79C6043FC"
+			rewards: [{
+				id: "40E1D8FA99937967"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0883247DC62E1C6B"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(alltheores:ore_hammers))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			id: "158B1C48395E94FF"
+			rewards: [{
+				id: "32B11A31FBFFEC1F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "314A8AAD6243476C"
+				item: { count: 1, id: "sereneseasons:calendar" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			id: "5C24A575D284272A"
+			rewards: [{
+				id: "7A9DE0E5A833FF68"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "17F436B1D665EF4F"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(cookingforblockheads:sinks))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
 			y: 5.5d
 		}
 	]

@@ -7,6 +7,24 @@
 		id: "mysticalagriculture:inferium_essence"
 	}
 	id: "4854B70DD3026C40"
+	images: [
+		{
+			height: 10.0d
+			image: "mysticalagriculture:block/mystical_mob_crop_5"
+			rotation: 0.0d
+			width: 10.0d
+			x: -1.0d
+			y: -12.0d
+		}
+		{
+			height: 1.0d
+			image: "mysticalagriculture:item/wand"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 0.5d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [

@@ -7,6 +7,14 @@
 		id: "ae2:certus_quartz_crystal"
 	}
 	id: "2A3B042EB67AC8CC"
+	images: [{
+		height: 10.0d
+		image: "ae2:block/mysterious_cube_bottom"
+		rotation: 0.0d
+		width: 10.0d
+		x: -4.0d
+		y: -1.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
