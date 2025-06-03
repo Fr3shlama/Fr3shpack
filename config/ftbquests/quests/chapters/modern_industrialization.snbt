@@ -9,41 +9,5 @@
 	id: "3861755B3E3533EF"
 	order_index: 6
 	quest_links: [ ]
-	quests: [
-		{
-			id: "5A7758A0024F0FF3"
-			rewards: [{
-				id: "381C50072415F6A5"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "7CB83E57A662CFE5"
-				item: { count: 1, id: "modern_industrialization:forge_hammer" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5A7758A0024F0FF3"]
-			id: "201365537E8627E6"
-			rewards: [{
-				id: "135FCB6FF9EA232F"
-				item: {
-					count: 1
-					id: "modern_industrialization:bronze_boiler"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "2CFB2529BE4D5102"
-				item: { count: 1, id: "modern_industrialization:bronze_boiler" }
-				only_from_crafting: true
-				type: "item"
-			}]
-			x: 0.5d
-			y: -1.0d
-		}
-	]
+	quests: [ ]
 }

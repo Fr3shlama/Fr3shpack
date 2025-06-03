@@ -9,14 +9,5 @@
 	id: "32633589F53727E8"
 	order_index: 8
 	quest_links: [ ]
-	quests: [{
-		id: "65FAF768846EA685"
-		tasks: [{
-			id: "1E5F306D447DB6C4"
-			item: { count: 1, id: "pneumaticcraft:air_compressor" }
-			type: "item"
-		}]
-		x: -2.5d
-		y: 0.0d
-	}]
+	quests: [ ]
 }

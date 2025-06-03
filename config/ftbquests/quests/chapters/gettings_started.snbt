@@ -520,5 +520,50 @@
 			x: -2.0d
 			y: 5.5d
 		}
+		{
+			id: "5DA10C371D5600D8"
+			rewards: [{
+				id: "275762CB6272F868"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "44ECF6B960F780E9"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(elevatorid))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "26C5EA46574BC774"
+			rewards: [{
+				id: "6679A7A4031A8DAA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "29249EBF1A92B73D"
+				item: { count: 1, id: "mekanismadditions:walkie_talkie" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "2DC5243E4C22253F"
+			rewards: [{
+				id: "405CF785DAFB79A3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "159EE7A7AE4A87FF"
+				item: { count: 1, id: "evilcraft:eternal_water" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
 	]
 }

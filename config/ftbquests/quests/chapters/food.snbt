@@ -9,19 +9,5 @@
 	id: "53570F153440FDF5"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		id: "4C27CDA15A4EA5F0"
-		rewards: [{
-			id: "2F4853D934ACDD42"
-			type: "xp"
-			xp: 100
-		}]
-		tasks: [{
-			id: "3CB9E96AAED54274"
-			item: { count: 1, id: "minecraft:bread" }
-			type: "item"
-		}]
-		x: -4.5d
-		y: -2.0d
-	}]
+	quests: [ ]
 }

@@ -4,17 +4,46 @@
 	filename: "just_dire_things"
 	group: "4510113E7552E62D"
 	icon: {
-		id: "justdirethings:raw_ferricore_ore"
+		id: "justdirethings:experienceholder"
 	}
 	id: "29E95C4E50CE2648"
-	images: [{
-		height: 1.0d
-		image: "justdirethings:block/time_crystal_cluster"
-		rotation: 0.0d
-		width: 1.0d
-		x: 7.0d
-		y: -1.0d
-	}]
+	images: [
+		{
+			height: 1.0d
+			image: "justdirethings:block/time_crystal_cluster"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			height: 20.0d
+			image: "justdirethings:block/blockbreakert2_top_active"
+			order: -1
+			rotation: 0.0d
+			width: 20.0d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			alpha: 127
+			height: 20.0d
+			image: "justdirethings:block/fluid_flowing"
+			rotation: 0.0d
+			width: 20.0d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			alpha: 100
+			height: 255.0d
+			image: "minecraft:textures/misc/shadow.png"
+			rotation: 0.0d
+			width: 255.0d
+			x: 2.0d
+			y: 0.0d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [

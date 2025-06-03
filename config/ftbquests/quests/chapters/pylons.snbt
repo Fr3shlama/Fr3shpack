@@ -7,7 +7,26 @@
 		id: "pylons:harvester_pylon"
 	}
 	id: "1A36540B71B84A6A"
-	order_index: 5
+	images: [
+		{
+			height: 15.0d
+			image: "createaddition:block/barbed_wire/block"
+			rotation: 0.0d
+			width: 15.0d
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			alpha: 100
+			height: 255.0d
+			image: "minecraft:textures/misc/shadow.png"
+			rotation: 0.0d
+			width: 255.0d
+			x: -2.0d
+			y: 1.5d
+		}
+	]
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{

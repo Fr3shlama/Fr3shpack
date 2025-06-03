@@ -10,14 +10,25 @@
 		id: "ironfurnaces:million_furnace"
 	}
 	id: "73F6839442A5C78F"
-	images: [{
-		height: 5.0d
-		image: "ironfurnaces:block/million_furnace_front_on"
-		rotation: 0.0d
-		width: 5.0d
-		x: 3.5d
-		y: 7.0d
-	}]
+	images: [
+		{
+			height: 20.0d
+			image: "ironfurnaces:block/million_furnace_front_on"
+			rotation: 0.0d
+			width: 20.0d
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			alpha: 100
+			height: 255.0d
+			image: "minecraft:textures/misc/shadow.png"
+			rotation: 0.0d
+			width: 255.0d
+			x: 2.5d
+			y: 5.0d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -41,8 +52,8 @@
 				item: { count: 1, id: "minecraft:furnace" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -0.5d
+			x: -4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -69,8 +80,8 @@
 				item: { count: 1, id: "ironfurnaces:iron_furnace" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 1.5d
+			x: -3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -97,8 +108,8 @@
 				item: { count: 1, id: "ironfurnaces:gold_furnace" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 3.5d
+			x: -1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5232D2E8099AEE35"]
@@ -121,8 +132,8 @@
 				item: { count: 1, id: "ironfurnaces:copper_furnace" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 0.5d
+			x: -3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -149,8 +160,8 @@
 				item: { count: 1, id: "ironfurnaces:silver_furnace" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 2.5d
+			x: -2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["30386B0DE9C415A2"]
@@ -173,8 +184,8 @@
 				item: { count: 1, id: "ironfurnaces:diamond_furnace" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 5.5d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0C911B954362DA46"]
@@ -197,8 +208,8 @@
 				item: { count: 1, id: "ironfurnaces:emerald_furnace" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 7.5d
+			x: 1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -225,8 +236,8 @@
 				item: { count: 1, id: "ironfurnaces:obsidian_furnace" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 9.5d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0C911B954362DA46"]
@@ -249,8 +260,8 @@
 				item: { count: 1, id: "ironfurnaces:crystal_furnace" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 7.5d
+			x: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6BE45AA4CCC1B606"]
@@ -273,8 +284,8 @@
 				item: { count: 1, id: "ironfurnaces:netherite_furnace" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 11.5d
+			x: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1CDF4C0C8AE83F6D"]
@@ -297,8 +308,8 @@
 				item: { count: 1, id: "ironfurnaces:rainbow_core" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 11.5d
+			x: 6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -330,8 +341,8 @@
 				item: { count: 1, id: "ironfurnaces:rainbow_plating" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 9.5d
+			x: 6.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -357,8 +368,8 @@
 				item: { count: 1, id: "ironfurnaces:million_furnace" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 10.5d
+			x: 7.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["5CA65494D8E1AE5F"]
@@ -381,8 +392,8 @@
 				item: { count: 1, id: "ironfurnaces:rainbow_coal" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 10.5d
+			x: 9.5d
+			y: 5.5d
 		}
 		{
 			id: "27C688FF55AEB346"
@@ -404,8 +415,8 @@
 				item: { count: 1, id: "ironfurnaces:augment_blasting" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -0.5d
+			x: -0.5d
+			y: 1.0d
 		}
 		{
 			id: "46C07F848ABB5601"
@@ -427,8 +438,8 @@
 				item: { count: 1, id: "ironfurnaces:augment_smoking" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -0.5d
+			x: 2.5d
+			y: 1.0d
 		}
 		{
 			id: "44BA328ACD95D9B7"
@@ -466,7 +477,7 @@
 				item: { count: 1, id: "ironfurnaces:augment_factory" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 6.0d
 			y: 2.5d
 		}
 		{
@@ -489,8 +500,8 @@
 				item: { count: 1, id: "ironfurnaces:augment_fuel" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 1.0d
+			x: -0.5d
+			y: 2.5d
 		}
 		{
 			id: "03772BC7EAF45445"
@@ -512,7 +523,7 @@
 				item: { count: 1, id: "ironfurnaces:augment_speed" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 6.0d
 			y: 1.0d
 		}
 	]

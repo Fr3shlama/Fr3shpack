@@ -105,6 +105,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "5CC427EEFFBDB72D"
+					item: {
+						count: 1
+						id: "minecraft:white_bed"
+					}
+					type: "item"
+				}
 			]
 			shape: "diamond"
 			size: 3.0d

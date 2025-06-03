@@ -1,13 +1,13 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "apotheosis"
+	filename: "cataclysm"
 	group: "2D819CDD7E4DB235"
 	icon: {
-		id: "apotheosis:salvaging_table"
+		id: "cataclysm:mechanical_fusion_anvil"
 	}
-	id: "29BCB2B264F3D226"
-	order_index: 1
+	id: "04DAAFBF2E6DA6D7"
+	order_index: 4
 	quest_links: [ ]
 	quests: [ ]
 }

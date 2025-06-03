@@ -7,14 +7,44 @@
 		id: "oritech:assembler_block"
 	}
 	id: "059AF20FCDAA2760"
-	images: [{
-		height: 5.0d
-		image: "oritech:item/super_ai_chip"
-		rotation: 0.0d
-		width: 5.0d
-		x: 5.5d
-		y: -2.5d
-	}]
+	images: [
+		{
+			height: 5.0d
+			image: "oritech:item/super_ai_chip"
+			rotation: 0.0d
+			width: 5.0d
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			height: 25.0d
+			image: "oritech:block/capacitor_ctm/center"
+			order: -2
+			rotation: 0.0d
+			width: 25.0d
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			alpha: 100
+			height: 25.0d
+			image: "oritech:block/fluid/fluid_gas_dark"
+			order: -1
+			rotation: 0.0d
+			width: 25.0d
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			alpha: 100
+			height: 255.0d
+			image: "minecraft:textures/misc/shadow.png"
+			rotation: 0.0d
+			width: 255.0d
+			x: -6.0d
+			y: 0.5d
+		}
+	]
 	order_index: 7
 	quest_links: [ ]
 	quests: [

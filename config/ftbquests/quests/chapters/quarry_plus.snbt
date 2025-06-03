@@ -9,19 +9,5 @@
 	id: "308FF197AA7A207E"
 	order_index: 3
 	quest_links: [ ]
-	quests: [{
-		id: "6B7B8B93EED76FD6"
-		rewards: [{
-			id: "552597A1AFF47700"
-			type: "xp"
-			xp: 100
-		}]
-		tasks: [{
-			id: "1E5B186710ABFA36"
-			item: { count: 1, id: "quarryplus:quarry" }
-			type: "item"
-		}]
-		x: -1.0d
-		y: -0.5d
-	}]
+	quests: [ ]
 }

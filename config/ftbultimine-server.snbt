@@ -14,7 +14,7 @@
 		# Amount of experience taken per block ultimined (fractional values allowed)
 		# Default: 0.0
 		# Range: 0.0 ~ 20000.0
-		experience_per_block: 1.0d
+		experience_per_block: 0d
 		
 		# Max amount of blocks that can be ultimined at once
 		# Default: 64

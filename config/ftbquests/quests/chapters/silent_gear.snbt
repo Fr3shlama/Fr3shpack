@@ -9,19 +9,5 @@
 	id: "2BB90A0ED5A68BFF"
 	order_index: 3
 	quest_links: [ ]
-	quests: [{
-		id: "15BE362409A47B4A"
-		rewards: [{
-			id: "147D938EC5BAE70A"
-			type: "xp"
-			xp: 100
-		}]
-		tasks: [{
-			id: "470AC36140AE9586"
-			item: { count: 1, id: "silentgear:blueprint_package" }
-			type: "item"
-		}]
-		x: 0.0d
-		y: -1.0d
-	}]
+	quests: [ ]
 }

@@ -9,12 +9,12 @@
 	id: "4854B70DD3026C40"
 	images: [
 		{
-			height: 10.0d
+			height: 25.0d
 			image: "mysticalagriculture:block/mystical_mob_crop_5"
 			rotation: 0.0d
-			width: 10.0d
-			x: -1.0d
-			y: -12.0d
+			width: 25.0d
+			x: 4.5d
+			y: -13.0d
 		}
 		{
 			height: 1.0d
@@ -23,6 +23,39 @@
 			width: 1.0d
 			x: -2.5d
 			y: 0.5d
+		}
+		{
+			height: 20.0d
+			image: "mysticalagriculture:block/infusion_pedestal_top"
+			rotation: 0.0d
+			width: 20.0d
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			height: 20.0d
+			image: "mysticalagradditions:block/molten_still"
+			rotation: 0.0d
+			width: 20.0d
+			x: 3.5d
+			y: 19.5d
+		}
+		{
+			height: 20.0d
+			image: "mysticalagriculture:block/flower/mystical_flower_flower"
+			rotation: 0.0d
+			width: 20.0d
+			x: 4.5d
+			y: -10.0d
+		}
+		{
+			alpha: 100
+			height: 255.0d
+			image: "minecraft:textures/misc/shadow.png"
+			rotation: 0.0d
+			width: 255.0d
+			x: 3.5d
+			y: 4.5d
 		}
 	]
 	order_index: 1

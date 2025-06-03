@@ -7,6 +7,33 @@
 		id: "artifacts:mimic_spawn_egg"
 	}
 	id: "22B57CC519DA4BB1"
+	images: [
+		{
+			height: 20.0d
+			image: "artifacts:item/superstitious_hat"
+			rotation: 0.0d
+			width: 20.0d
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			height: 20.0d
+			image: "relics:item/space_dissector"
+			rotation: 0.0d
+			width: 20.0d
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			alpha: 100
+			height: 255.0d
+			image: "minecraft:textures/misc/shadow.png"
+			rotation: 0.0d
+			width: 255.0d
+			x: 0.5d
+			y: 4.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -791,8 +818,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(mod(relics))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 11.0d
+			x: -6.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["59CE8523ED590D4D"]
@@ -807,7 +834,7 @@
 				id: "26FED7622E8F7646"
 				type: "dimension"
 			}]
-			x: 8.0d
+			x: -3.5d
 			y: 6.5d
 		}
 		{
@@ -823,7 +850,7 @@
 				id: "0A772C2BDED0BFA0"
 				type: "dimension"
 			}]
-			x: 8.0d
+			x: -3.5d
 			y: 11.0d
 		}
 		{
@@ -834,7 +861,7 @@
 				id: "774CF61B3D556DBA"
 				type: "dimension"
 			}]
-			x: 8.0d
+			x: -3.5d
 			y: 13.0d
 		}
 		{

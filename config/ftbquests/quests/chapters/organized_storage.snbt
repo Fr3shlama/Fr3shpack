@@ -7,53 +7,54 @@
 		id: "storagedrawers:oak_full_drawers_4"
 	}
 	id: "719EAB770F6D06FC"
+	images: [
+		{
+			height: 13.0d
+			image: "sophisticatedstorage:item/packing_tape"
+			rotation: 0.0d
+			width: 13.0d
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			height: 10.0d
+			image: "storagedrawers:block/drawers_oak_front_4"
+			rotation: 0.0d
+			width: 10.0d
+			x: 9.0d
+			y: 2.5d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			id: "54CB96F76716DF8B"
-			rewards: [{
-				id: "5876811AB467EB48"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "3C17A3DACEDB8DEF"
-				item: { count: 1, id: "minecraft:chest" }
-				type: "item"
-			}]
-			x: -5.0d
-			y: -0.5d
-		}
-		{
 			id: "23CCEC985F640AE8"
-			rewards: [{
-				id: "295D4E92DE49077D"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "295D4E92DE49077D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3547C1DF65A38DD1"
+					item: {
+						components: {
+							"sophisticatedstorage:wood_type": "oak"
+						}
+						count: 1
+						id: "sophisticatedstorage:chest"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "16F931B5DC24071E"
 				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:chest" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: -0.5d
-		}
-		{
-			id: "7B9C5D8700A2BA69"
-			rewards: [{
-				id: "4C7EEC2A2F9AC48F"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "0966055E76F84DCE"
-				item: { count: 1, id: "storagedrawers:oak_full_drawers_1" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: -0.5d
+			x: 0.5d
+			y: 0.0d
 		}
 		{
 			id: "34C0EE5B69E18C08"
@@ -62,8 +63,610 @@
 				item: { count: 1, id: "functionalstorage:oak_1" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: -17.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23CCEC985F640AE8"]
+			id: "4F77344F196D1636"
+			rewards: [
+				{
+					id: "77A83F44444F8EC6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "697A0C27716056D1"
+					item: {
+						components: {
+							"sophisticatedstorage:wood_type": "oak"
+						}
+						count: 1
+						id: "sophisticatedstorage:copper_chest"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2AF5E048679E7775"
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:copper_chest" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "69D9C08BCD65F3ED"
+			rewards: [
+				{
+					id: "475E794B6C543EEA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "2F11D0B22F756B40"
+					item: {
+						components: {
+							"sophisticatedstorage:wood_type": "oak"
+						}
+						count: 1
+						id: "sophisticatedstorage:chest"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5F20249A162CF0C7"
+				item: { count: 1, id: "sophisticatedstorage:controller" }
+				type: "item"
+			}]
+			x: -2.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["4F77344F196D1636"]
+			id: "12C34BBA07012758"
+			rewards: [
+				{
+					id: "62CCCDED41A203CB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "637B999EB11E30B5"
+					item: {
+						components: {
+							"sophisticatedstorage:wood_type": "oak"
+						}
+						count: 1
+						id: "sophisticatedstorage:iron_chest"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68FFB034C7B905A2"
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:iron_chest" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["12C34BBA07012758"]
+			id: "223999E5FC4AB66B"
+			rewards: [
+				{
+					id: "0CE0DD19D7BDC956"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "111E2D44059E0016"
+					item: {
+						components: {
+							"sophisticatedstorage:wood_type": "oak"
+						}
+						count: 1
+						id: "sophisticatedstorage:gold_chest"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "35AB1152C4C77DF0"
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:gold_chest" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["223999E5FC4AB66B"]
+			id: "0912745C65F23087"
+			rewards: [
+				{
+					id: "6436C5809616B647"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1F181C6023799124"
+					item: {
+						components: {
+							"sophisticatedstorage:wood_type": "oak"
+						}
+						count: 1
+						id: "sophisticatedstorage:diamond_chest"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "37FF875071286F79"
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:diamond_chest" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0912745C65F23087"]
+			id: "180E9FFFCAAD27F1"
+			rewards: [
+				{
+					id: "6FBE359AE164C513"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2DF6F6C36297CE3E"
+					item: {
+						components: {
+							"sophisticatedstorage:wood_type": "oak"
+						}
+						count: 1
+						id: "sophisticatedstorage:netherite_chest"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E325115DE7389DF"
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:netherite_chest" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["23CCEC985F640AE8"]
+			id: "015A48801E022E05"
+			rewards: [
+				{
+					id: "222BF699CE17424F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "56CF33059D997422"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:stack_upgrade_tier_1"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1690821A9CDF4795"
+				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_1" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F77344F196D1636"]
+			id: "76870B32E4FEFA9B"
+			rewards: [
+				{
+					id: "3F29ECD3423B8419"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "30D952806EE7C0CE"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:stack_upgrade_tier_1_plus"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "13BA870B5F1E9A31"
+				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_1_plus" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["12C34BBA07012758"]
+			id: "6CA49DC636B33B00"
+			rewards: [
+				{
+					id: "5CDFD29F24C5AE70"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6B451CB4E9348307"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:stack_upgrade_tier_2"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "04296548EAFE4350"
+				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_2" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["223999E5FC4AB66B"]
+			id: "456F083679F27494"
+			rewards: [
+				{
+					id: "60A98902608B21AA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "54AE6B6EB90CD0FE"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:stack_upgrade_tier_3"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "50416C1E61E7C6F4"
+				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_3" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0912745C65F23087"]
+			id: "3CB096FFA082D1FD"
+			rewards: [
+				{
+					id: "36C28B9646B2D820"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "078B316AEF614ED0"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:stack_upgrade_tier_4"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "539F08CC46A8A9C2"
+				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_4" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["180E9FFFCAAD27F1"]
+			id: "4ECA1D67CC734353"
+			rewards: [
+				{
+					id: "38BCA92CCA8334EB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "04D2718DD2E79FA0"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:stack_upgrade_tier_5"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3CA194A18E93AD8C"
+				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_5" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			id: "3C0435FDCDEB777B"
+			rewards: [
+				{
+					id: "65663AB3046BD59A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4A93BBF47A16F6F5"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:packing_tape"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B33200A8263D7D0"
+				item: { count: 1, id: "sophisticatedstorage:packing_tape" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4E9BC93E9B0C2E16"]
+			id: "6D711CF377B912B0"
+			rewards: [
+				{
+					id: "30EAC2DFEFAF769B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "24B955025EBAB92E"
+					item: {
+						count: 1
+						id: "storagedrawers:oak_full_drawers_4"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "669831B0E6F1E73C"
+				item: { count: 1, id: "storagedrawers:controller" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4E9BC93E9B0C2E16"]
+			id: "493FF58C076A2D21"
+			rewards: [
+				{
+					id: "3530A67B5FC35115"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 10
+					id: "14B938D0214A0D21"
+					item: {
+						count: 1
+						id: "storagedrawers:oak_trim"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6C08F164841E3453"
+				item: { count: 1, id: "storagedrawers:oak_trim" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4E9BC93E9B0C2E16"]
+			id: "0B0CEE7B8FF3A6DE"
+			rewards: [
+				{
+					id: "588535228EC030C2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "6777EF92AA9C2B05"
+					item: {
+						count: 1
+						id: "storagedrawers:upgrade_template"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3142CE8D23412001"
+				item: { count: 1, id: "storagedrawers:upgrade_template" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0B0CEE7B8FF3A6DE"]
+			id: "12ECD80D92D2C3C1"
+			rewards: [
+				{
+					id: "3E451E5D55744E8F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6250CDE16E8C94D3"
+					item: {
+						count: 1
+						id: "storagedrawers:obsidian_storage_upgrade"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B0156D1475634DA"
+				item: { count: 1, id: "storagedrawers:obsidian_storage_upgrade" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["12ECD80D92D2C3C1"]
+			id: "1E90E6ACB947B84C"
+			rewards: [
+				{
+					id: "593973022671FE98"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "13B8A672DFAE8088"
+					item: {
+						count: 1
+						id: "storagedrawers:iron_storage_upgrade"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2AB1E6897D7BE2F0"
+				item: { count: 1, id: "storagedrawers:iron_storage_upgrade" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E90E6ACB947B84C"]
+			id: "46458B0E06BBB194"
+			rewards: [
+				{
+					id: "39D277775911C576"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "02D2FE94E2FB1FDD"
+					item: {
+						count: 1
+						id: "storagedrawers:gold_storage_upgrade"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7843B428A083C08A"
+				item: { count: 1, id: "storagedrawers:gold_storage_upgrade" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["46458B0E06BBB194"]
+			id: "692760F0E8261A1B"
+			rewards: [
+				{
+					id: "2342165C0AFB841C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "38F032D8A0E4E768"
+					item: {
+						count: 1
+						id: "storagedrawers:diamond_storage_upgrade"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "22ECC3272474764F"
+				item: { count: 1, id: "storagedrawers:diamond_storage_upgrade" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["692760F0E8261A1B"]
+			id: "713488E7C52E49E6"
+			rewards: [
+				{
+					id: "23F7CF9CACC007FB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "117FF6AFD749510E"
+					item: {
+						count: 1
+						id: "storagedrawers:emerald_storage_upgrade"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6519E05178D96C0F"
+				item: { count: 1, id: "storagedrawers:emerald_storage_upgrade" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0B0CEE7B8FF3A6DE"]
+			id: "515222614CE80C05"
+			tasks: [{
+				id: "3C64B8BEBED585A2"
+				item: { count: 1, id: "storagedrawers:void_upgrade" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.0d
+		}
+		{
+			id: "4E9BC93E9B0C2E16"
+			rewards: [
+				{
+					id: "447BEF4445E99A30"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6898889D65A59F0B"
+					item: {
+						count: 1
+						id: "storagedrawers:oak_full_drawers_4"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6CBB987AE1CC05DC"
+				item: { count: 1, id: "storagedrawers:oak_full_drawers_4" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
 		}
 	]
 }

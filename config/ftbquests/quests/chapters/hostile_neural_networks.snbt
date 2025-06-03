@@ -7,6 +7,25 @@
 		id: "hostilenetworks:sim_chamber"
 	}
 	id: "7B3ADC879750566D"
+	images: [
+		{
+			height: 17.0d
+			image: "hostilenetworks:block/simulation_chamber_north"
+			rotation: 0.0d
+			width: 17.0d
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			alpha: 66
+			height: 255.0d
+			image: "minecraft:textures/misc/shadow.png"
+			rotation: 0.0d
+			width: 255.0d
+			x: -6.5d
+			y: 3.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

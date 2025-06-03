@@ -24,6 +24,15 @@
 			x: 5.0d
 			y: 2.0d
 		}
+		{
+			alpha: 100
+			height: 255.0d
+			image: "minecraft:textures/misc/shadow.png"
+			rotation: 0.0d
+			width: 255.0d
+			x: 6.0d
+			y: 2.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]

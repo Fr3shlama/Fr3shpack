@@ -9,19 +9,5 @@
 	id: "2932119915B53EFB"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		id: "4B32D9217597FBD5"
-		rewards: [{
-			id: "10FE5C7A9BBE2EDB"
-			type: "xp"
-			xp: 100
-		}]
-		tasks: [{
-			id: "3986E177E3422FC1"
-			item: { count: 1, id: "productivebees:bee_cage" }
-			type: "item"
-		}]
-		x: -1.5d
-		y: 0.0d
-	}]
+	quests: [ ]
 }

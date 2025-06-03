@@ -7,6 +7,25 @@
 		id: "sophisticatedbackpacks:backpack"
 	}
 	id: "58A68A93859B48F3"
+	images: [
+		{
+			height: 20.0d
+			image: "sophisticatedbackpacks:item/upgrade_base"
+			rotation: 0.0d
+			width: 20.0d
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			alpha: 100
+			height: 255.0d
+			image: "minecraft:textures/misc/shadow.png"
+			rotation: 0.0d
+			width: 255.0d
+			x: -7.0d
+			y: 2.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -155,7 +174,7 @@
 				item: { count: 1, id: "sophisticatedbackpacks:netherite_backpack" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: -0.5d
 		}
 		{

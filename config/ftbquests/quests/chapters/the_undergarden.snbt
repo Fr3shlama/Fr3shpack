@@ -1,13 +1,13 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "the_otherside"
+	filename: "the_undergarden"
 	group: "710DFFC9A30C2E3B"
 	icon: {
-		id: "deeperdarker:sculk_stone"
+		id: "undergarden:catalyst"
 	}
-	id: "201D1901E5EC24DB"
-	order_index: 5
+	id: "18B4B087577F2CDA"
+	order_index: 6
 	quest_links: [ ]
 	quests: [ ]
 }

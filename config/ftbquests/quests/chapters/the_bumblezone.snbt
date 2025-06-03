@@ -9,19 +9,5 @@
 	id: "5AAEA16BEFA2AEFF"
 	order_index: 4
 	quest_links: [ ]
-	quests: [{
-		id: "40790735D48AB25D"
-		rewards: [{
-			id: "6814A3702CBBDA55"
-			type: "xp"
-			xp: 100
-		}]
-		tasks: [{
-			dimension: "the_bumblezone:the_bumblezone"
-			id: "272747E865505BAA"
-			type: "dimension"
-		}]
-		x: -0.5d
-		y: 1.5d
-	}]
+	quests: [ ]
 }

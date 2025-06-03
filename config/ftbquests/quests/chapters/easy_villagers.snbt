@@ -10,6 +10,25 @@
 		id: "easy_villagers:villager"
 	}
 	id: "6DC59922229E526D"
+	images: [
+		{
+			height: 10.0d
+			image: "minecraft:textures/entity_icon/villager/villager.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			alpha: 100
+			height: 255.0d
+			image: "minecraft:textures/misc/shadow.png"
+			rotation: 0.0d
+			width: 255.0d
+			x: -1.5d
+			y: -1.0d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [

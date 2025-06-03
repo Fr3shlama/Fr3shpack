@@ -4,24 +4,10 @@
 	filename: "create"
 	group: "4510113E7552E62D"
 	icon: {
-		id: "createcasing:oak_cogwheel"
+		id: "create:goggles"
 	}
 	id: "3C5F71656683B00A"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		id: "690229B4E4C02A2F"
-		rewards: [{
-			id: "6FEB90F38FEA2B3E"
-			type: "xp"
-			xp: 100
-		}]
-		tasks: [{
-			id: "087EF5B09D5D1A31"
-			item: { count: 1, id: "create:andesite_alloy" }
-			type: "item"
-		}]
-		x: -3.0d
-		y: -1.0d
-	}]
+	quests: [ ]
 }
