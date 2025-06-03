@@ -30,7 +30,12 @@ const bannedItems = [
 
   // Stack upgrades
   'sophisticatedbackpacks:stack_upgrade_omega_tier',
-  'sophisticatedstorage:stack_upgrade_omega_tier'
+  'sophisticatedstorage:stack_upgrade_omega_tier',
+
+  //nukes
+  'oritech:nuke',
+  'oritech:low_yield_nuke',
+  'industrialforegoing:infinity_nuke'
 ];
 
 RecipeViewerEvents.removeEntriesCompletely('item', event => {

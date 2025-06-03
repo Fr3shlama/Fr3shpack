@@ -219,7 +219,7 @@
 	"ventRelativeRate": 100,
 	"maxHeat": 2000,
 	"maxUnstableTicks": 400,
-	"boringNukes": false,
+	"boringNukes": true,
 	"enchanterCostMultiplier": 5,
 	"catalystBaseSouls": 50,
 	"catalystRFPerSoul": 20,
