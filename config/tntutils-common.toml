@@ -1,0 +1,63 @@
+#General options
+[general]
+	#Adds the '/explode' command
+	addExplodeCommand = false
+	#Disables all effects from explosions
+	disableExplosions = true
+	#Multiplies the size of all explosions by this value
+	# Default: 1.0
+	# Range: 0.0 ~ 50.0
+	sizeMultiplier = 1.0
+	#Prevents explosions from triggering TNT (blocks and minecarts), thus preventing chain explosions
+	preventChainExplosions = true
+	#Disables TNT (block and minecart) explosions
+	disableTNT = true
+
+#Block damage options
+[blockDamage]
+	#Multiplies the drop chance of blocks destroyed by explosions by this value (up to a maximum of 100%).
+	#0 = drop nothing, 1 = vanilla behavior, 2 = twice as many drops, etc.
+	#
+	#Will not affect explosions without block drop decay (i.e. TNT explosions by default).
+	#To get a drop chance of 100%, set the game rules "mobExplosionDropDecay", "tntExplosionDropDecay" and
+	#"blockExplosionDropDecay" to "false".
+	# Default: 1.0
+	# Range: 0.0 ~ Infinity
+	dropChanceMultiplier = 1.0
+	#Prevents explosions from destroying blocks. Will not affect blocks tagged with #tntutils:explosion_whitelist.
+	#Individual blocks can be exempted from explosion damage by tagging them with #tntutils:explosion_blacklist.
+	disableBlockDamage = false
+	#"Environmentally Friendly Creepers": Prevents Creeper explosions from destroying blocks. Will not affect
+	#blocks tagged with #tntutils:explosion_whitelist.
+	disableCreeperBlockDamage = false
+	#Prevents explosions from triggering blocks (e.g. Wind Charge explosions flipping levers, etc.). Will not
+	#affect blocks tagged with #tntutils:trigger_whitelist.
+	#Individual blocks can be exempted from triggering by tagging them with #tntutils:trigger_whitelist.
+	disableBlockTriggering = false
+	#Prevents explosions from destroying blocks with block entities. Will not affect blocks tagged with
+	##tntutils:explosion_whitelist.
+	spareBlockEntities = false
+	#Changes the explosion resistance of individual blocks.
+	#Syntax:
+	#EITHER as inline table (no newlines allowed):
+	# modifyExplosionResistances = {"mod_id:block_id" = value, ...}
+	#OR as subtable:
+	# [blockDamage.modifyExplosionResistances]
+	# 	"mod_id:block_id" = value
+	# 	...
+	#Note that the block IDs must be double-quoted.
+	modifyExplosionResistances = {}
+
+#Entity damage options
+[entityDamage]
+	#Disables explosion damage to all entities (also includes minecarts, paintings, etc.). Will not affect entities
+	#tagged with #tntutils:explosion_whitelist.
+	#Individual entities can be exempted from explosion damage by tagging them with #tntutils:explosion_blacklist.
+	disableEntityDamage = false
+	#Disables explosion damage to players
+	disablePlayerDamage = false
+	#Disables explosion damage to items laying on the ground. Will not affect items tagged with #tntutils:explosion_whitelist.
+	#Individual items can be exempted from explosion damage by tagging them with #tntutils:explosion_blacklist.
+	disableItemDamage = false
+	#Disables explosion damage to mobs and animals. Will not affect entities tagged with #tntutils:explosion_whitelist.
+	disableMobDamage = false

@@ -133,3 +133,4 @@ defaultconfigs/electrodynamics_ore_config.txt
 !config/lmft.json
 !config/Mekanism
 !config/adpother
+!config/tntutils-common.toml
