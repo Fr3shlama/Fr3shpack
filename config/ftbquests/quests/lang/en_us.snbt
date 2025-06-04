@@ -41,7 +41,7 @@
 	chapter.6DC59922229E526D.title: "Easy Villagers"
 	chapter.719EAB770F6D06FC.title: "Storage"
 	chapter.73F6839442A5C78F.title: "Furnaces"
-	chapter.75521F298D2BF367.title: "Apothic Anchanting"
+	chapter.75521F298D2BF367.title: "Apothic Enchanting"
 	chapter.7B3ADC879750566D.title: "Hostile Neural Networks"
 	chapter_group.08F7F853CF316EE0.title: "Basic"
 	chapter_group.12B57B42F69C108E.title: "Resources"
@@ -536,6 +536,7 @@
 	quest.04E2D539E33B7B0F.quest_desc: ["This machine combines two gases to create a new gas.\\n\\nYou'll need this to combine Chlorine with Hydrogen to create Hydrogen Chloride, which is then used in our Chemical Injection Chamber."]
 	quest.04E2D539E33B7B0F.quest_subtitle: "The Chemical Combiner"
 	quest.04E9253AB8F17A07.title: "Removing Echantments"
+	quest.04F39B8F59CC7F27.quest_subtitle: "With facades you can hide your cables"
 	quest.04F5846E2468E807.quest_desc: ["&b&lMacaw's Doors&r adds all sorts of different Doors and variants of Doors. \\nYou want the Birch design but with Spruce Wood? You can have it! \\n\\nHeck it even has Hospital Doors!"]
 	quest.04F5846E2468E807.title: "&b&lMacaw's Doors"
 	quest.050AAD831C0AE375.title: "Rejuvenated Flesh"
@@ -682,7 +683,6 @@
 	quest.060233F903FAE63B.title: "LuV Machine Casing"
 	quest.06044B4452A6B720.quest_desc: ["When placed in a Desert biome, the Sand Nest will attract either the Chocolate or Ashy Mining Bee."]
 	quest.06044B4452A6B720.quest_subtitle: "Lures bees in Desert Biomes"
-	quest.06073C2932BCCAE2.quest_desc: ["A high-octane fuel created by refining Hootch with gunpowder and redstone in The Vat. Rocket Fuel is much more potent. Use it in a Combustion Generator to get a lot of RF, or in a Thruster if building flight equipment (in older versions). It’s literally fuel powerful enough for rockets, hence the name."]
 	quest.06094615950AC062.title: "Other Conveyor Upgrades"
 	quest.061244C38F05CBFE.quest_subtitle: "Epic"
 	quest.061244C38F05CBFE.title: "&5Arcane Seeds&r"
@@ -892,6 +892,10 @@
 		"&eChemical React&r Hydrogen with Fluorine Gas to make this"
 		""
 		"Later on you can also set up reprocessing of &5Titanium Trifluoride&r with Hydrogen in an &aEBF&r to get some Hydrofluoric Acid back"
+	]
+	quest.07E8B202B1A06B1F.quest_desc: [
+		"Central hub block that links to multiple drawers, allowing unified access. When drawers are linked to this controller (using the Linking Tool), the controller acts as a single interface: items dropped into the controller are automatically routed to their linked drawers."
+		"(By default, it can connect to drawers in an 8-block radius, upgradeable for longer range.)"
 	]
 	quest.07ECC87DFF2D3991.quest_desc: ["Once you've finished building your first &9Energized Induction Matrix&r, you'll see red particles all around the structure to show that it is complete.\\n\\nDon't be afraid to upgrade with higher tier Cells and Providers! Need more space for them? The maximum size the Induction Matrix can be is 18x18x18."]
 	quest.07ECC87DFF2D3991.title: "&aCompleting the &9Matrix"
@@ -1715,11 +1719,13 @@
 	quest.0F4783FA019C4567.quest_desc: ["Amaraber is found rarely by stripping Torreya Logs. \\n\\nIt can be crafted into Ingots to make Armor and Tools or used in other recipes like a campfire which will you give you regen!"]
 	quest.0F49E9167B5E97C9.quest_desc: ["Any damage you take when falling (ignoring armor) will also be dealt to nearby mobs."]
 	quest.0F49E9167B5E97C9.quest_subtitle: "Max: 1"
+	quest.0F50F2A4A5A4D20A.quest_desc: ["An advanced storage upgrade that multiplies the drawer’s capacity by 24×. This upgrade significantly increases storage space, enabling a single drawer slot to hold hundreds of thousands of items (or equivalent fluid volume)."]
 	quest.0F5549B02D1B383B.quest_desc: ["Kill 16 Cave Spiders. \\n\\nDon't worry there is plenty of things from &6&lBumblezone&r to help with Poison."]
 	quest.0F55D0B4D5094EDB.quest_desc: ["While making a lot of the questlines for ATM7, the Trader Villager thought it'd be funny to constantly push me around in the quest screen.\\n\\n\"Take them out. All of them.\"\\n\\n- AlfredGG \\n\\n\"I second this!\" \\n\\n- Toshiba"]
 	quest.0F55D0B4D5094EDB.quest_subtitle: "\"This is Personal\" - AlfredGG"
 	quest.0F55D0B4D5094EDB.title: "Kill The Trader Villager and His Annoying Llamas"
 	quest.0F65562B34A8A58D.quest_desc: ["Adds furnace-like functionality to the backpack, with an optional automated variant."]
+	quest.0F670551E465EEB7.quest_desc: ["A safeguard upgrade that prevents a drawer from overfilling. When the drawer’s storage is full, any additional items that would normally overflow are deleted (voided) instead, allowing continuous input of items without jamming systems (excess items simply disappear)."]
 	quest.0F6FB959B352121D.quest_desc: [
 		"Have you been having any voltage issues? Well, this wire will help!"
 		""
@@ -2397,6 +2403,7 @@
 	quest.15DE3BF0CBD8E0B4.quest_desc: ["To make your first tool, take your Pickaxe Head part and put it in a crafting grid.\\n\\nTo create a full pickaxe, you can either add a Stick to the crafting grid, or create your own custom handle using a &9Tool Rod Template&r instead.\\n\\nNote: You can always search up the templates and then press check it's uses in JEI, then navigate to the \"Gear Crafting\" tab. This will show you how to make gear parts."]
 	quest.15ECBC8E174FA39B.quest_desc: ["Allows you to access your storage wirelessly."]
 	quest.15ECBC8E174FA39B.title: "Wireless Grid"
+	quest.15F80FFAFCECCC8F.quest_desc: ["The second-tier storage upgrade, multiplying a drawer’s base item capacity by 16× (fluids by 8×). It further boosts storage beyond the copper level, allowing a single drawer to hold tens of thousands of items."]
 	quest.15FEA03A2CDBA33B.quest_desc: ["&b&lThe Other&r has seen dozens of changes over the years but always it has been a realm for adventures! \\n\\nThere's dozens of new biomes, blocks, and of course structures! \\n\\nThe Structures are: Piglin Village, Ancient Pyramid, and Dungeon. All containing amazing loot with some things being unique to their structure! \\n\\nYou can also mine for &3Vibranium&r (and other ores!) or find it and better in the structures! \\n\\nYou can't set up Quarries or many blocks in &b&lThe Other&r though, no cheesing anything here."]
 	quest.15FEA03A2CDBA33B.title: "&l&bThe Other&r"
 	quest.15FF9D19FBC873CF.quest_subtitle: "Plum + Peach"
@@ -2782,6 +2789,7 @@
 		"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"5D045EF1AB73DF70\"}, \"text\": \"Click here to check out the AllThePower questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 	]
 	quest.1939BCB2920B6C34.title: "&cPower&r"
+	quest.193C9B8F953672A9.quest_desc: ["A storage upgrade item inserted into a drawer’s upgrade slot to greatly increase its capacity. The Copper Upgrade multiplies the drawer’s item storage by 8× (and fluid capacity by 4×), making it the entry-level upgrade for expanding a drawer’s holding amount."]
 	quest.19542103E042BDB5.quest_desc: ["{image:atm:textures/questpics/iron_spells/spells_outfit_shadow.png width:60 height:100 align:center}"]
 	quest.19542103E042BDB5.title: "&dShadow-Walker Outfit"
 	quest.195729280394ABFB.quest_desc: ["The machine creates two really strong ingots: Refined Glowstone and Refined Obsidian.\\n\\nIt infuses an item with Osmium to create a more powerful ingot."]
@@ -5668,10 +5676,6 @@
 	quest.346B9339E3D66478.quest_desc: ["Energy is something used by practically everything so you need to send it almost everywhere. Thankfully the Energy Module will help with that! \\n\\nThe Energy Module will move any energy pushed into it, somewhere else! To wherever you set it to!"]
 	quest.3475E12711B6BB98.quest_desc: ["This machine is mostly for extracting dyes from flowers, or ore blends back into their components."]
 	quest.3475E12711B6BB98.quest_subtitle: "Separates Items into their Crafting Components"
-	quest.34865C1666D57308.quest_desc: [
-		"A murky, greenish fluid made by fermenting organic items (like Zombie Flesh and mushrooms, or sugar) with water in The Vat."
-		"It serves as food for machines. Specifically, it powers the Zombie Generator and is required to run Killer Joe and the Inventory Panel. You can also bottle it to drink as a somewhat gross food source (not usually needed). Essentially, it’s liquefied nutrients that function as bio-fuel."
-	]
 	quest.3497C2E05DF5A87C.quest_desc: ["&cRedstone&r, &9Lapis&r, Quartz, &5Amethyst&r, &aEmerald&r, and &bDiamonds&r are all precious Gems. \\n\\nSo of course we are turning them into Blocks, very pretty precious Blocks to be exact!"]
 	quest.3497C2E05DF5A87C.title: "&l&bChipped&r Gem Blocks"
 	quest.349D19F2FCC34B84.quest_desc: ["Placing the Nether Brick Nest in the Nether will lure in a Magmatic Bee when given Magma Cream."]
@@ -5684,6 +5688,7 @@
 		""
 		"This dust can then be smelted into silicon ingots which can then be processed!"
 	]
+	quest.34C0EE5B69E18C08.quest_desc: ["A basic storage drawer that holds a single item type. By default it stores up to ~2,000 items of one kind, showing the item’s icon and quantity on the front; players right-click to insert items and left-click (shift+left-click for all) to withdraw"]
 	quest.34C931DFFBF608DB.quest_desc: [
 		"Stellite alloys are a range of cobalt-chromium alloys designed for wear resistance."
 		""
@@ -6416,10 +6421,6 @@
 	]
 	quest.3BC0A50886A3222B.quest_subtitle: "without magic :)"
 	quest.3BC0A50886A3222B.title: "Welcome to TooManyMods"
-	quest.3BC5B839889D9F63.quest_desc: [
-		"A brewing/refinery machine that combines fluids and items to produce special liquids."
-		"By adding certain ingredients plus water (or other base fluid), you can brew Hootch, Rocket Fuel, Fire Water, or Nutrient Distillation. These fluids are used as better generator fuels or in other EnderIO devices."
-	]
 	quest.3BC94B0B922C0708.quest_desc: ["These are crafting ingredients for stuff that does importing, whether it be items, fluids, or energy."]
 	quest.3BD304D851F49EC0.quest_subtitle: "Elderberry + Silver Fir"
 	quest.3BD5C517AD024A45.quest_desc: ["The last Superconductor we made was a while back. But now each tier's Superconductor will become more important, as well as allow us to have no Amperage loss cabling!"]
@@ -7899,6 +7900,7 @@
 	quest.48BF71269DEA1AB1.title: "&4Supremium Farmland"
 	quest.48C68664319B0294.quest_desc: ["To obtain this special Spell Book you'll need to slay the &4&lDead King&r! \\n\\nIt has 10 &3Spell&r Slots but 4 are taken up already. &4Blood Slash&r, &4Blood Step&r, &4Ray of Siphoning&r, and &4Blaze Storm&r come on it already and can't be taken off."]
 	quest.48C68664319B0294.title: "Necronomicom"
+	quest.48C8B47EA500B0E4.quest_desc: ["A single-slot drawer designed to store fluids instead of items. It holds up to 32 buckets of one fluid by default, shows the fluid type and amount on its front, and allows fluid insertion/extraction via buckets or pipes (upgradeable for much higher capacity)."]
 	quest.48D358470A019E7A.title: "Tier 1 Starlight Charger Catalyst"
 	quest.48DC9E8E9D21A2FA.quest_desc: ["Mekanism provides several ways to make power using renewable resources.\\n\\nThe &9Solar Generators&r harness the power of the Sun to provide basic power needs. It does not work during the night, and must have access to the sky. Glass is okay.\\n\\nThe &9Wind Generator&r provides power via the wind. Unless you've figured out a way for your character to manually spin this, the speed it spins is based off of the Y lvl it is placed at. It also needs direct access to the sky without any blocks above it."]
 	quest.48DC9E8E9D21A2FA.quest_subtitle: "The Power of the Sun..."
@@ -8866,6 +8868,7 @@
 	]
 	quest.50674FE3C6BE9990.title: "Dense Starlight Forest"
 	quest.5068470A8F9997A7.quest_desc: ["A processed material (smelted from Sand or ground Quartz) used in many high-tech recipes. Silicon is akin to real-world silicon. It’s needed for crafting all the electronic components in EnderIO. For example, making a Z-Logic Controller or Ender Resonator requires silicon as the “circuit board” element. You’ll find yourself smelting sand into Silicon a lot for this mod."]
+	quest.5068470A8F9997A7.title: "Silicon"
 	quest.506D48AD9FB2E89D.quest_desc: [
 		"Before we can craft the &cHellfire Forge&r, we'll need a way to power it by acquiring &bDemon Will&r."
 		""
@@ -10810,7 +10813,6 @@
 	quest.617695A9CA45D88F.quest_desc: ["When using &c&lLaserIO&r for &lLogistics&r you might end up with MANY Cards. With each taking a slot in your Inventory it can get pretty crampt. I wish they had a storage for Cards... oh wait they do, it's the Card Holder! \\n\\nYou can store multiple Cards in it and when you open a Laser Node the Card Holder will open up as well like a second Inventory. Very helpful!"]
 	quest.61847F47CCA225D9.quest_desc: ["Following the same pattern, these ones smelt at 140 Ticks or 7 Seconds.\\n\\nThey can be crafted with &6Copper&r or Iron Furnaces and can be used to craft a &eGold Furnace&r."]
 	quest.61847F47CCA225D9.title: "Silver Furnace"
-	quest.618CAA500659A83B.quest_desc: ["A blazing hot fluid made by infusing Hootch with Blaze Powder in The Vat. Fire Water is used as an even more effective fuel and in some cases can be used in world (it sets things on fire like lava). In a Combustion Generator, Fire Water yields very high energy output. It’s like a fiery equivalent of Rocket Fuel. Great for end-game power production."]
 	quest.618F1434757C8E69.quest_desc: ["&lGenerator's Galore&r adds very simple Generators. The most basic ones act like Furnaces with &3Augment&r: Generator. They'll take Fuel and make it into Energy! \\n \\nYes you have to start with &6Copper Generator&r."]
 	quest.618F1434757C8E69.title: "&6Copper Generator&r"
 	quest.61999669BDE127F9.quest_desc: [
@@ -12009,7 +12011,6 @@
 	quest.6C76AB8A6110C0C7.title: "&4Blazing Hellshelf&r"
 	quest.6C832BFE4D07D897.quest_subtitle: "Leaves an AoE Cloud that damages living mobs"
 	quest.6C9191DA4B1039D6.quest_desc: ["Menril Berries give you Night Vision for a short amount of time when eaten."]
-	quest.6C9A55D52DF848E7.quest_desc: ["A fermented alcoholic fuel (think “hooch” as in moonshine). You brew Hootch in The Vat using water plus simple ingredients like potatoes and sugar. It is a step up from coal for generators: use Hootch in a Combustion Generator to produce more energy per tick than water-based fuels. Hootch can also be further refined into Rocket Fuel. It’s the first tier of EnderIO’s liquid fuels."]
 	quest.6CA01DCE1F4A0EC3.quest_desc: ["The next stage of the mod requires the collection of &3Crude Oil&r. This Oil can be found naturally on the surface of the overworld."]
 	quest.6CA01DCE1F4A0EC3.quest_subtitle: "The Path to Plastic"
 	quest.6CA01DCE1F4A0EC3.title: "Crude Oil"
@@ -13218,6 +13219,7 @@
 	quest.766EEB89C6DF3575.quest_desc: ["Eternal Stella can be used to either make an Item Unbreakable by combining it with the Item in a Smithing Table. Or you can use it to craft Alloy Tools! \\n\\nFirst, you'll need a Tier 3 Forge with plenty Materials in it. \\n\\nThen, you'll need 3 Xpetrified Orbs. Which you need to feed a Black Hole Items to get. \\n\\nPlus, a Stellarite Piece which you need to Mine for! And &6Allthemodium Ingot&r which is the same."]
 	quest.7671AFAA1EFD287F.quest_desc: ["You want to slowly automate &bAureal&r for your &6&lForge&r? Then, you'll need 2 &bArcane Crystal Blocks&r, &6Arcane Polished Darkstone&r, and &cMundabitur Dust&r! \\n\\nPlace down the &6Arcane Polished Darkstone&r, then on top of it place both &bArcane Crystal Blocks&r. \\n\\nOnce you get this 1x3x1 Structure, Right Click it with &cMundabitur Dust&r to make the &bObelisk&r! \\n\\nYou can place these, where the Pedestals usually go, in the &6&lForge Multiblock&r in order to automate &bAureal&r!"]
 	quest.7671AFAA1EFD287F.title: "&bArcane Crystal Obelisk"
+	quest.7676EB6AE7A289DD.quest_subtitle: "Get your manual"
 	quest.7678B5DD1339833E.quest_desc: ["The Solar Panel generates FE when given direct access to the sun. However, you can use a &7Lens of Ender&r to ignore blocks in its way."]
 	quest.767E4FC03B6F6534.quest_desc: ["Invar Ingots are made with &7Iron&r and &7Nickel&r. \\n\\nLike a lot of these Alloys they aren't useful in &8&lIE&r."]
 	quest.767E4FC03B6F6534.title: "&7Invar Ingot"
@@ -13385,6 +13387,10 @@
 	quest.788A3685A7D07E75.title: "&dSouls"
 	quest.788A7A2F1F438B64.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_cloggrum.png width:100 height:150 align:center}"]
 	quest.788A7A2F1F438B64.title: "&7Cloggrum&r"
+	quest.78979D6B8DB0DA88.quest_desc: [
+		"A multi-purpose tool used to configure and manage the drawer network. In its default mode, it links drawers to a Storage Controller (sneak-right-click the controller to bind, then right-click each drawer within range to link it)."
+		"It can also be toggled to locking mode (crouch + right-click in air to cycle modes) to lock drawers, which prevents an empty drawer from losing its assigned item type."
+	]
 	quest.789AF6D0A6321945.quest_desc: [
 		"The single most important! Most powerful! Most dangerous &l&3Artifact&r of them all!"
 		"{@pagebreak}"
@@ -13686,6 +13692,7 @@
 	quest.7A82D66B1B138F0F.quest_desc: ["Doubles the amount of Mana a Mana Burst can carry, at the cost of speed and increased mana loss over longer distances."]
 	quest.7A85013589CB89BA.quest_desc: ["Modify how many items can fit in a single slot of the backpack’s inventory."]
 	quest.7A89560F303A8BE6.quest_subtitle: "Tier: &63"
+	quest.7A8C6F217098D85F.quest_desc: ["The highest-tier storage upgrade, obtained via upgrading a Diamond Upgrade with netherite. It multiplies the drawer’s capacity by 32×, allowing one drawer to hold enormous quantities (potentially billions of items when combined with multiple upgrades)."]
 	quest.7A93F07BE2E6EC97.quest_desc: ["When it's raining, throwing in a &aWeather Container&r will harness the power of the rain.\\n\\nWith this, you can create an &9Infinite Water Bucket&r, or an &9Infinite Water Source Block&r. These are both incredibly useful items to have!\\n\\nYou can also just do this to get rid of the rain!"]
 	quest.7A93F07BE2E6EC97.title: "&aStop the &9Rain!"
 	quest.7A979BEB20C9591E.quest_desc: ["Flux Dust can be automated using &6Productive Bees&r!\\n\\nRedstone Bee Spawn Eggs can be converted to Flux Dust Bee Spawn Eggs using an Obsidian Bee."]
@@ -14278,6 +14285,7 @@
 	task.01EFD73293B10452.title: "Attuned Soulium Daggers"
 	task.01F96E4C1D881AD1.title: "Steel Comb"
 	task.01FD75641E5EA5E4.title: "Mana"
+	task.02446DB0A5FB613F.title: "Silicon"
 	task.025A45B704969EAE.title: "Wye Tracks"
 	task.02B26D0D73E5E361.title: "Belts"
 	task.02B9F9AECF3B298F.title: "The Undergarden"
@@ -14415,6 +14423,7 @@
 	task.1B916AE67F84E6D7.title: "Creating Your First Spell"
 	task.1B94E7A224A87F29.title: "Valid Ores"
 	task.1BA8C5F08A824C08.title: "Macaw's Lights and Lamps"
+	task.1BDAB04B1A81588B.title: "Facades"
 	task.1C045BB5FAFCF4D3.title: "Interfaces"
 	task.1C193E204C8A2270.title: "Cheapest IV Processors"
 	task.1C7456CCF7820327.title: "Test"
@@ -14722,6 +14731,7 @@
 	task.54231849B7094A32.title: "Tungstate or Scheelite Dust"
 	task.543A08791D27BC62.title: "Quests By AllTheMods"
 	task.54A7E248C8A40239.title: "Tier 2 Sigils"
+	task.552097357FBBFC81.title: "Start with RFTools"
 	task.5559DAFE0BCF9CDC.title: "Oil"
 	task.55628B1EECBB5E94.title: "Ritual Saplings"
 	task.5580FF146C9E7EA0.title: "Barrels"

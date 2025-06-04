@@ -511,8 +511,8 @@
 				item: { count: 1, id: "xnet:netcable_routing" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -3.0d
+			x: 1.5d
+			y: -1.0d
 		}
 		{
 			id: "28B7E51280EADA50"
@@ -582,5 +582,27 @@
 			x: 0.0d
 			y: -1.0d
 		}
+		{
+			icon: {
+				id: "xnet:facade"
+			}
+			id: "04F39B8F59CC7F27"
+			rewards: [{
+				count: 16
+				id: "4FA0B5A26A6A0D00"
+				item: {
+					count: 1
+					id: "xnet:facade"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BDAB04B1A81588B"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
 	]
+	tags: ["mondogo"]
 }

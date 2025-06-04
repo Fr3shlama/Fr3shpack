@@ -59,5 +59,6 @@
 		{ id: "38C1839FDB41320A", item: { count: 1, id: "mysticalagriculture:water_seeds" } }
 		{ id: "0D4F3642E89561D9", item: { count: 1, id: "mysticalagriculture:earth_seeds" } }
 		{ id: "4F90DC77A5B6A304", item: { count: 1, id: "mysticalagriculture:air_seeds" } }
+		{ id: "3B61A6AC9440A26A", item: { count: 1, id: "mysticalagriculture:dirt_seeds" } }
 	]
 }

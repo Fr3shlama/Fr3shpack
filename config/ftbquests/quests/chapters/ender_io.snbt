@@ -32,6 +32,47 @@
 			x: 5.0d
 			y: 4.0d
 		}
+		{
+			height: 5.0d
+			image: "enderio:textures/gui/sprites/conduit_icon/ender_energy.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			height: 5.0d
+			image: "enderio:item/conduit_facade_transparent_hardened"
+			rotation: 0.0d
+			width: 5.0d
+			x: 19.5d
+			y: -2.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:textures/entity_icon/creeper/creeper.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			height: 8.0d
+			image: "enderio:item/limited_filter"
+			rotation: 0.0d
+			width: 8.0d
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			alpha: 100
+			height: 255.0d
+			image: "minecraft:textures/misc/shadow.png"
+			rotation: 0.0d
+			width: 255.0d
+			x: 7.0d
+			y: 0.0d
+		}
 	]
 	order_index: 9
 	quest_links: [ ]
@@ -108,6 +149,7 @@
 		}
 		{
 			dependencies: ["425BB3F3902DA383"]
+			hide_dependency_lines: true
 			id: "6476A25D84DD2F03"
 			rewards: [
 				{
@@ -131,6 +173,8 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["5068470A8F9997A7"]
+			hide_dependency_lines: true
 			id: "5F5758C18D9357F5"
 			rewards: [
 				{
@@ -223,10 +267,11 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["425BB3F3902DA383"]
+			hide_dependency_lines: true
 			id: "7DB14A5803248A2B"
 			rewards: [
 				{
@@ -246,10 +291,15 @@
 				item: { count: 1, id: "enderio:enchanter" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.5d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
+			dependencies: [
+				"44490D7585EE1C78"
+				"71431BAA33AED3E5"
+			]
+			hide_dependency_lines: true
 			id: "7268FC0D7C60E663"
 			rewards: [
 				{
@@ -273,6 +323,12 @@
 			y: 2.0d
 		}
 		{
+			dependencies: [
+				"6A25BF3B49101F0F"
+				"17F63A0144670E56"
+				"500443E10EED0635"
+			]
+			hide_dependency_lines: true
 			id: "69E7B204E34F162F"
 			rewards: [
 				{
@@ -296,6 +352,8 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["500443E10EED0635"]
+			hide_dependency_lines: true
 			id: "67685C6879B9BBD9"
 			rewards: [
 				{
@@ -319,6 +377,8 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["425BB3F3902DA383"]
+			hide_dependency_lines: true
 			id: "1C15729F28CC2E62"
 			rewards: [
 				{
@@ -338,10 +398,12 @@
 				item: { count: 1, id: "enderio:stirling_generator" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -4.0d
+			x: 6.0d
+			y: -7.0d
 		}
 		{
+			dependencies: ["26431B6C42B91847"]
+			hide_dependency_lines: true
 			id: "34AAF28E162FABB9"
 			rewards: [
 				{
@@ -361,10 +423,16 @@
 				item: { count: 1, id: "enderio:basic_capacitor_bank" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.5d
 			y: -4.0d
 		}
 		{
+			dependencies: [
+				"500443E10EED0635"
+				"6A25BF3B49101F0F"
+				"42DD50D24270C2EF"
+			]
+			hide_dependency_lines: true
 			id: "1D4C09A18F29BAFE"
 			rewards: [
 				{
@@ -384,10 +452,15 @@
 				item: { count: 1, id: "enderio:aversion_obelisk" }
 				type: "item"
 			}]
-			x: 12.5d
-			y: -2.0d
+			x: 13.5d
+			y: -0.5d
 		}
 		{
+			dependencies: [
+				"6A25BF3B49101F0F"
+				"3C75405DA4C72FF2"
+			]
+			hide_dependency_lines: true
 			id: "165D2F29645146DC"
 			rewards: [
 				{
@@ -407,34 +480,16 @@
 				item: { count: 1, id: "enderio:xp_obelisk" }
 				type: "item"
 			}]
-			x: 12.5d
+			x: 13.5d
 			y: -3.5d
 		}
 		{
-			id: "3BC5B839889D9F63"
-			rewards: [
-				{
-					id: "0C0D1524E2D8E262"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "73AD606D843512E1"
-					table_id: 393758751194695253L
-					type: "random"
-				}
+			dependencies: [
+				"34AAF28E162FABB9"
+				"500443E10EED0635"
+				"2AD185BD6FE782C5"
 			]
-			tasks: [{
-				id: "4740DC47EF8BBD72"
-				item: { count: 1, id: "enderio:vat" }
-				type: "item"
-			}]
-			x: 7.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["34AAF28E162FABB9"]
+			hide_dependency_lines: true
 			id: "6D44E22305DF1C5F"
 			rewards: [
 				{
@@ -454,11 +509,17 @@
 				item: { count: 1, id: "enderio:advanced_capacitor_bank" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.5d
 			y: -5.5d
 		}
 		{
-			dependencies: ["6D44E22305DF1C5F"]
+			dependencies: [
+				"6D44E22305DF1C5F"
+				"542182CE554296BE"
+				"5DFD42CF3D24D813"
+				"0ECBFC09F1EC8CBA"
+			]
+			hide_dependency_lines: true
 			id: "15D0179C706A96E2"
 			rewards: [
 				{
@@ -478,10 +539,15 @@
 				item: { count: 1, id: "enderio:vibrant_capacitor_bank" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.5d
 			y: -7.0d
 		}
 		{
+			dependencies: [
+				"2703B821C9B1FAA3"
+				"26431B6C42B91847"
+			]
+			hide_dependency_lines: true
 			id: "79B37C956485F203"
 			rewards: [
 				{
@@ -505,7 +571,13 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["79B37C956485F203"]
+			dependencies: [
+				"79B37C956485F203"
+				"2AD185BD6FE782C5"
+				"2703B821C9B1FAA3"
+				"010587D38B72527F"
+			]
+			hide_dependency_lines: true
 			id: "1C71721F19263ED8"
 			rewards: [
 				{
@@ -529,7 +601,12 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["1C71721F19263ED8"]
+			dependencies: [
+				"1C71721F19263ED8"
+				"5DFD42CF3D24D813"
+				"542182CE554296BE"
+			]
+			hide_dependency_lines: true
 			id: "4A54208227211E80"
 			rewards: [
 				{
@@ -572,10 +649,15 @@
 				item: { count: 1, id: "enderio:powered_spawner" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: -2.0d
+			x: 16.5d
+			y: -0.5d
 		}
 		{
+			dependencies: [
+				"22E5AC35E77733AC"
+				"0A5CA09FF4BCDDD1"
+			]
+			hide_dependency_lines: true
 			id: "0BB0DAE4E42F1B2F"
 			rewards: [
 				{
@@ -595,10 +677,12 @@
 				item: { count: 1, id: "enderio:travel_anchor" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -4.5d
+			x: 2.0d
+			y: -4.0d
 		}
 		{
+			dependencies: ["0A5CA09FF4BCDDD1"]
+			hide_dependency_lines: true
 			id: "73FB32F6B8242DC7"
 			rewards: [
 				{
@@ -618,10 +702,12 @@
 				item: { count: 1, id: "enderio:vacuum_chest" }
 				type: "item"
 			}]
-			x: 14.0d
+			x: 16.5d
 			y: -3.5d
 		}
 		{
+			dependencies: ["71431BAA33AED3E5"]
+			hide_dependency_lines: true
 			id: "29228F186D3699D3"
 			rewards: [
 				{
@@ -645,6 +731,11 @@
 			y: -5.5d
 		}
 		{
+			dependencies: [
+				"71431BAA33AED3E5"
+				"5DFD42CF3D24D813"
+			]
+			hide_dependency_lines: true
 			id: "1CFE191147AF138D"
 			rewards: [
 				{
@@ -668,6 +759,11 @@
 			y: -7.0d
 		}
 		{
+			dependencies: [
+				"6A25BF3B49101F0F"
+				"500443E10EED0635"
+			]
+			hide_dependency_lines: true
 			id: "3C75405DA4C72FF2"
 			rewards: [
 				{
@@ -691,6 +787,11 @@
 			y: -5.5d
 		}
 		{
+			dependencies: [
+				"425BB3F3902DA383"
+				"20D6B074CD307409"
+			]
+			hide_dependency_lines: true
 			id: "565286AA44286DF7"
 			rewards: [
 				{
@@ -710,10 +811,12 @@
 				item: { count: 1, id: "enderio:staff_of_travelling" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: -5.5d
 		}
 		{
+			dependencies: ["6A25BF3B49101F0F"]
+			hide_dependency_lines: true
 			id: "7B27B7466E531D2D"
 			rewards: [
 				{
@@ -756,10 +859,12 @@
 				item: { count: 1, id: "enderio:basic_filter" }
 				type: "item"
 			}]
-			x: 13.0d
-			y: 0.0d
+			x: 11.5d
+			y: 2.0d
 		}
 		{
+			dependencies: ["4DD54D92A908C921"]
+			hide_dependency_lines: true
 			id: "556188ED89EB977E"
 			rewards: [
 				{
@@ -779,331 +884,752 @@
 				item: { count: 1, id: "enderio:advanced_filter" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 0.0d
+			x: 11.5d
+			y: 4.0d
 		}
 		{
 			id: "1BE30D20AE908530"
+			rewards: [
+				{
+					id: "5095BD834754C17D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F52F2CB03A4FDAD"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "56066C142B343F94"
 				item: { count: 1, id: "enderio:fluid_filter" }
 				type: "item"
 			}]
-			x: 13.0d
-			y: 1.0d
+			x: 9.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["7B27B7466E531D2D"]
+			hide_dependency_lines: true
 			id: "0C494BF538CF18CA"
+			rewards: [
+				{
+					id: "20A5A34C14D2E291"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "662F23479EF5142F"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "058EA98577B80572"
 				item: { count: 1, id: "enderio:entity_filter" }
 				type: "item"
 			}]
-			x: 15.0d
-			y: 1.0d
+			x: 9.0d
+			y: 6.0d
 		}
 		{
 			id: "154367822C897D47"
+			rewards: [
+				{
+					id: "4FFD7E60DD19B662"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0698BD255A084150"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "1A3F1DA391D76E19"
 				item: { count: 1, id: "enderio:chemical_filter" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 1.0d
+			x: 9.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["44490D7585EE1C78"]
+			hide_dependency_lines: true
 			id: "612513E720D69A0A"
+			rewards: [
+				{
+					id: "0A542790EE38ED0D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F3AE44122BFD866"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "473D08471C779DB7"
 				item: { count: 1, id: "enderio:extraction_speed_upgrade_1" }
 				type: "item"
 			}]
-			x: 13.0d
-			y: 3.0d
+			x: 4.5d
+			y: -1.0d
 		}
 		{
+			dependencies: [
+				"612513E720D69A0A"
+				"2987C91E968E3260"
+			]
+			hide_dependency_lines: true
 			id: "1F9F0729B3862AA9"
+			rewards: [
+				{
+					id: "77E09E887542F6FA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "581FEB027FEE338F"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "63C345AC9B68EA42"
 				item: { count: 1, id: "enderio:extraction_speed_upgrade_2" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 3.0d
+			x: 6.0d
+			y: -1.0d
 		}
 		{
+			dependencies: [
+				"1F9F0729B3862AA9"
+				"6A25BF3B49101F0F"
+			]
+			hide_dependency_lines: true
 			id: "1448E50E9CD60823"
+			rewards: [
+				{
+					id: "3AB149F2892F7D1A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B93BBC1CCF7D1DB"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "4E74D329B9051753"
 				item: { count: 1, id: "enderio:extraction_speed_upgrade_3" }
 				type: "item"
 			}]
-			x: 15.0d
-			y: 3.0d
+			x: 7.5d
+			y: -1.0d
 		}
 		{
+			dependencies: [
+				"1448E50E9CD60823"
+				"500443E10EED0635"
+			]
+			hide_dependency_lines: true
 			id: "34FA0A535E5C66F5"
+			rewards: [
+				{
+					id: "480E58A49E186853"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "649703A09C4E8B5E"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "2F7C9E9F4FBDB814"
 				item: { count: 1, id: "enderio:extraction_speed_upgrade_4" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 3.0d
+			x: 9.0d
+			y: -1.0d
 		}
 		{
+			dependencies: ["67B5C1603356022E"]
 			id: "26431B6C42B91847"
+			rewards: [
+				{
+					id: "410B4D09B7ED6CA3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21211C985784702A"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "4548254A4E4B83CD"
 				item: { count: 1, id: "enderio:basic_capacitor" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 6.0d
+			x: -1.5d
+			y: -2.5d
 		}
 		{
+			dependencies: ["26431B6C42B91847"]
 			id: "2AD185BD6FE782C5"
+			rewards: [
+				{
+					id: "3381674DEAC61A92"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B211B44C889749F"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "4B0FE0BEDA6E32CF"
 				item: { count: 1, id: "enderio:double_layer_capacitor" }
 				type: "item"
 			}]
-			x: 13.0d
-			y: 6.0d
+			x: -0.5d
+			y: -2.5d
 		}
 		{
+			dependencies: ["2AD185BD6FE782C5"]
 			id: "542182CE554296BE"
+			rewards: [
+				{
+					id: "266F3A5D092AC8E4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "455CE94B8D22FB0B"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "449A0417C17AA458"
 				item: { count: 1, id: "enderio:octadic_capacitor" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 6.0d
+			x: 0.5d
+			y: -2.5d
 		}
 		{
+			dependencies: [
+				"5068470A8F9997A7"
+				"6A25BF3B49101F0F"
+				"5DFD42CF3D24D813"
+				"42DD50D24270C2EF"
+			]
+			hide_dependency_lines: true
 			id: "6D2DCA82E9A50145"
+			rewards: [
+				{
+					id: "353117BFF2CCB384"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76107424547E9763"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "4BADE016935265BF"
 				item: { count: 1, id: "enderio:ender_resonator" }
 				type: "item"
 			}]
-			x: 13.0d
-			y: 8.0d
+			x: 10.0d
+			y: -2.5d
 		}
 		{
+			dependencies: ["17F63A0144670E56"]
+			hide_dependency_lines: true
 			id: "42DD50D24270C2EF"
+			rewards: [
+				{
+					id: "6CEE9288C56F243C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D35D30241C1795F"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "3201454F341F6D1C"
 				item: { count: 1, id: "enderio:enderman_head" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 8.0d
+			x: 10.0d
+			y: -4.0d
 		}
 		{
+			dependencies: [
+				"4DD54D92A908C921"
+				"7B27B7466E531D2D"
+				"67685C6879B9BBD9"
+			]
+			hide_dependency_lines: true
 			id: "1C287F0494B4B6B5"
+			rewards: [
+				{
+					id: "5642692BDEB5C034"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "708136AAD5CFDCD2"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "5C19CDBF49996613"
 				item: { count: 1, id: "enderio:frank_n_zombie" }
 				type: "item"
 			}]
-			x: 15.0d
-			y: 9.0d
+			x: 11.5d
+			y: -1.0d
 		}
 		{
+			dependencies: [
+				"2D9ECC4E51FD882F"
+				"500443E10EED0635"
+				"5068470A8F9997A7"
+				"26431B6C42B91847"
+			]
+			hide_dependency_lines: true
 			id: "535D8DF97CA853D5"
+			rewards: [
+				{
+					id: "75A0C9C0F8FE6936"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12F4B25035E04DAF"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "27F4538C32E95A80"
 				item: { count: 1, id: "enderio:zombie_electrode" }
 				type: "item"
 			}]
-			x: 13.0d
-			y: 9.0d
+			x: 11.5d
+			y: -4.0d
 		}
 		{
+			dependencies: ["17F63A0144670E56"]
+			hide_dependency_lines: true
 			id: "2D9ECC4E51FD882F"
+			rewards: [
+				{
+					id: "41F6F140723616B2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "427DEB3B4E4EA7F1"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "5DD7D8CACD021AB5"
 				item: { count: 1, id: "minecraft:zombie_head" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 9.0d
+			x: 11.5d
+			y: -5.5d
 		}
 		{
+			dependencies: [
+				"2D9ECC4E51FD882F"
+				"6A25BF3B49101F0F"
+				"5068470A8F9997A7"
+			]
+			hide_dependency_lines: true
 			id: "4DD54D92A908C921"
+			rewards: [
+				{
+					id: "0E28C40AB2EB8FC6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69FA3920E27B473C"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "05024D745DDF5A07"
 				item: { count: 1, id: "enderio:z_logic_controller" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 9.0d
+			x: 11.5d
+			y: -2.5d
 		}
 		{
+			dependencies: ["21635D72FE456012"]
+			hide_dependency_lines: true
 			id: "500443E10EED0635"
+			rewards: [
+				{
+					id: "78546328796E51EE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "285DA638A380715F"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "3F8704C42065AE2E"
 				item: { count: 1, id: "enderio:energetic_alloy_ingot" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 10.5d
+			x: 2.5d
+			y: 7.5d
 		}
 		{
+			dependencies: ["500443E10EED0635"]
 			id: "5DFD42CF3D24D813"
+			rewards: [
+				{
+					id: "5CCC2EFB98C43E31"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1823FC871C78310A"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "002C55C16D7AC42E"
 				item: { count: 1, id: "enderio:vibrant_alloy_ingot" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 10.5d
+			x: 4.0d
+			y: 7.5d
 		}
 		{
+			dependencies: [
+				"5068470A8F9997A7"
+				"21635D72FE456012"
+			]
+			hide_dependency_lines: true
 			id: "44490D7585EE1C78"
+			rewards: [
+				{
+					id: "0B80FFDBAFAD5FB0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12A4D80D42A78354"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "62C3F4233B79181C"
 				item: { count: 1, id: "enderio:redstone_alloy_ingot" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 10.5d
+			x: 6.0d
+			y: 7.5d
 		}
 		{
+			dependencies: ["21635D72FE456012"]
+			hide_dependency_lines: true
 			id: "6A25BF3B49101F0F"
+			rewards: [
+				{
+					id: "5B2330E392505361"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58362DA40A873FC4"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "23DB404E34F95E88"
 				item: { count: 1, id: "enderio:soularium_ingot" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 10.5d
+			x: 7.5d
+			y: 7.5d
 		}
 		{
-			id: "34865C1666D57308"
-			tasks: [{
-				id: "53F17C7D91EBD9CC"
-				item: { count: 1, id: "enderio:nutrient_distillation_bucket" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: 12.5d
-		}
-		{
-			id: "6C9A55D52DF848E7"
-			tasks: [{
-				id: "382A9F78274B0955"
-				item: { count: 1, id: "enderio:hootch_bucket" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 12.5d
-		}
-		{
-			id: "06073C2932BCCAE2"
-			tasks: [{
-				id: "37AE259AD13EF658"
-				item: { count: 1, id: "enderio:rocket_fuel_bucket" }
-				type: "item"
-			}]
-			x: 4.5d
-			y: 12.5d
-		}
-		{
-			id: "618CAA500659A83B"
-			tasks: [{
-				id: "64F8FF40553D3F73"
-				item: { count: 1, id: "enderio:fire_water_bucket" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 12.5d
-		}
-		{
+			dependencies: [
+				"7B27B7466E531D2D"
+				"0ECBFC09F1EC8CBA"
+			]
+			hide_dependency_lines: true
 			id: "20D6B074CD307409"
+			rewards: [
+				{
+					id: "7C3F70F2E8980AC5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3394D286EC612817"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "3885DDC79745FD6F"
 				item: { count: 1, id: "enderio:ender_crystal" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 11.5d
+			x: 4.0d
+			y: 9.5d
 		}
 		{
+			dependencies: ["7B27B7466E531D2D"]
+			hide_dependency_lines: true
 			id: "486F9E56BC7AEB74"
+			rewards: [
+				{
+					id: "431CC22E243BFE03"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FFCDADB46408829"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "2DA62573AC26493E"
 				item: { count: 1, id: "enderio:enticing_crystal" }
 				type: "item"
 			}]
-			x: 13.0d
-			y: 11.5d
+			x: 7.5d
+			y: 9.5d
 		}
 		{
+			dependencies: ["010587D38B72527F"]
+			hide_dependency_lines: true
 			id: "0A5CA09FF4BCDDD1"
+			rewards: [
+				{
+					id: "16B5435288964C74"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E5D3EBD07CFDABF"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "1F3500A3662C5096"
 				item: { count: 1, id: "enderio:pulsating_crystal" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 11.5d
+			x: 5.0d
+			y: 9.5d
 		}
 		{
+			dependencies: ["5DFD42CF3D24D813"]
+			hide_dependency_lines: true
 			id: "0ECBFC09F1EC8CBA"
+			rewards: [
+				{
+					id: "4E1F3B4875574428"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "391C9C9485D40F34"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "6D215768A4E0B3DF"
 				item: { count: 1, id: "enderio:vibrant_crystal" }
 				type: "item"
 			}]
-			x: 15.0d
-			y: 11.5d
+			x: 2.5d
+			y: 9.5d
 		}
 		{
+			dependencies: [
+				"0ECBFC09F1EC8CBA"
+				"20D6B074CD307409"
+				"0A5CA09FF4BCDDD1"
+			]
 			id: "12BD0C0FD5AE3A19"
+			rewards: [
+				{
+					id: "68CF7668FCBF220D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75C920548C5794F9"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "64AE3A5C4E25F4C8"
 				item: { count: 1, id: "enderio:weather_crystal" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 11.5d
+			x: 6.0d
+			y: 9.5d
 		}
 		{
 			id: "5068470A8F9997A7"
+			rewards: [
+				{
+					id: "16510F0040CE87B7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52966ED8913ACC08"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
-				id: "59AD8523FAD384D0"
-				item: { count: 1, id: "enderio:silicon" }
+				id: "02446DB0A5FB613F"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:silicon))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 10.5d
-			y: 14.5d
+			x: -1.0d
+			y: 4.0d
 		}
 		{
 			id: "128FA342AEB437F1"
+			rewards: [
+				{
+					id: "5866328FCDF5421C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "367F6FAA4561192D"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "5E196552DDDAED6D"
 				item: { count: 1, id: "enderio:conduit_binder_composite" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 14.5d
+			x: 0.5d
+			y: 4.0d
 		}
 		{
+			dependencies: ["128FA342AEB437F1"]
 			id: "22E5AC35E77733AC"
+			rewards: [
+				{
+					id: "28F4603BD197833B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49223FD3FE3D2704"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "3E215F7B47E945B3"
 				item: { count: 1, id: "enderio:conduit_binder" }
 				type: "item"
 			}]
-			x: 13.5d
-			y: 14.5d
+			x: 0.5d
+			y: 6.0d
 		}
 		{
+			dependencies: [
+				"010587D38B72527F"
+				"22E5AC35E77733AC"
+			]
+			hide_dependency_lines: true
 			id: "1090A935DD4A6C60"
+			rewards: [
+				{
+					id: "373C6ADD60433C3B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "776771949DA08A30"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "195374AA1523D677"
 				item: { components: { "enderio:conduit": "enderio:item" }, count: 1, id: "enderio:conduit" }
@@ -1113,7 +1639,22 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["22E5AC35E77733AC"]
+			hide_dependency_lines: true
 			id: "366032C4F0682AB5"
+			rewards: [
+				{
+					id: "5882F0B5087B7427"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "513DB0BFA5EAF7FF"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "484C251CB9B3477B"
 				item: { components: { "enderio:conduit": "enderio:fluid" }, count: 1, id: "enderio:conduit" }
@@ -1123,7 +1664,25 @@
 			y: -3.5d
 		}
 		{
+			dependencies: [
+				"2987C91E968E3260"
+				"22E5AC35E77733AC"
+			]
+			hide_dependency_lines: true
 			id: "0BFD195CC64257DC"
+			rewards: [
+				{
+					id: "4DC7A7537F927C28"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "533925E05B772FF0"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "432A3C983EC07EE0"
 				item: { components: { "enderio:conduit": "enderio:energy" }, count: 1, id: "enderio:conduit" }
@@ -1133,7 +1692,26 @@
 			y: -2.5d
 		}
 		{
+			dependencies: [
+				"0BFD195CC64257DC"
+				"500443E10EED0635"
+				"22E5AC35E77733AC"
+			]
+			hide_dependency_lines: true
 			id: "0FBE93B9FED10B4F"
+			rewards: [
+				{
+					id: "076E2770E274950E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D39935C0DE5AFDB"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "574153407EF4CC5C"
 				item: { components: { "enderio:conduit": "enderio:enhanced_energy" }, count: 1, id: "enderio:conduit" }
@@ -1143,7 +1721,26 @@
 			y: -2.5d
 		}
 		{
+			dependencies: [
+				"0FBE93B9FED10B4F"
+				"5DFD42CF3D24D813"
+				"22E5AC35E77733AC"
+			]
+			hide_dependency_lines: true
 			id: "14C4EC599CC2A7A8"
+			rewards: [
+				{
+					id: "017E36F5C8A36C2B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4008BBBBA6D34624"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "34B5E162C4CAD903"
 				item: { components: { "enderio:conduit": "enderio:ender_energy" }, count: 1, id: "enderio:conduit" }
@@ -1153,7 +1750,25 @@
 			y: -2.5d
 		}
 		{
+			dependencies: [
+				"44490D7585EE1C78"
+				"22E5AC35E77733AC"
+			]
+			hide_dependency_lines: true
 			id: "1DEF9B7723BEB068"
+			rewards: [
+				{
+					id: "2607FD27DAA8FAB6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17534AE5ABC9DA71"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "0547C4C9886C250F"
 				item: { components: { "enderio:conduit": "enderio:redstone" }, count: 1, id: "enderio:conduit" }
@@ -1163,7 +1778,22 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["22E5AC35E77733AC"]
+			hide_dependency_lines: true
 			id: "1D800463DDFC0AD2"
+			rewards: [
+				{
+					id: "3AA7E6654EEEB27D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46B6994C2630EC14"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "19CDE706C20CD002"
 				item: { components: { "enderio:conduit": "enderio:me" }, count: 1, id: "enderio:conduit" }
@@ -1173,7 +1803,25 @@
 			y: -0.5d
 		}
 		{
+			dependencies: [
+				"1D800463DDFC0AD2"
+				"22E5AC35E77733AC"
+			]
+			hide_dependency_lines: true
 			id: "30B612F4441D5460"
+			rewards: [
+				{
+					id: "7C01034D27AB2BEC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "618CD2FF9A7E2D6A"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "2DB408BBD3EE26F5"
 				item: { components: { "enderio:conduit": "enderio:dense_me" }, count: 1, id: "enderio:conduit" }
@@ -1183,34 +1831,202 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["366032C4F0682AB5"]
 			id: "4D3BBFA35FBE6446"
+			rewards: [
+				{
+					id: "36792245E639EBAE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F1B7129D35AAA0B"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "2B23259107BA0485"
 				item: { components: { "enderio:conduit": "enderio:pressurized_fluid" }, count: 1, id: "enderio:conduit" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: 0.5d
+			x: 20.0d
+			y: -3.5d
 		}
 		{
 			id: "0844D989EBC64946"
+			rewards: [
+				{
+					id: "60827C3BD2BA6480"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FDA8A8AAFA521A1"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "70A51C81D79D5723"
 				item: { count: 1, id: "enderio:fluid_tank" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: 2.5d
+			x: 6.0d
+			y: -2.5d
 		}
 		{
+			dependencies: ["425BB3F3902DA383"]
+			hide_dependency_lines: true
 			id: "014644E6B0AE2422"
+			rewards: [
+				{
+					id: "7DABCD283B3C1CBA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FFF261612CD9F4C"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "08130CC57338252E"
 				item: { count: 1, id: "enderio:pressurized_fluid_tank" }
 				type: "item"
 			}]
-			x: 19.0d
-			y: 2.5d
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"5068470A8F9997A7"
+				"21635D72FE456012"
+			]
+			hide_dependency_lines: true
+			id: "71431BAA33AED3E5"
+			rewards: [
+				{
+					id: "36FD3825B88CF9F8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F32043988E92CF9"
+					table_id: 393758751194695253L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				id: "29A0A311F8DF1503"
+				item: { count: 1, id: "enderio:copper_alloy_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["71431BAA33AED3E5"]
+			id: "2987C91E968E3260"
+			rewards: [
+				{
+					id: "13B604D2B0602666"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A896FEFC2AC06EC"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0B81D7E9472D45D8"
+				item: { count: 1, id: "enderio:conductive_alloy_ingot" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5068470A8F9997A7"]
+			id: "60AE0FB1C97F45FA"
+			rewards: [
+				{
+					id: "3AD4669E9C05810B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3496878EDA0C7043"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2CB20B43E1D93D37"
+				item: { count: 1, id: "enderio:photovoltaic_composite" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["60AE0FB1C97F45FA"]
+			hide_dependency_lines: true
+			id: "2703B821C9B1FAA3"
+			rewards: [
+				{
+					id: "37A91D1F88B30799"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C409E1BA2255EF6"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1AB102BD7C67D28E"
+				item: { count: 1, id: "enderio:photovoltaic_plate" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["21635D72FE456012"]
+			hide_dependency_lines: true
+			id: "010587D38B72527F"
+			rewards: [
+				{
+					id: "5D13FB551C6E4B71"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B74F74866255D66"
+					table_id: 393758751194695253L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "31D2E07290417567"
+				item: { count: 1, id: "enderio:pulsating_alloy_ingot" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
 		}
 	]
 }

@@ -10,4 +10,5 @@
 	order_index: 1
 	quest_links: [ ]
 	quests: [ ]
+	tags: ["o_o"]
 }

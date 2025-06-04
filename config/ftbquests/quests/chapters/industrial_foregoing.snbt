@@ -52,13 +52,13 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			size: 1.0d
+			size: 1.5d
 			tasks: [{
 				id: "370194CAA0AAECD4"
 				type: "checkmark"
 			}]
 			x: 0.5d
-			y: 5.0d
+			y: 5.25d
 		}
 		{
 			id: "6599F1C44A56AD0B"
@@ -1140,4 +1140,5 @@
 			y: 3.5d
 		}
 	]
+	tags: ["mondogo"]
 }
