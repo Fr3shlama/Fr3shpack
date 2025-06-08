@@ -31,11 +31,11 @@
 	
 	# Requires you to claim chunks in order to edit and interact with blocks
 	# Default: false
-	no_wilderness: true
+	no_wilderness: false
 	
 	# Dimension ID's where the no_wilderness rule is enforced - building is only allowed in claimed chunks. If this is non-empty, it overrides the 'no_wilderness' setting.
 	# Default: []
-	no_wilderness_dimensions: [ minecraft:overworld ]
+	no_wilderness_dimensions: [ ]
 	
 	# If true, pistons are prevented from pushing/pulling blocks across claims owned by different teams (unless the target claim has public 'edit block' permissions defined). If 'disable_protection' is set to true, this setting is ignored.
 	# Default: true
@@ -73,7 +73,7 @@
 		# You can override this with FTB Ranks 'ftbchunks.max_claimed' permission
 		# Default: 500
 		# Range: -∞ ~ +∞
-		max_claimed_chunks: 100
+		max_claimed_chunks: 150
 		
 		# Maximum time (in real-world days) where if no player in a team logs in, the team automatically loses their claims.
 		# Prevents chunks being claimed indefinitely by teams who no longer play.
