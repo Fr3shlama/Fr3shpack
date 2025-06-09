@@ -12,10 +12,8 @@
     "enderio",
     "utilitarian",
     "actuallyadditions",
-    "superbwarfare",
     "oritech",
-    "immersiveengineering",
-    "electrodynamics"
+    "immersiveengineering"
   ],
   "priority_overrides": {},
   "stone_variants": [
@@ -57,7 +55,7 @@
     "cucumber:shaped_tag"
   ],
   "ignored_recipe_ids": [],
-  "recipe_viewer_hiding": false,
-  "loot_unification": false,
+  "recipe_viewer_hiding": true,
+  "loot_unification": true,
   "ignored_loot_tables": []
 }
