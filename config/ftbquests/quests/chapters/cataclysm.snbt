@@ -7,7 +7,7 @@
 		id: "cataclysm:mechanical_fusion_anvil"
 	}
 	id: "04DAAFBF2E6DA6D7"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [ ]
 }

@@ -7,20 +7,7 @@
 		id: "evilcraft:blood_stain"
 	}
 	id: "3F2A9084EE6ACD9A"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
-	quests: [{
-		id: "538CA53689955A6B"
-		rewards: [{
-			id: "41063AF8D8289476"
-			type: "xp"
-			xp: 100
-		}]
-		tasks: [{
-			id: "6E5AC23FA0349470"
-			type: "checkmark"
-		}]
-		x: -2.0d
-		y: 0.5d
-	}]
+	quests: [ ]
 }

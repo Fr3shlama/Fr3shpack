@@ -48,15 +48,6 @@
 			x: 4.5d
 			y: -10.0d
 		}
-		{
-			alpha: 100
-			height: 255.0d
-			image: "minecraft:textures/misc/shadow.png"
-			rotation: 0.0d
-			width: 255.0d
-			x: 3.5d
-			y: 4.5d
-		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -4111,9 +4102,9 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "19F911EE5AA5EA51"
+					id: "2C37C408383446D1"
 					table_id: 1166489308735812388L
-					type: "loot"
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -5925,6 +5916,294 @@
 			}]
 			x: -4.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["27AF9DFD129F944E"]
+			id: "7D3DF324DB2B343F"
+			rewards: [
+				{
+					id: "31B1A8B5B5B75B3D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F2FB89ED800B67E"
+					table_id: 5344808375211781051L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2FC5665385D4E51E"
+				item: { count: 1, id: "mysticalagriculture:saltpeter_seeds" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7B4B2BAEF530001C"]
+			id: "5F4731C41771C569"
+			rewards: [
+				{
+					id: "69CF940722035380"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F724389A1363DE1"
+					table_id: 8554782466406413002L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7D12B51CF48137CD"
+				item: { count: 1, id: "mysticalagriculture:electrum_seeds" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["27AF9DFD129F944E"]
+			id: "71C56164851EA8D3"
+			rewards: [
+				{
+					id: "2557CF792D014B5D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0542ACDA00549FDB"
+					table_id: 5344808375211781051L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5004B61649357882"
+				item: { count: 1, id: "mysticalagriculture:aluminum_seeds" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["27AF9DFD129F944E"]
+			id: "5BC238444874853F"
+			rewards: [
+				{
+					id: "5720A53BBF15332D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "714BA505ABF4B14B"
+					table_id: 5344808375211781051L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "78ED4160B8040C0A"
+				item: { count: 1, id: "mysticalagriculture:sulfur_seeds" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["27AF9DFD129F944E"]
+			id: "58C4C36EF6C042CD"
+			rewards: [
+				{
+					id: "2C9B4553F2C79FBB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0AE7711B656DFB85"
+					table_id: 5344808375211781051L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2D7DC07191CFC487"
+				item: { count: 1, id: "mysticalagriculture:silicon_seeds" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7E3BC209E7C893FE"]
+			id: "29614BA34E3F06B9"
+			rewards: [
+				{
+					id: "0FD012567C681CC1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52CA48A96F8A1AF5"
+					table_id: 4306092422959755318L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "33F04901C298CCAA"
+				item: { count: 1, id: "mysticalagriculture:phantom_seeds" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7E3BC209E7C893FE"]
+			id: "6CE950060E21A43A"
+			rewards: [
+				{
+					id: "1FA066F3C22BB2C3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D25808483FFEF7D"
+					table_id: 4306092422959755318L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2A00AB94A7C0AECA"
+				item: { count: 1, id: "mysticalagriculture:tin_seeds" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7E3BC209E7C893FE"]
+			id: "610CD255DC9D204C"
+			rewards: [
+				{
+					id: "44398FFB91E06982"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61E99F3EBCED6E0F"
+					table_id: 4306092422959755318L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "01D8F6913FC9D65F"
+				item: { count: 1, id: "mysticalagriculture:bronze_seeds" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["7E3BC209E7C893FE"]
+			id: "74C20A6282E3E93A"
+			rewards: [
+				{
+					id: "3476C3D1AFA5C9FD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5743A75BD97749DC"
+					table_id: 4306092422959755318L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6252954F649FD5B5"
+				item: { count: 1, id: "mysticalagriculture:silver_seeds" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7E3BC209E7C893FE"]
+			id: "380526697F73056F"
+			rewards: [
+				{
+					id: "08510609C43E2D62"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1462793E1ECE5744"
+					table_id: 4306092422959755318L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "466C3911A2E6ED29"
+				item: { count: 1, id: "mysticalagriculture:brass_seeds" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["7E3BC209E7C893FE"]
+			id: "653344D8AC9A0C0F"
+			rewards: [
+				{
+					id: "576EF72E42F06616"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71D43E2F8C5D397D"
+					table_id: 4306092422959755318L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "62897E85598F25A4"
+				item: { count: 1, id: "mysticalagriculture:lead_seeds" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7B4B2BAEF530001C"]
+			id: "75BAA431244E3667"
+			rewards: [
+				{
+					id: "05E01221B28A5F14"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A514D247762FC01"
+					table_id: 8554782466406413002L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4600E7BAF16B7AFA"
+				item: { count: 1, id: "mysticalagriculture:steel_seeds" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -14.0d
 		}
 	]
 }

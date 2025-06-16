@@ -248,7 +248,7 @@
 			]
 			tasks: [{
 				id: "627CA0959779AD37"
-				item: { count: 1, id: "minecraft:acacia_log" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 2.5d

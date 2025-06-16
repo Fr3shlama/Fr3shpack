@@ -33,15 +33,85 @@
 			}
 		}
 		{ id: "1DFA188F51856E03", item: { count: 1, id: "mysticalagriculture:supremium_upgrade" } }
-		{ id: "393C765FB4FD2ED8", item: { count: 1, id: "mysticalagriculture:diamond_seeds" } }
-		{ id: "0C4E7626CCBC0521", item: { count: 1, id: "mysticalagriculture:emerald_seeds" } }
-		{ id: "1C7C356BB2C414A6", item: { count: 1, id: "mysticalagriculture:netherite_seeds" } }
-		{ id: "230E5D0662C55765", item: { count: 1, id: "mysticalagriculture:wither_skeleton_seeds" } }
-		{ id: "3BEF3F18745019EB", item: { count: 1, id: "mysticalagriculture:platinum_seeds" } }
-		{ id: "1CBC1BF60721C53B", item: { count: 1, id: "mysticalagriculture:iridium_seeds" } }
-		{ id: "6C68B309F85D8367", item: { count: 1, id: "mysticalagriculture:vibrant_alloy_seeds" } }
-		{ id: "260C008B2CEF401E", item: { count: 1, id: "mysticalagriculture:end_steel_seeds" } }
-		{ id: "0FBFD8636F65689E", item: { count: 1, id: "mysticalagriculture:yellorium_seeds" } }
-		{ id: "15C0B1A7A8A2DC4C", item: { count: 1, id: "mysticalagriculture:cyanite_seeds" } }
+		{
+			id: "393C765FB4FD2ED8"
+			item: {
+				count: 1
+				id: "mysticalagriculture:diamond_seeds"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "0C4E7626CCBC0521"
+			item: {
+				count: 1
+				id: "mysticalagriculture:emerald_seeds"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "1C7C356BB2C414A6"
+			item: {
+				count: 1
+				id: "mysticalagriculture:netherite_seeds"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "230E5D0662C55765"
+			item: {
+				count: 1
+				id: "mysticalagriculture:wither_skeleton_seeds"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "3BEF3F18745019EB"
+			item: {
+				count: 1
+				id: "mysticalagriculture:platinum_seeds"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "1CBC1BF60721C53B"
+			item: {
+				count: 1
+				id: "mysticalagriculture:iridium_seeds"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "6C68B309F85D8367"
+			item: {
+				count: 1
+				id: "mysticalagriculture:vibrant_alloy_seeds"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "260C008B2CEF401E"
+			item: {
+				count: 1
+				id: "mysticalagriculture:end_steel_seeds"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "0FBFD8636F65689E"
+			item: {
+				count: 1
+				id: "mysticalagriculture:yellorium_seeds"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "15C0B1A7A8A2DC4C"
+			item: {
+				count: 1
+				id: "mysticalagriculture:cyanite_seeds"
+			}
+			weight: 0.1f
+		}
 	]
 }

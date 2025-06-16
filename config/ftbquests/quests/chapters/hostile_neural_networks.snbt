@@ -7,25 +7,14 @@
 		id: "hostilenetworks:sim_chamber"
 	}
 	id: "7B3ADC879750566D"
-	images: [
-		{
-			height: 17.0d
-			image: "hostilenetworks:block/simulation_chamber_north"
-			rotation: 0.0d
-			width: 17.0d
-			x: -6.5d
-			y: 3.0d
-		}
-		{
-			alpha: 66
-			height: 255.0d
-			image: "minecraft:textures/misc/shadow.png"
-			rotation: 0.0d
-			width: 255.0d
-			x: -6.5d
-			y: 3.0d
-		}
-	]
+	images: [{
+		height: 17.0d
+		image: "hostilenetworks:block/simulation_chamber_north"
+		rotation: 0.0d
+		width: 17.0d
+		x: -6.5d
+		y: 3.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -338,6 +327,7 @@
 			tasks: [{
 				id: "33205B9E5A9C937E"
 				item: { components: { "hostilenetworks:data_model": "hostilenetworks:creeper" }, count: 1, id: "hostilenetworks:data_model" }
+				match_components: "strict"
 				type: "item"
 			}]
 			x: -6.0d
@@ -832,6 +822,7 @@
 			tasks: [{
 				id: "447589046940C440"
 				item: { components: { "hostilenetworks:data_model": "hostilenetworks:skeleton" }, count: 1, id: "hostilenetworks:data_model" }
+				match_components: "strict"
 				type: "item"
 			}]
 			x: -9.0d
@@ -910,6 +901,7 @@
 			tasks: [{
 				id: "35AFCC84465FBFC2"
 				item: { components: { "hostilenetworks:data_model": "hostilenetworks:spider" }, count: 1, id: "hostilenetworks:data_model" }
+				match_components: "strict"
 				type: "item"
 			}]
 			x: -7.0d
@@ -1072,32 +1064,6 @@
 			y: 5.0d
 		}
 		{
-			id: "538E11CD57D6E378"
-			rewards: [
-				{
-					id: "6679F9C3BF86993B"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 16
-					id: "6343BA0258A4951B"
-					item: {
-						count: 1
-						id: "hostilenetworks:prediction_matrix"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "1A36D4241BEBB8E2"
-				item: { components: { "hostilenetworks:data_model": "hostilenetworks:zombie" }, count: 1, id: "hostilenetworks:data_model" }
-				type: "item"
-			}]
-			x: -8.0d
-			y: 5.0d
-		}
-		{
 			id: "7F2DB189A95CC96F"
 			rewards: [
 				{
@@ -1121,6 +1087,41 @@
 				type: "item"
 			}]
 			x: -4.0d
+			y: 6.0d
+		}
+		{
+			id: "0CE706498C4210EF"
+			tasks: [{
+				id: "4EB0250184322D99"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:zombie" }, count: 1, id: "hostilenetworks:data_model" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			id: "3AED8145F56617B9"
+			shape: "square"
+			tasks: [{
+				id: "7222ACC2B5500E3D"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:zombie" }, count: 1, id: "hostilenetworks:data_model" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 5.0d
+		}
+		{
+			id: "0FA9D1BC84BF29C4"
+			shape: "square"
+			tasks: [{
+				id: "44A8F785E2392AEE"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:skeleton" }, count: 1, id: "hostilenetworks:data_model" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -11.5d
 			y: 6.0d
 		}
 	]

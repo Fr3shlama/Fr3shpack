@@ -1917,9 +1917,9 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "3F32043988E92CF9"
+					id: "0F340F1C074D165C"
 					table_id: 393758751194695253L
-					type: "all_table"
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1941,7 +1941,7 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "5A896FEFC2AC06EC"
+					id: "2E4E24AF1B74CB2F"
 					table_id: 393758751194695253L
 					type: "random"
 				}

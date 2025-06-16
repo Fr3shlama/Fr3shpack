@@ -32,11 +32,53 @@
 				id: "mysticalagradditions:insanium_gemstone"
 			}
 		}
-		{ id: "0E40E63795A81B24", item: { count: 1, id: "mysticalagriculture:nether_star_seeds" } }
-		{ id: "253493D9E585D8CA", item: { count: 1, id: "mysticalagradditions:nether_star_crux" } }
-		{ id: "40C2311A22D8AA4C", item: { count: 1, id: "mysticalagriculture:dragon_egg_seeds" } }
-		{ id: "509B952F17FD4ED6", item: { count: 1, id: "mysticalagradditions:dragon_egg_crux" } }
-		{ id: "1C165F0E140041CA", item: { count: 1, id: "mysticalagriculture:neutronium_seeds" } }
-		{ id: "3FF5A16E84D40964", item: { count: 1, id: "mysticalagradditions:neutronium_crux" } }
+		{
+			id: "0E40E63795A81B24"
+			item: {
+				count: 1
+				id: "mysticalagriculture:nether_star_seeds"
+			}
+			weight: 0.05f
+		}
+		{
+			id: "253493D9E585D8CA"
+			item: {
+				count: 1
+				id: "mysticalagradditions:nether_star_crux"
+			}
+			weight: 0.05f
+		}
+		{
+			id: "40C2311A22D8AA4C"
+			item: {
+				count: 1
+				id: "mysticalagriculture:dragon_egg_seeds"
+			}
+			weight: 0.05f
+		}
+		{
+			id: "509B952F17FD4ED6"
+			item: {
+				count: 1
+				id: "mysticalagradditions:dragon_egg_crux"
+			}
+			weight: 0.05f
+		}
+		{
+			id: "1C165F0E140041CA"
+			item: {
+				count: 1
+				id: "mysticalagriculture:neutronium_seeds"
+			}
+			weight: 0.05f
+		}
+		{
+			id: "3FF5A16E84D40964"
+			item: {
+				count: 1
+				id: "mysticalagradditions:neutronium_crux"
+			}
+			weight: 0.05f
+		}
 	]
 }

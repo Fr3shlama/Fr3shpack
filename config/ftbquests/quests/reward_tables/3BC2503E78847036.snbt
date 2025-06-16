@@ -33,24 +33,205 @@
 		{ id: "2E48AA4F946E88D7", item: { count: 1, id: "mysticalagriculture:tertium_farmland" } }
 		{ id: "776989A25EBEAF29", item: { count: 1, id: "mysticalagriculture:tertium_growth_accelerator" } }
 		{ id: "4CC64426650DBF43", item: { count: 1, id: "mysticalagriculture:tertium_upgrade" } }
-		{ id: "1AFCACD2244B5DF4", item: { count: 1, id: "mysticalagriculture:iron_seeds" } }
-		{ id: "20A6330870F1F9D1", item: { count: 1, id: "mysticalagriculture:copper_seeds" } }
-		{ id: "07B93885365FDEF6", item: { count: 1, id: "mysticalagriculture:nether_quartz_seeds" } }
-		{ id: "15C10ACC2F65F256", item: { count: 1, id: "mysticalagriculture:glowstone_seeds" } }
-		{ id: "5FCB3D7D77CE6A08", item: { count: 1, id: "mysticalagriculture:redstone_seeds" } }
-		{ id: "64D6AEF7F72D20DD", item: { count: 1, id: "mysticalagriculture:obsidian_seeds" } }
-		{ id: "395357576085332F", item: { count: 1, id: "mysticalagriculture:prismarine_seeds" } }
-		{ id: "37D8B235371C77D2", item: { count: 1, id: "mysticalagriculture:zombie_seeds" } }
-		{ id: "52AB1618CF9BF595", item: { count: 1, id: "mysticalagriculture:skeleton_seeds" } }
-		{ id: "0F9B624A4AC421DC", item: { count: 1, id: "mysticalagriculture:creeper_seeds" } }
-		{ id: "0F7285D262CEF85F", item: { count: 1, id: "mysticalagriculture:spider_seeds" } }
-		{ id: "77EA5B9FE8666F0A", item: { count: 1, id: "mysticalagriculture:rabbit_seeds" } }
-		{ id: "0E3498B7AE2DE452", item: { count: 1, id: "mysticalagriculture:zinc_seeds" } }
-		{ id: "5F4D4ABB6B458826", item: { count: 1, id: "mysticalagriculture:graphite_seeds" } }
-		{ id: "308332780699E141", item: { count: 1, id: "mysticalagriculture:copper_alloy_seeds" } }
-		{ id: "78D2074FE458613F", item: { count: 1, id: "mysticalagriculture:redstone_alloy_seeds" } }
-		{ id: "72A6F7E0CAAFEFDF", item: { count: 1, id: "mysticalagriculture:conductive_alloy_seeds" } }
-		{ id: "2EF99C6BC7D4B148", item: { count: 1, id: "mysticalagriculture:sky_stone_seeds" } }
-		{ id: "5A66FC793BA4862F", item: { count: 1, id: "mysticalagriculture:certus_quartz_seeds" } }
+		{
+			id: "1AFCACD2244B5DF4"
+			item: {
+				count: 1
+				id: "mysticalagriculture:iron_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "20A6330870F1F9D1"
+			item: {
+				count: 1
+				id: "mysticalagriculture:copper_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "07B93885365FDEF6"
+			item: {
+				count: 1
+				id: "mysticalagriculture:nether_quartz_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "15C10ACC2F65F256"
+			item: {
+				count: 1
+				id: "mysticalagriculture:glowstone_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "5FCB3D7D77CE6A08"
+			item: {
+				count: 1
+				id: "mysticalagriculture:redstone_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "64D6AEF7F72D20DD"
+			item: {
+				count: 1
+				id: "mysticalagriculture:obsidian_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "395357576085332F"
+			item: {
+				count: 1
+				id: "mysticalagriculture:prismarine_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "37D8B235371C77D2"
+			item: {
+				count: 1
+				id: "mysticalagriculture:zombie_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "52AB1618CF9BF595"
+			item: {
+				count: 1
+				id: "mysticalagriculture:skeleton_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "0F9B624A4AC421DC"
+			item: {
+				count: 1
+				id: "mysticalagriculture:creeper_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "0F7285D262CEF85F"
+			item: {
+				count: 1
+				id: "mysticalagriculture:spider_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "77EA5B9FE8666F0A"
+			item: {
+				count: 1
+				id: "mysticalagriculture:rabbit_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "0E3498B7AE2DE452"
+			item: {
+				count: 1
+				id: "mysticalagriculture:zinc_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "5F4D4ABB6B458826"
+			item: {
+				count: 1
+				id: "mysticalagriculture:graphite_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "308332780699E141"
+			item: {
+				count: 1
+				id: "mysticalagriculture:copper_alloy_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "78D2074FE458613F"
+			item: {
+				count: 1
+				id: "mysticalagriculture:redstone_alloy_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "72A6F7E0CAAFEFDF"
+			item: {
+				count: 1
+				id: "mysticalagriculture:conductive_alloy_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "2EF99C6BC7D4B148"
+			item: {
+				count: 1
+				id: "mysticalagriculture:sky_stone_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "5A66FC793BA4862F"
+			item: {
+				count: 1
+				id: "mysticalagriculture:certus_quartz_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "0950268CF55E4B92"
+			item: {
+				count: 1
+				id: "mysticalagriculture:phantom_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "536880637717AAD9"
+			item: {
+				count: 1
+				id: "mysticalagriculture:tin_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "25BD6AED79CC6A78"
+			item: {
+				count: 1
+				id: "mysticalagriculture:bronze_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "4F739542F1C5B8AD"
+			item: {
+				count: 1
+				id: "mysticalagriculture:silver_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "2EACFA0EBC133A88"
+			item: {
+				count: 1
+				id: "mysticalagriculture:brass_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "2BCB4A2FC99B7411"
+			item: {
+				count: 1
+				id: "mysticalagriculture:lead_seeds"
+			}
+			weight: 0.2f
+		}
 	]
 }

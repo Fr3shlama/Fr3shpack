@@ -51,14 +51,77 @@
 		{ id: "16F5D3CCE27A4A89", item: { count: 1, id: "matc:inferium_crystal" } }
 		{ id: "56F5F1B8285DF70A", item: { count: 1, id: "mysticalagradditions:inferium_apple" } }
 		{ id: "48B48B17E174CEF7", item: { count: 1, id: "mysticalagradditions:inferium_coal_block" } }
-		{ id: "14EA6CA51D6CE07C", item: { count: 1, id: "mysticalagriculture:stone_seeds" } }
-		{ id: "2531B4085D017B58", item: { count: 1, id: "mysticalagriculture:wood_seeds" } }
-		{ id: "740C37AC743F812B", item: { count: 1, id: "mysticalagriculture:ice_seeds" } }
-		{ id: "67C794CE5D1568F4", item: { count: 1, id: "mysticalagriculture:deepslate_seeds" } }
-		{ id: "1432EB821C96B421", item: { count: 1, id: "mysticalagriculture:fire_seeds" } }
-		{ id: "38C1839FDB41320A", item: { count: 1, id: "mysticalagriculture:water_seeds" } }
-		{ id: "0D4F3642E89561D9", item: { count: 1, id: "mysticalagriculture:earth_seeds" } }
-		{ id: "4F90DC77A5B6A304", item: { count: 1, id: "mysticalagriculture:air_seeds" } }
-		{ id: "3B61A6AC9440A26A", item: { count: 1, id: "mysticalagriculture:dirt_seeds" } }
+		{
+			id: "14EA6CA51D6CE07C"
+			item: {
+				count: 1
+				id: "mysticalagriculture:stone_seeds"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "2531B4085D017B58"
+			item: {
+				count: 1
+				id: "mysticalagriculture:wood_seeds"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "740C37AC743F812B"
+			item: {
+				count: 1
+				id: "mysticalagriculture:ice_seeds"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "67C794CE5D1568F4"
+			item: {
+				count: 1
+				id: "mysticalagriculture:deepslate_seeds"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "1432EB821C96B421"
+			item: {
+				count: 1
+				id: "mysticalagriculture:fire_seeds"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "38C1839FDB41320A"
+			item: {
+				count: 1
+				id: "mysticalagriculture:water_seeds"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "0D4F3642E89561D9"
+			item: {
+				count: 1
+				id: "mysticalagriculture:earth_seeds"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "4F90DC77A5B6A304"
+			item: {
+				count: 1
+				id: "mysticalagriculture:air_seeds"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "3B61A6AC9440A26A"
+			item: {
+				count: 1
+				id: "mysticalagriculture:dirt_seeds"
+			}
+			weight: 0.3f
+		}
 	]
 }

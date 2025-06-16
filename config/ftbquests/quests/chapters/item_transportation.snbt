@@ -9,18 +9,5 @@
 	id: "0EF8B51B0DF817E7"
 	order_index: 6
 	quest_links: [ ]
-	quests: [{
-		id: "5057B63A2E5AF4BE"
-		rewards: [{
-			id: "5B86393BC3976C71"
-			type: "xp"
-			xp: 100
-		}]
-		tasks: [{
-			id: "40A127FF66432537"
-			type: "checkmark"
-		}]
-		x: 1.0d
-		y: -1.0d
-	}]
+	quests: [ ]
 }

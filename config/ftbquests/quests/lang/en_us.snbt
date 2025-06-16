@@ -8857,7 +8857,6 @@
 		"- Tree Feller"
 		"- Leaf Breaker"
 	]
-	quest.5057B63A2E5AF4BE.quest_desc: ["The Undergarden is a dark, subterranean world located deep below the bedrock of the Overworld. The flora here has adapted to their conditions and can grow anywhere, independent of light. Strange creatures call these dark lands home, and are plagued by the invasive Rotspawn, monsters originating from a chaotic, mysterious realm."]
 	quest.506360EEA2268E82.quest_desc: ["Does anyone remember those old CRT televisions anymore? Those things used vacuum tubes"]
 	quest.5064D5F99E2C69C8.quest_desc: ["Upgraded version of &9Imperium&r."]
 	quest.5064D5F99E2C69C8.quest_subtitle: "29"
@@ -9233,7 +9232,6 @@
 	quest.53829B3E51936ACD.title: "Strong Sword"
 	quest.538821E23E39BE97.quest_desc: ["&2Augment&r: Fuel Efficiency is for all you Earth-Loving, Tree-Hugging, Captain Planet Embracing, Hippies. The Furnace consumes half of the amount of Fuel at the cost of half the time. Coal will not Smelt 8 items but rather 16!"]
 	quest.538821E23E39BE97.title: "&2Augment&r: Fuel Efficiency"
-	quest.538CA53689955A6B.quest_desc: ["EvilCraft is a mod that is based on somewhat evil things. Throughout the game you will discover an ancient source of evil. These powers can be used in various technological advancements to initiate a second age of evilness. "]
 	quest.538E7F7557483708.quest_desc: ["Slowly restores hunger when the player walks on grass blocks while worn"]
 	quest.5391385A75535EC8.quest_desc: ["&e&lIron's Spells&r &2Nature Armor&r!"]
 	quest.5391385A75535EC8.quest_subtitle: "20"
@@ -14411,6 +14409,7 @@
 	task.19DF62F00979AEA2.title: "&5The Alchemist"
 	task.19E2DE9D89B89D7B.title: "Spike Mauls"
 	task.19E65997851BC46E.title: "Quests By AllTheMods"
+	task.1A36D4241BEBB8E2.title: "Any #hostilenetworks:custom_tooltip_colors"
 	task.1A4F2611944EF2EE.title: "The Knowledge of the Gatekeeper"
 	task.1A66B7FFB4E2163E.title: "Vanilla Logs"
 	task.1A7078C3984DD910.title: "Netherite BLocks"
@@ -14804,6 +14803,7 @@
 	task.6205B6B93B306A12.title: "Chests"
 	task.621A4E28BD50F96C.title: "Observe a Completed Induction Matrix"
 	task.624ADD79136376C0.title: "XyCraft World Items"
+	task.627CA0959779AD37.title: "Any #minecraft:logs"
 	task.62F11A588B293CA6.title: "AllRightsReserved"
 	task.6304FF8A9E8957FE.title: "Unobtainium Tools"
 	task.631388151555159B.title: "Sender Modules"
