@@ -35,7 +35,10 @@ const bannedItems = [
   //nukes
   'oritech:nuke',
   'oritech:low_yield_nuke',
-  'industrialforegoing:infinity_nuke'
+  'industrialforegoing:infinity_nuke',
+    
+      'createaddition:creative_energy'
+
 ];
 
 RecipeViewerEvents.removeEntriesCompletely('item', event => {

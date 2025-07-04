@@ -80,7 +80,7 @@
 		# Default of 0 means no automatic loss of claims.
 		# Default: 0.0
 		# Range: 0.0 ~ 3650.0
-		max_idle_days_before_unclaim: 0.0d
+		max_idle_days_before_unclaim: 21.0d
 		
 		# Method by which party claim & force-load limits are calculated.
 		# LARGEST: use the limits of the member with the largest limits
@@ -133,7 +133,7 @@
 		# Default of 0 means no automatic loss of forceloading.
 		# Default: 0.0
 		# Range: 0.0 ~ 3650.0
-		max_idle_days_before_unforce: 0.0d
+		max_idle_days_before_unforce: 2.0d
 	}
 	team_prop_defaults: {
 		# Default explosion protection for claimed chunks
