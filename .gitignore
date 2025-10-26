@@ -137,3 +137,4 @@ defaultconfigs/electrodynamics_ore_config.txt
 !config/ftbchunks-world.snbt
 !config/neruina.json
 !config/aiimprovements-common.toml
+!config/createqol-server.toml

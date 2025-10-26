@@ -1,0 +1,173 @@
+#.
+#Define the maximum distance can be set to the statue
+# Default: 16
+# Range: > 1
+statueMaxDistance = 16
+#.
+#Should the op players be warned about experimental features
+experimentalWarning = false
+
+#.
+#Modify Create Qol blocks comportment
+[kinetics]
+
+		#.
+		#.
+		#Fine tune the kinetic stats of individual components
+		[kinetics.stressValues.v2]
+
+			#.
+			#.
+			#[in Stress Units]
+			#Configure the individual stress impact of mechanical blocks. Note that this cost is doubled for every speed increase it receives.
+			[kinetics.stressValues.v2.impact]
+				mason_saw = 4.0
+				alchemy_saw = 4.0
+				shadow_radiance_chestplate = 4.0
+				botanist_saw = 4.0
+				carpenters_saw = 4.0
+				glassblower_saw = 4.0
+				tinkering_saw = 4.0
+				refined_radiance_chestplate = 4.0
+				inventory_linker = 8.0
+				shadow_steel_chestplate = 4.0
+				loom_saw = 4.0
+
+#.
+#Modify Create Qol logistics blocks comportment
+[logistics]
+	#.
+	#.
+	#Define the maximum possible range in blocks of ender packager connections.
+	# Default: 256
+	# Range: > 1
+	enderLinkRange = 256
+	#.
+	#Define the maximum distance (relative to the player) where the blaze manager can destroy a network component
+	# Default: 64
+	# Range: > 1
+	stockManagerMaxDestroyDistance = 64
+
+#.
+#Modify Create Qol equipments comportment
+[equipments]
+
+	#.
+	#.
+	#Modify Create Qol armors comportment
+	[equipments.armors]
+		#.
+		#.
+		#Define if helmets have goggles
+		helmetHaveGoggles = true
+		#.
+		#Define if players can add a propeller to their shadow radiance chestplate
+		propellerAllowed = true
+		#.
+		#Define if players can activate the hover mode with their shadow radiance chestplate
+		hoverAllowed = true
+		#.
+		#Define if players can add elytra to their shadow radiance chestplate
+		elytraAllowed = true
+		#.
+		#Define if players can use air in the chestplate to boost the elytra
+		elytraBoostAllowed = true
+		#.
+		#Define if the elytra boost must use fireworks instead of air (the elytra boost must be enabled)
+		useFireworksForBoost = false
+		#.
+		#Define the time (in ticks) between the consumption of fireworks for the boost (the usage of fireworks for the boost must be enabled)
+		# Default: 40
+		# Range: > 1
+		fireworkDuration = 40
+		#.
+		#Define if the items give potion effects
+		armorEffectsEnable = true
+		#.
+		#Define if the diving effect is applied on the shadow radiance boots
+		#Diving makes players descend quicker in liquids 
+		bootsDiving = true
+		#.
+		#Define if players can walk normally under lava with shadow radiance/shadow steel boots
+		bootsLavaWalking = true
+		#.
+		#Define if players can dash with a shadow radiance/shadow steel chestplate
+		dashAllowed = true
+		#.
+		#Define the cooldown for the dash
+		# Default: 100
+		# Range: > 1
+		dashCooldown = 100
+		#.
+		#Define if shadow radiance/refined radiance leggings should provide step height to the player
+		stepHeight = true
+		#.
+		#Define if shadow radiance/shadow steel leggings should provide the ability to walk on void to the player
+		voidWalking = true
+
+	#.
+	#Modify Create Qol tools comportment
+	[equipments.tools]
+		#.
+		#.
+		#Define if players' reach should be modified by Create QOL Tools
+		reach = true
+		#.
+		#Define if players can make a hole of 3x3x3 when mining a block with pickaxes
+		digging = true
+		#.
+		#Define if all the blocks of the same types should be destroy when mining with pickaxes
+		veinMine = true
+		#.
+		#Define the maximum amount of blocks that can be mined by the vein mine. Warning if this value is too high, lags can be created
+		# Default: 64
+		# Range: > 1
+		veinMineMaxBlocks = 64
+		#.
+		#Define if when a wood block is broken, all the tree should be destroyed
+		treeDecapitation = true
+		#.
+		#Define if the casingifier function is available
+		casingifier = true
+		#.
+		#Define the maximum amount of blocks that can be modified by the casingifier. Warning if this value is too high, lags can be created
+		# Default: 64
+		# Range: > 1
+		casingifierMaxBlocks = 64
+		#.
+		#Define if the smelting function is available on shovels
+		smelting = true
+		#.
+		#Define if the harvesting function is available on hoes
+		harvesting = true
+		#.
+		#Define if the player can plough dirt in a 3x3 square
+		ploughing = true
+		#.
+		#Define if the swords repulsion/attraction effects are enable
+		swordsAbilities = true
+		#.
+		#Define the amount of air used each time players use swords repulsion/attraction effect. If set to 0, air is not required when using the ability
+		# Default: 1
+		# Range: > 0
+		swordsAirConsumption = 1
+		#.
+		#Define the radius for the swords repulsion/attraction effect
+		# Default: 4.5
+		# Range: 0.5 ~ 10.0
+		swordsRadius = 4.5
+		#.
+		#Define the max strength for the swords repulsion/attraction effect. The strength formula is maxStrength * (chargeTime / maxChargeTime)
+		# Default: 1.5
+		# Range: 0.5 ~ 10.0
+		swordsStrength = 1.5
+		#.
+		#Define the max charge time (in ticks) for the swords repulsion/attraction effect
+		# Default: 50
+		# Range: > 0
+		swordsChargeTime = 50
+		#.
+		#Define the cooldown (in ticks) between two uses of swords repulsion/attraction effect
+		# Default: 100
+		# Range: > 0
+		swordsCooldowns = 100
