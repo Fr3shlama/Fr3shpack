@@ -20,7 +20,6 @@ recipes.removeByName("avaritia:infinity_catalyst_from_infinity_singularity");
         { "item": "modern_industrialization:quantum_upgrade" },
         { "item": "mekanism_extras:infinite_control_circuit" },
         { "item": "megacells:cell_component_256m" },
-        { "item": "mysticalagradditions:insanium_essence" },
         { "item": "justdirethings:time_crystal" },
         { "item": "oritech:machine_core_7" },
         { "item": "create:precision_mechanism" }

@@ -1,0 +1,19 @@
+ServerEvents.recipes(event => {
+  // Build inputs explicitly (most compatible approach)
+  const ingredients = [];
+
+  // 16x coal (any from c:coals)
+  for (let i = 0; i < 16; i++) ingredients.push({ tag: 'c:coals' });
+
+  // 8x clay balls
+  for (let i = 0; i < 8; i++) ingredients.push({ item: 'minecraft:clay_ball' });
+
+  ingredients.push({ fluid: 'minecraft:lava', amount: 1000 });
+
+  event.custom({
+    type: 'create:mixing',
+    ingredients,
+    results: [{ item: 'powah:dielectric_paste', count: 4 }],
+    processingTime: 200
+  }).id('pack:create_mixing_dielectric_paste_unheated');
+});
