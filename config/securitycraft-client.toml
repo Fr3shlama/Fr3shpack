@@ -19,3 +19,5 @@ frame_feed_resolution = 512
 # Default: 30
 # Range: 10 ~ 260
 frame_feed_fps_limit = 30
+#If this debug feature is enabled, SecurityCraft will attempt to find and report mods that prevent the feature of viewing security cameras from working when they immediately reset the player's camera entity.
+debug_camera_reset_tracing = false

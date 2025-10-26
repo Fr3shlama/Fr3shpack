@@ -43,8 +43,8 @@
 	# modifyExplosionResistances = {"mod_id:block_id" = value, ...}
 	#OR as subtable:
 	# [blockDamage.modifyExplosionResistances]
-	# 	"mod_id:block_id" = value
-	# 	...
+	#    "mod_id:block_id" = value
+	#    ...
 	#Note that the block IDs must be double-quoted.
 	modifyExplosionResistances = {}
 

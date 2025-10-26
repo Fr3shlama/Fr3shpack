@@ -16,6 +16,10 @@ convertDeepslateOres = false
 enableChunkLoader = true
 #[Fabric ONLY] 1E = ?FE. Default: 0,062500, Min: 0,0, Max: 10000000000,0
 rebornEnergyConversionCoefficient = 0.0625
+#Range of Flexible Marker. Default: 256, Min: 16, Max: 16777216
+flexibleMarkerRange = 256
+#Range of Marker Plus. Default: 256, Min: 8, Max: 1048576
+markerPlusRange = 256
 
 [enableMap]
 	#pump_module Default: true
