@@ -116,7 +116,7 @@ defaultconfigs/*
 !config/immersiveengineering-server.toml
 !config/immersiveengineering-startup.toml
 !config/oritech-config.json5
-!config/modern_industrialization-client.toml
+!config/modern_industrialization*
 defaultconfigs/electrodynamics_ore_config.txt
 !config/structurify.json
 !config/ironfurnaces-common.toml
@@ -138,3 +138,7 @@ defaultconfigs/electrodynamics_ore_config.txt
 !config/neruina.json
 !config/aiimprovements-common.toml
 !config/createqol-server.toml
+/dynamic-resource-pack-cache
+/dynamic-data-pack-cache
+/fancymenu_data
+*.txt
