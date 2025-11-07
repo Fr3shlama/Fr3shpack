@@ -142,3 +142,4 @@ defaultconfigs/electrodynamics_ore_config.txt
 /dynamic-data-pack-cache
 /fancymenu_data
 *.txt
+TrashSlotSaveState.json
