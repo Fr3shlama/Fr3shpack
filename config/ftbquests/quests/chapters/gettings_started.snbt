@@ -491,21 +491,6 @@
 			y: 1.5d
 		}
 		{
-			id: "158B1C48395E94FF"
-			rewards: [{
-				id: "32B11A31FBFFEC1F"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "314A8AAD6243476C"
-				item: { count: 1, id: "sereneseasons:calendar" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 3.5d
-		}
-		{
 			id: "5C24A575D284272A"
 			rewards: [{
 				id: "7A9DE0E5A833FF68"

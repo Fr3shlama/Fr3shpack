@@ -7,109 +7,148 @@
 			count: 16
 			id: "243DE5BB9F933F73"
 			item: {
+				components: {
+					"ftbquests:missing_item": "mysticalagriculture:supremium_essence"
+				}
 				count: 1
-				id: "mysticalagriculture:supremium_essence"
+				id: "ftbquests:missing_item"
 			}
 		}
-		{ id: "0DB2BF6E2046C907", item: { count: 1, id: "mysticalagriculture:supremium_block" } }
-		{ id: "384DB2FC581DFA00", item: { count: 1, id: "mysticalagriculture:supremium_ingot_block" } }
-		{ id: "71C963054C11D923", item: { count: 1, id: "mysticalagriculture:supremium_gemstone_block" } }
-		{ id: "65A91E6DA57E85ED", item: { count: 1, id: "mysticalagriculture:supremium_farmland" } }
-		{ id: "1585D745BFD5BA23", item: { count: 1, id: "mysticalagriculture:supremium_growth_accelerator" } }
+		{ id: "0DB2BF6E2046C907", item: { components: { "ftbquests:missing_item": "mysticalagriculture:supremium_block" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "384DB2FC581DFA00", item: { components: { "ftbquests:missing_item": "mysticalagriculture:supremium_ingot_block" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "71C963054C11D923", item: { components: { "ftbquests:missing_item": "mysticalagriculture:supremium_gemstone_block" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "65A91E6DA57E85ED", item: { components: { "ftbquests:missing_item": "mysticalagriculture:supremium_farmland" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "1585D745BFD5BA23", item: { components: { "ftbquests:missing_item": "mysticalagriculture:supremium_growth_accelerator" }, count: 1, id: "ftbquests:missing_item" } }
 		{
 			count: 4
 			id: "5E0FEA734575D5D0"
 			item: {
+				components: {
+					"ftbquests:missing_item": "mysticalagriculture:supremium_ingot"
+				}
 				count: 1
-				id: "mysticalagriculture:supremium_ingot"
+				id: "ftbquests:missing_item"
 			}
 		}
 		{
 			count: 4
 			id: "12A3426AB80CAFFC"
 			item: {
+				components: {
+					"ftbquests:missing_item": "mysticalagriculture:supremium_gemstone"
+				}
 				count: 1
-				id: "mysticalagriculture:supremium_gemstone"
+				id: "ftbquests:missing_item"
 			}
 		}
-		{ id: "1DFA188F51856E03", item: { count: 1, id: "mysticalagriculture:supremium_upgrade" } }
+		{ id: "1DFA188F51856E03", item: { components: { "ftbquests:missing_item": "mysticalagriculture:supremium_upgrade" }, count: 1, id: "ftbquests:missing_item" } }
 		{
 			id: "393C765FB4FD2ED8"
 			item: {
+				components: {
+					"ftbquests:missing_item": "mysticalagriculture:diamond_seeds"
+				}
 				count: 1
-				id: "mysticalagriculture:diamond_seeds"
+				id: "ftbquests:missing_item"
 			}
 			weight: 0.1f
 		}
 		{
 			id: "0C4E7626CCBC0521"
 			item: {
+				components: {
+					"ftbquests:missing_item": "mysticalagriculture:emerald_seeds"
+				}
 				count: 1
-				id: "mysticalagriculture:emerald_seeds"
+				id: "ftbquests:missing_item"
 			}
 			weight: 0.1f
 		}
 		{
 			id: "1C7C356BB2C414A6"
 			item: {
+				components: {
+					"ftbquests:missing_item": "mysticalagriculture:netherite_seeds"
+				}
 				count: 1
-				id: "mysticalagriculture:netherite_seeds"
+				id: "ftbquests:missing_item"
 			}
 			weight: 0.1f
 		}
 		{
 			id: "230E5D0662C55765"
 			item: {
+				components: {
+					"ftbquests:missing_item": "mysticalagriculture:wither_skeleton_seeds"
+				}
 				count: 1
-				id: "mysticalagriculture:wither_skeleton_seeds"
+				id: "ftbquests:missing_item"
 			}
 			weight: 0.1f
 		}
 		{
 			id: "3BEF3F18745019EB"
 			item: {
+				components: {
+					"ftbquests:missing_item": "mysticalagriculture:platinum_seeds"
+				}
 				count: 1
-				id: "mysticalagriculture:platinum_seeds"
+				id: "ftbquests:missing_item"
 			}
 			weight: 0.1f
 		}
 		{
 			id: "1CBC1BF60721C53B"
 			item: {
+				components: {
+					"ftbquests:missing_item": "mysticalagriculture:iridium_seeds"
+				}
 				count: 1
-				id: "mysticalagriculture:iridium_seeds"
+				id: "ftbquests:missing_item"
 			}
 			weight: 0.1f
 		}
 		{
 			id: "6C68B309F85D8367"
 			item: {
+				components: {
+					"ftbquests:missing_item": "mysticalagriculture:vibrant_alloy_seeds"
+				}
 				count: 1
-				id: "mysticalagriculture:vibrant_alloy_seeds"
+				id: "ftbquests:missing_item"
 			}
 			weight: 0.1f
 		}
 		{
 			id: "260C008B2CEF401E"
 			item: {
+				components: {
+					"ftbquests:missing_item": "mysticalagriculture:end_steel_seeds"
+				}
 				count: 1
-				id: "mysticalagriculture:end_steel_seeds"
+				id: "ftbquests:missing_item"
 			}
 			weight: 0.1f
 		}
 		{
 			id: "0FBFD8636F65689E"
 			item: {
+				components: {
+					"ftbquests:missing_item": "mysticalagriculture:yellorium_seeds"
+				}
 				count: 1
-				id: "mysticalagriculture:yellorium_seeds"
+				id: "ftbquests:missing_item"
 			}
 			weight: 0.1f
 		}
 		{
 			id: "15C0B1A7A8A2DC4C"
 			item: {
+				components: {
+					"ftbquests:missing_item": "mysticalagriculture:cyanite_seeds"
+				}
 				count: 1
-				id: "mysticalagriculture:cyanite_seeds"
+				id: "ftbquests:missing_item"
 			}
 			weight: 0.1f
 		}

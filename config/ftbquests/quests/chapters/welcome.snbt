@@ -9,12 +9,12 @@
 	}
 	id: "5B00676D79306EA2"
 	images: [{
-		height: 5.0d
-		image: "packmenu:textures/gui/logo.png"
+		height: 4.0d
+		image: "minecraft:textures/entity_icon/llama/brown.png"
 		rotation: 0.0d
-		width: 5.0d
+		width: 4.0d
 		x: 0.0d
-		y: -4.0d
+		y: -11.0d
 	}]
 	order_index: 0
 	progression_mode: "flexible"
@@ -121,7 +121,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -7.5d
+			y: -6.0d
 		}
 		{
 			icon: {
@@ -140,71 +140,8 @@
 				id: "52BB142F044075B4"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: -4.5d
-		}
-		{
-			icon: {
-				components: {
-					"ftbquests:icon": "ftbteams:textures/settings.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "7658C1C663394E85"
-			min_width: 350
-			rewards: [{
-				id: "5007C73E170C4FF6"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "rsquare"
-			size: 1.5d
-			tasks: [{
-				id: "10A16F89D4AD238D"
-				type: "checkmark"
-			}]
-			x: 3.0d
-			y: -3.0d
-		}
-		{
-			icon: {
-				components: {
-					"ftbquests:icon": "ftbteams:textures/teams.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "5AC1BE754210429E"
-			rewards: [{
-				id: "101D2FD24AB845AC"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "heart"
-			size: 1.5d
-			tasks: [{
-				id: "4F13A02FB0055A62"
-				type: "checkmark"
-			}]
-			x: -1.5d
-			y: -4.5d
-		}
-		{
-			id: "11F055A2EE82AE77"
-			rewards: [{
-				count: 4
-				id: "7D92F830653C8E99"
-				item: {
-					count: 1
-					id: "avaritia:cosmic_meatballs"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "4726284000CC503B"
-				type: "checkmark"
-			}]
-			x: 3.0d
-			y: -6.5d
+			x: 0.0d
+			y: -8.25d
 		}
 	]
 }

@@ -7,30 +7,39 @@
 			count: 16
 			id: "3AC1C1A0576E29D8"
 			item: {
+				components: {
+					"ftbquests:missing_item": "mysticalagriculture:awakened_supremium_essence"
+				}
 				count: 1
-				id: "mysticalagriculture:awakened_supremium_essence"
+				id: "ftbquests:missing_item"
 			}
 		}
-		{ id: "09281E2D90E4EA26", item: { count: 1, id: "mysticalagriculture:awakened_supremium_block" } }
-		{ id: "4B27ED21196A29FD", item: { count: 1, id: "mysticalagriculture:awakened_supremium_ingot_block" } }
-		{ id: "3B52B465B6E78E55", item: { count: 1, id: "mysticalagriculture:awakened_supremium_gemstone_block" } }
-		{ id: "401BC4A396B1F087", item: { count: 1, id: "mysticalagriculture:awakened_supremium_growth_accelerator" } }
+		{ id: "09281E2D90E4EA26", item: { components: { "ftbquests:missing_item": "mysticalagriculture:awakened_supremium_block" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "4B27ED21196A29FD", item: { components: { "ftbquests:missing_item": "mysticalagriculture:awakened_supremium_ingot_block" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "3B52B465B6E78E55", item: { components: { "ftbquests:missing_item": "mysticalagriculture:awakened_supremium_gemstone_block" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "401BC4A396B1F087", item: { components: { "ftbquests:missing_item": "mysticalagriculture:awakened_supremium_growth_accelerator" }, count: 1, id: "ftbquests:missing_item" } }
 		{
 			count: 4
 			id: "01F5AA93D8935C6C"
 			item: {
+				components: {
+					"ftbquests:missing_item": "mysticalagriculture:awakened_supremium_ingot"
+				}
 				count: 1
-				id: "mysticalagriculture:awakened_supremium_ingot"
+				id: "ftbquests:missing_item"
 			}
 		}
 		{
 			count: 4
 			id: "1A70875CD360C09B"
 			item: {
+				components: {
+					"ftbquests:missing_item": "mysticalagriculture:awakened_supremium_gemstone"
+				}
 				count: 1
-				id: "mysticalagriculture:awakened_supremium_gemstone"
+				id: "ftbquests:missing_item"
 			}
 		}
-		{ id: "76E8D02D0D9B8C5F", item: { count: 1, id: "mysticalagriculture:awakened_supremium_upgrade" } }
+		{ id: "76E8D02D0D9B8C5F", item: { components: { "ftbquests:missing_item": "mysticalagriculture:awakened_supremium_upgrade" }, count: 1, id: "ftbquests:missing_item" } }
 	]
 }

@@ -33,15 +33,6 @@
 			x: 0.0d
 			y: 0.0d
 		}
-		{
-			alpha: 100
-			height: 255.0d
-			image: "minecraft:textures/misc/shadow.png"
-			rotation: 0.0d
-			width: 255.0d
-			x: 0.5d
-			y: -0.5d
-		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -889,6 +880,42 @@
 			]
 			x: 2.0d
 			y: 4.0d
+		}
+		{
+			id: "0F6B4995723CBCAE"
+			rewards: [
+				{
+					id: "610B938B2C828FBF"
+					item: {
+						count: 1
+						id: "ae2:mysterious_cube"
+					}
+					type: "item"
+				}
+				{
+					id: "5D93CED4CDA88461"
+					item: {
+						count: 1
+						id: "ae2:flawless_budding_quartz"
+					}
+					type: "item"
+				}
+				{
+					count: 128
+					id: "29332074F6641145"
+					item: {
+						count: 1
+						id: "ae2:sky_stone_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2E210D996460FF66"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -2.0d
 		}
 	]
 }

@@ -673,13 +673,13 @@
 				{
 					count: 2L
 					id: "79F9F53613AE418B"
-					item: { count: 2, id: "mekanism:thermal_evaporation_valve" }
+					item: { count: 1, id: "mekanism:thermal_evaporation_valve" }
 					type: "item"
 				}
 				{
 					count: 37L
 					id: "05825B377542E094"
-					item: { count: 37, id: "mekanism:thermal_evaporation_block" }
+					item: { count: 1, id: "mekanism:thermal_evaporation_block" }
 					type: "item"
 				}
 			]

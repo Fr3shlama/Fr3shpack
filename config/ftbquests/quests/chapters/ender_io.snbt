@@ -141,7 +141,7 @@
 			]
 			tasks: [{
 				id: "14001FB49DC768BC"
-				item: { count: 1, id: "enderio:primitive_alloy_smelter" }
+				item: { components: { "ftbquests:missing_item": "enderio:primitive_alloy_smelter" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -780,7 +780,7 @@
 			]
 			tasks: [{
 				id: "152D69352B437CDF"
-				item: { count: 1, id: "enderio:experience_rod" }
+				item: { count: 1, id: "enderio:void_vial" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -833,7 +833,7 @@
 			]
 			tasks: [{
 				id: "642E9CC1D3DAF2CB"
-				item: { count: 1, id: "enderio:empty_soul_vial" }
+				item: { count: 1, id: "enderio:soul_vial" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -856,7 +856,7 @@
 			]
 			tasks: [{
 				id: "761B0FA1C050F70E"
-				item: { count: 1, id: "enderio:basic_filter" }
+				item: { count: 1, id: "enderio:basic_item_filter" }
 				type: "item"
 			}]
 			x: 11.5d
@@ -881,7 +881,7 @@
 			]
 			tasks: [{
 				id: "2CC45118B8537F68"
-				item: { count: 1, id: "enderio:advanced_filter" }
+				item: { count: 1, id: "enderio:advanced_item_filter" }
 				type: "item"
 			}]
 			x: 11.5d
@@ -904,7 +904,7 @@
 			]
 			tasks: [{
 				id: "56066C142B343F94"
-				item: { count: 1, id: "enderio:fluid_filter" }
+				item: { count: 1, id: "enderio:basic_fluid_filter" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -929,7 +929,7 @@
 			]
 			tasks: [{
 				id: "058EA98577B80572"
-				item: { count: 1, id: "enderio:entity_filter" }
+				item: { count: 1, id: "enderio:basic_soul_filter" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -952,7 +952,7 @@
 			]
 			tasks: [{
 				id: "1A3F1DA391D76E19"
-				item: { count: 1, id: "enderio:chemical_filter" }
+				item: { count: 1, id: "enderio:basic_chemical_filter" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -977,7 +977,7 @@
 			]
 			tasks: [{
 				id: "473D08471C779DB7"
-				item: { count: 1, id: "enderio:extraction_speed_upgrade_1" }
+				item: { components: { "ftbquests:missing_item": "enderio:extraction_speed_upgrade_1" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -1005,7 +1005,7 @@
 			]
 			tasks: [{
 				id: "63C345AC9B68EA42"
-				item: { count: 1, id: "enderio:extraction_speed_upgrade_2" }
+				item: { components: { "ftbquests:missing_item": "enderio:extraction_speed_upgrade_2" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -1033,7 +1033,7 @@
 			]
 			tasks: [{
 				id: "4E74D329B9051753"
-				item: { count: 1, id: "enderio:extraction_speed_upgrade_3" }
+				item: { components: { "ftbquests:missing_item": "enderio:extraction_speed_upgrade_3" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 7.5d
@@ -1061,7 +1061,7 @@
 			]
 			tasks: [{
 				id: "2F7C9E9F4FBDB814"
-				item: { count: 1, id: "enderio:extraction_speed_upgrade_4" }
+				item: { components: { "ftbquests:missing_item": "enderio:extraction_speed_upgrade_4" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 9.0d

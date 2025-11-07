@@ -1,6 +1,5 @@
 {
 	chapter.031BF92EC074CA6C.title: "Farmworld"
-	chapter.04DAAFBF2E6DA6D7.title: "Cataclysm"
 	chapter.059AF20FCDAA2760.title: "Oritech"
 	chapter.1288D96EAEE0F0CB.title: "Transportation"
 	chapter.18B4B087577F2CDA.title: "The Undergarden"
@@ -9,8 +8,6 @@
 	chapter.201D1901E5EC24DB.title: "The Otherside"
 	chapter.22B57CC519DA4BB1.title: "Artifacts and Relics"
 	chapter.2459980B66295D32.title: "Mekanism"
-	chapter.2603E3BEFD893C4D.title: "EvilCraft"
-	chapter.2932119915B53EFB.title: "Productive Bees"
 	chapter.29BCB2B264F3D226.title: "Apotheosis"
 	chapter.29E95C4E50CE2648.title: "Just Dire Things"
 	chapter.29EFE8220836C79A.title: "&aChapter 2&r: &6The ATM Star"
@@ -25,14 +22,11 @@
 	chapter.3C5F71656683B00A.title: "Create"
 	chapter.415BA265E2C00859.title: "Getting Started"
 	chapter.422ECD10AD37A198.title: "Gettings started"
-	chapter.4854B70DD3026C40.title: "Mystical Agriculture"
 	chapter.49516E4183DFF745.title: "How?"
-	chapter.53570F153440FDF5.title: "Food"
 	chapter.5470B8D104A1C0B2.title: "Immersive Engineering"
 	chapter.58A68A93859B48F3.title: "Personal Storage"
 	chapter.5AAEA16BEFA2AEFF.title: "The Bumblezone"
 	chapter.5B00676D79306EA2.title: "Thank you for the download!"
-	chapter.5B4880E314975124.title: "Pollution of the Realms"
 	chapter.5C764279146E5E66.title: "Mystical Agriculture"
 	chapter.5D102CC1E61F2E31.title: "Overworld"
 	chapter.60BD2DB834C24AEA.title: "XNet"
@@ -1726,6 +1720,12 @@
 	quest.0F55D0B4D5094EDB.title: "Kill The Trader Villager and His Annoying Llamas"
 	quest.0F65562B34A8A58D.quest_desc: ["Adds furnace-like functionality to the backpack, with an optional automated variant."]
 	quest.0F670551E465EEB7.quest_desc: ["A safeguard upgrade that prevents a drawer from overfilling. When the drawer’s storage is full, any additional items that would normally overflow are deleted (voided) instead, allowing continuous input of items without jamming systems (excess items simply disappear)."]
+	quest.0F6B4995723CBCAE.quest_desc: [
+		"Since you (probably) play on a server you might have a difficult time finding the  meteorite.."
+		""
+		"Here is the starterkit :)"
+	]
+	quest.0F6B4995723CBCAE.quest_subtitle: "Multiplayer is hard"
 	quest.0F6FB959B352121D.quest_desc: [
 		"Have you been having any voltage issues? Well, this wire will help!"
 		""
@@ -1944,7 +1944,6 @@
 	quest.11D57C768032E3F7.title: "&eAdvanced Magnet Upgrade"
 	quest.11E957CDEFA0CAAB.quest_desc: ["Welcome to &5&lThe Beyond&r! \\n\\nThere's nothing here! \\n\\nYou might want an Angel Block."]
 	quest.11E957CDEFA0CAAB.title: "&5&lThe Beyond"
-	quest.11F055A2EE82AE77.quest_subtitle: "thats what endgame feels like :)"
 	quest.11F7D3DDF5683EB3.quest_desc: [
 		"Uses a laser and specific lenses to engrave different patterns on the wafers"
 		""
@@ -2364,10 +2363,6 @@
 		"{image:atm:textures/questpics/forbidden/forbidden_tier5.png width:100 height:100 align:center}"
 	]
 	quest.15849165CA8C00F9.title: "&l&9Tier 5 &6Forge"
-	quest.158B1C48395E94FF.quest_desc: [
-		"There are now four seasons in the game, including spring, summer, autumn, and winter. Leaves and grass change color through the year, winter brings snow in more places than before, and even crops grow differently and the weather changes with each season."
-		"You can also craft a simple calendar item that tells you the current season in the game."
-	]
 	quest.158B24939A269D83.quest_desc: ["The Tip Upgrade is used to increase the mining level of a tool.\\n\\nFor example: If you have an Iron Pickaxe, with 1 Diamond, you can make a Diamond Tip Upgrade, and place it on your pickaxe. This will allow it to mine Obsidian, as well as give it a stat boost."]
 	quest.158B24939A269D83.quest_subtitle: "For when you don't find 3 Diamonds"
 	quest.158F13367C2E0C6D.quest_desc: [
@@ -6414,7 +6409,7 @@
 	quest.3BB3AA6C29285837.quest_desc: ["Buffs:\\n\\n - Absorption II (3:00)\\n - Speed II (3:00)"]
 	quest.3BB3AA6C29285837.title: "&2Prudentium Apple"
 	quest.3BC0A50886A3222B.quest_desc: [
-		"TooManyMods is my attempt to Create a giant tech-focused Modpack with all the mods I like and know"
+		"TooManyMods is my attempt to create a giant tech-focused Modpack with all the mods I like and know"
 		""
 		"And I hate most magic mods >:)"
 		"{image: width:100 height:100 align:center}"
@@ -9985,7 +9980,6 @@
 	quest.5AAD0E516762BA53.quest_desc: ["Do you feel like you are levitating yet? Might be all that shulker from that Soul Vial."]
 	quest.5AAD0E516762BA53.quest_subtitle: "Prescient Crystal"
 	quest.5AAF6CA41209B365.title: "&3Vibranium Tools"
-	quest.5AC1BE754210429E.quest_desc: ["In your inventory on the top left you will find the FTB-Teams icon, with wich you can create teams and claim chunks (and force load them)"]
 	quest.5AC497F76A086A5C.title: "&l&9Overworld Bounty:&r&e Witches"
 	quest.5ACE97EE75813006.quest_desc: [
 		"This is the main source of information on &dRituals&r. Here's the basics:"
@@ -13197,15 +13191,6 @@
 	quest.76558D23A70AFF78.title: "&bIce&r Upgrade Orb"
 	quest.7655E1C6C5E5469F.quest_subtitle: "Range: &a18&r Blocks"
 	quest.7655E1C6C5E5469F.title: "&2Prudentium Growth Accelerator"
-	quest.7658C1C663394E85.quest_desc: [
-		"Basically:"
-		""
-		"/home - teleports you home"
-		"/sethome - sets your home"
-		"/rtp - teleports you randomly"
-		""
-		"/tpa and /tpahere - teleport to other players (or teleport them to you)"
-	]
 	quest.765EBF99FFF4061F.quest_desc: [
 		"It seems you have stumbled your way into the world of &9Everbright&r."
 		""
@@ -14702,6 +14687,7 @@
 	task.4EF5B261BAD2AC7D.title: "Diamond Comb"
 	task.4F13A02FB0055A62.title: "Creating a Team"
 	task.4F6E8F2EC33DB910.title: "Awakened Supremium Tools"
+	task.4FA787D9D4D2EACF.title: "FR3SHPACK"
 	task.4FC90CCB41E58D5A.title: "Dye Bee"
 	task.4FCEB24FC83D22A9.title: "Constantan Comb"
 	task.500548E772861A58.title: "Nether Layer Ores"
