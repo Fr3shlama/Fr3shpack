@@ -29,8 +29,8 @@ const bannedItems = [
   'avaritia:infinity_chest',
 
   // Stack upgrades
-  'sophisticatedbackpacks:stack_upgrade_omega_tier',
-  'sophisticatedstorage:stack_upgrade_omega_tier',
+  // 'sophisticatedbackpacks:stack_upgrade_omega_tier',
+  // 'sophisticatedstorage:stack_upgrade_omega_tier',
 
   //Nukes
   'oritech:nuke',
