@@ -38,7 +38,11 @@ const bannedItems = [
   'industrialforegoing:infinity_nuke',
    
     // no infinity energy >:(
-  'createaddition:creative_energy'
+  'createaddition:creative_energy',
+  'create_better_motors:andesite_alternator',
+  'create_better_motors:copper_alternator',
+  'create_better_motors:brass_alternator'
+
 ];
 
 ServerEvents.recipes(event => {
