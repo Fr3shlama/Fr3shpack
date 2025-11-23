@@ -45,10 +45,7 @@ ServerEvents.recipes(event => {
         'osmium',
         'nickel',
         'lead',
-        'zinc',
-        'ruby',
-        'sapphire',
-        'topaz'
+        'zinc'
     ].forEach(material => {
         addCasting('allthecompressed:sand_1x', {tag: `c:molten_${material}`}, {item: `geore:${material}_block`})
     })
