@@ -124,30 +124,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["67B5C1603356022E"]
-			id: "21635D72FE456012"
-			rewards: [
-				{
-					id: "5E24C6C7F449E3DD"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "490DB76DB4A71664"
-					table_id: 393758751194695253L
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "14001FB49DC768BC"
-				item: { components: { "ftbquests:missing_item": "enderio:primitive_alloy_smelter" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 0.0d
-		}
-		{
 			dependencies: ["425BB3F3902DA383"]
 			hide_dependency_lines: true
 			id: "6476A25D84DD2F03"
@@ -222,7 +198,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["21635D72FE456012"]
+			dependencies: ["67B5C1603356022E"]
 			id: "425BB3F3902DA383"
 			rewards: [
 				{
@@ -959,115 +935,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["44490D7585EE1C78"]
-			hide_dependency_lines: true
-			id: "612513E720D69A0A"
-			rewards: [
-				{
-					id: "0A542790EE38ED0D"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5F3AE44122BFD866"
-					table_id: 393758751194695253L
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "473D08471C779DB7"
-				item: { components: { "ftbquests:missing_item": "enderio:extraction_speed_upgrade_1" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 4.5d
-			y: -1.0d
-		}
-		{
-			dependencies: [
-				"612513E720D69A0A"
-				"2987C91E968E3260"
-			]
-			hide_dependency_lines: true
-			id: "1F9F0729B3862AA9"
-			rewards: [
-				{
-					id: "77E09E887542F6FA"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "581FEB027FEE338F"
-					table_id: 393758751194695253L
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "63C345AC9B68EA42"
-				item: { components: { "ftbquests:missing_item": "enderio:extraction_speed_upgrade_2" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: -1.0d
-		}
-		{
-			dependencies: [
-				"1F9F0729B3862AA9"
-				"6A25BF3B49101F0F"
-			]
-			hide_dependency_lines: true
-			id: "1448E50E9CD60823"
-			rewards: [
-				{
-					id: "3AB149F2892F7D1A"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4B93BBC1CCF7D1DB"
-					table_id: 393758751194695253L
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "4E74D329B9051753"
-				item: { components: { "ftbquests:missing_item": "enderio:extraction_speed_upgrade_3" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 7.5d
-			y: -1.0d
-		}
-		{
-			dependencies: [
-				"1448E50E9CD60823"
-				"500443E10EED0635"
-			]
-			hide_dependency_lines: true
-			id: "34FA0A535E5C66F5"
-			rewards: [
-				{
-					id: "480E58A49E186853"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "649703A09C4E8B5E"
-					table_id: 393758751194695253L
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "2F7C9E9F4FBDB814"
-				item: { components: { "ftbquests:missing_item": "enderio:extraction_speed_upgrade_4" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: -1.0d
-		}
-		{
 			dependencies: ["67B5C1603356022E"]
 			id: "26431B6C42B91847"
 			rewards: [
@@ -1308,7 +1175,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["21635D72FE456012"]
+			dependencies: ["67B5C1603356022E"]
 			hide_dependency_lines: true
 			id: "500443E10EED0635"
 			rewards: [
@@ -1359,7 +1226,7 @@
 		{
 			dependencies: [
 				"5068470A8F9997A7"
-				"21635D72FE456012"
+				"67B5C1603356022E"
 			]
 			hide_dependency_lines: true
 			id: "44490D7585EE1C78"
@@ -1385,7 +1252,7 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["21635D72FE456012"]
+			dependencies: ["67B5C1603356022E"]
 			hide_dependency_lines: true
 			id: "6A25BF3B49101F0F"
 			rewards: [
@@ -1905,7 +1772,7 @@
 		{
 			dependencies: [
 				"5068470A8F9997A7"
-				"21635D72FE456012"
+				"67B5C1603356022E"
 			]
 			hide_dependency_lines: true
 			id: "71431BAA33AED3E5"
@@ -2004,7 +1871,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["21635D72FE456012"]
+			dependencies: ["67B5C1603356022E"]
 			hide_dependency_lines: true
 			id: "010587D38B72527F"
 			rewards: [
