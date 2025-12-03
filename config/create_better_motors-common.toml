@@ -1,0 +1,309 @@
+#General configuration for Create: Better Motors
+#Messages
+[Messages]
+	#Enable or disable update messages.
+	messages_enabled = false
+
+#Accumulator
+[accumulator]
+	#Max input in FE/t
+	# Default: 800000
+	# Range: > 0
+	max_input = 800000
+	#Max output in FE/t
+	# Default: 800000
+	# Range: > 0
+	max_output = 800000
+
+#Wires
+[wires]
+	#Heavy Connector max input in FE/t
+	# Default: 90000
+	# Range: > 0
+	max_input = 90000
+	#Heavy Connector max output in FE/t
+	# Default: 90000
+	# Range: > 0
+	max_output = 90000
+	#Heavy Connector max length in blocks
+	# Default: 48
+	# Range: 0 ~ 256
+	max_length = 48
+
+#starter_motor
+[starter_motor]
+	#FE/t at 256 RPM
+	# Default: 960
+	# Range: > 0
+	fe_at_max_rpm = 960
+	#Max stress in SU at 256 RPM
+	# Default: 35768
+	# Range: > 0
+	max_stress = 35768
+	#Enable motor audio
+	audio_enabled = true
+	#Motor RPM range
+	# Default: 256
+	# Range: > 1
+	rpm_range = 256
+	#Minimum FE/t consumption
+	# Default: 8
+	# Range: > 0
+	min_consumption = 8
+	#Max FE/t input
+	# Default: 80000
+	# Range: > 0
+	max_input = 80000
+	#Internal FE capacity
+	# Default: 100000
+	# Range: > 0
+	capacity = 100000
+
+#basic_motor
+[basic_motor]
+	#FE/t at 256 RPM
+	# Default: 1920
+	# Range: > 0
+	fe_at_max_rpm = 1920
+	#Max stress in SU at 256 RPM
+	# Default: 75768
+	# Range: > 0
+	max_stress = 75768
+	#Enable motor audio
+	audio_enabled = true
+	#Motor RPM range
+	# Default: 256
+	# Range: > 1
+	rpm_range = 256
+	#Minimum FE/t consumption
+	# Default: 8
+	# Range: > 0
+	min_consumption = 8
+	#Max FE/t input
+	# Default: 80000
+	# Range: > 0
+	max_input = 80000
+	#Internal FE capacity
+	# Default: 100000
+	# Range: > 0
+	capacity = 100000
+
+#hardened_motor
+[hardened_motor]
+	#FE/t at 256 RPM
+	# Default: 3840
+	# Range: > 0
+	fe_at_max_rpm = 3840
+	#Max stress in SU at 256 RPM
+	# Default: 161536
+	# Range: > 0
+	max_stress = 161536
+	#Enable motor audio
+	audio_enabled = true
+	#Motor RPM range
+	# Default: 256
+	# Range: > 1
+	rpm_range = 256
+	#Minimum FE/t consumption
+	# Default: 8
+	# Range: > 0
+	min_consumption = 8
+	#Max FE/t input
+	# Default: 80000
+	# Range: > 0
+	max_input = 80000
+	#Internal FE capacity
+	# Default: 100000
+	# Range: > 0
+	capacity = 100000
+
+#blazing_motor
+[blazing_motor]
+	#FE/t at 256 RPM
+	# Default: 7680
+	# Range: > 0
+	fe_at_max_rpm = 7680
+	#Max stress in SU at 256 RPM
+	# Default: 253072
+	# Range: > 0
+	max_stress = 253072
+	#Enable motor audio
+	audio_enabled = true
+	#Motor RPM range
+	# Default: 256
+	# Range: > 1
+	rpm_range = 256
+	#Minimum FE/t consumption
+	# Default: 8
+	# Range: > 0
+	min_consumption = 8
+	#Max FE/t input
+	# Default: 80000
+	# Range: > 0
+	max_input = 80000
+	#Internal FE capacity
+	# Default: 500000
+	# Range: > 0
+	capacity = 500000
+
+#niotic_motor
+[niotic_motor]
+	#FE/t at 256 RPM
+	# Default: 19360
+	# Range: > 0
+	fe_at_max_rpm = 19360
+	#Max stress in SU at 256 RPM
+	# Default: 710144
+	# Range: > 0
+	max_stress = 710144
+	#Enable motor audio
+	audio_enabled = true
+	#Motor RPM range
+	# Default: 256
+	# Range: > 1
+	rpm_range = 256
+	#Minimum FE/t consumption
+	# Default: 8
+	# Range: > 0
+	min_consumption = 8
+	#Max FE/t input
+	# Default: 80000
+	# Range: > 0
+	max_input = 80000
+	#Internal FE capacity
+	# Default: 600000
+	# Range: > 0
+	capacity = 600000
+
+#spirited_motor
+[spirited_motor]
+	#FE/t at 256 RPM
+	# Default: 41720
+	# Range: > 0
+	fe_at_max_rpm = 41720
+	#Max stress in SU at 256 RPM
+	# Default: 1298288
+	# Range: > 0
+	max_stress = 1298288
+	#Enable motor audio
+	audio_enabled = true
+	#Motor RPM range
+	# Default: 256
+	# Range: > 1
+	rpm_range = 256
+	#Minimum FE/t consumption
+	# Default: 8
+	# Range: > 0
+	min_consumption = 8
+	#Max FE/t input
+	# Default: 80000
+	# Range: > 0
+	max_input = 80000
+	#Internal FE capacity
+	# Default: 700000
+	# Range: > 0
+	capacity = 700000
+
+#nitro_motor
+[nitro_motor]
+	#FE/t at 256 RPM
+	# Default: 72440
+	# Range: > 0
+	fe_at_max_rpm = 72440
+	#Max stress in SU at 256 RPM
+	# Default: 2499576
+	# Range: > 0
+	max_stress = 2499576
+	#Enable motor audio
+	audio_enabled = true
+	#Motor RPM range
+	# Default: 256
+	# Range: > 1
+	rpm_range = 256
+	#Minimum FE/t consumption
+	# Default: 8
+	# Range: > 0
+	min_consumption = 8
+	#Max FE/t input
+	# Default: 85000
+	# Range: > 0
+	max_input = 85000
+	#Internal FE capacity
+	# Default: 800000
+	# Range: > 0
+	capacity = 800000
+
+#andesite_alternator
+[andesite_alternator]
+	#FE/t at 256 RPM
+	# Default: 1260
+	# Range: > 0
+	fe_at_max_rpm = 1260
+	#Max stress at 256 RPM
+	# Default: 35768
+	# Range: > 0
+	max_stress = 35768
+	#Enable alternator audio
+	audio_enabled = true
+	#Alternator max FE/t output
+	# Default: 5000
+	# Range: > 0
+	max_output = 5000
+	#Alternator FE capacity
+	# Default: 5000
+	# Range: > 0
+	capacity = 5000
+	#Efficiency (0.0 - 1.0)
+	# Default: 0.85
+	# Range: 0.01 ~ 1.0
+	efficiency = 0.85
+
+#copper_alternator
+[copper_alternator]
+	#FE/t at 256 RPM
+	# Default: 2400
+	# Range: > 0
+	fe_at_max_rpm = 2400
+	#Max stress at 256 RPM
+	# Default: 75384
+	# Range: > 0
+	max_stress = 75384
+	#Enable alternator audio
+	audio_enabled = true
+	#Alternator max FE/t output
+	# Default: 5000
+	# Range: > 0
+	max_output = 5000
+	#Alternator FE capacity
+	# Default: 5000
+	# Range: > 0
+	capacity = 5000
+	#Efficiency (0.0 - 1.0)
+	# Default: 0.9
+	# Range: 0.01 ~ 1.0
+	efficiency = 0.9
+
+#brass_alternator
+[brass_alternator]
+	#FE/t at 256 RPM
+	# Default: 4240
+	# Range: > 0
+	fe_at_max_rpm = 4240
+	#Max stress at 256 RPM
+	# Default: 159708
+	# Range: > 0
+	max_stress = 159708
+	#Enable alternator audio
+	audio_enabled = true
+	#Alternator max FE/t output
+	# Default: 10000
+	# Range: > 0
+	max_output = 10000
+	#Alternator FE capacity
+	# Default: 10000
+	# Range: > 0
+	capacity = 10000
+	#Efficiency (0.0 - 1.0)
+	# Default: 0.9
+	# Range: 0.01 ~ 1.0
+	efficiency = 0.9

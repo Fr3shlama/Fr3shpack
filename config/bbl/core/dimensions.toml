@@ -1,0 +1,3 @@
+#Dimension Configuration Settings
+["Allows beds to work in other dimensions and progress the night to day"]
+	"Dimensions add like this: minecraft:the_nether in quotes" = []

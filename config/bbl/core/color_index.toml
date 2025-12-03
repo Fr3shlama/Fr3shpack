@@ -1,0 +1,21 @@
+#Tint Index Config
+#Controls the color tint applied per color across the blocks, items and names.
+#Can be in Hex or Decimal value show in the config.
+#This website can help you find the color you want https://www.colorhexa.com/.
+["Tint Index"]
+	"White Tint Index, default = 0xFFFFFF" = 16777215
+	"Black Tint Index, default = 0x37393C" = 3619132
+	"Red Tint Index, default = 0xD04D45" = 13651269
+	"Green Tint Index, default = 0x546E17" = 5533207
+	"Blue Tint Index, default = 0x0096FF" = 38655
+	"Yellow Tint Index, default = 0xFFFF55" = 16777045
+	"Cyan Tint Index, default = 0x13828B" = 1278603
+	"Magenta Tint Index, default = 0xE26EDE" = 14839518
+	"Orange Tint Index, default = 0xF59029" = 15296522
+	"Lime Tint Index, default = 0x39FA39" = 3799609
+	"Pink Tint Index, default = 0xEAA5C9" = 15377865
+	"Gray Tint Index, default = 0x5A6063" = 5922915
+	"Light Gray Tint Index, default = 0xAAAAA3" = 11184803
+	"Light Blue Tint Index, default = 0x5CD2F3" = 6083315
+	"Brown Tint Index, default = 0x805230" = 8409648
+	"Purple Tint Index, default = 0x8F3BBE" = 9386942

@@ -1,0 +1,37 @@
+#Wire Settings
+[wires]
+
+	#ME Glass Cable Cable Stettings
+	[wires.ae]
+		#ME Glass Cable Cable Max Length
+		# Default: 16
+		# Range: 4 ~ 256
+		aeMaxLen = 64
+
+	#ME Dense Cable Cable Stettings
+	[wires.ae_dense]
+		#ME Dense Cable Cable Max Length
+		# Default: 16
+		# Range: 4 ~ 256
+		ae_denseMaxLen = 64
+
+	#Networking Cable Cable Stettings
+	[wires.cc]
+		#Networking Cable Cable Max Length
+		# Default: 16
+		# Range: 4 ~ 256
+		ccMaxLen = 64
+
+	#Logic Cable Cable Stettings
+	[wires.id]
+		#Logic Cable Cable Max Length
+		# Default: 16
+		# Range: 4 ~ 256
+		idMaxLen = 64
+
+	#RS Cable Cable Stettings
+	[wires.rs]
+		#RS Cable Cable Max Length
+		# Default: 16
+		# Range: 4 ~ 256
+		rsMaxLen = 64

@@ -1,0 +1,22 @@
+#Modpack Configuration Settings
+["Custom server in multiplayer Screen"]
+	#Name of the server
+	"Server Name" = ""
+	#IP of the server
+	"Server IP" = ""
+
+["Discord URL use /discord command to get the link"]
+	#Add a URL to link your discord, BBL Discord = https://discord.gg/benbenlaw
+	"Discord URL" = "https://discord.gg/TS3FTDCz8j"
+
+["Modpack information handy for modpack makers use /modpack in game to get the information"]
+	#Modpack name
+	"Modpack name" = "Fr3shpack - TooManyMods"
+	#Modpack Version
+	"Modpack Version" = "2.4.0"
+
+["Check if the modpack has any updates available"]
+	#Check if the modpack has any updates available, default = false
+	"Update Checker" = true
+	#Project ID for the modpack, found on curse forge
+	"Project ID" = 1273070
