@@ -152,6 +152,7 @@ defaultconfigs/electrodynamics_ore_config.txt
 !config/merequester-common.toml
 !config/more_immersive_wires-server.toml
 !config/neoforge-server.toml
+!modlist.html
 /dynamic-resource-pack-cache
 /dynamic-data-pack-cache
 /fancymenu_data
