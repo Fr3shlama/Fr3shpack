@@ -19,9 +19,7 @@ ServerEvents.recipes(event => {
     'nickel',
     'lead',
     'zinc',
-    'ruby',
-    'sapphire',
-    'topaz'
+    'coal'
   ];
 
   materials.forEach(material => {
@@ -31,4 +29,5 @@ ServerEvents.recipes(event => {
     ).id(`pack:enrich_${material}_cluster_to_shards`);
   });
 
+  event.recipes.mekanism.crushing('mekanism:dust_coal','geore:coal_shard')
 });

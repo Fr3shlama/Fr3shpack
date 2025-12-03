@@ -20,7 +20,8 @@ ServerEvents.recipes(event => {
     'osmium',
     'nickel',
     'lead',
-    'zinc'
+    'zinc',
+    'coal'
   ];
 
   materials.forEach(material => {
