@@ -153,6 +153,9 @@ defaultconfigs/electrodynamics_ore_config.txt
 !config/more_immersive_wires-server.toml
 !config/neoforge-server.toml
 !modlist.html
+!config/crash_assistant
+!config/compactmachines-client.toml
+
 /dynamic-resource-pack-cache
 /dynamic-data-pack-cache
 /fancymenu_data

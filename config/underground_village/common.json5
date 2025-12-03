@@ -8,5 +8,5 @@
 	// Maximum distance the structure pieces can be from the center (1 to 128)
 	"watermaxDistanceFromCenter": 116,
 	// Enable or disable the welcome message, Requires game restart after changing this setting.
-	"ENABLE_IN_GAME_MESSAGE": true
+	"ENABLE_IN_GAME_MESSAGE": false
 }
