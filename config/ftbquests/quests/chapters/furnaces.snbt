@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "furnaces"
-	group: "08F7F853CF316EE0"
+	group: "4510113E7552E62D"
 	icon: {
 		components: {
 			"minecraft:custom_name": "{\"extra\":[{\"color\":\"blue\",\"text\":\"R\"},{\"color\":\"red\",\"text\":\"a\"},{\"color\":\"green\",\"text\":\"i\"},{\"color\":\"green\",\"text\":\"n\"},{\"color\":\"green\",\"text\":\"b\"},{\"color\":\"yellow\",\"text\":\"o\"},{\"color\":\"green\",\"text\":\"w\"},{\"color\":\"aqua\",\"text\":\" \"},{\"color\":\"yellow\",\"text\":\"F\"},{\"color\":\"aqua\",\"text\":\"u\"},{\"color\":\"light_purple\",\"text\":\"r\"},{\"color\":\"red\",\"text\":\"n\"},{\"color\":\"aqua\",\"text\":\"a\"},{\"color\":\"yellow\",\"text\":\"c\"},{\"color\":\"blue\",\"text\":\"e\"}],\"text\":\"\"}"
@@ -29,7 +29,7 @@
 			y: 5.0d
 		}
 	]
-	order_index: 1
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{

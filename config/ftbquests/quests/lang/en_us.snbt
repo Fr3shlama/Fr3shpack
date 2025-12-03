@@ -1,11 +1,10 @@
 {
 	chapter.031BF92EC074CA6C.title: "Farmworld"
 	chapter.059AF20FCDAA2760.title: "Oritech"
+	chapter.0A429FF94A50BE93.title: "Basic Timeline"
 	chapter.1288D96EAEE0F0CB.title: "Transportation"
-	chapter.18B4B087577F2CDA.title: "The Undergarden"
 	chapter.1A36540B71B84A6A.title: "Pylons"
 	chapter.1B7DCAA5D433A9CE.title: "RFTools"
-	chapter.201D1901E5EC24DB.title: "The Otherside"
 	chapter.22B57CC519DA4BB1.title: "Artifacts and Relics"
 	chapter.2459980B66295D32.title: "Mekanism"
 	chapter.29BCB2B264F3D226.title: "Apotheosis"
@@ -25,25 +24,21 @@
 	chapter.49516E4183DFF745.title: "How?"
 	chapter.5470B8D104A1C0B2.title: "Immersive Engineering"
 	chapter.58A68A93859B48F3.title: "Personal Storage"
-	chapter.5AAEA16BEFA2AEFF.title: "The Bumblezone"
 	chapter.5B00676D79306EA2.title: "Thank you for the download!"
 	chapter.5C764279146E5E66.title: "Mystical Agriculture"
 	chapter.5D102CC1E61F2E31.title: "Overworld"
 	chapter.60BD2DB834C24AEA.title: "XNet"
-	chapter.658EFECA8519CF16.title: "Nether"
-	chapter.6727770139D1B0D8.title: "End"
 	chapter.6DC59922229E526D.title: "Easy Villagers"
 	chapter.719EAB770F6D06FC.title: "Storage"
 	chapter.73F6839442A5C78F.title: "Furnaces"
+	chapter.7423C54F5C1D6A71.title: "Singularities and how to get them"
 	chapter.75521F298D2BF367.title: "Apothic Enchanting"
 	chapter.7B3ADC879750566D.title: "Hostile Neural Networks"
-	chapter_group.08F7F853CF316EE0.title: "Basic"
 	chapter_group.12B57B42F69C108E.title: "Resources"
 	chapter_group.12D65577495DA5F9.title: "Logistic"
 	chapter_group.22FB35B0FEF1343D.title: "Tools and Weapons"
 	chapter_group.23481154CE303037.title: "Welcome"
 	chapter_group.295BE417292024EC.title: "Modern Industrialization"
-	chapter_group.2D819CDD7E4DB235.title: "Gear"
 	chapter_group.365B14D6864CBA1E.title: "Progression"
 	chapter_group.4510113E7552E62D.title: "Technology"
 	chapter_group.68BDE5700A9B0002.title: "Tools and Gear"
@@ -2873,6 +2868,7 @@
 	quest.19C627FE835A5AAC.quest_desc: ["A basic machine that breaks the block in front of it, functioning as an automatic pickaxe. It can be triggered (typically by redstone) to continuously mine blocks, allowing automation of resource collection like quarries or tree-mining without player input."]
 	quest.19CD3E69746F2849.quest_desc: ["Cheaper EV circuits! Don't forget to update your recipes!"]
 	quest.19D02325579F2AA8.quest_desc: ["The Volcanic Sourcelink generates Source by consuming burnable items. Archwood logs will generate bonus Source. \\n\\nAs it burns items, it will convert nearby stone into lava. \\n\\nThis also generates Lava Lilys."]
+	quest.19D78DA27DB6F3F6.quest_subtitle: "buy one get one free"
 	quest.19DB4970B3D11C1B.quest_desc: [
 		"The &bMV&r circuit, in its final form!"
 		""
@@ -4969,6 +4965,9 @@
 	quest.2DC5243E4C22253F.quest_desc: ["The only reason for Evilcraft in this pack! Pushes the max possible amount of water into every aviable inventory, every tick"]
 	quest.2DC5243E4C22253F.quest_subtitle: "int32 limit water"
 	quest.2DC639C39AE90272.quest_subtitle: "Yellow Meranti + Rose Gum"
+	quest.2DD24EC16CBE5853.quest_desc: ["With rubber you can finally start to progress in Mekanism (and make GeOres!)"]
+	quest.2DD24EC16CBE5853.quest_subtitle: "You have made rubber!"
+	quest.2DD24EC16CBE5853.title: "Finally getting started"
 	quest.2DD2F302626F578D.quest_desc: ["The Fuel Generator burns crude oil or turbofuel. It has 2 addon slots and generates 256 RF/t."]
 	quest.2DD5F0693780B10A.quest_desc: ["Used with the Extruder MK2, blocks extruded will mimic the actual blocks. Redstone Blocks will emit Redstone, Glowstone will emit light, Grass will act transparent. But only with this Augment! \\nDoesn't work with Block Entities like Furnaces or Enrichment Chambers."]
 	quest.2DDA04088C8220D2.quest_desc: ["Prosperity Shards are a core crafting ingrediant in the mod. To find some Prosperity Ore, go mining."]
@@ -5706,6 +5705,7 @@
 	quest.34D14B807A2DAC0F.quest_desc: ["You think &5&lMekanism&r and &l&7Modern Industrialization&r can have all the fun? \\n\\nThis &5Quantum Armor&r has default stats similar to &cNetherite Armor&r but, like the &aMekaSuit&r it can use Energy as a shield. \\nIt also has upgrades which can be installed to make you even more powerful! Like Flight, Night Vision, and even the ability to recharge. \\n\\nBut the best part is that it can Linked to your Storage System! Then, you can automatically take Energy out from it and take out any Item from it no where you are. "]
 	quest.34D14B807A2DAC0F.quest_subtitle: "As much Energy you can supply"
 	quest.34D14B807A2DAC0F.title: "&5Quantum Armor&r (&l&bAE2&r)"
+	quest.34D8529A4AE8CEB9.quest_subtitle: "who needs real witches"
 	quest.34DACB973CBDE129.quest_desc: ["Use the Force! \\n\\nThis one's another fun &a&lStaff&r, you can use it to fling Entities! Including yourself! \\n\\nHold Right Click at what you want flung, if it's yourself aim at the ground. Then, move your Mouse in the direction you want flinging to happen! \\n\\nThe longer you hold the stronger the fling! After awhile it will max out and fling regardless."]
 	quest.34DACB973CBDE129.title: "&a&lSpatial Disorientation"
 	quest.34E8D3AD37BB76C5.title: "Topaz Vein"
@@ -5866,6 +5866,7 @@
 	quest.365D4B1DC953D406.quest_desc: ["The &7Cart&r Dispenser will do as the name suggests. It can dispense any &7Carts&r onto the &6Tracks&r in front of it. Needs a Redstone signal to dispense."]
 	quest.365D4B1DC953D406.title: "&7Cart&r Dispenser"
 	quest.366032C4F0682AB5.quest_desc: ["A pipe for moving liquids (fluids) between tanks or machines. Hook up a Fluid Conduit to, say, a tank and a generator, and it will carry water or lava, etc. They can be set to push, pull, or bidirectional. Fluid Conduits are ideal for automating water supply, moving lava to dynamos, or any mod fluid transfer in a tidy, enclosed way."]
+	quest.36627406C16B2F69.quest_subtitle: "you are totally crushing it!"
 	quest.3663E93E169EF8E3.quest_desc: ["Using another &9Chemical Infuser&r, we want to combine our &bHydrofluoric Acid&r with &eUranium Oxide&r to make &2Uranium Hexafluoride&r."]
 	quest.3663E93E169EF8E3.title: "&2Uranium Hexafluoride"
 	quest.3673893C88EB5EDE.quest_desc: ["Use 3 other crystals to craft this crystal."]
@@ -6636,6 +6637,8 @@
 	quest.3DDF87A1E5F5D009.title: "The &9Energizing Orb"
 	quest.3DE14F16F3109229.quest_desc: ["By combining 8 Planks of any Wood, with a &7Bucket of Creosote Oil&r, we'll get Treated Wood! \\n\\nTreated Wood is used in almost every single Item &8&lIE&r gives us, plus most of the simple Machines. \\n\\nMost important is the &6Engineer's Workbenches&r! These will give us a ton of new Recipes."]
 	quest.3DE14F16F3109229.title: "Treated Wood"
+	quest.3DE9E78FC0940088.quest_subtitle: "almost there.."
+	quest.3DE9E78FC0940088.title: "alloys n' more"
 	quest.3DF1435A15515DA9.quest_desc: [
 		"To get Souls automatically we'll need a few Machines from &3&lJust Dire Things&r. \\nWe'll need a Block Placer, set to place Soul Sand. \\n\\nWe'll then need an Advanced Clicker with a Soul Extractor set to where the Soul Sand we'll be placed. The Clicker needs to be configured to Hold Click, for quite a few Ticks. \\n\\nFinally, we'll need an Advanced Block Placer set to break where the Soul Sand will be. Remember to set its filter to only break Soulless Sand, and equip it with a Tool! \\n\\nAll these machines will need Power (beside Block Placer if you use the normal version) and Advanced Breaker and Advanced Clicker will need their tools which have Durability."
 		"{@pagebreak}"
@@ -6764,6 +6767,7 @@
 		"{image:atm:textures/questpics/theurgy/theurgy_reform_setup.png width:200 height:50 align:center}"
 	]
 	quest.3EB63AF53E70C931.title: "Step 4: Powering it"
+	quest.3EC5651F7928B94B.quest_subtitle: "lets go faster"
 	quest.3EC8A0B89788D079.quest_desc: ["I don't have Hands, I have &9Flippers&r. \\n\\n&9Flippers&r will act like a much better Depth Strider. You can Swim and Walk through &9Water&r much faster!"]
 	quest.3EC8A0B89788D079.quest_subtitle: "Feet"
 	quest.3EC8A0B89788D079.title: "&9Flippers&r"
@@ -7573,6 +7577,7 @@
 		"{image:pneumaticcraft:textures/patchouli/small_tanks.png width:250 height:250 align:center fit:true}"
 	]
 	quest.461C8F1E88AA58D9.quest_subtitle: "32,000mb"
+	quest.4624F13C9D6F3FD0.quest_subtitle: "just haunt some sand :)"
 	quest.462C1F75A2FB9F02.quest_subtitle: "Where's Willy?"
 	quest.462D173D576A8D91.quest_desc: ["&eAncient Metal&r is a Drop from pretty much everything within the &eCursed Pyramid&r! \\n\\nLike other Ingots it can be Crafted from Nuggets or Blocks and vice versa. \\n\\nYou can use it to make &eBone Reptile Armor&r or the &eAncient Spear&r."]
 	quest.462D173D576A8D91.title: "&eAncient Metal"
@@ -8259,6 +8264,7 @@
 	quest.4C0EAB9F795686D0.title: "&eAdvanced Deposit Upgrade"
 	quest.4C1F13F5A0E273EF.quest_desc: ["The 256k Storage Disk can store 256000 items."]
 	quest.4C1F13F5A0E273EF.title: "&6256k Storage Part&r"
+	quest.4C200017ED122AE8.quest_subtitle: "other resources require a little bit of processing"
 	quest.4C22BA5824662C7E.quest_desc: [
 		"When you combine a piece of &4Redstone&r with a &2Mana Spreader&r, it creates a &9Pulse Mana Spreader&r."
 		""
@@ -9698,6 +9704,7 @@
 	quest.57F1B60DEA622275.quest_desc: ["That wafer needs to be cut into chips now, so back to the Cutter with these"]
 	quest.57F47BA495B27F83.quest_desc: ["&9Tier 1&r Harvest Level is the lowest pickaxe level, needing a pickaxe. Any pickaxe can mine these. Items that are Tier 1 would be like Stone, Furnace, and Coal Ore."]
 	quest.57F47BA495B27F83.title: "&9Harvest Tier 1"
+	quest.57F552D67BE13E3B.quest_subtitle: "slow and steady"
 	quest.57F6323716A0ED24.quest_desc: [
 		"Are we trying to create mutated sewer creatures?"
 		""
@@ -10607,6 +10614,8 @@
 	quest.5F9B8ACCE0C8389E.title: "&7Scroll of Strengthening"
 	quest.5FA68047A3C05E80.quest_desc: ["15 Spellslots!"]
 	quest.5FA68047A3C05E80.title: "&5Unobtainium Spell Book"
+	quest.5FA784B68BF01ED7.quest_subtitle: "but you might wanna scale up your GeOre farm :)"
+	quest.5FA784B68BF01ED7.title: "Just wait"
 	quest.5FA9BC0D8476D322.quest_desc: ["Auto-feeds you with food in the Backpack."]
 	quest.5FAA73C52082DC48.quest_desc: [
 		"In your handy-dandy &eChemical Reactor&r insert the Plastic Circuit Board, some Copper Foil, and the Iron III Chloride you made to get the Plastic Printed Circuit Board"
@@ -10684,6 +10693,7 @@
 	quest.603ABA13788E2216.quest_desc: ["Now that we have a solidified version of our Europium we can further process it into components for our Machines and Multiblocks!"]
 	quest.603ABA13788E2216.quest_subtitle: "It's the Final Countdown!"
 	quest.60406190B0DCB348.quest_desc: ["Just like the Bronze Compressor, but gives even more recipes!"]
+	quest.604C1C04C60C74E3.quest_subtitle: "this one is not as easy"
 	quest.604F2B68B27885BF.quest_desc: ["There are a lot of different foods you can make from the &9Twilight Forest&r!\\n\\nTry them all!"]
 	quest.604F2B68B27885BF.title: "Fancy Noms"
 	quest.6061D9507F076DC1.quest_desc: ["Provides a built-in crafting grid accessible from the backpack’s upgrade tab."]
@@ -11215,6 +11225,8 @@
 		"Turns Water into Ice."
 		"Turns Lava into Obsidian."
 	]
+	quest.657F109784113952.quest_subtitle: "you can turn normal sand into soulsand with create, how you get your sand is your problem"
+	quest.657F109784113952.title: "Haunting"
 	quest.6581D4AF1A6DE230.quest_desc: ["Demons like Candles. I think.\\n\\nFor almost every Ritual to summon our friends, you'll need some Candles. You can create the &aButcher Knife&r and kill some pigs, cows, sheep, horses, or even the Trader Llamas to get some &aTallow&r to make them. Matter of fact, you should definitely find the Trader Llamas. I hear they make good candles. &mI totally didn't just make that up&r.\\n\\nOtherwise, Vanilla Candles can also work!\\n\\n&9Spirit Attuned Crystals&r are also used in several Rituals, so might as well make some now!"]
 	quest.6581D4AF1A6DE230.title: "Preparing for a Ritual: &aCandles"
 	quest.659531F14E62EBEB.quest_desc: ["One Scroll you'll need applied to get Replica is the Scroll of Damage Exchange. To get it do the Ritual of Damage Exchange with 1 Powdered Iron and 2 Powdered Emeralds."]
@@ -13821,6 +13833,7 @@
 	quest.7BCD4A425CF6199B.quest_desc: ["After slaying the Goat of Mercy summoned from &9Xeovrenth Adjure&r, you'll find yourself one Cruelty Essence richer. Combine this with some Cocao Beans to create Brown Chalk."]
 	quest.7BCD4A425CF6199B.title: "&#4E2C00Brown Chalk"
 	quest.7BCE96070C36D547.quest_subtitle: "&f7.5 &cAttack Damage"
+	quest.7BE20EE75205CF60.quest_subtitle: "i love resources"
 	quest.7BFC24607189B6D0.quest_desc: ["Makes you swim faster."]
 	quest.7BFC24607189B6D0.quest_subtitle: "Max: 1"
 	quest.7BFE7DAF18981843.quest_subtitle: "Required for Drill recipes"
@@ -14452,6 +14465,7 @@
 	task.23D186249A999B8C.title: "Quartz Cutting Knives"
 	task.246C634874FFB1C2.title: "Test Quest by Mondogo"
 	task.2510A7EE5D886B63.title: "AllRightsReserved"
+	task.2517CAC518372CC9.title: "Processing Ores"
 	task.25FF884779D98BAD.title: "Construction Bricks™"
 	task.2606DDF2AE263B42.title: "Track Kits"
 	task.263F0E416A8E1110.title: "Copper Comb"
@@ -14716,6 +14730,7 @@
 	task.54231849B7094A32.title: "Tungstate or Scheelite Dust"
 	task.543A08791D27BC62.title: "Quests By AllTheMods"
 	task.54A7E248C8A40239.title: "Tier 2 Sigils"
+	task.54D08479C32DD9B7.title: "Haunting"
 	task.552097357FBBFC81.title: "Start with RFTools"
 	task.5559DAFE0BCF9CDC.title: "Oil"
 	task.55628B1EECBB5E94.title: "Ritual Saplings"
@@ -14858,6 +14873,7 @@
 	task.6E44925E265DC7E2.title: "Job Sites"
 	task.6E5AC23FA0349470.title: "EvilCraft"
 	task.6E75525A5D88EF23.title: "Heaters"
+	task.6E7B309A5C814630.title: "Geores"
 	task.6F07606E3F7BE160.title: "Jump Start"
 	task.6F475689ED4EDF59.title: "Macaw's mods items"
 	task.6F72D8976359CFF9.title: "Water Wheels"

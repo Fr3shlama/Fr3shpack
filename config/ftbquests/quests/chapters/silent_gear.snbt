@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "silent_gear"
-	group: "2D819CDD7E4DB235"
+	group: ""
 	icon: {
 		id: "silentgear:blueprint_package"
 	}

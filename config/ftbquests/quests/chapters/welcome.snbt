@@ -116,10 +116,6 @@
 			]
 			shape: "diamond"
 			size: 3.0d
-			tasks: [{
-				id: "05DB9DBB510A97DD"
-				type: "checkmark"
-			}]
 			x: 0.0d
 			y: -6.0d
 		}

@@ -2,12 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "gettings_started"
-	group: "08F7F853CF316EE0"
+	group: "23481154CE303037"
 	icon: {
 		id: "minecraft:wooden_pickaxe"
 	}
 	id: "422ECD10AD37A198"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -544,7 +544,7 @@
 			}]
 			tasks: [{
 				id: "159EE7A7AE4A87FF"
-				item: { count: 1, id: "evilcraft:eternal_water" }
+				item: { components: { "ftbquests:missing_item": "evilcraft:eternal_water" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.0d
