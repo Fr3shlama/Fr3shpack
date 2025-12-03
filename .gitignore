@@ -140,6 +140,7 @@ defaultconfigs/electrodynamics_ore_config.txt
 !config/createqol-server.toml
 !config/consolefilter/filter_config.txt
 !config/sophisticatedstorage-common.toml
+!config/fancymenu
 /dynamic-resource-pack-cache
 /dynamic-data-pack-cache
 /fancymenu_data
