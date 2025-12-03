@@ -16,7 +16,7 @@ craftingTable.addShaped("custom.quarry", <item:quarryplus:quarry>, [
 ]);
 
 craftingTable.addShaped("custom.shape_card_def", <item:rftoolsbuilder:shape_card_def>, [
-    [<item:pneumaticcraft:pcb_blueprint>, <item:minecraft:bricks>, <item:pneumaticcraft:pcb_blueprint>],
+    [<item:mekanism:configuration_card>, <item:minecraft:bricks>, <item:mekanism:configuration_card>],
     [<tag:item:c:dusts/redstone>, <item:create:precision_mechanism>, <tag:item:c:dusts/redstone>],
-    [<item:pneumaticcraft:pcb_blueprint>, <item:minecraft:bricks>, <item:pneumaticcraft:pcb_blueprint>]
+    [<item:mekanism:configuration_card>, <item:minecraft:bricks>, <item:mekanism:configuration_card>]
 ]);
