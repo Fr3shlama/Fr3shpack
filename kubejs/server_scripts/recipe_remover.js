@@ -9,11 +9,12 @@ ServerEvents.recipes(event => {
         'jei:/alltheores/alloysmelter/electrum/ingot',
         'jei:/alltheores/alloysmelter/constantan/ingot',
         'jei:/immersiveengineering/alloysmelter/invar',
+        'modern_industrialization:materials/steel/cutting_machine/main',
+        'modern_industrialization:materials/steel/cutting_machine/double_ingot',
+
     ];
     recipeIds.forEach(id => {
         event.remove({ id: id });
         console.log(`Removed recipe: ${id}`);
     });
 });
-
-
