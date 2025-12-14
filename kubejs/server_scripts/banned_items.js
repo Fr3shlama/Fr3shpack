@@ -28,21 +28,12 @@ const bannedItems = [
   // Avaritia Infinity Chest
   'avaritia:infinity_chest',
 
-  // Stack upgrades
-  // 'sophisticatedbackpacks:stack_upgrade_omega_tier',
-  // 'sophisticatedstorage:stack_upgrade_omega_tier',
-
   //Nukes
   'oritech:nuke',
   'oritech:low_yield_nuke',
-  'industrialforegoing:infinity_nuke',
    
-    // no infinity energy >:(
-  'createaddition:creative_energy',
-  'create_better_motors:andesite_alternator',
-  'create_better_motors:copper_alternator',
-  'create_better_motors:brass_alternator'
-
+  // no infinity energy >:(
+  'createaddition:creative_energy'
 ];
 
 ServerEvents.recipes(event => {
