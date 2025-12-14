@@ -1292,6 +1292,13 @@
     "curseForgeHash": 1703092068,
     "modrinthHash": "87e019715314631f2c8288cf7c73a52a61b2d61b"
   },
+  "fastboot-1.21.x-v1.3neo.jar": {
+    "jarName": "fastboot-1.21.x-v1.3neo.jar",
+    "modId": "fastboot",
+    "version": "1.3.0",
+    "curseForgeHash": 2389002337,
+    "modrinthHash": "1c9101baf7e4b111fc55e0b5a8687e67be2f626c"
+  },
   "FastFurnace-1.21.1-9.0.1.jar": {
     "jarName": "FastFurnace-1.21.1-9.0.1.jar",
     "modId": "fastfurnace",
@@ -1927,6 +1934,20 @@
     "curseForgeHash": 3934194305,
     "modrinthHash": "33dabb2e3ee9dd2490559e53893d1f1451194160"
   },
+  "laserbridges-1.21.1-neoforge-5.3.jar": {
+    "jarName": "laserbridges-1.21.1-neoforge-5.3.jar",
+    "modId": "laserbridges",
+    "version": "5.3",
+    "curseForgeHash": 431768066,
+    "modrinthHash": "7948963864bce55a574d7c254c39760e9653bcc0"
+  },
+  "leaderboards-1.21.1-NeoForge-1.0.0.jar": {
+    "jarName": "leaderboards-1.21.1-NeoForge-1.0.0.jar",
+    "modId": "leaderboards",
+    "version": "1.0.0",
+    "curseForgeHash": 670212192,
+    "modrinthHash": "8f9099957263bc0e19723881840949d487afa633"
+  },
   "leaky-1.21-2.1.jar": {
     "jarName": "leaky-1.21-2.1.jar",
     "modId": "leaky",
@@ -2312,6 +2333,13 @@
     "curseForgeHash": 4061845266,
     "modrinthHash": "4a91af947622a2bb2c0381db249cc6f06c1f1843"
   },
+  "NeoAuth-1.21.1-1.0.0.jar": {
+    "jarName": "NeoAuth-1.21.1-1.0.0.jar",
+    "modId": "neo_auth",
+    "version": "1.0.0",
+    "curseForgeHash": 2636837220,
+    "modrinthHash": "712a05dfe45da5bd50cd36da2d39458676392c06"
+  },
   "neruina-3.1.4+1.21.1-neoforge.jar": {
     "jarName": "neruina-3.1.4+1.21.1-neoforge.jar",
     "modId": "neruina",
@@ -2332,6 +2360,13 @@
     "version": "1.21.1-v2.9.1",
     "curseForgeHash": 1237891864,
     "modrinthHash": "9edfc7861277ff661141304dc8216f83eacdd9af"
+  },
+  "Not Enough Recipe Book-NEOFORGE-0.4.3+1.21.jar": {
+    "jarName": "Not Enough Recipe Book-NEOFORGE-0.4.3+1.21.jar",
+    "modId": "nerb",
+    "version": "0.4.3",
+    "curseForgeHash": 3012964192,
+    "modrinthHash": "e0c36cd85d3d31cc2afb1bfc6b885f505245252f"
   },
   "observable-5.4.4.jar": {
     "jarName": "observable-5.4.4.jar",
@@ -2423,6 +2458,13 @@
     "version": "1.21.1-92-NEOFORGE",
     "curseForgeHash": 3695038968,
     "modrinthHash": "97ae42096ee4a0a242cd8468dde293017f3cc39c"
+  },
+  "pipe_connector-neoforge-0.5.17.jar": {
+    "jarName": "pipe_connector-neoforge-0.5.17.jar",
+    "modId": "pipe_connector",
+    "version": "0.5.17",
+    "curseForgeHash": 3979776355,
+    "modrinthHash": "1efd821d14c8641a7eba698b6eef3493a60508a9"
   },
   "pipeorgans-0.8.2+1.21.1.jar": {
     "jarName": "pipeorgans-0.8.2+1.21.1.jar",
