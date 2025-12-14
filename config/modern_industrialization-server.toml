@@ -15,4 +15,4 @@ respawnWithGuideBook = true
 	#Generate plant oil recipes in the centrifuge for all compostable items.
 	compostableToPlantOil = true
 	#Generate cutting machine recipes for all stonecutter recipes.
-	stonecutterToCuttingMachine = true
+	stonecutterToCuttingMachine = false
