@@ -162,4 +162,4 @@ defaultconfigs/electrodynamics_ore_config.txt
 *.txt
 TrashSlotSaveState.json
 /immersive_paintings_cache
-
+config/Mekanism/client.toml
