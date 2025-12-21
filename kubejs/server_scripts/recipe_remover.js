@@ -11,6 +11,7 @@ ServerEvents.recipes(event => {
         'jei:/immersiveengineering/alloysmelter/invar',
         'modern_industrialization:materials/steel/cutting_machine/main',
         'modern_industrialization:materials/steel/cutting_machine/double_ingot',
+        'modern_industrialization:materials/chemical_reactor/water',
 
     ];
     recipeIds.forEach(id => {
