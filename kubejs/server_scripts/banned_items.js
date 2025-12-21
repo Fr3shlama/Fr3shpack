@@ -33,7 +33,10 @@ const bannedItems = [
   'oritech:low_yield_nuke',
    
   // no infinity energy >:(
-  'createaddition:creative_energy'
+  'createaddition:creative_energy',
+
+  'mekanism_extras:infinite_induction_cell',
+  
 ];
 
 ServerEvents.recipes(event => {
