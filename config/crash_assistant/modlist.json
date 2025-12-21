@@ -347,6 +347,13 @@
     "curseForgeHash": 2574672049,
     "modrinthHash": "8fa17df26d3650416bc124be7a264bc1566a3b26"
   },
+  "BetterThanLlamas-1.21-NeoForge-1.3.0.jar": {
+    "jarName": "BetterThanLlamas-1.21-NeoForge-1.3.0.jar",
+    "modId": "betterthanllamas",
+    "version": "1.3.0",
+    "curseForgeHash": 2105546839,
+    "modrinthHash": "f37413752b202d397b453a3c25ac34452c71ec9b"
+  },
   "bigger_ae2-1.21.1-1.4.8.jar": {
     "jarName": "bigger_ae2-1.21.1-1.4.8.jar",
     "modId": "bigger_ae2",
@@ -472,6 +479,13 @@
     "version": "1.6.10",
     "curseForgeHash": 3440751648,
     "modrinthHash": "6a1b2d27e25d9f5f369c20b1206f5491b8a7eab2"
+  },
+  "chat_heads-0.14.2-neoforge-1.21.jar": {
+    "jarName": "chat_heads-0.14.2-neoforge-1.21.jar",
+    "modId": "chat_heads",
+    "version": "0.14.2",
+    "curseForgeHash": 4225150963,
+    "modrinthHash": "ec242eb18f8479c2f4cedb6c79a63686dc91c55e"
   },
   "Chimes-v2.0.3-1.21.1-NeoForge.jar": {
     "jarName": "Chimes-v2.0.3-1.21.1-NeoForge.jar",
@@ -997,6 +1011,13 @@
     "version": "1.0.223-snapshot",
     "curseForgeHash": 95015061,
     "modrinthHash": "c7adb80a1363834008cfce3022dba77e38a6f7fa"
+  },
+  "doubledoors-1.21.1-7.2.jar": {
+    "jarName": "doubledoors-1.21.1-7.2.jar",
+    "modId": "doubledoors",
+    "version": "7.2",
+    "curseForgeHash": 1435909008,
+    "modrinthHash": "73ddb685749a0ae9223e9b827af5fd3e19ac732c"
   },
   "dungeons-and-taverns-v4.4.4 [NeoForge].jar": {
     "jarName": "dungeons-and-taverns-v4.4.4 [NeoForge].jar",
@@ -1913,6 +1934,13 @@
     "curseForgeHash": 1129925363,
     "modrinthHash": "492d597ca216f9d099be112e77a9a5c7ed138770"
   },
+  "loadingprofiler-1.0.1.jar": {
+    "jarName": "loadingprofiler-1.0.1.jar",
+    "modId": "loadingprofiler",
+    "version": "1.0.1",
+    "curseForgeHash": 750826803,
+    "modrinthHash": "5f5534e8955ca2626ec205d46ecfa6c41b9373a9"
+  },
   "lootjs-neoforge-1.21.1-3.6.0.jar": {
     "jarName": "lootjs-neoforge-1.21.1-3.6.0.jar",
     "modId": "lootjs",
@@ -2613,6 +2641,13 @@
     "curseForgeHash": 1196164828,
     "modrinthHash": "91e5121ce193b3df2203a0b3fecd1c272e4a28f1"
   },
+  "rftoolsdim-1.21-12.0.3.jar": {
+    "jarName": "rftoolsdim-1.21-12.0.3.jar",
+    "modId": "rftoolsdim",
+    "version": "1.21-12.0.3",
+    "curseForgeHash": 2007283734,
+    "modrinthHash": "0ad71243405b89a4cf2f7f3d395387b4675915ad"
+  },
   "rftoolspower-1.21-7.0.5.jar": {
     "jarName": "rftoolspower-1.21-7.0.5.jar",
     "modId": "rftoolspower",
@@ -2681,6 +2716,20 @@
     "curseForgeHash": 110650841,
     "modrinthHash": "b08b639706ce8cbc426045501b7f2da59eceb14f"
   },
+  "SimpleBackups-1.21-4.0.21.jar": {
+    "jarName": "SimpleBackups-1.21-4.0.21.jar",
+    "modId": "simplebackups",
+    "version": "1.21-4.0.21",
+    "curseForgeHash": 4189901683,
+    "modrinthHash": "35bb3b98f330e0f6d08466860157a578a1ecfca2"
+  },
+  "SimpleDiscordRichPresence-neoforge-87.0.1-build.49+mc1.21.jar": {
+    "jarName": "SimpleDiscordRichPresence-neoforge-87.0.1-build.49+mc1.21.jar",
+    "modId": "sdrp",
+    "version": "87.0.1-build.49+mc1.21",
+    "curseForgeHash": 2976951950,
+    "modrinthHash": "c9d24801dc56876284f3e8f6c29e42a19732252a"
+  },
   "simpletomb-1.21.1-1.4.4.jar": {
     "jarName": "simpletomb-1.21.1-1.4.4.jar",
     "modId": "simpletomb",
@@ -2694,6 +2743,13 @@
     "version": "1.5.3",
     "curseForgeHash": 4213045331,
     "modrinthHash": "d85bfed3824cb66d258acf11c73edaf11d583223"
+  },
+  "skinlayers3d-neoforge-1.10.1-mc1.21.1.jar": {
+    "jarName": "skinlayers3d-neoforge-1.10.1-mc1.21.1.jar",
+    "modId": "skinlayers3d",
+    "version": "1.10.1",
+    "curseForgeHash": 2688642556,
+    "modrinthHash": "14e6fb20e82ffcb7e604e595118e7d0ca9f7f384"
   },
   "smoothchunk-1.21-4.1.jar": {
     "jarName": "smoothchunk-1.21-4.1.jar",
@@ -2960,6 +3016,13 @@
     "version": "1.21.1-1.0.18",
     "curseForgeHash": 3391123782,
     "modrinthHash": "f0c95fb82f68f2c7402e0615a5d241e6097920cf"
+  },
+  "transfer_labels-0.1.7.jar": {
+    "jarName": "transfer_labels-0.1.7.jar",
+    "modId": "transfer_labels",
+    "version": "0.1.7",
+    "curseForgeHash": 829630758,
+    "modrinthHash": "c1561ca14e685742b2e28d83c2ba473f767d4f80"
   },
   "trashcans-1.0.18c-neoforge-mc1.21.jar": {
     "jarName": "trashcans-1.0.18c-neoforge-mc1.21.jar",
