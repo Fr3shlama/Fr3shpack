@@ -718,13 +718,6 @@
     "curseForgeHash": 1728189778,
     "modrinthHash": "3d2a5546d44de935edb7c71f674ec28e27e408c7"
   },
-  "CraftTweaker-neoforge-1.21.1-21.0.35.jar": {
-    "jarName": "CraftTweaker-neoforge-1.21.1-21.0.35.jar",
-    "modId": "crafttweaker",
-    "version": "21.0.35",
-    "curseForgeHash": 1475821288,
-    "modrinthHash": "83f3b549473e702bb52fae3c4f4007c944445248"
-  },
   "CrashAssistant-neoforge-1.20.6-1.21.4-1.10.27.jar": {
     "jarName": "CrashAssistant-neoforge-1.20.6-1.21.4-1.10.27.jar",
     "modId": "crash_assistant",
@@ -1934,13 +1927,6 @@
     "curseForgeHash": 1129925363,
     "modrinthHash": "492d597ca216f9d099be112e77a9a5c7ed138770"
   },
-  "loadingprofiler-1.0.1.jar": {
-    "jarName": "loadingprofiler-1.0.1.jar",
-    "modId": "loadingprofiler",
-    "version": "1.0.1",
-    "curseForgeHash": 750826803,
-    "modrinthHash": "5f5534e8955ca2626ec205d46ecfa6c41b9373a9"
-  },
   "lootjs-neoforge-1.21.1-3.6.0.jar": {
     "jarName": "lootjs-neoforge-1.21.1-3.6.0.jar",
     "modId": "lootjs",
@@ -2283,6 +2269,13 @@
     "version": "1.0.0",
     "curseForgeHash": 2636837220,
     "modrinthHash": "712a05dfe45da5bd50cd36da2d39458676392c06"
+  },
+  "neruina-3.1.5+1.21.1-neoforge.jar": {
+    "jarName": "neruina-3.1.5+1.21.1-neoforge.jar",
+    "modId": "neruina",
+    "version": "3.1.5",
+    "curseForgeHash": 782270006,
+    "modrinthHash": "fcf339f96ac7c8d7726be09c7b7e33f1a9b52a86"
   },
   "netherportalfix-neoforge-1.21.1-21.1.1.jar": {
     "jarName": "netherportalfix-neoforge-1.21.1-21.1.1.jar",

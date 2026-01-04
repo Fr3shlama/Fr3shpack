@@ -1,4 +1,4 @@
-// kubejs/server_scripts/tag_remover.js
+// kubejs/server_scripts/tags/tag_remover.js
 ServerEvents.tags('item', event => {
   const removals = {
     'immersiveengineering:hammer': [
