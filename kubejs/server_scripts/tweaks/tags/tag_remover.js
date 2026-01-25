@@ -1,4 +1,6 @@
-// kubejs/server_scripts/tags/tag_remover.js
+// Fr3shlama (TM) | File: kubejs/server_scripts/tweaks/tags/tag_remover.js
+// Description: Remove items from specific tags.
+
 ServerEvents.tags('item', event => {
   const removals = {
     'immersiveengineering:hammer': [
@@ -14,3 +16,4 @@ ServerEvents.tags('item', event => {
     })
   }
 })
+

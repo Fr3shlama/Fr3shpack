@@ -21,10 +21,3 @@
 		# Default: 16
 		# Range: 4 ~ 256
 		ccMaxLen = 64
-
-	#Logic Cable Cable Stettings
-	[wires.id]
-		#Logic Cable Cable Max Length
-		# Default: 16
-		# Range: 4 ~ 256
-		idMaxLen = 64

@@ -1,4 +1,5 @@
-// File: kubejs/server_scripts/gears/gears.js
+// Fr3shlama (TM) | File: kubejs/server_scripts/recipes/removals/gear_recipes.js
+// Description: Remove overlapping gear crafting recipes from multiple mods.
 
 ServerEvents.recipes(event => {
     // List of recipe IDs to remove
@@ -40,3 +41,6 @@ ServerEvents.recipes(event => {
         console.log(`Removed recipe: ${id}`);
     });
 });
+
+
+
