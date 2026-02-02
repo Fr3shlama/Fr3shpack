@@ -4,3 +4,10 @@ StartupEvents.registry("item", (event) => {
     .fluidType("minecraft:lava")
     .cellModel('kubejs:block/infinity_lava_cell')
 })
+
+
+StartupEvents.registry("item", (event) => {
+  event.create("incomplete_infinity_lava_cell")
+    .displayName("Incomplete Infinity Lava Cell")
+    .texture("kubejs:item/infinity_lava_cell")
+  });
