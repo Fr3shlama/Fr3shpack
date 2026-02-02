@@ -1,0 +1,41 @@
+#Set to on/true to use Fahrenheit, otherwise set to off/false to use Celcius.
+useFahrenheit = false
+#Set to on/true to show degree symbol next to temperature value.
+showDegreeSymbol = true
+#Position of debug info.
+#Allowed Values: TOPLEFT, TOPCENTER, TOPRIGHT, BOTTOMLEFT, BOTTOMCENTER, BOTTOMRIGHT
+position = "TOPRIGHT"
+#Sets the debug text X offset
+#Range: -100 ~ 100
+debugOffsetX = 3
+#Sets the debug text Y offset
+#Range: -100 ~ 100
+debugOffsetY = 3
+#The size of the text info (multiplier)
+#Range: 0.5 ~ 2.0
+scale = 0.5
+#Temperature color range (Format (cold->hot): #3ab3da->#f9801d)
+temperatureColorRange = "#3ab3da->#f9801d"
+#Position of the CENTER_GLOBE HUD if enabled.
+#Allowed Values: TOPLEFT, TOPCENTER, TOPRIGHT, BOTTOMLEFT, BOTTOMCENTER, BOTTOMRIGHT
+globePosition = "BOTTOMCENTER"
+#CENTER_GLOBE HUD X offset
+#Range: -500 ~ 500
+globeOffsetX = 0
+#CENTER_GLOBE HUD Y offset
+#Range: -500 ~ 500
+globeOffsetY = 50
+#CENTER_GLOBE HUD Y offset
+#Range: -500 ~ 500
+globeTextOffsetY = 90
+#Set to true/on to force position of the water bar.
+forceWaterBarPosition = false
+#Position of the Water Bar HUD if forceWaterBarPosition is true.
+#Allowed Values: TOPLEFT, TOPCENTER, TOPRIGHT, BOTTOMLEFT, BOTTOMCENTER, BOTTOMRIGHT
+waterBarPosition = "BOTTOMCENTER"
+#Water Bar HUD X offset
+#Range: -500 ~ 500
+waterBarOffsetX = 96
+#Water Bar HUD Y offset
+#Range: -500 ~ 500
+waterBarOffsetY = 50

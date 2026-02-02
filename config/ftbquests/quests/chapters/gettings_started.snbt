@@ -4,7 +4,7 @@
 	filename: "gettings_started"
 	group: "23481154CE303037"
 	icon: {
-		id: "minecraft:wooden_pickaxe"
+		id: "bhc:red_heart"
 	}
 	id: "422ECD10AD37A198"
 	order_index: 1
@@ -326,21 +326,6 @@
 			y: 3.5d
 		}
 		{
-			id: "0E0B9DB8473B7C42"
-			rewards: [{
-				id: "060A7B2716E39133"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "57C583066D0B9A9D"
-				item: { count: 1, id: "utilitarian:trowel" }
-				type: "item"
-			}]
-			x: -10.0d
-			y: 3.5d
-		}
-		{
 			id: "01213ADD94E2B28C"
 			rewards: [{
 				id: "6BA686D5E3685037"
@@ -397,23 +382,8 @@
 				item: { count: 1, id: "utilitarian:white_soliciting_carpet" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 5.5d
-		}
-		{
-			id: "46BF50AE3FD69B23"
-			rewards: [{
-				id: "6586A8BAEDD06337"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "4CC3234128800DCA"
-				item: { count: 1, id: "dummmmmmy:target_dummy" }
-				type: "item"
-			}]
-			x: -6.0d
-			y: 5.5d
+			x: 0.0d
+			y: 3.5d
 		}
 		{
 			id: "0065A4B0091AEE99"
@@ -427,23 +397,8 @@
 				item: { count: 1, id: "packingtape:tape" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: 5.5d
-		}
-		{
-			id: "4AE9ACFA7066F44D"
-			rewards: [{
-				id: "5882A2DC776F8B65"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "7993C98E2DB2904E"
-				item: { count: 1, id: "toolbelt:belt" }
-				type: "item"
-			}]
 			x: -10.0d
-			y: 5.5d
+			y: 3.5d
 		}
 		{
 			id: "3CCBA0896691290B"
@@ -503,7 +458,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 5.5d
+			y: 3.5d
 		}
 		{
 			id: "5DA10C371D5600D8"
@@ -536,19 +491,82 @@
 			y: 1.5d
 		}
 		{
-			id: "2DC5243E4C22253F"
+			icon: {
+				id: "ae2:controller"
+			}
+			id: "006E51317539B0AA"
+			rewards: [
+				{
+					id: "08B404626585F95B"
+					item: {
+						count: 1
+						id: "ae2:flawless_budding_quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "588A434624F5520F"
+					item: {
+						count: 1
+						id: "ae2:mysterious_cube"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4E2284955AA45512"
+					item: {
+						count: 1
+						id: "ae2:sky_stone_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "11BD6CE80873E588"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			id: "74EA1FCFB0C40FCB"
+			tasks: [{
+				id: "0B6FD489256DD90B"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: -4.5d
+		}
+		{
+			id: "3A36FABF6207D097"
 			rewards: [{
-				id: "405CF785DAFB79A3"
+				id: "2FF699D07122F5C8"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 0
 			}]
 			tasks: [{
-				id: "159EE7A7AE4A87FF"
-				item: { components: { "ftbquests:missing_item": "evilcraft:eternal_water" }, count: 1, id: "ftbquests:missing_item" }
+				id: "1818E3A7F141E14F"
+				item: { count: 1, id: "kubejs:infinity_lava_cell" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.5d
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			id: "48B3A461EEB7C420"
+			rewards: [{
+				id: "1A262986B9316D0D"
+				type: "xp_levels"
+				xp_levels: 0
+			}]
+			tasks: [{
+				id: "7961C88B98A93857"
+				item: { count: 1, id: "pipe_connector:pipe_connector" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.5d
 		}
 	]
 }

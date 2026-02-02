@@ -109,6 +109,9 @@ user_jvm_args.txt
 
 config/*
 defaultconfigs/*
+defaultconfigs/electrodynamics_ore_config.txt
+
+# Configs we want to include
 
 !config/almostunified/
 !config/underground_village/
@@ -117,7 +120,6 @@ defaultconfigs/*
 !config/immersiveengineering-startup.toml
 !config/oritech-config.json5
 !config/modern_industrialization*
-defaultconfigs/electrodynamics_ore_config.txt
 !config/structurify.json
 !config/ironfurnaces-common.toml
 !config/utilitarian-common.toml
@@ -155,7 +157,9 @@ defaultconfigs/electrodynamics_ore_config.txt
 !modlist.html
 !config/crash_assistant
 !config/compactmachines-client.toml
-
+!config/homeostatic-client.toml
+!config/sereneseasonsplus-common.toml
+# We do not want to sync this
 /dynamic-resource-pack-cache
 /dynamic-data-pack-cache
 /fancymenu_data
@@ -164,3 +168,4 @@ TrashSlotSaveState.json
 /immersive_paintings_cache
 config/Mekanism/client.toml
 /simplebackups
+handbook_data.json

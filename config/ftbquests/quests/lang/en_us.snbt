@@ -1,48 +1,18 @@
 {
-	chapter.031BF92EC074CA6C.title: "Farmworld"
-	chapter.059AF20FCDAA2760.title: "Oritech"
-	chapter.0A429FF94A50BE93.title: "Basic Timeline"
-	chapter.1288D96EAEE0F0CB.title: "Transportation"
-	chapter.1A36540B71B84A6A.title: "Pylons"
-	chapter.1B7DCAA5D433A9CE.title: "RFTools"
 	chapter.22B57CC519DA4BB1.title: "Artifacts and Relics"
-	chapter.2459980B66295D32.title: "Mekanism"
 	chapter.29BCB2B264F3D226.title: "Apotheosis"
-	chapter.29E95C4E50CE2648.title: "Just Dire Things"
 	chapter.29EFE8220836C79A.title: "&aChapter 2&r: &6The ATM Star"
-	chapter.2A3B042EB67AC8CC.title: "Applied Energistics"
 	chapter.2B83C5F089E46502.title: "Industrial Foregoing"
-	chapter.2BB90A0ED5A68BFF.title: "Silent Gear"
-	chapter.308FF197AA7A207E.title: "Quarry Plus"
-	chapter.32633589F53727E8.title: "PneumaticCraft"
-	chapter.32F41375F686954E.title: "Modular Routers"
-	chapter.380FC0BD4BCF7B77.title: "Ender IO"
-	chapter.3861755B3E3533EF.title: "Modern Industrialization"
-	chapter.3C5F71656683B00A.title: "Create"
 	chapter.415BA265E2C00859.title: "Getting Started"
-	chapter.422ECD10AD37A198.title: "Gettings started"
+	chapter.422ECD10AD37A198.title: "Useful Items and infos"
 	chapter.49516E4183DFF745.title: "How?"
-	chapter.5470B8D104A1C0B2.title: "Immersive Engineering"
-	chapter.58A68A93859B48F3.title: "Personal Storage"
 	chapter.5B00676D79306EA2.title: "Thank you for the download!"
 	chapter.5C764279146E5E66.title: "Mystical Agriculture"
-	chapter.5D102CC1E61F2E31.title: "Overworld"
-	chapter.60BD2DB834C24AEA.title: "XNet"
-	chapter.6DC59922229E526D.title: "Easy Villagers"
-	chapter.719EAB770F6D06FC.title: "Storage"
-	chapter.73F6839442A5C78F.title: "Furnaces"
-	chapter.7423C54F5C1D6A71.title: "Singularities and how to get them"
 	chapter.75521F298D2BF367.title: "Apothic Enchanting"
-	chapter.7B3ADC879750566D.title: "Hostile Neural Networks"
-	chapter_group.12B57B42F69C108E.title: "Resources"
-	chapter_group.12D65577495DA5F9.title: "Logistic"
 	chapter_group.22FB35B0FEF1343D.title: "Tools and Weapons"
 	chapter_group.23481154CE303037.title: "Welcome"
 	chapter_group.295BE417292024EC.title: "Modern Industrialization"
-	chapter_group.365B14D6864CBA1E.title: "Progression"
-	chapter_group.4510113E7552E62D.title: "Technology"
 	chapter_group.68BDE5700A9B0002.title: "Tools and Gear"
-	chapter_group.710DFFC9A30C2E3B.title: "Dimensions"
 	file.0000000000000001.title: "TooManyMods"
 	quest.00075A5F9AC120ED.quest_desc: ["This will take the items out of your input chest."]
 	quest.00075A5F9AC120ED.quest_subtitle: "Always Required"
@@ -91,6 +61,7 @@
 		"Right-click on a packed block to unpack."
 		"Note: Sneaking while placing the block will disable the rotation system while unboxing!"
 	]
+	quest.006E51317539B0AA.quest_subtitle: "Multiplayer makes getting this... hard"
 	quest.0072C4F028C327CB.quest_subtitle: "Magmatic + Nomad"
 	quest.0072C4F028C327CB.title: "BlazBee"
 	quest.00764A738DA6451C.quest_desc: ["Kill 4 &dEndermites&r. \\n\\nWe're just killing everything now aren't we?"]
@@ -1533,7 +1504,6 @@
 	quest.0E03F5EAE4963ECB.quest_subtitle: "8 Dry Green Blocks"
 	quest.0E057B7F76401421.quest_subtitle: "The First Upgrade"
 	quest.0E057B7F76401421.title: "&6Copper Backpack"
-	quest.0E0B9DB8473B7C42.quest_desc: ["When right-clicked, it places a random block from your hot-bar, weighted by stack size—ideal for organic, varied builds."]
 	quest.0E0CAA31480EC0A1.quest_desc: ["Allows the Backpack to pick up items."]
 	quest.0E0CAA31480EC0A1.quest_subtitle: "Allows the backpack to pick up items."
 	quest.0E11CDB2ADAB3E96.quest_desc: ["The iron farm block contains a complete iron farm in a single block. It produces one iron golem every four minutes. This averages about one iron ingot per minute."]
@@ -4962,8 +4932,6 @@
 	quest.2DB53A77C3CD90F1.quest_desc: ["The Botanist's Pickaxe turns blocks that it interacts with into their mossy variants, assuming they have one."]
 	quest.2DB53A77C3CD90F1.quest_subtitle: "Tier: &b3"
 	quest.2DB81CE6F647D08A.title: "Unobtainium-Allthemodium Alloy"
-	quest.2DC5243E4C22253F.quest_desc: ["The only reason for Evilcraft in this pack! Pushes the max possible amount of water into every aviable inventory, every tick"]
-	quest.2DC5243E4C22253F.quest_subtitle: "int32 limit water"
 	quest.2DC639C39AE90272.quest_subtitle: "Yellow Meranti + Rose Gum"
 	quest.2DD24EC16CBE5853.quest_desc: ["With rubber you can finally start to progress in Mekanism (and make GeOres!)"]
 	quest.2DD24EC16CBE5853.quest_subtitle: "You have made rubber!"
@@ -6240,6 +6208,7 @@
 	quest.3A2249D94C019F0E.quest_subtitle: "Silver Lime + Cherry"
 	quest.3A27B65A0B4FFB5B.quest_desc: ["ME Item Output! Have the resultant item go directly back into your ME system."]
 	quest.3A27B65A0B4FFB5B.quest_subtitle: "ME Item Output"
+	quest.3A36FABF6207D097.quest_subtitle: "you might wanna make this in the nether"
 	quest.3A3ED88027331A6C.quest_desc: ["The &eCharm of Keeping III&r works the same as the other Charms of Keeping, but stops you from losing all of the stuff in your inventory."]
 	quest.3A3ED88027331A6C.title: "&eCharm of Keeping III"
 	quest.3A409B9027F57268.quest_desc: ["A food item that is never consumed when eaten (it restores hunger without disappearing), essentially granting infinite food (with a ~15-second cooldown)"]
@@ -6412,7 +6381,7 @@
 	quest.3BC0A50886A3222B.quest_desc: [
 		"TooManyMods is my attempt to create a giant tech-focused Modpack with all the mods I like and know"
 		""
-		"And I hate most magic mods >:)"
+		"And I hate magic mods"
 		"{image: width:100 height:100 align:center}"
 	]
 	quest.3BC0A50886A3222B.quest_subtitle: "without magic :)"
@@ -7647,7 +7616,6 @@
 	quest.46B515C90C13A72F.title: "&2Resource Generation&r"
 	quest.46BE62C20C720D10.quest_desc: ["Makes Endermen not get angry at you like Carved Pumpkins."]
 	quest.46BE62C20C720D10.quest_subtitle: "Max: 1"
-	quest.46BF50AE3FD69B23.quest_desc: ["The dummy can be placed in the world, where it'll stand silently, judging your every action. It'll wiggle funny if you hit it, screaming large numbers of damage at you. It can be dressed up to look even more awesome. This will please the dummy, making the numbers smaller."]
 	quest.46C07F848ABB5601.quest_desc: ["Same idea for food: smoker recipes cook twice as fast."]
 	quest.46CC8E7ED59F51D2.quest_desc: ["&5Tidal Claws&r are a confirmed drop from &5&lThe Leviathan&r. \\n\\nIt has two modes, attack and grapple. Attack is with Left Click, Grapple is with Right Click. \\n\\nWhen you use its attack it will launch the claw and go through max of 5 mobs. Dealing damage and giving &5Abyssal Curse&r which will continue to damage them. \\n\\nThe grapple instead will latch on to whatever is in range and pull you toward it. \\n\\nThere's no durability so enjoy it forever!"]
 	quest.46CC8E7ED59F51D2.title: "&5Tidal Claws"
@@ -7893,6 +7861,7 @@
 		""
 		"At later tiers you can create any stone variant, even obsidian at HV!"
 	]
+	quest.48B3A461EEB7C420.quest_subtitle: "no more digging!"
 	quest.48B97E3C2A93BC46.quest_subtitle: "Aspen + Beech"
 	quest.48BA8ACFADE3C8CE.quest_subtitle: "Citron + Wild Cherry"
 	quest.48BE7DAC5082044D.quest_desc: ["Stress, like &dRotational Power&r, is important and confusing. \\n\\nStress Units (Su) are power loads for our &6Machines&r. Some &6Machines&r will have a minimum Stress, that means you'll need that much Stress in your System to work the &6Machine&r. \\n\\n&6Deployers&f, &6Mechanical Saws&f, and &6Encased Fans&r are examples of those! \\n\\nSome &6Machines&r also have a maximum Stress Units. That means if it goes over the amount, it will most likely stop working. Or blow up, either or! \\n\\nStress Units are developed from &dCogs&r and from our &6Machines&r that make &dRotational Power&r. &9Water Wheels&r give little Stress while &dSteam Engines&r can give a ton!"]
@@ -8114,7 +8083,6 @@
 	quest.4AE3A2326EA07B7A.quest_subtitle: "How do you pronounce this?"
 	quest.4AE8D8826F894EC7.quest_desc: ["&l&5Domun Ornamentum&r is sort of like &l&6Framed Blocks&r and &l&bChipped&r put together! \\n\\nUsing the Architects Cutter we can make tons of different Shapes and Variations of Blocks. \\n\\nWhen making a Block first choose which Group: Doors, Lights, ETC. \\nThen, choose a Variant. \\nAfter that, we need to add our Blocks we want it made of! Some Blocks will need two different Blocks of choice while others only take one."]
 	quest.4AE8D8826F894EC7.title: "&l&5Domun Ornamentum&r"
-	quest.4AE9ACFA7066F44D.quest_desc: ["The Tool Belt craftable Bauble that is worn on the Belt slot. It is a great item that stores any unstackable items and even displays them on your character. "]
 	quest.4AEB4BF7624ABA0F.quest_subtitle: "Firecracker + Soul Tree"
 	quest.4AFA3CB55F6C10C2.quest_subtitle: "Pandanus + Coconut"
 	quest.4AFF81D3D0E78255.quest_desc: ["This machine needs water to operate, and uses the water to clean \"Ore Slurry\" into \"Clean Ore Slurry.\"\\n\\nIt will be part 2 of your Tier 4 Ore Processing Factory."]
@@ -13048,6 +13016,14 @@
 	]
 	quest.74D4E51A6381DB24.title: "Eyes Banner Pattern"
 	quest.74DD4F8A13EAD3ED.quest_subtitle: "Increases Processing Speed, but Reduces Efficiency"
+	quest.74EA1FCFB0C40FCB.quest_desc: [
+		"a small wall of text with some useful knowledge for ya!"
+		""
+		"Use your extra slots, many gadgets have keybinds. Just put them in your curios slots and assing a key"
+		""
+		"also use the keybind menu, especially if you dont have 5 keyboards for all the hotkeys you may"
+		"need. you will find it in the keybind settings"
+	]
 	quest.74EE98F95F483C37.quest_desc: [
 		"Put that cobaltite dust with 3 buckets of oxygen in your Electric Blast Furnace to acquire Arsenic Trioxide dust"
 		""
@@ -14255,21 +14231,6 @@
 	quest.7FE969CB4B419FC6.quest_subtitle: "Doesn't just work for Power"
 	quest.7FE969CB4B419FC6.title: "&9Mekanism: &6Quantum Entangloporter"
 	quest.7FF77463F2A0E210.quest_desc: ["Nightfall Mud can only be found within the Dark Swamps. \\n\\nYou can make more Blocks out of it!"]
-	reward_table.004D78C28108CF90.title: "MysAgrT5"
-	reward_table.0576E97F7C294655.title: "EnderIO"
-	reward_table.071912866F451B98.title: "MysAgrT0"
-	reward_table.0C98BE4E41183528.title: "SophBackT0"
-	reward_table.103033D8917D3324.title: "MysAgrT4"
-	reward_table.1CF0808D6049700B.title: "IronFurnace"
-	reward_table.3BC2503E78847036.title: "MysAgrT2"
-	reward_table.4149E9BBFB85F053.title: "SophBackT2"
-	reward_table.4A2C92E63507EBBB.title: "MysAgrT1"
-	reward_table.5BACEFD381CD4D76.title: "Pylons"
-	reward_table.6267C499342020D4.title: "SophBackT1"
-	reward_table.67C6E85C7080DB07.title: "MysAgrT6"
-	reward_table.709D5513ABD031B7.title: "AE2"
-	reward_table.76B8B153F8E4F2CA.title: "MysAgrT3"
-	reward_table.77F65AA8A7E5B8D1.title: "Mekanism: Rewards"
 	task.00648047034C9531.title: "Rock Crusher"
 	task.00A904FBEDE80712.title: "Macaw's Roofs"
 	task.00C6A5CB44392D7E.title: "AllRightsReserved"
@@ -14329,6 +14290,7 @@
 	task.0B455043755C6CCB.title: "Cataclysm"
 	task.0B54EDC9E21F2E77.title: "Logistics Frames"
 	task.0B62C759781950A1.title: "IE Railgun Ammo"
+	task.0B6FD489256DD90B.title: "Infos"
 	task.0B79080463C860ED.title: "Wandering Trader Carpets"
 	task.0B7F934439806558.title: "AllRightsReserved"
 	task.0BAEC53DD32C9870.title: "Productive Trees Logs"
@@ -14367,6 +14329,7 @@
 	task.10FBE7D71B606A36.title: "Pylons"
 	task.11741300813AF742.title: "AllRightsReserved"
 	task.11931CBFE67ADBBB.title: "AllRightsReserved"
+	task.11BD6CE80873E588.title: "AE2"
 	task.1256A95F7D5C782F.title: "Productive Bees Comb Blocks"
 	task.12A161B884B5653F.title: "Fluid Drilling Rig"
 	task.12A2CE1C3AE8A033.title: "Blue Banded Bee"

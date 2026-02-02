@@ -47,8 +47,8 @@ const bannedItems = [
   'avaritia:infinity_chest',
 
   //Nukes
-  'oritech:nuke',
-  'oritech:low_yield_nuke',
+  // 'oritech:nuke',
+  // 'oritech:low_yield_nuke',
    
   // no infinity energy >:(
   'createaddition:creative_energy',
