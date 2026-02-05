@@ -5299,6 +5299,7 @@
 		"You can make Black Holes with this."
 	]
 	quest.31152805D8502C22.quest_desc: ["Generates temporary solid blocks under your feet (like a walking bridge) to let you traverse air gaps"]
+	quest.311F12E2FFCB2C3C.quest_subtitle: "dont forget to set a hotkey"
 	quest.311F43D48B9C26FF.quest_desc: ["The &dObsidian Generator&r is slower than the &aEmerald&r and &5Netherite Generators&r but it has more upgrades than all of those combined!"]
 	quest.311F43D48B9C26FF.title: "&dObsidian Generator"
 	quest.312331F6DB0CE5F4.quest_desc: ["Goes faster than Tier I."]
@@ -12186,6 +12187,7 @@
 	quest.6E3D53D1C4569A89.title: "&aExperience Pump Upgrade"
 	quest.6E4C3B87FABE9EFA.quest_subtitle: "Copper + Tin"
 	quest.6E4C3B87FABE9EFA.title: "Bronze Bee"
+	quest.6E5417D9FE315170.quest_subtitle: "please dont destroy the overworld :("
 	quest.6E5954C257726F86.quest_desc: ["Filtering per mod can be very helpful.\\n\\nTo use it, put an item in from a certain mod, then it will show the mod name, and hit the Plus button to add it!"]
 	quest.6E6D9527AC093199.quest_desc: [
 		"This step is easy, we just &eCentrifuge&r our Residue and we're left with Iridium Chloride and some sludge"
@@ -14044,6 +14046,8 @@
 	quest.7E17AB5A4492929E.quest_desc: ["Every Reactor uses Uranium somewhere for fuel, right?\\n\\nFor starters, let's gather some &aUranium Ingots&r. We'll need to process these in an &9Enrichment Chamber&r to turn it into &eYellow Cake Uranium&r."]
 	quest.7E17AB5A4492929E.quest_subtitle: "Of Course It Uses Uranium"
 	quest.7E17AB5A4492929E.title: "&aUranium"
+	quest.7E223ED65930C352.quest_desc: ["if you ignore how hard it is to get the others"]
+	quest.7E223ED65930C352.quest_subtitle: "the easiest way to farm resoruces!"
 	quest.7E39FB9F3E973009.title: "Ether Gas"
 	quest.7E3DA4168D352B42.quest_desc: [
 		"I promise this is the last Mushroom Bog! \\nThese Mushrooms look pretty normal, their gimmick though is what comes from them! \\n\\nThe Veils! Definitely a useful decoration Block."

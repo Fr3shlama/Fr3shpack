@@ -13,7 +13,7 @@
 	#Modpack name
 	"Modpack name" = "Fr3shpack - TooManyMods"
 	#Modpack Version
-	"Modpack Version" = "2.6.0"
+	"Modpack Version" = "3.0.0"
 
 ["Check if the modpack has any updates available"]
 	#Check if the modpack has any updates available, default = false
