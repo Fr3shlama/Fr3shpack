@@ -1,6 +1,6 @@
 // Fr3shlama (TM) | File: kubejs/server_scripts/recipes/mods/quarryplus/quarry_recipes.js
 // Description: Rework QuarryPlus quarry recipes.
-
+/* Mod removal 
 ServerEvents.recipes(event => {
   event.remove({ output: 'quarryplus:quarry' });
   event.remove({ output: 'quarryplus:adv_quarry' });
@@ -29,4 +29,4 @@ ServerEvents.recipes(event => {
     D: 'minecraft:redstone_block'
   }).id('kubejs:quarryplus/quarry');
 });
-
+*/
