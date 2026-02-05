@@ -568,5 +568,71 @@
 			x: -8.0d
 			y: -4.5d
 		}
+		{
+			id: "6E5417D9FE315170"
+			rewards: [{
+				id: "3526034976EB52AE"
+				item: {
+					count: 1
+					id: "minecraft:netherite_pickaxe"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4F398FE7961BF453"
+					item: { count: 1, id: "jamd:portal_block" }
+					type: "item"
+				}
+				{
+					id: "37A53BA48FC7792D"
+					item: { count: 1, id: "jamd:nether_portal" }
+					type: "item"
+				}
+				{
+					id: "64B35C4ADBF6696C"
+					item: { count: 1, id: "jamd:end_portal" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "7E223ED65930C352"
+			rewards: [{
+				id: "53459D56F106182C"
+				item: {
+					count: 1
+					id: "allthecompressed:coal_block_1x"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "52E919BB06119F75"
+				item: { count: 1, id: "geore:budding_coal" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "311F12E2FFCB2C3C"
+			rewards: [{
+				id: "744118A4426B4B26"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F99D23BA47F15DF"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
 	]
 }
