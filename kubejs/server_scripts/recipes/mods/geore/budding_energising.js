@@ -1,7 +1,6 @@
 // Fr3shlama (TM) | File: kubejs/server_scripts/recipes/mods/geore/budding_energising.js
 // Description: Add Create New Age energising recipes to create GeOre budding coal and redstone blocks.
 
-
 ServerEvents.recipes(event => {
   const energise = (outputId, energyNeeded, ingredients, id) => {
     event.custom({
