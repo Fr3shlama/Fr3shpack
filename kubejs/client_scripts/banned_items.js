@@ -33,11 +33,7 @@ const bannedItems = [
   'sophisticatedstorage:stack_upgrade_omega_tier',
 
   //nukes
-  'oritech:nuke',
-  'oritech:low_yield_nuke',
-  'industrialforegoing:infinity_nuke',
-    
-      'createaddition:creative_energy'
+  'createaddition:creative_energy'
 
 ];
 
