@@ -402,16 +402,41 @@
 		}
 		{
 			id: "3CCBA0896691290B"
-			rewards: [{
-				id: "7AFA5CDF1A207818"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "30FA118A6BD9259A"
-				item: { count: 1, id: "rechiseled:chisel" }
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7AFA5CDF1A207818"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "135B3FB53D851D7E"
+					item: {
+						count: 1
+						id: "classicpipes:diamond_pipe"
+					}
+					type: "item"
+				}
+				{
+					id: "09A0BD5131264A07"
+					item: {
+						count: 1
+						id: "extradelight:cookie_dough_milkshake"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5F402858875B82F8"
+					item: { count: 1, id: "classicpipes:copper_pipe" }
+					type: "item"
+				}
+				{
+					id: "56926EA5ECAED926"
+					item: { count: 1, id: "classicpipes:oak_pipe" }
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: -2.5d
 		}
