@@ -6,4 +6,7 @@
     'quartz', crystal fixer
     'uranium', irradiation
   ];
+
+replicator via infinity ingots
+
 */
