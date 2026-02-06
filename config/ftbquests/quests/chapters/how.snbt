@@ -199,6 +199,118 @@
 			x: 2.5d
 			y: 4.5d
 		}
+		{
+			dependencies: ["0AC2C688341E9A44"]
+			hide_dependency_lines: true
+			id: "7202EBD52693F386"
+			rewards: [{
+				id: "4286D54CCFE3E3C1"
+				type: "xp_levels"
+				xp_levels: 0
+			}]
+			tasks: [{
+				id: "224BED5826FCC500"
+				item: { count: 1, id: "avaritia:infinity_block" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7202EBD52693F386"]
+			id: "67CAD9C74F63BC98"
+			tasks: [{
+				id: "73893BB5450A47C1"
+				item: { components: { "mekanism:energy": { energy_containers: [L;9223372036854775807L] }, "mekanism:side_config": { config: { energy: { eject: 1b, side: { back: "output", bottom: "output", front: "output", left: "output", right: "output", top: "output" } }, items: { side: { back: "input", bottom: "input", front: "output", left: "input", right: "input", top: "input" } } } } }, count: 1, id: "mekanism:creative_energy_cube" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7202EBD52693F386"]
+			id: "70DCA69D87C94F12"
+			tasks: [{
+				id: "6A4B7499A98FB299"
+				item: { count: 1, id: "create:creative_motor" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7202EBD52693F386"]
+			id: "6A43309D52817C24"
+			tasks: [{
+				id: "007C550D851F8A56"
+				item: { components: { "ironjetpacks:jetpack_id": "ironjetpacks:creative", "minecraft:rarity": "epic" }, count: 1, id: "ironjetpacks:jetpack" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7202EBD52693F386"]
+			id: "4A9A4F0474BF77F5"
+			tasks: [{
+				id: "73CCC2F65F10A204"
+				item: { count: 1, id: "create:creative_fluid_tank" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"4A9A4F0474BF77F5"
+				"6A43309D52817C24"
+				"70DCA69D87C94F12"
+				"67CAD9C74F63BC98"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "736FBDC5965AD421"
+			tasks: [{
+				id: "24D6C597374D5F35"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"736FBDC5965AD421"
+				"055E75D377BEFB50"
+				"071C5DA764DCBC70"
+				"70B35F97B103248F"
+				"5E873A51334DD7AD"
+				"7C7D33DADDE384F2"
+				"2C795F68BA610FE2"
+				"4538C763AD85414B"
+				"08CEF5C7B02D82BB"
+				"42BD5B73661B881A"
+				"1943B3BFA06C1410"
+			]
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
+			id: "18137D4CBCF780B8"
+			rewards: [{
+				auto: "enabled"
+				command: "/say whats this weird thing?"
+				id: "1DBEAFD566FEF37F"
+				type: "command"
+			}]
+			tasks: [{
+				id: "2D411FFE4994D7D5"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:short_grass"
+				type: "observation"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
 	]
 	tags: ["fr3sh"]
 }

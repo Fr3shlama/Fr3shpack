@@ -2618,6 +2618,8 @@
 	]
 	quest.1809493D8765E67A.quest_desc: ["Don't forget, once you've made these you can update those old circuit recipes that used regular Transistors to use the Advanced Transistor"]
 	quest.1812BF72305CFFCF.quest_desc: ["Put Aluminium dust, Iron dust, and Chromium dust together in a &eMixer&r and watch it blend!"]
+	quest.18137D4CBCF780B8.quest_subtitle: "atleast look at it once in your life"
+	quest.18137D4CBCF780B8.title: "Go touch some grass"
 	quest.1815661333016983.quest_subtitle: "Date Palm + Black Cherry"
 	quest.1815A439BA9879B7.quest_desc: [
 		"The Warm Shore is a pretty boring Biome and is mostly for connecting the Starlit Sea and land. \\n\\nIt has Twilight Sand with Stone beneath it. I also found, more than usual, Saltpeter here."
@@ -14431,6 +14433,7 @@
 	task.23C7F92BD9D39E14.title: "AllRightsReserved"
 	task.23D186249A999B8C.title: "Quartz Cutting Knives"
 	task.246C634874FFB1C2.title: "Test Quest by Mondogo"
+	task.24D6C597374D5F35.title: "....how"
 	task.2510A7EE5D886B63.title: "AllRightsReserved"
 	task.2517CAC518372CC9.title: "Processing Ores"
 	task.25FF884779D98BAD.title: "Construction Bricks™"
