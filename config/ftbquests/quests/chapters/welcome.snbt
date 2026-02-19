@@ -28,52 +28,6 @@
 			id: "3BC0A50886A3222B"
 			rewards: [
 				{
-					id: "4956CB79E44FB523"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "331A0A49B74F3182"
-					item: {
-						count: 1
-						id: "mekanismtools:osmium_pickaxe"
-					}
-					type: "item"
-				}
-				{
-					id: "072647E1BA6CFDB9"
-					item: {
-						count: 1
-						id: "mekanismtools:osmium_axe"
-					}
-					type: "item"
-				}
-				{
-					id: "7624D9B080C0DE63"
-					item: {
-						count: 1
-						id: "mekanismtools:osmium_shovel"
-					}
-					type: "item"
-				}
-				{
-					id: "507DB4ECC4A375CE"
-					item: {
-						count: 1
-						id: "mekanismtools:osmium_sword"
-					}
-					type: "item"
-				}
-				{
-					count: 64
-					id: "0B2FC32C0C3E5311"
-					item: {
-						count: 1
-						id: "minecraft:cooked_beef"
-					}
-					type: "item"
-				}
-				{
 					id: "5CC427EEFFBDB72D"
 					item: {
 						count: 1
@@ -82,34 +36,51 @@
 					type: "item"
 				}
 				{
-					id: "07647B1B09568174"
+					id: "6879B4AB0951DBE5"
 					item: {
 						count: 1
-						id: "mekanismtools:osmium_helmet"
+						id: "mekanismtools:iron_paxel"
 					}
 					type: "item"
 				}
 				{
-					id: "272D719151D8E78A"
+					id: "693F95B80CEC1688"
 					item: {
 						count: 1
-						id: "mekanismtools:osmium_chestplate"
+						id: "minecraft:leather_boots"
 					}
 					type: "item"
 				}
 				{
-					id: "766C5DBE3F4D65AD"
+					id: "4C4D979DA92E0A5E"
 					item: {
 						count: 1
-						id: "mekanismtools:osmium_leggings"
+						id: "minecraft:iron_leggings"
 					}
 					type: "item"
 				}
 				{
-					id: "7C860E7DF689961C"
+					id: "7B5231C4DA9DC53E"
 					item: {
 						count: 1
-						id: "mekanismtools:osmium_boots"
+						id: "minecraft:iron_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "3E92949DBF93EDFA"
+					item: {
+						count: 1
+						id: "immersiveengineering:armor_steel_helmet"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "4BDA83381432382F"
+					item: {
+						count: 1
+						id: "farmersdelight:egg_sandwich"
 					}
 					type: "item"
 				}

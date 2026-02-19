@@ -5,6 +5,9 @@
 const MODS_TO_BLACKLIST = [
   "avaritia",
   "extendedcrafting",
+  "mekanism_extras",
+  "megacells",
+  "fdbosses",
 ];
 
 ServerEvents.tags("item", (event) => {

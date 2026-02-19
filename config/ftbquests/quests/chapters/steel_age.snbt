@@ -1,0 +1,147 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "steel_age"
+	group: "631DEF5A4FCF40E2"
+	icon: {
+		id: "modern_industrialization:steel_upgrade"
+	}
+	id: "3A8BC0331770E1AA"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2BC5FBB70ADAEA7F"]
+			icon: {
+				id: "modern_industrialization:steel_upgrade"
+			}
+			id: "566830C33F880135"
+			shape: "square"
+			tasks: [{
+				id: "02F561D675090873"
+				item: { count: 1, id: "modern_industrialization:steel_upgrade" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["566830C33F880135"]
+			icon: {
+				id: "modern_industrialization:steel_machine_casing"
+			}
+			id: "5192047707B23FC1"
+			tasks: [{
+				id: "2931C939773374CC"
+				item: { count: 1, id: "modern_industrialization:steel_machine_casing" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5192047707B23FC1"]
+			id: "6E664D23C7F8BB8A"
+			tasks: [{
+				id: "5835C334406700C1"
+				item: { count: 1, id: "modern_industrialization:steam_quarry" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5192047707B23FC1"]
+			id: "7AD71909FA43B5E9"
+			tasks: [{
+				id: "39018A2A79562035"
+				item: { count: 1, id: "modern_industrialization:steel_wiremill" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AD71909FA43B5E9"]
+			id: "3680C535171BB339"
+			tasks: [{
+				id: "65C0A075094F0C91"
+				item: { count: 1, id: "modern_industrialization:rubber_sheet" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1EE70D38C9EC8571"]
+			icon: {
+				id: "modern_industrialization:basic_machine_hull"
+			}
+			id: "01E1F93D151837EB"
+			shape: "gear"
+			tasks: [{
+				id: "362721D6F3E4E0F9"
+				item: { count: 1, id: "modern_industrialization:basic_machine_hull" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5192047707B23FC1"]
+			icon: {
+				id: "extended_industrialization:steel_alloy_smelter"
+			}
+			id: "2A260A203EA7F944"
+			tasks: [{
+				id: "3384E387C0ABACB6"
+				item: { count: 1, id: "extended_industrialization:steel_alloy_smelter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3680C535171BB339"]
+			icon: {
+				id: "modern_industrialization:analog_circuit"
+			}
+			id: "1EE70D38C9EC8571"
+			tasks: [{
+				id: "14578C2EA48C6C3A"
+				item: { count: 1, id: "modern_industrialization:analog_circuit" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E664D23C7F8BB8A"]
+			icon: {
+				id: "modern_industrialization:copper_drill"
+			}
+			id: "79A2F19F48CDD788"
+			tasks: [{
+				id: "59306BD3F72A5B80"
+				item: { count: 1, id: "modern_industrialization:copper_drill" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6E664D23C7F8BB8A"]
+			icon: {
+				id: "modern_industrialization:bronze_drill"
+			}
+			id: "7B05CFDAA180CCA8"
+			tasks: [{
+				id: "58F0E2C1FF3819A4"
+				item: { count: 1, id: "modern_industrialization:bronze_drill" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+	]
+}

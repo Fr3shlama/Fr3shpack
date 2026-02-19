@@ -52,9 +52,8 @@ const bannedItems = [
    
   // no infinity energy >:(
   'createaddition:creative_energy',
-
+  'ironfurnaces:augment_generator',
   'mekanism_extras:infinite_induction_cell',
-  
 ];
 
 ServerEvents.recipes(event => {

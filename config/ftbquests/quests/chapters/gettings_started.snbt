@@ -556,6 +556,32 @@
 		}
 		{
 			id: "74EA1FCFB0C40FCB"
+			rewards: [
+				{
+					id: "5787D99B4CEFFC0E"
+					item: {
+						count: 1
+						id: "chancecubes:chance_cube"
+					}
+					type: "item"
+				}
+				{
+					id: "3C5E1A1A7F98A2C0"
+					item: {
+						count: 1
+						id: "chancecubes:chance_icosahedron"
+					}
+					type: "item"
+				}
+				{
+					id: "11FCD6927C4D7498"
+					item: {
+						count: 1
+						id: "chancecubes:compact_giant_chance_cube"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0B6FD489256DD90B"
 				type: "checkmark"
@@ -658,6 +684,90 @@
 			}]
 			x: 2.0d
 			y: 3.5d
+		}
+		{
+			id: "3034AFFEA76CBFFC"
+			tasks: [
+				{
+					id: "4D1E2FACB81E03A7"
+					item: { count: 1, id: "placers:immersive_multiblock_controller" }
+					type: "item"
+				}
+				{
+					id: "3B5B83C841393E09"
+					item: { count: 1, id: "placers:metal_press_placer" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			id: "5547726ADC1191C7"
+			rewards: [{
+				id: "10F841EB85B340E5"
+				item: {
+					count: 1
+					id: "cobblegengalore:block_gen_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FBBE39316F842CC"
+				item: { count: 1, id: "cobblegengalore:block_gen_stone" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			id: "17B0B5E6539B0CE3"
+			tasks: [{
+				id: "6B40F716B4667B5B"
+				item: { components: { "ironjetpacks:jetpack_id": "ironjetpacks:wood" }, count: 1, id: "ironjetpacks:jetpack" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			id: "003B2BA13CB39011"
+			rewards: [
+				{
+					count: 15
+					id: "765A259F42058827"
+					item: {
+						count: 1
+						id: "chancecubes:chance_icosahedron"
+					}
+					type: "item"
+				}
+				{
+					count: 15
+					id: "39D56917AFE7BBAF"
+					item: {
+						count: 1
+						id: "chancecubes:chance_cube"
+					}
+					type: "item"
+				}
+				{
+					count: 15
+					id: "05EAD8A2C1E63752"
+					item: {
+						count: 1
+						id: "chancecubes:compact_giant_chance_cube"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7A44DDDD829E5AEA"
+				item: { count: 1, id: "chancecubes:chance_cube" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
 		}
 	]
 }

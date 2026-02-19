@@ -1,0 +1,67 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: "23481154CE303037"
+	icon: {
+		id: "minecraft:diamond_pickaxe"
+	}
+	id: "3C6DB8ACBF93FF6A"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0E77600B33C3061C"
+			rewards: [{
+				count: 16
+				id: "0D26BD1A11D65BA6"
+				item: {
+					count: 1
+					id: "minecraft:oak_log"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E65F848D003D4A7"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E77600B33C3061C"]
+			id: "26CBE3BA49F15357"
+			rewards: [{
+				id: "037701E4C73AC794"
+				item: {
+					count: 1
+					id: "sfm:xp_shard"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C2034EAA85CEA88"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26CBE3BA49F15357"]
+			id: "63706D48FBD9A4D8"
+			rewards: [{
+				id: "4377235B89597771"
+				type: "xp_levels"
+				xp_levels: 0
+			}]
+			tasks: [{
+				id: "75ECD2ACB45CAEB1"
+				item: { count: 1, id: "extendedcrafting:ultimate_singularity" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+}

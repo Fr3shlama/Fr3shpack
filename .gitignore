@@ -160,6 +160,7 @@ defaultconfigs/electrodynamics_ore_config.txt
 !config/homeostatic-client.toml
 !config/sereneseasonsplus-common.toml
 !kubejs/server_scripts/recipes/mods
+!config/cave_dweller-server.toml
 
 # We do not want to sync this
 /dynamic-resource-pack-cache

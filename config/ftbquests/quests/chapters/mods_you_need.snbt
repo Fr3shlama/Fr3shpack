@@ -1,0 +1,160 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mods_you_need"
+	group: "23481154CE303037"
+	icon: {
+		id: "create:large_cogwheel"
+	}
+	id: "151FE622C0ABA451"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "16A6068C04BCF20B"
+			tasks: [{
+				id: "4DA167956DC16CA2"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["16A6068C04BCF20B"]
+			id: "01C4F7096563D03E"
+			tasks: [{
+				id: "65BB9D946AF5A0A3"
+				item: { count: 1, id: "productivemetalworks:black_foundry_controller" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["01C4F7096563D03E"]
+			id: "2E27B04D5EA1202C"
+			tasks: [{
+				id: "5882FB4736A866F6"
+				item: { count: 1, id: "create:cogwheel" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["265326146477843C"]
+			id: "4E5DEF0403EB3253"
+			tasks: [{
+				id: "0542493A1F6C0623"
+				item: { count: 1, id: "modern_industrialization:bronze_mixer" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4E5DEF0403EB3253"]
+			id: "2C27D78BFECA3509"
+			tasks: [{
+				id: "27039F993624627E"
+				item: { count: 1, id: "mekanism:basic_control_circuit" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["265326146477843C"]
+			id: "1BA1FBB555D97DC6"
+			tasks: [{
+				id: "2DF69F71C424CFBC"
+				item: { count: 1, id: "modern_industrialization:steam_mining_drill" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["16A6068C04BCF20B"]
+			id: "0041C2D3B050397D"
+			rewards: [{
+				id: "7392A138C7B2C0AE"
+				item: {
+					count: 1
+					id: "adpother:diamond_filter_frame"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "638D7E9060AF3C2C"
+				item: { count: 1, id: "adpother:iron_respirator" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["16A6068C04BCF20B"]
+			id: "265326146477843C"
+			tasks: [{
+				id: "0FBD19A3C28A45EA"
+				item: { count: 1, id: "modern_industrialization:forge_hammer" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C27D78BFECA3509"]
+			id: "335EF18AE33096F0"
+			tasks: [{
+				id: "66E8CBAA08A1887F"
+				item: { count: 1, id: "mekanism_extras:absolute_control_circuit" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2E27B04D5EA1202C"]
+			id: "3ABAD786FF40BC7C"
+			tasks: [{
+				id: "1DCFC38A206F7AB3"
+				item: { count: 1, id: "create_new_age:carbon_brushes" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["01C4F7096563D03E"]
+			id: "46449D8D44FF7656"
+			tasks: [
+				{
+					id: "2FE0E9793E4C3EED"
+					item: { count: 1, id: "hammerlib:gears/wooden" }
+					tags: ["gears"]
+					type: "item"
+				}
+				{
+					id: "4B18C187D0FFE68F"
+					item: { count: 1, id: "productivemetalworks:gear_cast" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["46449D8D44FF7656"]
+			id: "25EE810129D9FE85"
+			tasks: [{
+				id: "4ACCAA722FD615C2"
+				item: { count: 1, id: "enderio:stirling_generator" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+	]
+}

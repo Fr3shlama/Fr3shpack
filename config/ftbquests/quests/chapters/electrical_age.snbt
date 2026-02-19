@@ -1,0 +1,338 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "electrical_age"
+	group: "631DEF5A4FCF40E2"
+	icon: {
+		id: "modern_industrialization:analog_circuit"
+	}
+	id: "50EAD7E38E0DEF6B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["01E1F93D151837EB"]
+			icon: {
+				id: "modern_industrialization:lv_steam_turbine"
+			}
+			id: "253B849F7C9C4534"
+			shape: "square"
+			tasks: [{
+				id: "71F66177AF15942C"
+				item: { count: 1, id: "modern_industrialization:lv_steam_turbine" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["253B849F7C9C4534"]
+			icon: {
+				id: "integratedtunnels:part_interface_energy"
+			}
+			id: "69FF58AFFE6AAD43"
+			tasks: [
+				{
+					id: "003B625A7D90A952"
+					item: { count: 1, id: "integratedtunnels:part_interface_energy" }
+					type: "item"
+				}
+				{
+					id: "4E529035BE0F3216"
+					item: { count: 1, id: "integratedtunnels:part_importer_energy" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["253B849F7C9C4534"]
+			icon: {
+				id: "irregular_implements:spectre_coil_basic"
+			}
+			id: "530657B50D037D07"
+			tasks: [
+				{
+					id: "689FC2FF572B68B0"
+					item: { count: 1, id: "irregular_implements:spectre_energy_injector" }
+					type: "item"
+				}
+				{
+					id: "6B62340AB14C53EC"
+					item: { count: 1, id: "irregular_implements:spectre_coil_basic" }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["253B849F7C9C4534"]
+			icon: {
+				id: "modern_industrialization:copper_cable"
+			}
+			id: "3CA9D15100C8F1DE"
+			tasks: [{
+				id: "5A691B5336E4601B"
+				item: { count: 1, id: "modern_industrialization:copper_cable" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["253B849F7C9C4534"]
+			icon: {
+				id: "modern_industrialization:lv_storage_unit"
+			}
+			id: "43E2115FC4140198"
+			tasks: [{
+				id: "7B878347E531F2ED"
+				item: { count: 1, id: "modern_industrialization:lv_storage_unit" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43E2115FC4140198"]
+			icon: {
+				id: "modern_industrialization:large_steam_boiler"
+			}
+			id: "54EA83E8601AAE4E"
+			tasks: [{
+				id: "146FE77C525F5E32"
+				item: { count: 1, id: "modern_industrialization:large_steam_boiler" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["43E2115FC4140198"]
+			icon: {
+				id: "buildinggadgets2:gadget_building"
+			}
+			id: "065949603F57B110"
+			tasks: [
+				{
+					id: "118CD2D1B709D49A"
+					item: { count: 1, id: "buildinggadgets2:gadget_building" }
+					type: "item"
+				}
+				{
+					id: "2007CAA83F501380"
+					item: { count: 1, id: "buildinggadgets2:gadget_exchanging" }
+					type: "item"
+				}
+				{
+					id: "6F9AA67F0FBA9D6F"
+					item: { count: 1, id: "buildinggadgets2:gadget_destruction" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["065949603F57B110"]
+			icon: {
+				id: "buildinggadgets2:gadget_copy_paste"
+			}
+			id: "6507DB3120D41BD5"
+			tasks: [
+				{
+					id: "72724353C1C556AD"
+					item: { count: 1, id: "buildinggadgets2:gadget_copy_paste" }
+					type: "item"
+				}
+				{
+					id: "32F6B6F3605F6FAC"
+					item: { components: { "buildinggadgets2:paste_replace_toggle": 1b }, count: 1, id: "buildinggadgets2:gadget_cut_paste" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["43E2115FC4140198"]
+			icon: {
+				id: "modern_industrialization:polarizer"
+			}
+			id: "7AFC5AAE26FDBC43"
+			tasks: [{
+				id: "07A7C2DAB2F9F31D"
+				item: { count: 1, id: "modern_industrialization:polarizer" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AFC5AAE26FDBC43"]
+			id: "492632AAC45EE4E9"
+			tasks: [{
+				id: "41BFA8F7D44163FC"
+				item: { count: 1, id: "modern_industrialization:assembler" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["492632AAC45EE4E9"]
+			icon: {
+				id: "modern_industrialization:electric_blast_furnace"
+			}
+			id: "643A9F6D765655FB"
+			tasks: [
+				{
+					id: "2D306A41E0CE70C8"
+					item: { count: 1, id: "modern_industrialization:electric_blast_furnace" }
+					type: "item"
+				}
+				{
+					id: "6F9171B32AC50FB3"
+					item: { count: 1, id: "modern_industrialization:cupronickel_coil" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C372C2813249124"]
+			id: "0A592E86C11EFEFC"
+			tasks: [{
+				id: "200691C8F038E604"
+				item: { count: 1, id: "modern_industrialization:chemical_reactor" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["643A9F6D765655FB"]
+			icon: {
+				id: "modern_industrialization:electronic_circuit"
+			}
+			id: "4C372C2813249124"
+			tasks: [
+				{
+					id: "62D3323165273737"
+					item: { count: 1, id: "modern_industrialization:silicon_dust" }
+					type: "item"
+				}
+				{
+					id: "282669330AEAFE1D"
+					item: { count: 1, id: "modern_industrialization:electronic_circuit" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A592E86C11EFEFC"]
+			icon: {
+				id: "modern_industrialization:advanced_machine_hull"
+			}
+			id: "02ABB9937D1B2461"
+			shape: "gear"
+			tasks: [{
+				id: "29AF91C8F2DD86FB"
+				item: { count: 1, id: "modern_industrialization:advanced_machine_hull" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["492632AAC45EE4E9"]
+			icon: {
+				id: "modern_industrialization:electric_wiremill"
+			}
+			id: "34EF96CA92341EB2"
+			tasks: [
+				{
+					id: "584EE738B666DE37"
+					item: { count: 1, id: "modern_industrialization:electric_compressor" }
+					type: "item"
+				}
+				{
+					id: "6CE5CACC52352784"
+					item: { count: 1, id: "modern_industrialization:electric_macerator" }
+					type: "item"
+				}
+				{
+					id: "1B842613BECE49CA"
+					item: { count: 1, id: "modern_industrialization:electric_mixer" }
+					type: "item"
+				}
+				{
+					id: "422252F6C098D4A1"
+					item: { count: 1, id: "modern_industrialization:electric_wiremill" }
+					type: "item"
+				}
+				{
+					id: "6B5060036C0BC30A"
+					item: { count: 1, id: "extended_industrialization:electric_bending_machine" }
+					type: "item"
+				}
+				{
+					id: "7466856E793CFBF5"
+					item: { count: 1, id: "modern_industrialization:electric_cutting_machine" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["253B849F7C9C4534"]
+			id: "03211483424F2B2C"
+			tasks: [{
+				id: "7FAFA836B688382E"
+				item: { count: 1, id: "mekanism:basic_universal_cable" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["253B849F7C9C4534"]
+			id: "5057770B6EF5817A"
+			tasks: [{
+				id: "1501FB24D4E43B76"
+				item: { count: 1, id: "appflux:flux_accessor" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["253B849F7C9C4534"]
+			id: "4DB349650FD79735"
+			tasks: [{
+				id: "0F9F73FD55D15222"
+				item: { count: 1, id: "fluxnetworks:flux_plug" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["253B849F7C9C4534"]
+			id: "28FDF5E728787481"
+			tasks: [{
+				id: "5924B691A36EE80A"
+				item: { components: { "enderio:conduit": "enderio:energy" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+	]
+}
