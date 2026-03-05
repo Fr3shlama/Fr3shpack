@@ -1,0 +1,75 @@
+ServerEvents.recipes(event => {
+
+  const ID = 'tfmg:sequenced_assembly/steel_mechanism'
+
+  // remove original recipe
+  event.remove({ id: ID })
+
+  // re-add patched version
+  event.custom({
+    type: "create:sequenced_assembly",
+    ingredient: {
+      item: "tfmg:heavy_plate"
+    },
+    loops: 2,
+    results: [
+      { chance: 120.0, id: "tfmg:steel_mechanism" },
+      { chance: 4.0, id: "minecraft:compass" },
+      { chance: 4.0, id: "tfmg:steel_ingot" }
+    ],
+    sequence: [
+      {
+        type: "create:deploying",
+        ingredients: [
+          { item: "tfmg:unfinished_steel_mechanism" },
+          { item: "tfmg:steel_cogwheel" }
+        ],
+        results: [{ id: "tfmg:unfinished_steel_mechanism" }]
+      },
+      {
+        type: "create:deploying",
+        ingredients: [
+          { item: "tfmg:unfinished_steel_mechanism" },
+          { tag: "c:plates/nickel" }
+        ],
+        results: [{ id: "tfmg:unfinished_steel_mechanism" }]
+      },
+      {
+        type: "create:deploying",
+        ingredients: [
+          { item: "tfmg:unfinished_steel_mechanism" },
+          { item: "tfmg:large_steel_cogwheel" }
+        ],
+        results: [{ id: "tfmg:unfinished_steel_mechanism" }]
+      },
+      {
+        type: "create:deploying",
+        ingredients: [
+          { item: "tfmg:unfinished_steel_mechanism" },
+          { tag: "c:plates/lead" }
+        ],
+        results: [{ id: "tfmg:unfinished_steel_mechanism" }]
+      },
+      {
+        type: "create:deploying",
+        ingredients: [
+          { item: "tfmg:unfinished_steel_mechanism" },
+          { item: "tfmg:screw" }
+        ],
+        results: [{ id: "tfmg:unfinished_steel_mechanism" }]
+      },
+      {
+        type: "create:deploying",
+        ingredients: [
+          { item: "tfmg:unfinished_steel_mechanism" },
+          { item: "tfmg:screwdriver" }
+        ],
+        results: [{ id: "tfmg:unfinished_steel_mechanism" }]
+      }
+    ],
+    transitional_item: {
+      id: "tfmg:unfinished_steel_mechanism"
+    }
+  }).id(ID)
+
+})

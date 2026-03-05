@@ -172,3 +172,5 @@ TrashSlotSaveState.json
 config/Mekanism/client.toml
 /simplebackups
 handbook_data.json
+/schematics
+config/adpother-client.toml
