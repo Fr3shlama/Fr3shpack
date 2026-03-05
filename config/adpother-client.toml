@@ -4,7 +4,7 @@
 	#Whether smog changes color depending on pollution
 	colored = true
 	#Enables/disables particle effects of polluted air
-	particles = true
+	particles = false
 	#Smog density
 	# Default: 1.0
 	# Range: 0.0 ~ 1.0
