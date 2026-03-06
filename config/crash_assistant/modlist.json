@@ -634,6 +634,13 @@
     "curseForgeHash": 1936385109,
     "modrinthHash": "a31359f980453a838a7e854d86f485314fda91ad"
   },
+  "colorful_catalysts-1.2.1.jar": {
+    "jarName": "colorful_catalysts-1.2.1.jar",
+    "modId": "colorful_catalysts",
+    "version": "1.2.1",
+    "curseForgeHash": 1254169723,
+    "modrinthHash": "3fee47883042ad3d17abc61394bf946d433c41b2"
+  },
   "colorfulhearts-neoforge-1.21.1-10.5.9.jar": {
     "jarName": "colorfulhearts-neoforge-1.21.1-10.5.9.jar",
     "modId": "colorfulhearts",
@@ -759,6 +766,13 @@
     "version": "6.0.9",
     "curseForgeHash": 2157808772,
     "modrinthHash": "bf08bf8980c080f42d6f644f4f44a725cf7c3be9"
+  },
+  "create-dragons-plus-1.8.7.jar": {
+    "jarName": "create-dragons-plus-1.8.7.jar",
+    "modId": "create_dragons_plus",
+    "version": "1.8.7",
+    "curseForgeHash": 1287086927,
+    "modrinthHash": "3e53b26e850f9d2a995868b0d7c012ba8e9d373b"
   },
   "create-new-age-1.1.7c+neoforge-mc1.21.1.jar": {
     "jarName": "create-new-age-1.1.7c+neoforge-mc1.21.1.jar",
@@ -2304,6 +2318,13 @@
     "version": "2.0.4",
     "curseForgeHash": 101174157,
     "modrinthHash": "6bdc430c1dc484c7054287babe1ef382504518ca"
+  },
+  "pipeorgans-0.8.2+1.21.1.jar": {
+    "jarName": "pipeorgans-0.8.2+1.21.1.jar",
+    "modId": "pipeorgans",
+    "version": "0.8.2+1.21.1",
+    "curseForgeHash": 1494603004,
+    "modrinthHash": "112adb2a6f8d9ff60ebd52602f1b01ea96a37920"
   },
   "Placebo-1.21.1-9.9.1.jar": {
     "jarName": "Placebo-1.21.1-9.9.1.jar",
