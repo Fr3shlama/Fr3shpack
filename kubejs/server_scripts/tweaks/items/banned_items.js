@@ -42,18 +42,11 @@ const bannedItems = [
   'avaritia:amethyst_singularity',
   'avaritia:netherite_singularity',
   'avaritia:infinity_singularity',
-
-  // Avaritia Infinity Chest
   'avaritia:infinity_chest',
-
-  //Nukes
-  // 'oritech:nuke',
-  // 'oritech:low_yield_nuke',
-   
-  // no infinity energy >:(
   'createaddition:creative_energy',
   'ironfurnaces:augment_generator',
   'mekanism_extras:infinite_induction_cell',
+  'modern_industrialization:oil_drilling_rig',
 ];
 
 ServerEvents.recipes(event => {
