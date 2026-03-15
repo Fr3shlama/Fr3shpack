@@ -2,30 +2,32 @@ ServerEvents.recipes(event => {
   const miCoke = 'modern_industrialization:coke'
   const cokeTag = '#c:coal_coke'
 
-  event.replaceInput(
+  /*event.replaceInput(
     {},
     miCoke,
     cokeTag
   )
+  */
+ 
   event.replaceInput(
     {},
     'blocksyouneed_luna:coke',
-    cokeTag
+    'modern_industrialization:coke'
   )
 
   event.replaceInput(
     {},
     'immersiveengineering:coal_coke',
-    cokeTag
+    'modern_industrialization:coke'
   )
   event.replaceOutput(
     {},
     'blocksyouneed_luna:coke',
-    miCoke
+    'modern_industrialization:coke'
   )
   event.replaceOutput(
     {},
     'immersiveengineering:coal_coke',
-    miCoke
+    'modern_industrialization:coke'
   )
 })

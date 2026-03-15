@@ -14,6 +14,7 @@ const recipeIds = [
   'modern_industrialization:materials/steel/cutting_machine/main',
   'modern_industrialization:materials/steel/cutting_machine/double_ingot',
   'modern_industrialization:materials/chemical_reactor/water',
+  'blocksyouneed_luna:soot'
 ];
 
 const bannedItems = [

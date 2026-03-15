@@ -1,16 +1,9 @@
 {
-"custom_tags": {
-  "c:coal_coke": [
-    "blocksyouneed_luna:coke",
-    "immersiveengineering:coal_coke",
-    "modern_industrialization:coke",
-    "tfmg:coal_coke"
+"custom_tags": {},
+"tag_substitutions": {  "c:coal_coke": [
+    "c:coal_coke"
   ]
 },
-  "tag_substitutions": {  "c:tin_ingots": [
-    "c:coal_coke",
-    "tfmg:coal_coke"
-  ]},
   "item_tag_inheritance_mode": "ALLOW",
   "item_tag_inheritance": {},
   "block_tag_inheritance_mode": "ALLOW",
