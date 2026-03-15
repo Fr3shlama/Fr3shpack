@@ -48,6 +48,7 @@ const bannedItems = [
   'ironfurnaces:augment_generator',
   'mekanism_extras:infinite_induction_cell',
   'modern_industrialization:oil_drilling_rig',
+  'advanced_ae:evasion_card'
 ];
 
 ServerEvents.recipes(event => {
