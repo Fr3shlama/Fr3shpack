@@ -23,7 +23,8 @@ const bannedItems = [
   'sophisticatedbackpacks:stack_upgrade_omega_tier',
   'sophisticatedstorage:stack_upgrade_omega_tier',
   'createaddition:creative_energy',
-  'modern_industrialization:oil_drilling_rig'
+  'modern_industrialization:oil_drilling_rig',
+  'advanced_ae:evasion_card'
 ];
 
 RecipeViewerEvents.removeEntriesCompletely('item', event => {
