@@ -509,7 +509,7 @@
 			}]
 			tasks: [{
 				id: "29249EBF1A92B73D"
-				item: { count: 1, id: "mekanismadditions:walkie_talkie" }
+				item: { components: { "ftbquests:missing_item": "mekanismadditions:walkie_talkie" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -560,24 +560,33 @@
 				{
 					id: "5787D99B4CEFFC0E"
 					item: {
+						components: {
+							"ftbquests:missing_item": "chancecubes:chance_cube"
+						}
 						count: 1
-						id: "chancecubes:chance_cube"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
 				{
 					id: "3C5E1A1A7F98A2C0"
 					item: {
+						components: {
+							"ftbquests:missing_item": "chancecubes:chance_icosahedron"
+						}
 						count: 1
-						id: "chancecubes:chance_icosahedron"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
 				{
 					id: "11FCD6927C4D7498"
 					item: {
+						components: {
+							"ftbquests:missing_item": "chancecubes:compact_giant_chance_cube"
+						}
 						count: 1
-						id: "chancecubes:compact_giant_chance_cube"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -737,8 +746,11 @@
 					count: 15
 					id: "765A259F42058827"
 					item: {
+						components: {
+							"ftbquests:missing_item": "chancecubes:chance_icosahedron"
+						}
 						count: 1
-						id: "chancecubes:chance_icosahedron"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -746,8 +758,11 @@
 					count: 15
 					id: "39D56917AFE7BBAF"
 					item: {
+						components: {
+							"ftbquests:missing_item": "chancecubes:chance_cube"
+						}
 						count: 1
-						id: "chancecubes:chance_cube"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -755,15 +770,18 @@
 					count: 15
 					id: "05EAD8A2C1E63752"
 					item: {
+						components: {
+							"ftbquests:missing_item": "chancecubes:compact_giant_chance_cube"
+						}
 						count: 1
-						id: "chancecubes:compact_giant_chance_cube"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "7A44DDDD829E5AEA"
-				item: { count: 1, id: "chancecubes:chance_cube" }
+				item: { components: { "ftbquests:missing_item": "chancecubes:chance_cube" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 4.0d

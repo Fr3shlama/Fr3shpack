@@ -76,25 +76,6 @@
 		}
 		{
 			dependencies: ["16A6068C04BCF20B"]
-			id: "0041C2D3B050397D"
-			rewards: [{
-				id: "7392A138C7B2C0AE"
-				item: {
-					count: 1
-					id: "adpother:diamond_filter_frame"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "638D7E9060AF3C2C"
-				item: { count: 1, id: "adpother:iron_respirator" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["16A6068C04BCF20B"]
 			id: "265326146477843C"
 			tasks: [{
 				id: "0FBD19A3C28A45EA"
@@ -132,7 +113,7 @@
 			tasks: [
 				{
 					id: "2FE0E9793E4C3EED"
-					item: { count: 1, id: "hammerlib:gears/wooden" }
+					item: { components: { "ftbquests:missing_item": "hammerlib:gears/wooden" }, count: 1, id: "ftbquests:missing_item" }
 					tags: ["gears"]
 					type: "item"
 				}

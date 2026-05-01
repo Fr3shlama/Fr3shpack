@@ -49,18 +49,21 @@
 		{
 			dependencies: ["253B849F7C9C4534"]
 			icon: {
-				id: "irregular_implements:spectre_coil_basic"
+				components: {
+					"ftbquests:missing_item": "irregular_implements:spectre_coil_basic"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "530657B50D037D07"
 			tasks: [
 				{
 					id: "689FC2FF572B68B0"
-					item: { count: 1, id: "irregular_implements:spectre_energy_injector" }
+					item: { components: { "ftbquests:missing_item": "irregular_implements:spectre_energy_injector" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "6B62340AB14C53EC"
-					item: { count: 1, id: "irregular_implements:spectre_coil_basic" }
+					item: { components: { "ftbquests:missing_item": "irregular_implements:spectre_coil_basic" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]

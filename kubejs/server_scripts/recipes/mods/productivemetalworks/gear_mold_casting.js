@@ -26,7 +26,7 @@ ServerEvents.recipes(event => {
     }
 
     addCasting(
-        'hammerlib:gears/wooden',
+        'gnkinetics:shaftless_cogwheel',
         { tag: 'c:molten_steel', amount: 360 },
         { item: 'productivemetalworks:gear_cast' },
         true // do consume the cast
