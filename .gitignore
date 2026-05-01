@@ -175,3 +175,8 @@ config/Mekanism/client.toml
 handbook_data.json
 /schematics
 config/adpother-client.toml
+.sable
+.mixin.out
+/Backup
+ponders_watched.json
+waypointData.dat
